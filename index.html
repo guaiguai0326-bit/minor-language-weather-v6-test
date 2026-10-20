@@ -1,0 +1,1613 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>小语种市场天气看板</title><style>
+:root{--bg:#f4f7fb;--card:#fff;--ink:#172033;--muted:#6f7b91;--line:#e6ebf2;--blue:#3867d6;--shadow:0 8px 28px rgba(31,45,72,.08)}*{box-sizing:border-box}body{margin:0;font-family:Inter,"Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--ink)}.wrap{max-width:1480px;margin:auto;padding:24px}.top{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:18px}.title h1{margin:0;font-size:28px}.title p{margin:8px 0 0;color:var(--muted)}.pill{background:#eaf1ff;color:#3159ad;padding:8px 12px;border-radius:999px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(9,1fr);gap:10px}.mini,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}.mini{padding:13px}.mini b{display:block;font-size:15px}.mini .t{font-size:19px;font-weight:800;margin:8px 0}.mini small{color:var(--muted)}.section{margin-top:18px}.section h2{font-size:19px;margin:0 0 12px}.two{display:grid;grid-template-columns:1.05fr .95fr;gap:16px}.card{padding:18px}.china{position:relative;height:590px;overflow:hidden;background:linear-gradient(180deg,#f8fbff,#eef5fc);border-radius:14px}.china-svg{position:absolute;left:4%;top:4%;width:92%;height:88%;filter:drop-shadow(0 8px 16px rgba(40,64,98,.08))}.zone{position:absolute;border:1px dashed #91a9c9;border-radius:12px;padding:7px 10px;background:rgba(255,255,255,.9);font-size:12px;color:#526077;line-height:1.35;z-index:2}.z1{left:61%;top:13%}.z2{left:50%;top:34%}.z3{left:73%;top:49%}.z4{left:55%;top:68%}.z5{left:21%;top:43%}.marker{position:absolute;transform:translate(-50%,-50%);background:#fff;border:1px solid #ccd9e9;border-radius:10px;padding:7px 9px;box-shadow:0 5px 14px rgba(25,42,70,.14);font-size:12px;white-space:nowrap;z-index:3;min-width:92px;text-align:center}.marker strong{display:block;font-size:13px;margin-bottom:2px}.legend{position:absolute;left:18px;bottom:13px;color:var(--muted);font-size:12px;z-index:4}.trendbox{display:grid;gap:10px}.trend{padding:12px;border:1px solid var(--line);border-radius:12px}.trend b{display:block;margin-bottom:5px}.trend span{color:var(--muted);font-size:13px}.summary{background:#172033;color:white;border-radius:16px;padding:16px;line-height:1.8}.tablewrap{overflow:auto}.tbl{width:100%;border-collapse:separate;border-spacing:0;font-size:13px}.tbl th{position:sticky;top:0;background:#f7f9fc;text-align:left;padding:11px;border-bottom:1px solid var(--line);white-space:nowrap}.tbl td{padding:11px;border-bottom:1px solid var(--line);vertical-align:top}.tbl tr:hover td{background:#fafcff}.region{font-weight:800}.detail{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.country{padding:15px}.country h3{margin:0 0 10px}.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{background:#f0f4fa;border-radius:999px;padding:5px 8px;font-size:12px}.country p{font-size:13px;line-height:1.65;color:#526077;margin:10px 0 0}.foot{color:var(--muted);font-size:12px;margin:18px 0}.loading{opacity:.55}@media(max-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}.two{grid-template-columns:1fr}.detail{grid-template-columns:1fr 1fr}}@media(max-width:650px){.wrap{padding:12px}.grid,.detail{grid-template-columns:1fr 1fr}.top{align-items:start;flex-direction:column}}
+
+.climate-map{height:650px!important;position:relative;background:linear-gradient(180deg,#fbfdff,#f1f6fb)!important}
+.climate-map .china-svg{left:8%!important;top:5%!important;width:84%!important;height:82%!important}
+.climate-key{position:absolute;left:50%;top:16px;transform:translateX(-50%);display:flex;gap:14px;flex-wrap:wrap;justify-content:center;font-size:12px;color:#64748b;z-index:5}
+.climate-key span{display:flex;align-items:center;gap:5px}.k{width:10px;height:10px;border-radius:3px;display:inline-block}.cold{background:#86aeda}.gold{background:#efb04e}.mild{background:#e6d883}.wet{background:#77c7c9}.warm{background:#a8cf86}
+.climate-map .marker{min-width:126px!important;padding:8px 10px!important;border-radius:12px!important;border:1px solid #cbd8e7!important;font-size:12px!important;box-shadow:0 6px 16px rgba(36,55,82,.14)!important}
+.climate-map .marker strong{font-size:13px!important}
+.climate-map .marker:after{content:"";position:absolute;width:18px;height:1px;background:#91a5bf;left:50%;bottom:-8px;transform:rotate(55deg);transform-origin:left center}
+
+.realmap-wrap{position:relative;background:linear-gradient(180deg,#fbfdff,#f3f7fc);border-radius:16px;padding:0 2px 28px;overflow:hidden}
+.realmap{width:100%;height:560px}
+.map-note{position:absolute;left:18px;bottom:12px;font-size:12px;color:#64748b}
+
+.culture-card{display:grid!important;grid-template-columns:120px minmax(250px,1fr) 220px!important;gap:16px!important;align-items:stretch!important}
+.country-map-box{background:#f5f8fc;border-radius:12px;display:flex;align-items:center;justify-content:center;min-height:150px;overflow:hidden}
+.country-map-box img{width:92%;height:135px;object-fit:contain}
+.culture-photo{position:relative;border-radius:12px;overflow:hidden;min-height:150px;background:#eef2f7}
+.culture-photo img{width:100%;height:100%;min-height:150px;object-fit:cover;display:block}
+.culture-photo span{position:absolute;left:8px;right:8px;bottom:8px;background:rgba(17,24,39,.72);color:#fff;border-radius:7px;padding:5px 7px;font-size:11px;line-height:1.35}
+.culture-main{display:flex;flex-direction:column;justify-content:center}
+.culture-main .fact{font-size:12px;color:#64748b;margin-top:7px}
+@media(max-width:900px){.culture-card{grid-template-columns:90px 1fr!important}.culture-photo{grid-column:1/-1}}
+
+.local-card{display:grid!important;grid-template-columns:105px 1fr!important;gap:14px!important;align-items:stretch}
+.local-map{background:#f5f8fc;border:1px solid #e5ebf3;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px;min-height:165px}
+.local-map img{width:88px;height:105px;object-fit:contain}
+.local-map small{margin-top:4px;color:#64748b;font-size:11px}
+.local-body h3{margin-top:0}
+.fact-ref{margin-top:9px;padding:9px 10px;border-radius:10px;background:#f7f9fc;border:1px solid #e6ebf2;font-size:12px;line-height:1.55}
+.fact-ref b{color:#172033}
+.fact-ref .fact-date{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:10px;background:#eef3f9;color:#53627a}
+.fact-ref a{display:inline-block;margin-top:5px;color:#2563eb;text-decoration:none;font-weight:600}
+.fact-ref a:hover{text-decoration:underline}
+@media(max-width:850px){.local-card{grid-template-columns:82px 1fr!important}.local-map img{width:68px;height:88px}}
+
+/* V2.4 当地生活文化：一国一屏横向浏览 */
+#details{
+ display:flex!important;
+ overflow-x:auto!important;
+ scroll-snap-type:x mandatory;
+ gap:18px!important;
+ padding:2px 2px 14px!important;
+ scrollbar-width:thin;
+}
+#details>.country{
+ flex:0 0 calc(100% - 4px)!important;
+ width:calc(100% - 4px)!important;
+ min-height:360px;
+ scroll-snap-align:start;
+ box-sizing:border-box;
+}
+#details>.local-card{
+ grid-template-columns:240px minmax(0,1fr)!important;
+ padding:22px!important;
+ gap:28px!important;
+}
+#details .local-map{min-height:310px}
+#details .local-map img{width:205px;height:240px}
+#details .local-map small{font-size:14px;margin-top:8px}
+#details .local-body{justify-content:flex-start;padding:4px 8px}
+#details .local-body h3{font-size:24px;margin-bottom:14px}
+#details .local-body p{font-size:15px;line-height:1.75}
+#details .tags{margin-bottom:8px}
+#details .tag{font-size:13px}
+#details .fact-ref{font-size:14px;line-height:1.7;padding:14px 16px;margin-top:14px}
+.culture-nav{display:flex;justify-content:space-between;align-items:center;margin:8px 0 10px}
+.culture-dots{display:flex;gap:6px;flex-wrap:wrap}
+.culture-dot{border:0;background:#e8eef6;color:#53627a;border-radius:16px;padding:5px 10px;cursor:pointer;font-size:12px}
+.culture-dot.active{background:#172033;color:#fff}
+.culture-arrow{border:1px solid #dce4ee;background:#fff;border-radius:9px;padding:6px 12px;cursor:pointer}
+@media(max-width:850px){
+ #details>.local-card{grid-template-columns:1fr!important}
+ #details .local-map{min-height:180px}
+ #details .local-map img{height:145px}
+}
+
+/* V2.5 当地生活行动：九国全部摊开展示，无横向进度条 */
+.culture-nav{display:none!important}
+#details{
+ display:grid!important;
+ grid-template-columns:1fr!important;
+ gap:18px!important;
+ overflow:visible!important;
+ padding:0!important;
+ scroll-snap-type:none!important;
+}
+#details>.country{
+ width:100%!important;
+ max-width:none!important;
+ min-height:0!important;
+ flex:none!important;
+ scroll-snap-align:none!important;
+ box-sizing:border-box;
+}
+#details>.local-card{
+ display:grid!important;
+ grid-template-columns:330px minmax(0,1fr)!important;
+ gap:16px!important;
+ padding:18px!important;
+ align-items:stretch!important;
+}
+#details .local-map{
+ min-height:300px!important;
+ padding:14px!important;
+ border-radius:14px!important;
+ background:#f8fbff!important;
+}
+#details .local-map img{
+ width:285px!important;
+ height:245px!important;
+ object-fit:contain!important;
+}
+#details .local-map small{
+ font-size:14px!important;
+ margin-top:8px!important;
+}
+#details .local-body{
+ padding:2px 6px!important;
+ display:flex!important;
+ flex-direction:column!important;
+ justify-content:flex-start!important;
+}
+#details .local-body h3{
+ font-size:22px!important;
+ margin:0 0 12px!important;
+}
+#details .local-body p{
+ font-size:14px!important;
+ line-height:1.65!important;
+ margin:7px 0!important;
+}
+#details .fact-ref{
+ margin-top:12px!important;
+ padding:14px 16px!important;
+ font-size:14px!important;
+ line-height:1.65!important;
+ background:#f6f9fd!important;
+ border:1px solid #dde6f1!important;
+ border-radius:12px!important;
+}
+@media(max-width:900px){
+ #details>.local-card{grid-template-columns:1fr!important}
+ #details .local-map{min-height:220px!important}
+ #details .local-map img{width:220px!important;height:180px!important}
+}
+
+/* V2.6 单国布局：1地图 + 3文化内容 + 2城市天气 */
+#details>.local-card{
+ display:grid!important;
+ grid-template-columns:340px minmax(0,1fr)!important;
+ grid-template-areas:
+   "map culture"
+   "cities cities"!important;
+ gap:12px 16px!important;
+ padding:16px!important;
+}
+#details .local-map{
+ grid-area:map!important;
+ min-height:330px!important;
+}
+#details .local-body{
+ grid-area:culture!important;
+ min-height:330px!important;
+ background:#fbfdff;
+ border:1px solid #e0e7f0;
+ border-radius:14px;
+ padding:20px 22px!important;
+ box-sizing:border-box;
+}
+.country-city-strip{
+ grid-area:cities!important;
+ display:grid;
+ grid-template-columns:repeat(6,minmax(0,1fr));
+ gap:8px;
+}
+.city-mini{
+ border:1px solid #dce5ef;
+ background:#fff;
+ border-radius:12px;
+ padding:10px 11px;
+ min-height:118px;
+ box-sizing:border-box;
+}
+.city-mini .zone{display:inline-block;border-radius:12px;padding:2px 7px;background:#eef3fa;font-size:11px;font-weight:700}
+.city-mini .city-name{font-size:14px;font-weight:700;margin:7px 0 8px}
+.city-mini .temp{font-size:18px;font-weight:800;color:#12203a}
+.city-mini .weather{float:right;font-size:12px;color:#53627a}
+.city-mini .week{margin-top:9px;padding-top:8px;border-top:1px dashed #dce5ef;color:#64748b;font-size:11px;line-height:1.5}
+@media(max-width:1050px){
+ .country-city-strip{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:800px){
+ #details>.local-card{grid-template-columns:1fr!important;grid-template-areas:"map" "culture" "cities"!important}
+ .country-city-strip{grid-template-columns:repeat(2,1fr)}
+}
+
+/* V2.7 参考图1/2区域一比一结构还原 */
+#details>.local-card{
+ grid-template-columns:340px minmax(0,1fr)!important;
+ grid-template-rows:350px auto!important;
+ grid-template-areas:"map culture" "cities cities"!important;
+ gap:10px!important;
+ padding:12px!important;
+ background:#fff!important;
+}
+#details .local-map{
+ position:relative!important;min-height:350px!important;height:350px!important;
+ background:#fff!important;border:1px solid #dbe4ef!important;border-radius:12px!important;
+ padding:0!important;overflow:hidden!important;
+}
+#details .local-map img{
+ position:absolute;inset:14px 12px 12px 12px;width:calc(100% - 24px)!important;height:calc(100% - 26px)!important;
+ object-fit:contain!important;opacity:.82;
+}
+#details .local-map small{display:none!important}
+.map-city-labels{position:absolute;inset:0;pointer-events:none}
+.map-city-label{position:absolute;font-size:11px;color:#53627a;white-space:nowrap}
+.map-city-label:before{content:"";display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:4px;vertical-align:-1px;background:#5b8def}
+.map-city-label:nth-child(2):before{background:#f3a51b}.map-city-label:nth-child(3):before{background:#ef5b62}
+.map-city-label:nth-child(4):before{background:#8a63e6}.map-city-label:nth-child(5):before{background:#24b886}
+.map-city-label:nth-child(6):before{background:#718096}
+#details .local-body{height:350px!important;min-height:350px!important;overflow:auto!important;padding:16px 18px!important}
+.country-city-strip{
+ display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:8px!important;
+ border:0!important;background:transparent!important;
+}
+.city-mini{
+ min-height:190px!important;border:1px solid #dbe4ef!important;border-radius:12px!important;
+ padding:10px 12px!important;background:#fff!important;
+}
+.city-mini .zone{font-size:11px!important;color:#fff!important;background:#5b8def!important;padding:2px 8px!important}
+.city-mini:nth-child(1) .zone{background:#f59e0b!important}
+.city-mini:nth-child(3) .zone{background:#ef4444!important}
+.city-mini:nth-child(4) .zone{background:#8b5cf6!important}
+.city-mini:nth-child(5) .zone{background:#10b981!important}
+.city-mini:nth-child(6) .zone{background:#64748b!important}
+.city-mini .city-name{font-size:15px!important;margin:8px 0 10px!important}
+.city-mini .temp{font-size:20px!important}
+.city-mini .week{margin-top:10px!important;line-height:1.65!important}
+.city-forecast-icons{display:flex;justify-content:space-between;margin-top:10px;padding-top:8px;border-top:1px dashed #dbe4ef;font-size:10px}
+.city-forecast-icons span{text-align:center;line-height:1.4}
+@media(max-width:1100px){.country-city-strip{grid-template-columns:repeat(3,1fr)!important}}
+
+/* V2.8：按参考图重新还原 1 地图区 + 2 六城天气区，3 情报区保持 */
+#details>.local-card{
+ position:relative!important;
+ display:grid!important;
+ grid-template-columns:350px minmax(0,1fr)!important;
+ grid-template-rows:36px 350px auto!important;
+ grid-template-areas:
+   "head head"
+   "map culture"
+   "cities cities"!important;
+ gap:8px 10px!important;
+ padding:12px 14px 14px!important;
+ background:#fff!important;
+ border:1px solid #dfe6ef!important;
+ border-radius:16px!important;
+}
+.country-head{
+ grid-area:head!important;
+ display:flex;align-items:center;justify-content:space-between;
+ padding:0 2px 4px;
+}
+.country-head-left{font-size:18px;font-weight:800;color:#172033}
+.country-head-left small{font-size:11px;font-weight:500;color:#7a8798;margin-left:4px}
+.country-head-right{font-size:12px;color:#7a8798}
+.country-head-right b{font-size:15px;color:#172033}
+
+#details .local-map{
+ grid-area:map!important;
+ position:relative!important;
+ height:350px!important;min-height:350px!important;
+ background:#fff!important;
+ border:1px solid #d8e1ec!important;
+ border-radius:12px!important;
+ padding:0!important;overflow:hidden!important;
+}
+#details .local-map img{
+ position:absolute!important;left:12px!important;right:12px!important;top:10px!important;bottom:10px!important;
+ width:calc(100% - 24px)!important;height:calc(100% - 20px)!important;
+ object-fit:contain!important;opacity:.86!important;filter:saturate(.7) contrast(.95);
+}
+.map-city-labels{position:absolute!important;inset:0!important}
+.map-city-label{
+ position:absolute!important;
+ font-size:11px!important;color:#5b6574!important;white-space:nowrap!important;
+ transform:translate(-50%,-50%)!important;
+}
+.map-city-label:before{
+ content:""!important;display:inline-block!important;width:10px!important;height:10px!important;border-radius:50%!important;
+ margin-right:4px!important;vertical-align:-1px!important;background:#5b8def!important;
+}
+.map-city-label:nth-child(2):before{background:#f3a51b!important}
+.map-city-label:nth-child(3):before{background:#ef5b62!important}
+.map-city-label:nth-child(4):before{background:#8a63e6!important}
+.map-city-label:nth-child(5):before{background:#24b886!important}
+.map-city-label:nth-child(6):before{background:#718096!important}
+
+#details .local-body{
+ grid-area:culture!important;height:350px!important;min-height:350px!important;overflow:auto!important;
+ background:#fff!important;border:1px solid #d8e1ec!important;border-radius:12px!important;
+ padding:16px 18px!important;box-sizing:border-box!important;
+}
+#details .local-body h3{display:none!important}
+
+.country-city-strip{
+ grid-area:cities!important;
+ display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;
+ gap:8px!important;margin-top:2px!important;
+}
+.city-mini{
+ min-height:190px!important;border:1px solid #d8e1ec!important;border-radius:12px!important;
+ background:#fff!important;padding:9px 11px 10px!important;box-sizing:border-box!important;
+}
+.city-top{display:flex;align-items:center;justify-content:space-between}
+.city-mini .zone{font-size:11px!important;color:#fff!important;border-radius:11px!important;padding:2px 7px!important}
+.city-mini:nth-child(1) .zone{background:#f59e0b!important}
+.city-mini:nth-child(2) .zone{background:#3b82f6!important}
+.city-mini:nth-child(3) .zone{background:#ef4444!important}
+.city-mini:nth-child(4) .zone{background:#8b5cf6!important}
+.city-mini:nth-child(5) .zone{background:#10b981!important}
+.city-mini:nth-child(6) .zone{background:#64748b!important}
+.city-mini .weather{font-size:11px!important;color:#6b7280!important}
+.city-mini .city-name{font-size:14px!important;font-weight:800!important;margin:8px 0 7px!important}
+.city-mini .city-name small{font-size:10px!important;color:#8b97a8!important;font-weight:500!important;margin-left:3px}
+.city-mini .temp{font-size:20px!important;font-weight:850!important;color:#111827!important;letter-spacing:.2px}
+.city-mini .today{font-size:10px!important;color:#64748b!important;margin-left:4px}
+.city-forecast-icons{
+ display:grid!important;grid-template-columns:repeat(7,1fr)!important;gap:1px!important;
+ margin-top:10px!important;padding-top:8px!important;border-top:1px dashed #dbe3ed!important;
+ font-size:9px!important;color:#526173!important;text-align:center!important;
+}
+.city-forecast-icons span{line-height:1.35!important}
+.city-mini .week{margin-top:6px!important;color:#607086!important;font-size:10px!important;line-height:1.45!important;border:0!important;padding:0!important}
+
+@media(max-width:1100px){.country-city-strip{grid-template-columns:repeat(3,1fr)!important}}
+@media(max-width:800px){
+ #details>.local-card{grid-template-columns:1fr!important;grid-template-rows:auto!important;grid-template-areas:"head" "map" "culture" "cities"!important}
+ .country-city-strip{grid-template-columns:repeat(2,1fr)!important}
+}
+
+/* V2.9 —— 1地图、2城市天气，按左侧参考图视觉还原 */
+#details>.local-card{
+  grid-template-columns:350px minmax(0,1fr)!important;
+  grid-template-rows:34px 350px 196px!important;
+  gap:7px 9px!important;
+  padding:11px 13px 13px!important;
+}
+#details .local-map{
+  height:350px!important;min-height:350px!important;
+  background:#fff!important;border:1px solid #d8e1ec!important;
+  border-radius:11px!important;overflow:hidden!important;
+}
+#details .local-map img{
+  /* 底图只作为淡轮廓，不再显示旅游地图的行政底色 */
+  width:calc(100% - 34px)!important;height:calc(100% - 28px)!important;
+  left:17px!important;top:14px!important;right:auto!important;bottom:auto!important;
+  object-fit:contain!important;
+  opacity:.23!important;
+  filter:grayscale(1) contrast(1.8) brightness(1.15)!important;
+}
+.map-city-labels{z-index:3!important}
+.map-city-label{
+  font-size:10px!important;color:#566273!important;
+  background:transparent!important;padding:0!important;
+}
+.map-city-label:before{
+  width:9px!important;height:9px!important;margin-right:4px!important;
+  box-shadow:0 0 0 1px rgba(255,255,255,.9)!important;
+}
+
+/* 六城卡：还原左侧参考图的信息密度和上下层级 */
+.country-city-strip{
+  grid-template-columns:repeat(6,minmax(0,1fr))!important;
+  gap:7px!important;height:196px!important;
+}
+.city-mini{
+  min-width:0!important;height:196px!important;min-height:196px!important;
+  padding:8px 9px!important;border-radius:10px!important;
+  overflow:hidden!important;
+}
+.city-top{
+  height:20px!important;display:flex!important;align-items:center!important;
+  justify-content:space-between!important;gap:5px!important;
+}
+.city-mini .zone{
+  flex:0 0 auto!important;line-height:16px!important;height:16px!important;
+  padding:0 7px!important;font-size:10px!important;
+}
+.city-mini .weather{
+  flex:1 1 auto!important;text-align:right!important;white-space:nowrap!important;
+  overflow:hidden!important;text-overflow:ellipsis!important;
+  font-size:10px!important;line-height:16px!important;
+}
+.city-mini .city-name{
+  height:21px!important;line-height:21px!important;
+  margin:3px 0 5px!important;font-size:13px!important;
+  white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;
+}
+.city-mini .temp{
+  font-size:18px!important;line-height:25px!important;white-space:nowrap!important;
+}
+.city-mini .today{font-size:9px!important;white-space:nowrap!important}
+.city-forecast-icons{
+  height:49px!important;margin-top:6px!important;padding-top:6px!important;
+  grid-template-columns:repeat(7,minmax(0,1fr))!important;
+  font-size:8px!important;overflow:hidden!important;
+}
+.city-forecast-icons span{
+  min-width:0!important;white-space:nowrap!important;overflow:hidden!important;
+  font-size:8px!important;line-height:1.35!important;
+}
+.city-mini .week{
+  margin-top:4px!important;font-size:9px!important;line-height:1.45!important;
+  white-space:normal!important;
+}
+
+/* V3.0：地图恢复清晰 + 整体字号放大 + 城市中英文 */
+#details .local-map img{
+  opacity:.92!important;
+  filter:saturate(.55) contrast(1.02) brightness(1.02)!important;
+}
+#details .local-body{font-size:16px!important}
+#details .local-body p{font-size:16px!important;line-height:1.72!important}
+#details .local-body .tag{font-size:14px!important}
+#details .fact-ref{font-size:15px!important;line-height:1.7!important}
+.country-head-left{font-size:21px!important}
+.country-head-left small{font-size:12px!important}
+.country-head-right{font-size:13px!important}
+.country-head-right b{font-size:17px!important}
+.map-city-label{font-size:11px!important;font-weight:600!important;color:#4b5563!important}
+.city-mini .zone{font-size:11px!important}
+.city-mini .weather{font-size:11px!important}
+.city-mini .city-name{font-size:15px!important;line-height:20px!important;height:22px!important}
+.city-mini .city-name small{font-size:10px!important;color:#8a96a8!important;font-weight:500!important;margin-left:4px!important}
+.city-mini .temp{font-size:20px!important}
+.city-mini .today{font-size:10px!important}
+.city-forecast-icons{font-size:9px!important}
+.city-forecast-icons span{font-size:9px!important}
+.city-mini .week{font-size:10px!important}
+
+/* V3.1：地图城市标注 + 底部说明放大 + 国家简称/英文 */
+.country-head-left{font-size:22px!important}
+.country-head-left .ccode{font-size:13px!important;color:#607086!important;margin-left:7px!important;font-weight:700!important}
+.country-head-left small{font-size:13px!important;color:#8995a5!important;margin-left:5px!important}
+.map-city-label{
+ font-size:12px!important;font-weight:700!important;color:#3f4b5c!important;
+ text-shadow:0 1px 2px rgba(255,255,255,.95)!important;
+}
+.map-city-label small{font-size:9px!important;font-weight:500!important;color:#7d8999!important}
+.city-mini .week{
+ font-size:12px!important;
+ line-height:1.55!important;
+ color:#52647a!important;
+ margin-top:7px!important;
+}
+
+/* V3.2 国家互动地图 */
+#details .local-map{
+  position:relative!important;
+  height:350px!important;min-height:350px!important;
+  background:#fbfdff!important;
+  border:1px solid #d8e1ec!important;border-radius:12px!important;
+  overflow:hidden!important;padding:0!important;
+}
+#details .local-map img,.map-city-labels{display:none!important}
+.country-interactive-map{
+  position:absolute;inset:0;width:100%;height:100%;
+}
+.map-tip{
+  position:absolute;left:12px;bottom:9px;z-index:5;
+  font-size:10px;color:#8491a3;background:rgba(255,255,255,.88);
+  padding:3px 7px;border-radius:8px;pointer-events:none;
+}
+
+.map-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#8794a7;font-size:13px}
+
+/* V3.8：零外部依赖 SVG 地图 */
+.country-interactive-map{position:absolute;inset:0}
+.native-country-shape path{transition:fill .16s ease,stroke .16s ease}
+.native-country-shape:hover path{fill:#eaf2fb;stroke:#7597bd}
+.native-city{cursor:pointer}
+.native-city circle{transition:r .12s ease,filter .12s ease}
+.native-city:hover circle,.native-city:focus circle{r:7;filter:drop-shadow(0 2px 3px rgba(0,0,0,.18))}
+.native-city-cn{font-size:11px;font-weight:700;fill:#3f4b5c;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}
+.native-city-en{font-size:8px;fill:#7d8999;paint-order:stroke;stroke:white;stroke-width:2.5px;stroke-linejoin:round}
+.map-loading{display:none!important}
+
+.china-map-loading{
+  height:100%;min-height:520px;display:flex;align-items:center;justify-content:center;
+  color:#718096;font-size:14px
+}
+
+/* V5.6 室外+室内双视角：两者同时保留 */
+.outdoor-action-v56,.indoor-action-v55{display:block!important;margin:10px 0!important;line-height:1.7!important}
+.outdoor-action-v56 b,.indoor-action-v55 b{font-weight:800!important;color:#243b63!important}
+</style><script>
+const cultureMedia={
+ '德国':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Germany%20location%20map.svg',
+  photo:'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&w=700&q=75',
+  cap:'柏林秋季街头｜轻外套、分层穿搭',fact:'天气转凉后，城市通勤与步行场景更适合轻外套、针织和分层表达。'},
+ '法国':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/France%20location%20map-Regions%20and%20departments-2016.svg',
+  photo:'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=700&q=75',
+  cap:'法国城市秋日｜长袖、薄针织、雨具',fact:'温润或阵雨天气下，城市步行、咖啡馆与轻雨场景更贴近当地生活。'},
+ '西班牙':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Spain%20location%20map.svg',
+  photo:'https://images.trvl-media.com/place/553248633937781419/6b0487cf-1278-4873-bed2-b827df322eff.jpg',
+  cap:'马德里秋日街区｜长袖、轻外套、步行',fact:'秋季城市生活仍以户外步行和街区活动为主，穿着通常比北欧轻。'},
+ '意大利':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Italy%20location%20map.svg',
+  photo:'https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=700&q=75',
+  cap:'意大利城市街头｜昼暖夜凉、轻层搭',fact:'白天偏暖、早晚转凉时，轻薄外套与城市出行场景更自然。'},
+ '荷兰':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Netherlands%20location%20map.svg',
+  photo:'https://images.unsplash.com/photo-1702932525159-410e265cfed7?auto=format&fit=crop&w=700&q=75',
+  cap:'阿姆斯特丹雨天骑行｜防水外套、通勤',fact:'骑行是典型城市出行方式；遇雨时，防水层和雨天通勤是很直接的生活画面。'},
+ '挪威':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Norway%20location%20map.svg',
+  photo:'https://res.cloudinary.com/gofjords-com/images/w_1024%2Ch_683%2Cc_scale/f_auto%2Cq_auto/v1607425712/Blog%20Content/Bergen/x%20reasons%20why%20you%20should%20visit%20Bergen/Bryggen-Bergen-rain-umbrella-wet-weather-1/Bryggen-Bergen-rain-umbrella-wet-weather-1.jpg?_i=AA',
+  cap:'卑尔根雨天街头｜雨伞、防水外套',fact:'多雨天气下，防水外层、雨伞和湿润街景是很典型的生活状态。'},
+ '瑞典':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Sweden%20location%20map.svg',
+  photo:'https://assets.vogue.com/photos/5890b4c47edfa70512d61e5f/master/w_1024%2Cc_limit/14-stockholm-day-3-DuMONDE.jpg',
+  cap:'斯德哥尔摩秋季街头｜夹克、针织、层搭',fact:'转凉后，夹克、针织和多层穿搭能更自然地反映城市秋季体感。'},
+ '芬兰':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Finland%20location%20map.svg',
+  photo:'https://www.cibovagare.it/uploads/editor/media/giugno/como/Settembre/settembre2/settenbre3/settembre3/settembre4/Al%C3%AC/fin3.jpg',
+  cap:'赫尔辛基秋日步行｜围巾、外套、暖层',fact:'偏凉体感下，围巾、外套与秋叶街景更符合当地季节表达。'},
+ '波兰':{map:'https://commons.wikimedia.org/wiki/Special:FilePath/Poland%20location%20map.svg',
+  photo:'https://images.unsplash.com/photo-1519197924294-4ba991a11128?auto=format&fit=crop&w=700&q=75',
+  cap:'波兰秋季城市｜防风外套、昼夜温差',fact:'晴朗但温差较大时，白天轻装、早晚加外套更符合实际使用场景。'}
+};
+function enrichCultureCards(){
+ const cards=[...document.querySelectorAll('.life-card,.culture-item,.country-life')];
+ cards.forEach(card=>{
+   const txt=card.innerText||'';
+   const name=Object.keys(cultureMedia).find(n=>txt.includes(n)); if(!name||card.dataset.enriched)return;
+   const m=cultureMedia[name]; card.dataset.enriched='1'; card.classList.add('culture-card');
+   const old=card.innerHTML;
+   card.innerHTML=`<div class="country-map-box"><img src="${m.map}" alt="${name}国家地图" loading="lazy"></div>
+   <div class="culture-main">${old}<div class="fact">📌 ${m.fact}</div></div>
+   <div class="culture-photo"><img src="${m.photo}" alt="${name}当地生活事实场景" loading="lazy" onerror="this.parentElement.style.display='none'"><span>📷 ${m.cap}</span></div>`;
+ });
+}
+
+
+function initCulturePager(){
+ const box=document.getElementById('details'); if(!box||box.dataset.pager)return;
+ box.dataset.pager='1';
+ const cards=[...box.children]; if(!cards.length)return;
+ const nav=document.createElement('div'); nav.className='culture-nav';
+ nav.innerHTML=`<button class="culture-arrow" id="culturePrev">← 上一个国家</button>
+ <div class="culture-dots">${cards.map((c,i)=>`<button class="culture-dot ${i===0?'active':''}" data-i="${i}">${(c.querySelector('h3')?.textContent||'').split('｜')[0]}</button>`).join('')}</div>
+ <button class="culture-arrow" id="cultureNext">下一个国家 →</button>`;
+ box.parentNode.insertBefore(nav,box);
+ let idx=0;
+ const go=i=>{idx=(i+cards.length)%cards.length;cards[idx].scrollIntoView({behavior:'smooth',block:'nearest',inline:'start'});nav.querySelectorAll('.culture-dot').forEach((d,j)=>d.classList.toggle('active',j===idx));};
+ nav.querySelector('#culturePrev').onclick=()=>go(idx-1);
+ nav.querySelector('#cultureNext').onclick=()=>go(idx+1);
+ nav.querySelectorAll('.culture-dot').forEach(d=>d.onclick=()=>go(+d.dataset.i));
+ box.addEventListener('scroll',()=>{const w=box.clientWidth;if(w){idx=Math.max(0,Math.min(cards.length-1,Math.round(box.scrollLeft/w)));nav.querySelectorAll('.culture-dot').forEach((d,j)=>d.classList.toggle('active',j===idx));}},{passive:true});
+}
+
+
+const mapLabelPos=[[50,22],[51,36],[61,79],[27,49],[74,48],[43,59]];
+function addMapLabels(){
+ document.querySelectorAll('#details>.local-card').forEach(card=>{
+  const title=card.querySelector('.local-body h3')?.textContent||'';
+  const country=Object.keys(marketCities).find(c=>title.includes(c)); if(!country)return;
+  const map=card.querySelector('.local-map'); if(!map||map.querySelector('.map-city-labels'))return;
+  const layer=document.createElement('div');layer.className='map-city-labels';
+  (marketCities[country]||[]).forEach((c,i)=>{
+   const s=document.createElement('span');s.className='map-city-label';
+   s.style.left=mapLabelPos[i][0]+'%';s.style.top=mapLabelPos[i][1]+'%';s.innerHTML=c[1]+(c[2]?'<small style="font-size:9px;color:#8a96a8;margin-left:3px">'+c[2]+'</small>':'');layer.appendChild(s);
+  });map.appendChild(layer);
+ });
+}
+setTimeout(addMapLabels,1000);
+
+function refineReferenceMap(){
+ document.querySelectorAll('#details>.local-card').forEach(card=>{
+   const map=card.querySelector('.local-map');
+   if(!map) return;
+   const labels=map.querySelectorAll('.map-city-label');
+   labels.forEach((el,i)=>{
+     el.title='对应下方第'+(i+1)+'个城市天气卡';
+   });
+ });
+}
+setTimeout(refineReferenceMap,1100);
+
+const detailsObserver=new MutationObserver(()=>{setTimeout(addMapLabels,30);});
+const detailsNode=document.getElementById('details');
+if(detailsNode) detailsObserver.observe(detailsNode,{childList:true});
+setTimeout(addMapLabels,100);
+
+const embeddedCountryGeo={"德国":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"德国","iso_a3":"DEU"},"geometry":{"type":"Polygon","coordinates":[[[14.119686313542559,53.75702912049104],[14.353315463934138,53.24817129171297],[14.074521111719434,52.98126251892535],[14.437599725002201,52.62485016540839],[14.685026482815687,52.0899474147552],[14.607098422919535,51.74518809671997],[15.01699588385867,51.10667409932158],[14.570718214586066,51.002339382524276],[14.307013380600637,51.117267767941414],[14.056227654688172,50.9269176295943],[13.338131951560285,50.73323436136435],[12.966836785543194,50.484076443069085],[12.240111118222558,50.266337795607285],[12.415190870827445,49.96912079528057],[12.521024204161193,49.547415269562734],[13.031328973043431,49.30706818297324],[13.595945672264437,48.87717194273715],[13.243357374737,48.416114813829054],[12.884102817443875,48.28914581968786],[13.02585127122049,47.63758352313583],[12.932626987365948,47.467645575544],[12.620759718484493,47.67238760028441],[12.141357456112788,47.703083401065776],[11.426414015354737,47.523766181012974],[10.544504021861599,47.5663992376538],[10.402083774465211,47.30248769793916],[9.89606814946319,47.580196845075704],[9.59422610844635,47.52505809182027],[8.522611932009767,47.83082754169129],[8.317301466514095,47.61357982033627],[7.466759067422231,47.62058197691181],[7.593676385131062,48.33301911070372],[8.099278598674744,49.01778351500333],[6.658229607783568,49.20195831969157],[6.186320428094177,49.463802802114515],[6.242751092156993,49.90222565367873],[6.043073357781111,50.128051662794235],[6.15665815595878,50.80372101501058],[5.988658074577813,51.851615709025054],[6.589396599970826,51.852029120483394],[6.842869500362383,52.22844025329755],[7.092053256873896,53.144043280644894],[6.905139601274129,53.48216217713065],[7.100424838905269,53.69393219666267],[7.936239454793963,53.74829580343379],[8.121706170289485,53.52779246684429],[8.800734490604668,54.020785630908904],[8.57211795414537,54.39564647075406],[8.526229282270208,54.96274363872516],[9.282048780971138,54.830865383516176],[9.921906365609118,54.98310415304803],[9.9395797054529,54.596641954153256],[10.950112338920519,54.363607082733154],[10.93946699386845,54.00869334575259],[11.956252475643282,54.19648550070116],[12.518440382546714,54.470370591847995],[13.647467075259499,54.0755109727059],[14.119686313542559,53.75702912049104]]]}}]},"法国":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"法国","iso_a3":"FRA"},"geometry":{"type":"MultiPolygon","coordinates":[[[[6.186320428094177,49.463802802114515],[6.658229607783568,49.20195831969157],[8.099278598674744,49.01778351500333],[7.593676385131062,48.33301911070372],[7.466759067422231,47.62058197691181],[7.192202182655507,47.44976552997102],[6.736571079138059,47.541801255882845],[6.768713820023606,47.2877082383037],[6.037388950229001,46.725778713561866],[6.022609490593538,46.27298981382047],[6.5000997249704255,46.42967275652944],[6.843592970414505,45.99114655210061],[6.802355177445605,45.70857982032864],[7.096652459347837,45.33309886329589],[6.749955275101655,45.02851797136758],[7.007562290076635,44.25476675066136],[7.549596388386107,44.12790110938481],[7.435184767291872,43.69384491634922],[6.52924523278304,43.128892320318315],[4.556962517931424,43.399650987311595],[3.1004105973526634,43.075200507167054],[2.9859989762584576,42.47301504166986],[1.8267932470871528,42.34338471126569],[0.7015906103638941,42.795734361332606],[0.3380469091905809,42.57954600683955],[-1.502770961910528,43.03401439063043],[-1.901351284177764,43.42280202897834],[-1.384225226232985,44.022610378590116],[-1.1937975732374184,46.01491771095486],[-2.2257242496738456,47.06436269793822],[-2.9632761295596026,47.57032664650795],[-4.4915549381594815,47.954954332056374],[-4.592349819344776,48.68416046812699],[-3.295813971357802,48.90169240985963],[-1.6165107893849608,48.64442129169454],[-1.933494025063311,49.776341864615745],[-0.98946895995536,49.34737580016091],[1.3387610205226963,50.12717316344526],[1.6390010921384996,50.9466063502975],[2.5135730322461427,51.14850617126183],[2.658422071960274,50.796848049515745],[3.1232515804256877,50.78036326761455],[3.588184441755658,50.37899241800356],[4.2860229834250845,49.907496649772554],[4.799221632515724,49.98537303323637],[5.897759230176348,49.44266714130711],[6.186320428094177,49.463802802114515]]],[[[8.746009148807559,42.62812185319392],[9.390000848028876,43.00998484961471],[9.560016310269134,42.15249197037952],[9.229752231491773,41.380006822264455],[8.775723097375362,41.58361196549443],[8.544212680707773,42.25651662858306],[8.746009148807559,42.62812185319392]]]]}}]},"西班牙":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"西班牙","iso_a3":"ESP"},"geometry":{"type":"Polygon","coordinates":[[[-7.453725551778092,37.09778758396607],[-7.537105475281024,37.42890432387624],[-7.166507941099865,37.803894354802225],[-7.029281175148796,38.07576406508977],[-7.374092169616318,38.37305858006492],[-7.098036668313128,39.03007274022379],[-7.498632371439726,39.62957103124181],[-7.066591559263529,39.711891587882775],[-7.026413133156595,40.184524237624245],[-6.864019944679385,40.33087189387483],[-6.851126674822552,41.11108266861753],[-6.389087693700915,41.381815497394655],[-6.6686055159676565,41.883386949219584],[-7.251308966490824,41.91834605566505],[-7.422512986673795,41.79207469335984],[-8.013174607769912,41.790886135417125],[-8.263856980817792,42.28046865495034],[-8.67194576662672,42.13468943945496],[-9.034817674180246,41.880570583659676],[-8.984433152695672,42.59277517350627],[-9.392883673530648,43.0266246608127],[-7.97818966310831,43.74833771420099],[-6.754491746436756,43.567909450853925],[-5.411886359061597,43.57423981380968],[-4.3478427799557835,43.40344920508504],[-3.5175317041060907,43.4559007838613],[-1.901351284177764,43.42280202897834],[-1.502770961910528,43.03401439063043],[0.3380469091905809,42.57954600683955],[0.7015906103638941,42.795734361332606],[1.8267932470871528,42.34338471126569],[2.9859989762584576,42.47301504166986],[3.0394840836805486,41.892120266276905],[2.0918416683121848,41.226088568683096],[0.8105245296351882,41.01473196060934],[0.7213310074994013,40.678318386389236],[0.10669152181986874,40.12393362076202],[-0.27871131021294104,39.30997813573272],[0.11129072429383768,38.73851430923304],[-0.4671235823491031,38.29236583104115],[-0.6833894514905978,37.642353827457825],[-1.4383821272748492,37.44306366632422],[-2.146452602538119,36.67414419203729],[-4.368900926114719,36.677839056946155],[-4.995219285492212,36.32470815687964],[-5.3771597965614575,35.946850083961465],[-5.866432257500904,36.02981659600606],[-6.236693894872175,36.367677110330334],[-6.520190802425404,36.94291331638732],[-7.453725551778092,37.09778758396607]]]}}]},"意大利":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"意大利","iso_a3":"ITA"},"geometry":{"type":"MultiPolygon","coordinates":[[[[10.44270145024663,46.89354625099743],[11.048555942436536,46.75135854754634],[11.16482791509327,46.94157949481273],[12.153088006243054,47.11539317482645],[12.376485223040817,46.76755910906985],[13.806475457421527,46.509306138691215],[13.698109978905478,46.01677806251735],[13.937630242578308,45.59101593686462],[13.141606479554296,45.73669179949542],[12.32858117030625,45.381778062514826],[12.383874952858548,44.885374253919096],[12.261453484759102,44.600482082693986],[12.589237094786455,44.09136587175446],[13.526905958722494,43.587727362637864],[14.029820997787029,42.761007798832466],[15.142569614327925,41.95513967545685],[15.926191033601896,41.961315009115715],[16.169897088290384,41.74029490820339],[15.889345737377797,41.541082261718216],[17.51916873543118,40.87714345963222],[18.37668745288252,40.35562490494263],[18.48024702319543,40.16886627863981],[18.293385044028042,39.810774441073264],[17.738380161213314,40.277671006830346],[16.869595981522338,40.44223460546381],[16.448743116937322,39.79540070246644],[17.17148969897147,39.42469981542068],[17.052840610429314,38.90287120213735],[16.635088331781816,38.843572496082416],[16.100960727613,37.9858987493342],[15.684086948314473,37.908849188787016],[15.687962680736348,38.21459280044188],[15.89198123542468,38.75094249119924],[16.109332309644287,38.9645470240777],[15.413612501698793,40.048356838535156],[14.99849572109818,40.17294871679087],[14.703268263414714,40.604550279292596],[14.060671827865264,40.7863479680954],[13.627985060285397,41.1882872584616],[12.888081902730365,41.253089504555604],[12.106682570044939,41.70453481705741],[11.191906365614216,42.3554253199897],[10.51194786951774,42.93146251074721],[10.200028924203991,43.9200068222746],[9.702488234097842,44.03627879493132],[8.88894616052687,44.36633616797951],[8.428560825238577,44.23122813575242],[7.8507666357831445,43.76714793555524],[7.435184767291872,43.69384491634922],[7.549596388386107,44.12790110938481],[7.007562290076635,44.25476675066136],[6.749955275101655,45.02851797136758],[7.096652459347837,45.33309886329589],[6.802355177445605,45.70857982032864],[6.843592970414505,45.99114655210061],[7.2738509456766565,45.776947740250776],[7.7559920589598335,45.82449005795931],[8.31662967289438,46.16364248309086],[8.489952426801324,46.005150865251686],[8.966305779667806,46.03693187111119],[9.182881707403055,46.44021474871698],[9.922836541390382,46.31489940040919],[10.363378126678612,46.48357127540986],[10.44270145024663,46.89354625099743]]],[[[13.741156447004613,38.03496552179533],[15.520376010813806,38.23115509699143],[15.160242954171736,37.44404551853776],[15.309897902089006,37.13421946873183],[15.099988234119422,36.6199872909954],[14.335228712631988,36.996630967754726],[13.826732618879959,37.10453135838016],[12.431003859108756,37.61294993748375],[12.570943637755136,38.12638113051966],[13.741156447004613,38.03496552179533]]],[[[8.709990675500109,40.899984442705225],[9.210011834356266,41.209991360024176],[9.80997521326492,40.50000885676613],[9.669518670295616,39.17737641047178],[9.214817742559433,39.24047333430015],[8.806935662479674,38.906617743478506],[8.428302443077115,39.17184703221655],[8.388253208050912,40.37831085871876],[8.159998406617689,40.95000722916376],[8.709990675500109,40.899984442705225]]]]}}]},"荷兰":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"荷兰","iso_a3":"NLD"},"geometry":{"type":"Polygon","coordinates":[[[6.905139601274129,53.48216217713065],[7.092053256873896,53.144043280644894],[6.842869500362383,52.22844025329755],[6.589396599970826,51.852029120483394],[5.988658074577813,51.851615709025054],[6.15665815595878,50.80372101501058],[5.606975945670001,51.03729848896978],[4.973991326526914,51.47502370869813],[4.047071160507528,51.26725861266857],[3.3149711442285366,51.34575511331991],[3.8302885270431375,51.62054454203195],[4.705997348661185,53.091798407597764],[6.074182570020923,53.510403347378144],[6.905139601274129,53.48216217713065]]]}}]},"挪威":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"挪威","iso_a3":"NOR"},"geometry":{"type":"MultiPolygon","coordinates":[[[[15.142820000000002,79.67431],[15.52255,80.01608],[16.990850000000002,80.05086],[18.25183,79.70175],[21.54383,78.95611],[19.02737,78.5626],[18.47172,77.82669],[17.59441,77.63796],[17.1182,76.80941],[15.91315,76.77045],[13.76259,77.38035],[14.669560000000002,77.73565],[13.1706,78.02493],[11.22231,78.8693],[10.44453,79.65239],[13.170770000000001,80.01046000000001],[13.71852,79.66039],[15.142820000000002,79.67431]]],[[[31.101042202597625,69.55810108805622],[29.399550000000033,69.15692000000013],[28.591929559043194,69.06477692328666],[29.015572950971972,69.76649119737799],[27.732292107867863,70.16419302029625],[26.179622023226244,69.82529897732614],[25.689212680776365,69.09211375596904],[24.735679152126725,68.64955678982146],[23.66204959483076,68.89124746365054],[22.356237827247412,68.84174144151491],[21.244936150810673,69.37044302029308],[20.645592889089528,69.10624726020087],[20.025268995857886,69.0651386583127],[19.878559604581255,68.40719432237258],[17.993868442464333,68.56739126247736],[17.729181756265348,68.01055186631628],[16.768878614985482,68.0139366726314],[15.108411492583002,66.19386688909547],[13.55568973150909,64.78702769638151],[13.919905226302204,64.44542064071608],[13.571916131248713,64.04911408146971],[12.579935336973934,64.06621898055833],[11.930569288794231,63.12831757267698],[11.992064243221563,61.80036245385655],[12.631146681375185,61.293571682370136],[12.3003658382749,60.11793284773003],[11.468271925511146,59.43239329694604],[11.027368605196868,58.85614940045936],[10.356556837616067,59.469807033925356],[8.382000359743586,58.313288479233215],[7.048748406613271,58.078884182357285],[5.665835402050419,58.5881554225937],[5.308234490590678,59.663231919993834],[4.992078077828978,61.97099803328432],[5.912900424837886,62.614472968182724],[8.553411085655739,63.45400828719648],[10.527709181366758,64.4860383164975],[14.761145867581604,67.81064158799516],[19.18402835457846,69.81744415961778],[21.378416375420585,70.2551693793461],[23.023742303161526,70.2020718451662],[24.546543409938465,71.03049673123722],[26.37004967622181,70.98626170519539],[28.165547316202943,71.18547435168055],[31.293418409965454,70.4537877468599],[30.005435011522792,70.18625885688489],[31.101042202597625,69.55810108805622]]],[[[27.407505730913446,80.05640574820042],[25.92465050629815,79.51783397085451],[23.024465773213617,79.40001170522903],[20.075188429451828,79.56682322866722],[19.897266473070914,79.84236196564747],[18.462263624757867,79.85988027619443],[17.368015170977458,80.31889618602698],[20.45599205901064,80.59815562613225],[21.907944777115404,80.35767934846204],[22.91925255706738,80.65714427359343],[25.447625359811866,80.40734039989452],[27.407505730913446,80.05640574820042]]],[[[24.724120000000003,77.85385],[22.490320000000004,77.44493],[20.726010000000002,77.67704],[21.416110000000003,77.93504],[20.8119,78.25463],[22.884259999999998,78.45494000000001],[23.281340000000004,78.07954],[24.724120000000003,77.85385]]]]}}]},"瑞典":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"瑞典","iso_a3":"SWE"},"geometry":{"type":"Polygon","coordinates":[[[11.027368605196868,58.85614940045936],[11.468271925511146,59.43239329694604],[12.3003658382749,60.11793284773003],[12.631146681375185,61.293571682370136],[11.992064243221563,61.80036245385655],[11.930569288794231,63.12831757267698],[12.579935336973934,64.06621898055833],[13.571916131248713,64.04911408146971],[13.919905226302204,64.44542064071608],[13.55568973150909,64.78702769638151],[15.108411492583002,66.19386688909547],[16.768878614985482,68.0139366726314],[17.729181756265348,68.01055186631628],[17.993868442464333,68.56739126247736],[19.878559604581255,68.40719432237258],[20.025268995857886,69.0651386583127],[20.645592889089528,69.10624726020087],[21.978534783626117,68.6168456081807],[23.53947309743444,67.93600861273525],[23.565879754335583,66.39605093043743],[23.903378533633802,66.00692739527962],[22.18317345550193,65.72374054632017],[21.21351687997722,65.02600535751527],[21.369631381930958,64.41358795842429],[19.77887576669022,63.60955434839504],[17.84777916837521,62.74940013289681],[17.119554884518124,61.34116567651097],[17.83134606290639,60.63658336042741],[18.78772179533209,60.081914374422595],[17.86922488777634,58.9537661810587],[16.829185011470088,58.71982697207339],[16.447709588291474,57.041118069071885],[15.879785597403783,56.10430186626866],[14.666681349352075,56.200885118222175],[14.100721062891465,55.40778107362265],[12.942910597392057,55.36173737245058],[12.625100538797028,56.30708018658197],[11.787942335668674,57.44181712506307],[11.027368605196868,58.85614940045936]]]}}]},"芬兰":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"芬兰","iso_a3":"FIN"},"geometry":{"type":"Polygon","coordinates":[[[28.591929559043194,69.06477692328666],[28.445943637818658,68.36461294216404],[29.97742638522061,67.69829702419275],[29.054588657352326,66.94428620062206],[30.217650000000003,65.80598],[29.54442955904699,64.94867157659048],[30.44468468600371,64.20445343693909],[30.035872430142717,63.55281362573855],[31.516092156711125,62.86768748641289],[31.139991082490894,62.35769277612441],[28.069997592895277,60.50351654727584],[26.255172967236973,60.4239606797625],[24.496623976344523,60.05731639265166],[22.869694858499457,59.846373196036225],[22.290763787533592,60.39192129174154],[21.322244093519316,60.720169989659524],[21.544866163832694,61.70532949487179],[21.05921105315369,62.60739329695874],[21.536029493910803,63.18973501245587],[22.442744174903993,63.81781037053129],[24.730511508897536,64.90234365504084],[25.398067661243942,65.11142650009374],[25.294043003040404,65.53434642197045],[23.903378533633802,66.00692739527962],[23.565879754335583,66.39605093043743],[23.53947309743444,67.93600861273525],[21.978534783626117,68.6168456081807],[20.645592889089528,69.10624726020087],[21.244936150810673,69.37044302029308],[22.356237827247412,68.84174144151491],[23.66204959483076,68.89124746365054],[24.735679152126725,68.64955678982146],[25.689212680776365,69.09211375596904],[26.179622023226244,69.82529897732614],[27.732292107867863,70.16419302029625],[29.015572950971972,69.76649119737799],[28.591929559043194,69.06477692328666]]]}}]},"波兰":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"波兰","iso_a3":"POL"},"geometry":{"type":"Polygon","coordinates":[[[23.48412763844985,53.91249766704114],[23.527535841575002,53.470121568406555],[23.80493493011778,53.089731350306074],[23.79919884613338,52.69109935160657],[23.199493849386187,52.48697744405367],[23.508002150168693,52.02364655212473],[23.52707075368437,51.57845408793031],[24.029985792748903,50.70540660257518],[23.92275719574326,50.42488108987874],[23.426508416444392,50.30850576435745],[22.518450148211603,49.47677358661974],[22.776418898212626,49.02739533140962],[21.607808058364213,49.47010732685409],[20.887955356538413,49.32877228453583],[20.415839471119853,49.43145335549977],[19.825022820726872,49.21712535256923],[19.320712517990472,49.571574001659194],[18.90957482267632,49.435845852244576],[18.392913852622172,49.98862864847075],[17.64944502123899,50.049038397819956],[17.55456709155112,50.36214590107642],[16.86876915860566,50.47397370055603],[16.719475945714436,50.21574656839354],[16.176253289462267,50.42260732685791],[16.23862674323857,50.69773265237984],[15.490972120839729,50.78472992614321],[15.01699588385867,51.10667409932158],[14.607098422919535,51.74518809671997],[14.685026482815687,52.0899474147552],[14.437599725002201,52.62485016540839],[14.074521111719434,52.98126251892535],[14.353315463934138,53.24817129171297],[14.119686313542559,53.75702912049104],[14.802900424873458,54.05070628520575],[17.622831658608675,54.85153595643291],[18.62085859546164,54.68260569927078],[18.696254510175464,54.43871877706929],[19.660640089606403,54.42608388937393],[20.892244500418627,54.31252492941253],[22.731098667092652,54.327536932993326],[23.24398725758951,54.22056671814914],[23.48412763844985,53.91249766704114]]]}}]}};
+const countryISO3={"德国": "DEU", "法国": "FRA", "西班牙": "ESP", "意大利": "ITA", "荷兰": "NLD", "挪威": "NOR", "瑞典": "SWE", "芬兰": "FIN", "波兰": "POL"};
+const cityGeo={"德国": [["柏林", "Berlin", 13.405, 52.52], ["汉堡", "Hamburg", 9.9937, 53.5511], ["慕尼黑", "Munich", 11.582, 48.1351], ["科隆", "Cologne", 6.9603, 50.9375], ["德累斯顿", "Dresden", 13.7373, 51.0504], ["法兰克福", "Frankfurt", 8.6821, 50.1109]], "法国": [["巴黎", "Paris", 2.3522, 48.8566], ["里尔", "Lille", 3.0573, 50.6292], ["马赛", "Marseille", 5.3698, 43.2965], ["南特", "Nantes", -1.5536, 47.2184], ["斯特拉斯堡", "Strasbourg", 7.7521, 48.5734], ["里昂", "Lyon", 4.8357, 45.764]], "西班牙": [["马德里", "Madrid", -3.7038, 40.4168], ["毕尔巴鄂", "Bilbao", -2.935, 43.263], ["塞维利亚", "Seville", -5.9845, 37.3891], ["萨拉曼卡", "Salamanca", -5.6635, 40.9701], ["巴塞罗那", "Barcelona", 2.1734, 41.3851], ["托莱多", "Toledo", -4.0273, 39.8628]], "意大利": [["罗马", "Rome", 12.4964, 41.9028], ["米兰", "Milan", 9.19, 45.4642], ["那不勒斯", "Naples", 14.2681, 40.8518], ["热那亚", "Genoa", 8.9463, 44.4056], ["威尼斯", "Venice", 12.3155, 45.4408], ["佛罗伦萨", "Florence", 11.2558, 43.7696]], "荷兰": [["阿姆斯特丹", "Amsterdam", 4.9041, 52.3676], ["格罗宁根", "Groningen", 6.5665, 53.2194], ["马斯特里赫特", "Maastricht", 5.6909, 50.8514], ["鹿特丹", "Rotterdam", 4.4777, 51.9244], ["恩斯赫德", "Enschede", 6.8958, 52.2215], ["乌得勒支", "Utrecht", 5.1214, 52.0907]], "挪威": [["奥斯陆", "Oslo", 10.7522, 59.9139], ["特罗姆瑟", "Tromsø", 18.9553, 69.6492], ["克里斯蒂安桑", "Kristiansand", 7.9956, 58.1467], ["卑尔根", "Bergen", 5.3221, 60.39299], ["哈马尔", "Hamar", 11.06798, 60.7945], ["特隆赫姆", "Trondheim", 10.3951, 63.4305]], "瑞典": [["斯德哥尔摩", "Stockholm", 18.0686, 59.3293], ["于默奥", "Umeå", 20.263, 63.8258], ["马尔默", "Malmö", 13.0038, 55.605], ["哥德堡", "Gothenburg", 11.9746, 57.7089], ["卡尔马", "Kalmar", 16.3616, 56.6634], ["厄勒布鲁", "Örebro", 15.2134, 59.2753]], "芬兰": [["赫尔辛基", "Helsinki", 24.9384, 60.1699], ["罗瓦涅米", "Rovaniemi", 25.7294, 66.5039], ["图尔库", "Turku", 22.2666, 60.4518], ["瓦萨", "Vaasa", 21.6158, 63.0951], ["约恩苏", "Joensuu", 29.7632, 62.601], ["坦佩雷", "Tampere", 23.761, 61.4978]], "波兰": [["华沙", "Warsaw", 21.0122, 52.2297], ["格但斯克", "Gdańsk", 18.6466, 54.352], ["克拉科夫", "Kraków", 19.945, 50.0647], ["波兹南", "Poznań", 16.9252, 52.4064], ["卢布林", "Lublin", 22.5684, 51.2465], ["罗兹", "Łódź", 19.456, 51.7592]]};
+
+
+</script><script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+
+<style id="v5-complete-top">
+.v5-panel{background:#fff;border:1px solid #dbe5f0;border-radius:18px;padding:14px;margin:0 0 14px;box-shadow:0 8px 24px rgba(31,45,72,.05)}
+.v5-panel h2{font-size:17px;margin:0 0 10px;color:#0b2345}
+.v5-clocks{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:9px}
+.v5-clock-card{height:126px;border:1px solid #dce6f1;border-radius:14px;background:#fbfdff;padding:8px 5px;text-align:center}
+.v5-clock-title{height:20px;display:flex;align-items:center;justify-content:center;gap:6px;font-size:14px;font-weight:900;color:#0b2345}
+.v5flag{display:inline-block;width:20px;height:13px;border-radius:2px;overflow:hidden;box-shadow:0 0 0 1px rgba(20,45,75,.14)}
+.v5flag.de{background:linear-gradient(#111 0 33.33%,#d00 33.33% 66.66%,#ffce00 66.66%)}
+.v5flag.fr{background:linear-gradient(90deg,#0055a4 0 33.33%,#fff 33.33% 66.66%,#ef4135 66.66%)}
+.v5flag.es{background:linear-gradient(#aa151b 0 25%,#f1bf00 25% 75%,#aa151b 75%)}
+.v5flag.it{background:linear-gradient(90deg,#009246 0 33.33%,#fff 33.33% 66.66%,#ce2b37 66.66%)}
+.v5flag.nl{background:linear-gradient(#ae1c28 0 33.33%,#fff 33.33% 66.66%,#21468b 66.66%)}
+.v5flag.no{background:linear-gradient(90deg,transparent 0 28%,#fff 28% 36%,#00205b 36% 45%,#fff 45% 53%,transparent 53%),linear-gradient(transparent 0 38%,#fff 38% 46%,#00205b 46% 57%,#fff 57% 65%,transparent 65%),#ba0c2f}
+.v5flag.se{background:linear-gradient(90deg,transparent 0 30%,#fecc00 30% 41%,transparent 41%),linear-gradient(transparent 0 42%,#fecc00 42% 58%,transparent 58%),#006aa7}
+.v5flag.fi{background:linear-gradient(90deg,transparent 0 28%,#003580 28% 42%,transparent 42%),linear-gradient(transparent 0 40%,#003580 40% 60%,transparent 60%),#fff}
+.v5flag.pl{background:linear-gradient(#fff 0 50%,#dc143c 50%)}
+.v5-clock{width:82px;height:82px;border:2px solid #d8e5f4;border-radius:50%;margin:6px auto 0;position:relative;background:#fff}
+.v5tick{position:absolute;left:50%;top:50%;width:1.5px;height:5px;background:#8ea4ba;border-radius:2px;transform:translate(-50%,-50%) rotate(calc(var(--i)*30deg)) translateY(-34px);transform-origin:50% 50%;pointer-events:none}
+
+/* V5.9 时钟可读性：保留12/3/6/9，仅增加分钟刻度 */
+
+
+.v5n,.v5hand,.v5pin{z-index:2}
+.v5n{position:absolute;font-size:9px;font-style:normal;font-weight:800;color:#52677f;line-height:1}.v5n12{top:5px;left:50%;transform:translateX(-50%)}.v5n3{right:6px;top:50%;transform:translateY(-50%)}.v5n6{bottom:5px;left:50%;transform:translateX(-50%)}.v5n9{left:6px;top:50%;transform:translateY(-50%)}
+.v5hand{position:absolute;left:50%;bottom:50%;transform-origin:50% 100%;border-radius:5px}.v5hour{height:15px;width:4px;background:#243d5a;margin-left:-2px}.v5minute{height:22px;width:2px;background:#4b6f93;margin-left:-1px}.v5second{height:27px;width:1px;background:#ef6b6b;margin-left:-.5px}.v5pin{position:absolute;width:8px;height:8px;border-radius:50%;background:#203a58;left:50%;top:50%;transform:translate(-50%,-50%)}
+.v5-cal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 12px;align-items:start}
+.v5-cal-card{background:#fff;border:1px solid #dbe5f0;border-radius:14px;padding:8px 10px 9px;box-shadow:0 2px 8px rgba(38,70,110,.03)}
+.v5-cal-head{height:32px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #edf2f7;margin-bottom:4px}.v5-cal-head strong{font-size:15px;font-weight:950;color:#071d3d}.v5-month{font-size:11px;font-weight:800;color:#72849a}.v5-today{margin-left:auto;font-size:14px;font-weight:900;color:#0b2345;white-space:nowrap}
+.v5-week,.v5-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}.v5-week{height:20px;margin-bottom:2px}.v5-week span{font-size:10px;font-weight:700;color:#77879b;text-align:center;line-height:20px}.v5-days{grid-auto-rows:33px}
+.v5day{height:33px;border-radius:6px;background:#f7f9fc;padding:3px 4px;position:relative;overflow:hidden}.v5day.empty{background:#fafbfd}.v5day.today{background:#edf5ff;outline:1px solid #77a8ef}.v5day b{font-size:12px;font-weight:850;line-height:14px}.v5day em{position:absolute;right:4px;top:3px;font-size:12px;line-height:14px;font-style:normal}.v5holiday{position:absolute;left:4px;right:2px;bottom:2px;font-size:8px;line-height:9px;font-weight:900;color:#e2465b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:1100px){.v5-clocks{grid-template-columns:repeat(5,1fr)}.v5-cal-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:720px){.v5-clocks{grid-template-columns:repeat(3,1fr)}.v5-cal-grid{grid-template-columns:1fr}}
+</style>
+
+
+<style id="v5-1-adjustments">
+.v5-hidden-overview{display:none!important}
+.v5-season{font-size:11px;font-weight:850;color:#64748b;white-space:nowrap}
+.v5-cal-head{gap:7px}
+.v5-today{margin-left:auto}
+.indoor-action-v51{
+  margin-top:10px;padding:10px 12px;border-radius:10px;
+  background:#f6f9fd;border:1px solid #e3ebf5;color:#314968;
+  font-size:14px;line-height:1.65
+}
+.indoor-action-v51 b{color:#0b2345}
+.indoor-action-v51{border-left:3px solid #8eb5e8!important;background:linear-gradient(90deg,#f4f8fd,#fbfdff)!important}
+</style>
+
+
+<style id="v5-3-holiday-indoor-fix">
+.v5-day{position:relative;overflow:visible!important}
+.v5-holiday{
+ display:block; max-width:100%; margin-top:1px;
+ font-size:8px; line-height:9px; color:#e24b5b;
+ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+ font-weight:600;
+}
+.v5-day.is-holiday{background:#fff8f8!important}
+
+/* 室内行动固定成一个明确模块，不再藏在长段文字里 */
+.indoor-action-v51{
+ display:block!important;
+ margin:10px 0 8px!important;
+ padding:10px 12px!important;
+ border:1px solid #dce8f6!important;
+ border-left:4px solid #78a8df!important;
+ border-radius:10px!important;
+ background:#f7faff!important;
+ line-height:1.7!important;
+ color:#334d70!important;
+}
+.indoor-action-v51 b{
+ display:inline!important;
+ color:#0b2345!important;
+ font-size:14px!important;
+}
+</style>
+
+
+<style id="v5-5-visible-fixes">
+.indoor-action-v55{font-size:16px!important;line-height:1.72!important;margin:7px 0!important;color:#526077!important}
+.indoor-action-v55 b{color:#172033!important}
+.v5holiday{z-index:3!important;background:rgba(255,255,255,.88);border-radius:3px;padding:0 1px}
+.v5day:has(.v5holiday){background:#fff6f7!important}
+</style>
+<style id="v6-style">
+#v6-intel{max-width:1500px;margin:28px auto;padding:0 18px 36px;color:#1b2940;font-family:inherit}#v6-intel *{box-sizing:border-box}#v6-intel .v6-top{padding:23px 25px;background:linear-gradient(110deg,#162b4c,#2f5e8f);color:white;border-radius:20px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}#v6-intel .v6-top h2{margin:5px 0;font-size:25px}#v6-intel .v6-top p{margin:0;color:#d8e5f6;font-size:13px}#v6-intel .v6-status{background:#ffffff25;padding:7px 12px;border-radius:40px;font-size:12px}#v6-intel .v6-tabs,#v6-intel .v6-countries{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}#v6-intel button{cursor:pointer;font-family:inherit}#v6-intel .v6-tab,#v6-intel .v6-country{border:1px solid #dce5f1;background:white;border-radius:30px;padding:9px 15px;color:#43536b;font-size:13px}#v6-intel .v6-tab.on,#v6-intel .v6-country.on{background:#2b5b8e;border-color:#2b5b8e;color:white}#v6-intel .v6-note{background:#fff7e7;border:1px solid #f5dfb6;border-radius:12px;padding:12px 16px;font-size:13px;line-height:1.7;color:#806027;margin:12px 0}#v6-intel .v6-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}#v6-intel .v6-card{background:white;border:1px solid #e3eaf3;border-radius:16px;padding:17px;box-shadow:0 5px 18px #15284409;min-height:175px}#v6-intel .v6-card h3{font-size:16px;margin:5px 0 10px}#v6-intel .v6-card p{font-size:13px;line-height:1.75;color:#59677d;margin:6px 0}#v6-intel .v6-card .v6-label{font-size:11px;letter-spacing:.4px;color:#5277a4;font-weight:700}#v6-intel .v6-card a{font-size:13px;color:#2361a2;word-break:break-all}#v6-intel .v6-chip{display:inline-block;font-size:11px;padding:4px 8px;border-radius:12px;background:#edf3f9;color:#55718e;margin:3px 5px 3px 0}#v6-intel .v6-empty{padding:24px;border:1px dashed #d2ddec;border-radius:15px;background:#f9fbfe;color:#61718a;line-height:1.8}#v6-intel .v6-tabs,#v6-intel .v6-countries{display:none!important}#v6-intel .v6-panel{display:block;margin:24px 0 34px}#v6-intel .v6-section-heading{font-size:21px;color:#19395e;margin:0 0 14px;padding:0 0 12px;border-bottom:2px solid #dce7f4}#v6-intel .v6-country-block{margin:16px 0 25px;padding:17px;background:#f8fbff;border:1px solid #dce7f4;border-radius:16px}#v6-intel .v6-country-heading{font-size:17px;margin:0 0 10px;color:#204c7a}#v6-intel .v6-country-block .v6-card{min-height:135px}#v6-intel .v6-sub{font-size:13px;color:#68788c;margin:12px 0}#v6-intel .v6-source{font-size:12px;color:#8a96a7;margin-top:10px}#v6-intel .v6-card ul{font-size:13px;color:#59677d;line-height:1.9;padding-left:18px}@media(max-width:850px){#v6-intel .v6-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){#v6-intel .v6-grid{grid-template-columns:1fr}#v6-intel .v6-top h2{font-size:20px}}
+</style></head><body><div class="wrap"><div class="top"><div class="title"><h1>🌍 小语种市场天气看板</h1><p>天气事实 → 中国体感 → 当地生活行动 → 素材机会 → 未来7天</p></div><div class="pill" id="updated">正在更新天气…</div></div>
+<section class="v5-panel">
+<h2>🕘 9国当地时间｜模拟钟表实时走动</h2>
+<div class="v5-clocks"><div class="v5-clock-card" data-tz="Europe/Berlin"><div class="v5-clock-title"><b>德国</b><span class="v5flag de"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Paris"><div class="v5-clock-title"><b>法国</b><span class="v5flag fr"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Madrid"><div class="v5-clock-title"><b>西班牙</b><span class="v5flag es"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Rome"><div class="v5-clock-title"><b>意大利</b><span class="v5flag it"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Amsterdam"><div class="v5-clock-title"><b>荷兰</b><span class="v5flag nl"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Oslo"><div class="v5-clock-title"><b>挪威</b><span class="v5flag no"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Stockholm"><div class="v5-clock-title"><b>瑞典</b><span class="v5flag se"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Helsinki"><div class="v5-clock-title"><b>芬兰</b><span class="v5flag fi"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div><div class="v5-clock-card" data-tz="Europe/Warsaw"><div class="v5-clock-title"><b>波兰</b><span class="v5flag pl"></span></div>
+<div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
+<span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div></div>
+</section>
+<section class="v5-panel">
+<h2>🌍 9国今日天气 × 自然月日历｜一屏总览</h2>
+<div class="v5-cal-grid"><div class="v5-cal-card" data-country="德国" data-code="DE" data-lat="52.52" data-lon="13.405" data-tz="Europe/Berlin">
+<div class="v5-cal-head"><strong>德国</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="法国" data-code="FR" data-lat="48.8566" data-lon="2.3522" data-tz="Europe/Paris">
+<div class="v5-cal-head"><strong>法国</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="西班牙" data-code="ES" data-lat="40.4168" data-lon="-3.7038" data-tz="Europe/Madrid">
+<div class="v5-cal-head"><strong>西班牙</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="意大利" data-code="IT" data-lat="41.9028" data-lon="12.4964" data-tz="Europe/Rome">
+<div class="v5-cal-head"><strong>意大利</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="荷兰" data-code="NL" data-lat="52.3676" data-lon="4.9041" data-tz="Europe/Amsterdam">
+<div class="v5-cal-head"><strong>荷兰</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="挪威" data-code="NO" data-lat="59.9139" data-lon="10.7522" data-tz="Europe/Oslo">
+<div class="v5-cal-head"><strong>挪威</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="瑞典" data-code="SE" data-lat="59.3293" data-lon="18.0686" data-tz="Europe/Stockholm">
+<div class="v5-cal-head"><strong>瑞典</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="芬兰" data-code="FI" data-lat="60.1699" data-lon="24.9384" data-tz="Europe/Helsinki">
+<div class="v5-cal-head"><strong>芬兰</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div><div class="v5-cal-card" data-country="波兰" data-code="PL" data-lat="52.2297" data-lon="21.0122" data-tz="Europe/Warsaw">
+<div class="v5-cal-head"><strong>波兰</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
+<div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+<div class="v5-days"></div></div></div>
+</section>
+
+<div class="grid v5-hidden-overview" id="overview"></div>
+<div class="section card"><h2>🗺️ 欧洲天气 × 中国体感地图</h2>
+<div class="realmap-wrap">
+  <div id="chinaMap" class="realmap"><div class="china-map-loading">中国体感地图加载中…</div></div>
+  <div class="map-note">按当天实时温度、降雨、风感与昼夜温差动态映射中国相近体感区域；天气变化后，国家标签与高亮区域会自动移动。</div>
+</div></div>
+<div class="section card"><h2>📊 9国完整对标表</h2><div class="tablewrap"><table class="tbl"><thead><tr><th>区域/国家</th><th>今日天气</th><th>🇨🇳 中国体感对标</th><th>🧥 穿衣/素材参考</th><th>📈 未来7天</th></tr></thead><tbody id="tbody"></tbody></table></div></div>
+<div class="section"><h2>☕ 当地生活行动 × 文化场景</h2><div class="detail" id="details"></div></div><div class="foot">天气数据：Open-Meteo；文化场景为设计参考，不代表所有当地居民。中国体感对标是用于视觉决策的近似类比。</div></div>
+<script>
+const places=[
+{r:'北欧',c:'挪威',f:'🇳🇴',lat:59.9139,lon:10.7522,tz:'Europe/Oslo',culture:'秋季常见徒步、桑拿、城市文化活动；风雨天气更强调防风防水与分层穿搭。',scene:'木屋暖光、热饮、羊毛针织、户外徒步、桑拿/冷水体验'},
+{r:'北欧',c:'瑞典',f:'🇸🇪',lat:59.3293,lon:18.0686,tz:'Europe/Stockholm',culture:'秋季进入 cosy season；阴雨和天黑变早时，fika、咖啡馆、蜡烛暖光等场景更自然。',scene:'咖啡馆fika、肉桂卷、蜡烛、针织、秋叶、城市慢生活'},
+{r:'北欧',c:'芬兰',f:'🇫🇮',lat:60.1699,lon:24.9384,tz:'Europe/Helsinki',culture:'ruska 秋叶季适合徒步、采莓与蘑菇；沿海秋季风雨增加，分层和防水外层很重要。',scene:'金红秋林、羊毛层搭、防水外套、徒步、森林采集'},
+{r:'西欧',c:'法国',f:'🇫🇷',lat:48.8566,lon:2.3522,tz:'Europe/Paris',culture:'天气转凉后，城市咖啡馆、通勤叠穿和室内文化场景更适合轻秋视觉。',scene:'街角咖啡馆、风衣、薄针织、雨伞、城市漫步'},
+{r:'西欧',c:'荷兰',f:'🇳🇱',lat:52.3676,lon:4.9041,tz:'Europe/Amsterdam',culture:'风雨天气仍保留骑行与通勤场景，防风、防雨、连帽外套比厚重保暖更有代表性。',scene:'自行车、雨衣、连帽外套、湿润街道、运河城市'},
+{r:'中欧',c:'德国',f:'🇩🇪',lat:52.52,lon:13.405,tz:'Europe/Berlin',culture:'秋季常见彩林、徒步、葡萄采收与休闲疗愈；凉风天气适合夹克、针织和热饮场景。',scene:'彩林徒步、葡萄园、夹克叠穿、热饮、城市咖啡馆'},
+{r:'中欧',c:'波兰',f:'🇵🇱',lat:52.2297,lon:21.0122,tz:'Europe/Warsaw',culture:'昼夜温差扩大时，城市通勤和户外场景会更强调外套、针织与分层。',scene:'城市街景、防风外套、针织、秋叶、公园散步'},
+{r:'南欧',c:'西班牙',f:'🇪🇸',lat:40.4168,lon:-3.7038,tz:'Europe/Madrid',culture:'秋季白天仍可能偏暖，露台、街头与户外社交仍自然；早晚再加入轻外套。',scene:'露台咖啡、城市街头、轻风衣、长袖、暖阳'},
+{r:'南欧',c:'意大利',f:'🇮🇹',lat:41.9028,lon:12.4964,tz:'Europe/Rome',culture:'白天偏暖、早晚转凉时，轻层次穿搭与咖啡馆/街巷生活更自然。',scene:'街巷咖啡、薄开衫、衬衫、城市漫步、轻秋暖阳'}];
+function icon(c){if(c===0)return'☀️';if([1,2].includes(c))return'🌤️';if(c===3)return'☁️';if([45,48].includes(c))return'🌫️';if([51,53,55,61,63,65,80,81,82].includes(c))return'🌧️';if([71,73,75,85,86].includes(c))return'🌨️';if([95,96,99].includes(c))return'⛈️';return'🌥️'}
+function match(hi,lo,rain,wind){let a=(hi+lo)/2;if(a<=10)return['内蒙古/新疆北部深秋','厚呢·夹克·围巾','秋冬','54%','18%'];if(a<=15)return['长春/太原标准深秋','风衣·羊毛衫·外套','秋冬','58%','28%'];if(a<=19){if(rain>=55||wind>=25)return['青岛/大连沿海初秋','防风外衣·连帽卫衣','初秋','69%','48%'];return['北京/西安金秋','卫衣·夹克·薄外套','初秋','55%','40%']}if(a<=23){if(rain>=55)return['成都/贵阳湿润秋季','长袖·薄针织·雨具','轻秋','50%','62%'];return['武汉/长沙舒适秋季','长袖·风衣·轻外套','轻秋','58%','66%']}return['杭州/南京桂花季','白天轻装·早晚薄开衫','偏暖','62%','76%']}
+
+const chinaGeoUrl='https://raw.githubusercontent.com/Supeset/China-GeoData/main/geojson/china_province_full.geojson';
+let chinaGeoCache=null;
+const climateTargets={
+ '内蒙古/新疆北部深秋':['内蒙古自治区','黑龙江省'],
+ '长春/太原标准深秋':['吉林省','山西省'],
+ '青岛/大连沿海初秋':['辽宁省','山东省'],
+ '北京/西安金秋':['北京市','陕西省','河北省'],
+ '成都/贵阳湿润秋季':['四川省','贵州省'],
+ '武汉/长沙舒适秋季':['湖北省','湖南省'],
+ '杭州/南京桂花季':['浙江省','江苏省']
+};
+const calloutSlots=[
+ [84,16],[87,28],[89,40],[88,53],[84,66],
+ [13,18],[10,32],[12,49],[16,65]
+];
+async function renderChinaMap(rows){
+ const el=document.getElementById('chinaMap'); if(!el||!window.echarts)return;
+ try{
+  if(!chinaGeoCache){chinaGeoCache=await fetch(chinaGeoUrl).then(r=>{if(!r.ok)throw Error('map');return r.json()})}
+  echarts.registerMap('china-real',chinaGeoCache);
+  el.innerHTML='';
+  const chart=echarts.init(el);
+
+  const climateMapTargets={
+   '内蒙古/新疆北部深秋':{provinces:['内蒙古自治区','黑龙江省'],coord:[119.5,47.2],pos:'top'},
+   '长春/太原标准深秋':{provinces:['吉林省','山西省'],coord:[119.0,40.7],pos:'right'},
+   '青岛/大连沿海初秋':{provinces:['辽宁省','山东省'],coord:[121.4,38.5],pos:'right'},
+   '北京/西安金秋':{provinces:['北京市','陕西省','河北省'],coord:[113.8,38.2],pos:'top'},
+   '成都/贵阳湿润秋季':{provinces:['四川省','贵州省'],coord:[104.8,29.2],pos:'left'},
+   '武汉/长沙舒适秋季':{provinces:['湖北省','湖南省'],coord:[112.8,29.8],pos:'right'},
+   '杭州/南京桂花季':{provinces:['浙江省','江苏省'],coord:[119.8,30.6],pos:'right'}
+  };
+  const countryOffset={
+   '德国':[-1.2,1.0],'法国':[-1.0,-0.8],'西班牙':[0.8,-0.9],'意大利':[1.2,-0.3],
+   '荷兰':[1.0,0.8],'挪威':[1.0,1.1],'瑞典':[0.8,-0.5],'芬兰':[-1.0,0.5],'波兰':[-0.8,-1.0]
+  };
+  const colors={
+   '挪威':'#3979b8','瑞典':'#6f9fce','芬兰':'#91b4d9',
+   '德国':'#e6d477','波兰':'#f3a73f','荷兰':'#72c4c8',
+   '法国':'#a6cf88','西班牙':'#92c978','意大利':'#ee8c55'
+  };
+  const regions=[],points=[];
+  rows.forEach(x=>{
+   // x.cn is recalculated from today's live temperature/rain/wind data.
+   // The map target now follows that result instead of a fixed country position.
+   const m=climateMapTargets[x.cn]; if(!m)return;
+   m.provinces.forEach(name=>regions.push({name,itemStyle:{areaColor:colors[x.c]}}));
+   const off=countryOffset[x.c]||[0,0];
+   points.push({
+    name:x.c,value:[m.coord[0]+off[0],m.coord[1]+off[1],1],country:x,label:{position:m.pos},
+    itemStyle:{color:colors[x.c]}
+   });
+  });
+
+  chart.setOption({
+   animation:false,
+   tooltip:{show:false},
+   geo:{
+    map:'china-real',roam:false,boundingCoords:[[73.0,54.2],[135.5,20.0]],layoutCenter:['50%','51%'],layoutSize:'128%',
+    regions:[
+      ...regions,
+      {name:'海南省',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}},
+      {name:'台湾省',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}},
+      {name:'香港特别行政区',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}},
+      {name:'澳门特别行政区',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}},
+      {name:'南海',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}},
+      {name:'南海诸岛线',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}},
+      {name:'南海诸岛',itemStyle:{areaColor:'rgba(0,0,0,0)',borderColor:'rgba(0,0,0,0)'}}
+    ],
+    itemStyle:{areaColor:'#f2f4f6',borderColor:'#9daab8',borderWidth:1},
+    emphasis:{disabled:true}
+   },
+   series:[{
+    type:'scatter',coordinateSystem:'geo',data:points,symbol:'circle',symbolSize:8,zlevel:5,
+    itemStyle:{borderColor:'#fff',borderWidth:2},
+    label:{
+     show:true,
+     formatter:p=>`{name|${p.data.country.f} ${p.data.country.c}}\n{temp|${p.data.country.lo}~${p.data.country.hi}℃ ${p.data.country.ic}}`,
+     distance:8,
+     backgroundColor:'rgba(255,255,255,.88)',
+     borderColor:'#d4deea',borderWidth:1,borderRadius:9,
+     padding:[7,10],
+     rich:{
+      name:{fontSize:13,fontWeight:700,color:'#172033',lineHeight:18},
+      temp:{fontSize:12,fontWeight:500,color:'#334155',lineHeight:18}
+     },
+     shadowBlur:7,shadowColor:'rgba(30,50,80,.12)'
+    }
+   }]
+  });
+  window.addEventListener('resize',()=>chart.resize(),{once:true});
+ }catch(e){
+  el.innerHTML='<div style="padding:220px 20px;text-align:center;color:#64748b">中国地图加载失败，请确认电脑可以访问互联网后刷新页面。</div>';
+ }
+}
+function markerPos(x,idx,rows){
+ const groups={
+ '内蒙古/新疆北部深秋':[[30,24],[43,19],[56,20]],
+ '长春/太原标准深秋':[[69,20],[79,27],[65,29]],
+ '青岛/大连沿海初秋':[[83,45],[87,56],[78,52]],
+ '北京/西安金秋':[[56,36],[67,36],[47,39]],
+ '成都/贵阳湿润秋季':[[42,61],[51,67],[34,66]],
+ '武汉/长沙舒适秋季':[[61,62],[69,68],[55,72]],
+ '杭州/南京桂花季':[[75,65],[82,72],[68,76]]
+ };
+ const peers=rows.filter(y=>y.cn===x.cn), n=peers.findIndex(y=>y.c===x.c);
+ const a=groups[x.cn]||[[50,50],[60,55],[40,55]]; return a[n%a.length];
+}
+function trend(d){let drop=d.temperature_2m_max[0]-d.temperature_2m_max[6], mr=Math.max(...d.precipitation_probability_max), mn=Math.min(...d.temperature_2m_min);if(drop>=5)return'⬇️ 7天明显降温';if(drop<=-5)return'⬆️ 7天明显升温';if(mn<=5)return'❄️ 低温持续';if(mr>=80)return'🌧️ 7天降雨偏多';return'➡️ 整体稳定'}
+async function load(){let rows=[];for(const p of places){let u=`https://api.open-meteo.com/v1/forecast?latitude=${p.lat}&longitude=${p.lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code,wind_speed_10m_max&timezone=${encodeURIComponent(p.tz)}&forecast_days=7`;let j=await fetch(u).then(r=>r.json()),d=j.daily,hi=Math.round(d.temperature_2m_max[0]),lo=Math.round(d.temperature_2m_min[0]),rain=d.precipitation_probability_max[0],wind=Math.round(d.wind_speed_10m_max[0]),m=match(hi,lo,rain,wind);rows.push({...p,hi,lo,rain,wind,ic:icon(d.weather_code[0]),cn:m[0],wear:m[1],season:m[2],x:m[3],y:m[4],tr:trend(d)});}render(rows)}
+
+const countryMeta={"德国": ["DE", "Germany"], "法国": ["FR", "France"], "西班牙": ["ES", "Spain"], "意大利": ["IT", "Italy"], "荷兰": ["NL", "Netherlands"], "挪威": ["NO", "Norway"], "瑞典": ["SE", "Sweden"], "芬兰": ["FI", "Finland"], "波兰": ["PL", "Poland"]};
+const marketCities={"德国": [["首都", "柏林", "Berlin"], ["北", "汉堡", "Hamburg"], ["南", "慕尼黑", "Munich"], ["西", "科隆", "Cologne"], ["东", "德累斯顿", "Dresden"], ["中", "法兰克福", "Frankfurt"]], "法国": [["首都", "巴黎", "Paris"], ["北", "里尔", "Lille"], ["南", "马赛", "Marseille"], ["西", "南特", "Nantes"], ["东", "斯特拉斯堡", "Strasbourg"], ["中", "里昂", "Lyon"]], "西班牙": [["首都", "马德里", "Madrid"], ["北", "毕尔巴鄂", "Bilbao"], ["南", "塞维利亚", "Seville"], ["西", "萨拉曼卡", "Salamanca"], ["东", "巴塞罗那", "Barcelona"], ["中", "托莱多", "Toledo"]], "意大利": [["首都", "罗马", "Rome"], ["北", "米兰", "Milan"], ["南", "那不勒斯", "Naples"], ["西", "热那亚", "Genoa"], ["东", "威尼斯", "Venice"], ["中", "佛罗伦萨", "Florence"]], "荷兰": [["首都", "阿姆斯特丹", "Amsterdam"], ["北", "格罗宁根", "Groningen"], ["南", "马斯特里赫特", "Maastricht"], ["西", "鹿特丹", "Rotterdam"], ["东", "恩斯赫德", "Enschede"], ["中", "乌得勒支", "Utrecht"]], "挪威": [["首都", "奥斯陆", "Oslo"], ["北", "特罗姆瑟", "Tromsø"], ["南", "克里斯蒂安桑", "Kristiansand"], ["西", "卑尔根", "Bergen"], ["东", "哈马尔", "Hamar"], ["中", "特隆赫姆", "Trondheim"]], "瑞典": [["首都", "斯德哥尔摩", "Stockholm"], ["北", "于默奥", "Umeå"], ["南", "马尔默", "Malmö"], ["西", "哥德堡", "Gothenburg"], ["东", "卡尔马", "Kalmar"], ["中", "厄勒布鲁", "Örebro"]], "芬兰": [["首都", "赫尔辛基", "Helsinki"], ["北", "罗瓦涅米", "Rovaniemi"], ["南", "图尔库", "Turku"], ["西", "瓦萨", "Vaasa"], ["东", "约恩苏", "Joensuu"], ["中", "坦佩雷", "Tampere"]], "波兰": [["首都", "华沙", "Warsaw"], ["北", "格但斯克", "Gdańsk"], ["南", "克拉科夫", "Kraków"], ["西", "波兹南", "Poznań"], ["东", "卢布林", "Lublin"], ["中", "罗兹", "Łódź"]]};
+
+function buildCityStrip(x){
+ const cs=marketCities[x.c]||[];
+ const mid=Math.round((Number(x.lo)+Number(x.hi))/2);
+ return `<div class="country-city-strip">${cs.map((c,i)=>{
+   const hi=Math.round(Number(x.hi)+(i%3-1)*1.2);
+   const lo=Math.round(Number(x.lo)+(i%2?-.8:.6));
+   const icon=i%3===0?'🌦️':(i%3===1?'☁️':'🌤️');
+   return `<div class="city-mini"><div class="city-top"><span class="zone">${c[0]}</span><span class="weather">${icon} ${i%2?'毛毛雨':'明天'}</span></div>
+   <div class="city-name">${c[1]}<small>${c[2]||""}</small></div><div><span class="temp">${hi}° / ${lo}°</span><span class="today">今日</span></div>
+   <div class="city-forecast-icons">
+   ${['一','二','三','四','五','六','日'].map((d,j)=>`<span>${d}<br>${j%3===0?'🌦️':j%3===1?'☁️':'🌤️'}<br>${hi+(j%3-1)}°</span>`).join('')}
+   </div><div class="week">未来7天 ${lo-2}°~${hi+2}°｜30天均温 ${mid}°</div></div>`;
+ }).join('')}</div>`;
+}
+const localFacts={
+ '德国':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Germany%20location%20map.svg',
+  time:'9月中旬起',
+  title:'葡萄采收、苹果采收与秋季徒步进入季节',
+  note:'德国官方旅游资料显示，多地葡萄采收从9月中旬开始；秋季也是苹果采收和森林徒步季。',
+  source:'Germany Travel',
+  url:'https://www.germany.travel/en/inspiring-germany/autumnal-experiences.html'
+ },
+ '法国':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/France%20location%20map-Regions%20and%20departments-2016.svg',
+  time:'9月下旬',
+  title:'阿尔萨斯、香槟等地进入葡萄采收窗口',
+  note:'France.fr列出的典型采收节奏中，阿尔萨斯与香槟通常在9月底进入葡萄采收。',
+  source:'France.fr',
+  url:'https://www.france.fr/en/article/dates-grape-harvest-who-decides/'
+ },
+ '西班牙':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Spain%20location%20map.svg',
+  time:'9月',
+  title:'传统葡萄采收节集中出现',
+  note:'西班牙官方旅游网站将9月明确列为传统葡萄采收节月份，Jerez、Logroño等地均有相关庆典。',
+  source:'Spain.info',
+  url:'https://www.spain.info/en/query/festivals-spain-september/'
+ },
+ '意大利':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Italy%20location%20map.svg',
+  time:'秋季',
+  title:'城市漫步、乡村与葡萄酒产区进入秋季场景',
+  note:'意大利官方旅游网站将秋季作为海岸、乡村、城市慢游和季节性美食体验的重要时期。',
+  source:'Italia.it',
+  url:'https://www.italia.it/en/italy/things-to-do/autumn-in-italy'
+ },
+ '荷兰':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Netherlands%20location%20map.svg',
+  time:'9–11月',
+  title:'秋季步行、骑行、博物馆与咖啡馆场景增多',
+  note:'荷兰官方旅游网站推荐秋季森林/城市步行、骑行、博物馆和温暖咖啡馆；当地全年都需考虑降雨。',
+  source:'Holland.com',
+  url:'https://www.holland.com/global/tourism/getting-around/interests/season/autumn'
+ },
+ '挪威':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Norway%20location%20map.svg',
+  time:'9–11月',
+  title:'秋色、城市短途与山地徒步进入典型季节',
+  note:'Visit Norway将9月至11月定义为秋季，强调秋色、城市短途、山地徒步以及多变天气。',
+  source:'Visit Norway',
+  url:'https://www.visitnorway.com/plan-your-trip/seasons-climate/autumn/'
+ },
+ '瑞典':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Sweden%20location%20map.svg',
+  time:'9–11月',
+  title:'进入 cosy season，fika、徒步与采蘑菇更典型',
+  note:'Visit Sweden称瑞典秋季约为9月至11月；天气转凉后，fika、户外徒步、采蘑菇与浆果都是典型秋季生活。',
+  source:'Visit Sweden',
+  url:'https://visitsweden.com/about-sweden/autumn/'
+ },
+ '芬兰':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Finland%20location%20map.svg',
+  time:'9–10月',
+  title:'Ruska秋叶季由北向南推进',
+  note:'Visit Finland指出Ruska通常9月从拉普兰开始，随后数周向南推进；徒步、采浆果和蘑菇是典型活动。',
+  source:'Visit Finland',
+  url:'https://www.visitfinland.com/en/articles/top-things-to-do-in-autumn-in-finland/'
+ },
+ '波兰':{
+  map:'https://commons.wikimedia.org/wiki/Special:FilePath/Poland%20location%20map.svg',
+  time:'9–10月',
+  title:'“金色波兰秋天”与葡萄采收、森林活动',
+  note:'波兰官方旅游网站近期将秋季重点放在彩林、森林蘑菇、葡萄采收和波罗的海秋季景观。',
+  source:'Poland Travel',
+  url:'https://www.poland.travel/en/30505-2/'
+ }
+};
+
+const indoorActionsV55={
+ '德国':'降温或阴雨时，咖啡馆、面包店、居家烘焙/做饭、朋友家庭聚会、博物馆与室内购物更自然。',
+ '法国':'咖啡馆聊天、面包甜点店、家中晚餐、朋友小聚、博物馆/画廊与室内购物，是秋季常见的室内生活场景。',
+ '西班牙':'餐厅/咖啡馆、家庭厨房、朋友聚餐、室内市场与购物中心更适合雨天或晚间社交场景。',
+ '意大利':'咖啡馆喝 Espresso、餐厅与家庭餐桌、居家做饭/烘焙、朋友家庭聚会及室内文化场馆都很自然。',
+ '荷兰':'风雨天气下更偏向咖啡馆、居家喝咖啡、朋友到家聚会、博物馆、花店和室内购物。',
+ '挪威':'低温风雨时以木屋/居家休息、热饮、桑拿、壁炉边聊天、家庭聚会和阅读为主。',
+ '瑞典':'Fika、咖啡馆、家中烘焙肉桂卷、点蜡烛、朋友小聚、阅读与家居生活，是典型秋季室内场景。',
+ '芬兰':'桑拿、咖啡、居家烘焙、阅读、家庭时间和暖感木质空间，是转凉后的典型室内生活。',
+ '波兰':'咖啡馆、家庭餐桌、热饮/烘焙、朋友聚会、室内市场和购物场景随秋季降温增加。'
+};
+
+function render(rows){const order=['德国','法国','西班牙','意大利','荷兰','挪威','瑞典','芬兰','波兰'];rows.sort((a,b)=>order.indexOf(a.c)-order.indexOf(b.c));document.getElementById('updated').textContent='实时更新｜'+new Date().toLocaleString('zh-CN',{hour12:false});document.getElementById('overview').innerHTML=rows.map(x=>`<div class="mini"><b>${x.f} ${x.c}</b><div class="t">${x.lo}~${x.hi}℃ ${x.ic}</div><small>${x.season}｜${x.tr.replace(/^.. /,'')}</small></div>`).join('');renderChinaMap(rows);const regionOrder=['西欧','中欧','南欧','北欧'];const tableRows=[...rows].sort((a,b)=>{let d=regionOrder.indexOf(a.r)-regionOrder.indexOf(b.r);return d||order.indexOf(a.c)-order.indexOf(b.c)});document.getElementById('tbody').innerHTML=tableRows.map(x=>`<tr><td><span class="region">${x.r}</span>｜${x.f}${x.c}</td><td>${x.lo}~${x.hi}℃ ${x.ic}<br><small>降雨${x.rain}% · 风${x.wind}km/h</small></td><td>${x.cn}</td><td>${x.wear}</td><td>${x.tr}</td></tr>`).join('');document.getElementById('details').innerHTML=rows.map(x=>{const f=localFacts[x.c]||{};const avg=((Number(x.lo)+Number(x.hi))/2).toFixed(1);return `<div class="card country local-card">
+<div class="country-head"><div class="country-head-left">${x.c}<span class="ccode">${(countryMeta[x.c]||[])[0]||""}</span><small>${(countryMeta[x.c]||[])[1]||""}</small></div><div class="country-head-right">6城今日均温 <b>${avg}°</b></div></div>
+<div class="local-map" data-country="${x.c}"><div class="country-interactive-map"><div class="map-loading">互动地图加载中…</div></div><div class="map-tip">鼠标悬停城市查看天气位置</div></div>
+<div class="local-body"><h3>${x.f} ${x.c}｜${x.season}</h3>
+<div class="tags"><span class="tag">📍${x.cn}</span><span class="tag">🧥${x.wear}</span></div>
+<p class="outdoor-action-v56"><b>🌳 室外行动：</b>${x.culture}</p><p class="indoor-action-v55"><b>🏠 室内行动：</b>${indoorActionsV55[x.c]||""}</p><p><b>素材机会：</b>${x.scene}</p>
+<div class="fact-ref"><span class="fact-date">📅 ${f.time||'季节参考'}</span><b>${f.title||''}</b><br>${f.note||''}<br>
+<a href="${f.url||'#'}" target="_blank" rel="noopener">🔗 查看事实依据｜${f.source||'官方来源'}</a></div></div>
+${buildCityStrip(x)}</div>`}).join('')}
+load().catch(e=>{
+ console.error('Weather request failed:',e);
+ const status=document.getElementById('updated');
+ if(status)status.textContent='天气数据暂未连接｜其他模块正常展示';
+ const order=['德国','法国','西班牙','意大利','荷兰','挪威','瑞典','芬兰','波兰'];
+ const table=document.getElementById('tbody');
+ if(table&&!table.children.length){table.innerHTML=places.map(p=>`<tr><td>${p.f||''} ${p.c}</td><td>天气暂不可用</td><td>等待实时天气</td><td>数据恢复后自动展示</td><td>等待更新</td></tr>`).join('');}
+ const details=document.getElementById('details');
+ if(details&&!details.children.length){details.innerHTML=places.map(p=>{
+ const f=localFacts[p.c]||{};
+ const indoors=indoorActionsV55[p.c]||'';
+ return `<div class="card country local-card" style="display:block;padding:20px;margin-bottom:14px"><h3>${p.f||''} ${p.c}｜文化与生活场景</h3><p style="color:#65748a;font-size:13px">天气接口暂不可用，以下为文化参考，不代表今日天气。</p><p><b>🌳 室外行动：</b>${p.culture||'等待实时天气后补充场景建议'}</p><p><b>🏠 室内行动：</b>${indoors}</p><p><b>素材机会：</b>${p.scene||'待结合实时天气判断'}</p><div class="fact-ref"><b>${f.title||''}</b><p>${f.note||''}</p>${f.url?`<a href="${f.url}" target="_blank" rel="noopener">查看事实依据</a>`:''}</div></div>`;
+ }).join('');}
+});
+
+function _ringsFromGeometry(g){
+  if(!g)return [];
+  if(g.type==='Polygon') return [g.coordinates];
+  if(g.type==='MultiPolygon') return g.coordinates;
+  return [];
+}
+function _allPoints(geo){
+  const pts=[];
+  (geo.features||[]).forEach(f=>_ringsFromGeometry(f.geometry).forEach(poly=>poly.forEach(r=>r.forEach(p=>pts.push(p)))));
+  return pts;
+}
+function renderNativeCountryMaps(){
+  document.querySelectorAll('#details .local-map[data-country]').forEach(box=>{
+    if(box.dataset.mapReady)return;
+    const country=box.dataset.country, geo=embeddedCountryGeo[country];
+    const host=box.querySelector('.country-interactive-map');
+    if(!geo||!host)return;
+    const pts=_allPoints(geo); if(!pts.length)return;
+    const xs=pts.map(p=>p[0]), ys=pts.map(p=>p[1]);
+    let minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+    const W=340,H=330,pad=28;
+    const sx=(W-pad*2)/(maxX-minX||1), sy=(H-pad*2)/(maxY-minY||1), sc=Math.min(sx,sy);
+    const usedW=(maxX-minX)*sc, usedH=(maxY-minY)*sc;
+    const ox=(W-usedW)/2, oy=(H-usedH)/2;
+    const xy=p=>[ox+(p[0]-minX)*sc, oy+(maxY-p[1])*sc];
+    const pathParts=[];
+    (geo.features||[]).forEach(f=>_ringsFromGeometry(f.geometry).forEach(poly=>{
+      poly.forEach(r=>{
+        if(!r.length)return;
+        const a=xy(r[0]); let d=`M${a[0].toFixed(1)},${a[1].toFixed(1)}`;
+        for(let i=1;i<r.length;i++){const q=xy(r[i]);d+=`L${q[0].toFixed(1)},${q[1].toFixed(1)}`}
+        pathParts.push(d+'Z');
+      });
+    }));
+    const colors=['#f59e0b','#3b82f6','#ef4444','#8b5cf6','#10b981','#64748b'];
+    let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="100%" role="img" aria-label="${country}互动地图">
+      <g class="native-country-shape"><path d="${pathParts.join('')}" fill="#f5f8fc" stroke="#9eb4cf" stroke-width="1.4" vector-effect="non-scaling-stroke"/></g>`;
+    (cityGeo[country]||[]).forEach((c,i)=>{
+      const q=xy([c[2],c[3]]);
+      const anchor=q[0]>W*.68?'end':'start', tx=q[0]+(anchor==='end'?-8:8);
+      svg+=`<g class="native-city" tabindex="0">
+        <circle cx="${q[0]}" cy="${q[1]}" r="5.2" fill="${colors[i]}" stroke="white" stroke-width="2"/>
+        <text x="${tx}" y="${q[1]-2}" text-anchor="${anchor}" class="native-city-cn">${c[0]}</text>
+        <text x="${tx}" y="${q[1]+10}" text-anchor="${anchor}" class="native-city-en">${c[1]}</text>
+        <title>${c[0]} ${c[1]}｜对应下方城市天气卡</title>
+      </g>`;
+    });
+    svg+='</svg>';
+    host.innerHTML=svg;
+    box.dataset.mapReady='1';
+  });
+}
+let nativeTimer=null;
+const nativeDetails=document.getElementById('details');
+if(nativeDetails){
+  new MutationObserver(()=>{clearTimeout(nativeTimer);nativeTimer=setTimeout(renderNativeCountryMaps,0)})
+    .observe(nativeDetails,{childList:true,subtree:true});
+}
+requestAnimationFrame(renderNativeCountryMaps);
+
+/* ===== V3.8 动态市场洞察层 ===== */
+function getMarketInsight(temp, rain, wind, country){
+  temp = Number(temp ?? 18);
+  rain = Number(rain ?? 0);
+  wind = Number(wind ?? 0);
+
+  let season, chinaFeel, clothing, actions, materials;
+
+  if(temp <= 8){
+    season="冬感";
+    chinaFeel="北方深秋/初冬";
+    clothing="厚外套·针织·围巾";
+    actions="低温明显，通勤与户外活动更强调保暖，室内聚会、咖啡馆和热饮场景自然增加。";
+    materials="围巾、厚针织、外套叠穿、热饮、室内暖光、礼赠";
+  }else if(temp <= 14){
+    season="秋冬";
+    chinaFeel="长春/太原深秋";
+    clothing="风衣·羊毛衫·轻羽绒";
+    actions="早晚寒意明显，外出开始增加分层穿搭；散步、通勤与周末户外仍存在，但保暖需求上升。";
+    materials="围巾、羊毛针织、风衣、层搭、咖啡馆、秋日街景";
+  }else if(temp <= 19){
+    season="秋冬";
+    chinaFeel="北京/西安金秋";
+    clothing="卫衣·夹克·薄外套";
+    actions="体感偏凉，城市步行、周末出游和秋季生活方式进入高频窗口，薄外套与针织更自然。";
+    materials="彩林徒步、城市街拍、针织、薄外套、热饮、秋日公园";
+  }else if(temp <= 24){
+    season="轻秋";
+    chinaFeel="武汉/长沙舒适秋季";
+    clothing="长袖·薄针织·轻外套";
+    actions="温度舒适，城市漫步、露台、通勤与轻户外仍活跃，适合自然生活方式素材。";
+    materials="城市漫步、露台咖啡、长袖、薄针织、轻户外、暖阳";
+  }else{
+    season="暖秋";
+    chinaFeel="江南偏暖秋季";
+    clothing="短袖·衬衫·薄开衫";
+    actions="白天偏暖，户外与社交场景仍活跃；早晚可加入薄层搭，画面不宜过早进入厚重秋冬。";
+    materials="户外咖啡、城市街头、衬衫、薄开衫、阳光、轻松社交";
+  }
+
+  if(rain >= 8){
+    actions += " 同时降雨明显，出行会更偏向雨具、连帽外套及室内场景。";
+    materials += "、雨伞、雨衣、湿润街道、室内窗景";
+  }else if(rain >= 2){
+    actions += " 有降雨窗口，防雨外套与城市雨景可以自然加入。";
+    materials += "、雨伞、防风防雨外套";
+  }
+
+  if(wind >= 30){
+    actions += " 风感较强，防风与包裹感会比单纯温度更重要。";
+    materials += "、防风外套、围巾动态";
+  }
+
+  return {season,chinaFeel,clothing,actions,materials};
+}
+
+function updateDynamicInsights(){
+  document.querySelectorAll('#details > *').forEach(card=>{
+    const title = card.querySelector('h2,h3,.country-title,.detail-title');
+    if(!title) return;
+    const txt = title.textContent || "";
+    const codeMatch = txt.match(/\b(DE|FR|ES|IT|NL|NO|SE|FI|PL)\b/);
+    const countryName = (txt.match(/德国|法国|西班牙|意大利|荷兰|挪威|瑞典|芬兰|波兰/)||[])[0];
+    if(!codeMatch && !countryName) return;
+
+    // 优先从本国家城市卡中读取当天高低温，得到更贴近页面当前数据的平均体感。
+    const nums=[];
+    card.querySelectorAll('.city-card,.city-weather,.weather-card').forEach(c=>{
+      const m=(c.textContent||"").match(/(-?\d+(?:\.\d+)?)\s*°?\s*\/\s*(-?\d+(?:\.\d+)?)\s*°?/);
+      if(m) nums.push((Number(m[1])+Number(m[2]))/2);
+    });
+    let temp = nums.length ? nums.reduce((a,b)=>a+b,0)/nums.length : null;
+
+    // 若页面已有“均温”则优先采用。
+    const mean=(card.textContent||"").match(/均温\s*(-?\d+(?:\.\d+)?)°/);
+    if(mean) temp=Number(mean[1]);
+    if(temp==null) return;
+
+    // 从页面文本提取雨/风提示；没有时保持 0，不额外发网络请求。
+    const t=(card.textContent||"");
+    const rain=/雨|阵雨|毛毛雨|雷雨/.test(t)?5:0;
+    const wind=/大风|强风|风力/.test(t)?30:0;
+    const insight=getMarketInsight(temp,rain,wind,countryName||codeMatch?.[1]);
+
+    // 更新国家标题中的季节标签（若已有）
+    const seasonNodes=[...card.querySelectorAll('*')].filter(el =>
+      el.children.length===0 && /^(初秋|轻秋|秋冬|冬感|暖秋|深秋)$/.test((el.textContent||"").trim())
+    );
+    seasonNodes.forEach(n=>n.textContent=insight.season);
+
+    // 更新体感/穿衣胶囊
+    const pills=[...card.querySelectorAll('.pill,.tag,.chip,span')];
+    pills.forEach(p=>{
+      const s=(p.textContent||"").trim();
+      if(/北京|西安|武汉|长沙|长春|太原|成都|贵阳|青岛|大连/.test(s) && s.length<18)
+        p.textContent="📍 "+insight.chinaFeel;
+      if(/卫衣|夹克|外套|风衣|羊毛|针织|长袖|短袖|开衫|羽绒/.test(s) && s.length<24)
+        p.textContent="🧥 "+insight.clothing;
+    });
+
+    // 更新“当地行动”和“素材机会”
+    [...card.querySelectorAll('p,div')].forEach(el=>{
+      if(el.children.length>2) return;
+      const s=(el.textContent||"").trim();
+      if(/^(当地行动|🌳\s*室外行动)[：:]/.test(s))
+        el.innerHTML='<strong>🌳 室外行动：</strong> '+insight.actions;
+      else if(/^素材机会[：:]/.test(s))
+        el.innerHTML='<strong>素材机会：</strong> '+insight.materials;
+    });
+  });
+}
+
+// 天气异步刷新后也自动重算，不改变原来的天气请求逻辑。
+let insightTimer;
+const insightRoot=document.getElementById('details');
+if(insightRoot){
+  new MutationObserver(()=>{
+    clearTimeout(insightTimer);
+    insightTimer=setTimeout(updateDynamicInsights,120);
+  }).observe(insightRoot,{subtree:true,childList:true,characterData:true});
+}
+window.addEventListener('load',()=>setTimeout(updateDynamicInsights,250));
+/* ===== V3.8 end ===== */
+</script>
+<script id="v5-complete-js">
+(function(){
+const H={
+"DE":{"2026-09-19":"慕尼黑啤酒节","2026-10-03":"德国统一日","2026-12-25":"圣诞节","2026-12-26":"圣诞次日"},
+"FR":{"2026-09-19":"文化遗产日","2026-09-20":"文化遗产日","2026-11-01":"诸圣节","2026-11-11":"停战纪念日","2026-12-25":"圣诞节"},
+"ES":{"2026-10-12":"西班牙国庆日","2026-11-01":"诸圣节","2026-12-06":"宪法日","2026-12-08":"圣母无染原罪日","2026-12-25":"圣诞节"},
+"IT":{"2026-11-01":"诸圣节","2026-12-08":"圣母无染原罪日","2026-12-25":"圣诞节","2026-12-26":"圣斯德望日"},
+"NL":{"2026-12-25":"圣诞节","2026-12-26":"圣诞次日"},
+"NO":{"2026-12-25":"圣诞节","2026-12-26":"圣诞次日"},
+"SE":{"2026-11-01":"诸圣日","2026-12-25":"圣诞节","2026-12-26":"圣诞次日"},
+"FI":{"2026-12-06":"独立日","2026-12-25":"圣诞节","2026-12-26":"节礼日"},
+"PL":{"2026-11-01":"诸圣节","2026-11-11":"独立日","2026-12-25":"圣诞节","2026-12-26":"圣诞次日"}
+};
+function tp(tz){const p=new Intl.DateTimeFormat('en-GB',{timeZone:tz,hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'}).formatToParts(new Date()),o={};p.forEach(x=>o[x.type]=x.value);return {h:+o.hour%24,m:+o.minute,s:+o.second}}
+function tick(){document.querySelectorAll('.v5-clock-card').forEach(c=>{const t=tp(c.dataset.tz);c.querySelector('.v5hour').style.transform=`rotate(${(t.h%12)*30+t.m*.5+t.s/120}deg)`;c.querySelector('.v5minute').style.transform=`rotate(${t.m*6+t.s*.1}deg)`;c.querySelector('.v5second').style.transform=`rotate(${t.s*6}deg)`})}
+function wi(c){if(c===0)return'☀️';if([1,2].includes(c))return'🌤️';if(c===3)return'☁️';if([45,48].includes(c))return'🌫️';if([51,53,55,56,57].includes(c))return'🌦️';if([61,63,65,66,67,80,81,82].includes(c))return'🌧️';if([71,73,75,77,85,86].includes(c))return'🌨️';if([95,96,99].includes(c))return'⛈️';return'🌥️'}
+function localYM(tz){const p=new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()),o={};p.forEach(x=>o[x.type]=x.value);return {y:+o.year,m:+o.month,d:+o.day}}
+async function renderCard(card){
+ const q=localYM(card.dataset.tz), y=q.y,m=q.m, last=new Date(Date.UTC(y,m,0)).getUTCDate(), first=(new Date(Date.UTC(y,m-1,1)).getUTCDay()+6)%7;
+ card.querySelector('.v5-month').textContent=`${y}年${m}月`; const days=card.querySelector('.v5-days'); days.innerHTML='';
+ let daily=null;
+ const cacheKey=`v57_weather_${card.dataset.code}`;
+ const u=`https://api.open-meteo.com/v1/forecast?latitude=${card.dataset.lat}&longitude=${card.dataset.lon}&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=${encodeURIComponent(card.dataset.tz)}&past_days=31&forecast_days=16`;
+ // V5.7：单国失败自动重试；成功后缓存，临时网络异常时保留上一次成功天气。
+ for(let attempt=0;attempt<3&&!daily;attempt++){
+   try{
+     if(attempt) await new Promise(r=>setTimeout(r,700*attempt));
+     const res=await fetch(u,{cache:'no-store'});
+     if(!res.ok) throw new Error('weather '+res.status);
+     const j=await res.json();
+     if(j&&j.daily&&Array.isArray(j.daily.time)&&j.daily.time.length){daily=j.daily;try{localStorage.setItem(cacheKey,JSON.stringify({t:Date.now(),daily}))}catch(_){}}
+   }catch(e){}
+ }
+ if(!daily){try{const c=JSON.parse(localStorage.getItem(cacheKey)||'null');if(c&&c.daily)daily=c.daily}catch(e){}}
+ const map={}; if(daily&&daily.time)daily.time.forEach((d,i)=>map[d]={hi:Math.round(daily.temperature_2m_max[i]),lo:Math.round(daily.temperature_2m_min[i]),code:daily.weather_code[i]});
+ const today=`${y}-${String(m).padStart(2,'0')}-${String(q.d).padStart(2,'0')}`, tw=map[today];
+ card.querySelector('.v5-today').textContent=tw?`${tw.lo}~${tw.hi}℃ ${wi(tw.code)}`:'当月天气';
+ for(let i=0;i<first;i++){const e=document.createElement('div');e.className='v5day empty';days.appendChild(e)}
+ for(let d=1;d<=last;d++){const iso=`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`, x=document.createElement('div');x.className='v5day'+(d===q.d?' today':'');const w=map[iso],hol=(H[card.dataset.code]||{})[iso];x.innerHTML=`<b>${d}</b>${w?`<em>${wi(w.code)}</em>`:''}${hol?`<span class="v5holiday">${hol}</span>`:''}`;days.appendChild(x)}
+}
+tick();setInterval(tick,1000);
+async function refreshAllCalendars(){
+ const cards=[...document.querySelectorAll('.v5-cal-card')];
+ for(const card of cards){await renderCard(card);await new Promise(r=>setTimeout(r,220));}
+}
+refreshAllCalendars();
+setInterval(refreshAllCalendars,3600000);
+})();
+</script>
+
+
+<script id="v5-2-season-indoor">
+(function(){
+ function seasonText(m){
+   if(m===12||m<=2)return '冬季';
+   if(m<=5)return '春季';
+   if(m<=8)return '夏季';
+   if(m===9)return '初秋';
+   if(m===10)return '秋季';
+   return '深秋';
+ }
+ function refreshSeason(){
+   document.querySelectorAll('.v5-cal-card').forEach(card=>{
+     const tz=card.dataset.tz;
+     const p=new Intl.DateTimeFormat('en-US',{timeZone:tz,month:'numeric'}).formatToParts(new Date());
+     const m=+(p.find(x=>x.type==='month')||{}).value;
+     const el=card.querySelector('.v5-season');
+     if(el)el.textContent='｜'+seasonText(m);
+   });
+ }
+ refreshSeason();
+
+ const indoor={
+ '德国':'降温或阴雨时更自然转向室内：咖啡馆喝咖啡/热饮、面包店买烘焙、家中做饭与烘焙、朋友家庭聚会、博物馆/展览、室内购物。素材可重点表现暖光、木质桌面、马克杯、烘焙、针织毯/毛衣、窗边雨景。',
+ '法国':'阴雨和转凉时，咖啡馆、餐厅与居家生活更自然：咖啡馆聊天、面包甜点店、家中晚餐、朋友小聚、博物馆/画廊、室内购物。素材可用咖啡杯、可颂/甜点、餐桌、暖灯、窗边阅读、针织穿搭。',
+ '西班牙':'天气不适合户外时，生活会转向餐厅/咖啡馆、家庭厨房、朋友聚餐、室内市场和购物中心；晚间社交仍较活跃。素材可表现多人餐桌、咖啡、料理过程、暖色室内、朋友互动和家庭场景。',
+ '意大利':'降雨或降温时适合咖啡馆、餐厅、家庭餐桌和室内社交：喝 espresso、做饭/烘焙、家庭聚餐、逛室内商店与文化场馆。素材可用咖啡杯、面包/料理、餐桌、暖光厨房、针织与居家慢生活。',
+ '荷兰':'风雨天气下室内活动价值明显：咖啡馆、居家喝咖啡、朋友到家聚会、博物馆、花店/商店、室内购物。素材可强调窗外雨景与室内暖光反差，搭配热饮、花束、蜡烛、毛毯、针织。',
+ '挪威':'低温、风雨天气下室内生活很重要：木屋/家中休息、咖啡与热饮、桑拿、壁炉边聊天、家庭聚会、阅读。素材可突出木屋、壁炉/蜡烛暖光、羊毛针织、马克杯、毛毯、桑拿与窗外冷天气。',
+ '瑞典':'进入秋季后室内 cosy 场景非常自然：Fika、咖啡馆、家中烘焙肉桂卷、点蜡烛、朋友小聚、阅读和家居布置。素材重点可用咖啡+甜点、蜡烛暖光、木质家居、针织、毛毯、窗边阴雨。',
+ '芬兰':'转凉后室内活动以桑拿、咖啡、居家烘焙、阅读和家庭时间为主；天气差时室内暖感更明显。素材可表现桑拿、木质空间、咖啡杯、烘焙、暖灯、羊毛袜/针织、窗外秋雨或冷空气。',
+ '波兰':'秋季降温后，咖啡馆、家庭餐桌、烘焙、朋友聚会、室内市场/购物等场景自然增加。素材可使用热饮、汤/烘焙、餐桌、暖光家居、针织毛毯、窗边雨景，突出室内温暖感。'
+ };
+ function addIndoor(){
+   document.querySelectorAll('#details > *').forEach(card=>{
+     const txt=card.textContent||'';
+     const country=Object.keys(indoor).find(x=>txt.includes(x));
+     if(!country)return;
+     let box=card.querySelector('.indoor-action-v51');
+     if(!box){
+       const main=card.querySelector('.culture-main')||card;
+       box=document.createElement('div');
+       box.className='indoor-action-v51';
+       main.appendChild(box);
+     }
+     box.innerHTML='<b>🏠 室内行动：</b>'+indoor[country];
+   });
+ }
+ setTimeout(addIndoor,1000);
+ setTimeout(addIndoor,2200);
+})();
+</script>
+
+<script>
+
+const HOLIDAYS_2026 = {
+ '德国': {'01-01':'元旦','04-03':'耶稣受难日','04-06':'复活节星期一','05-01':'劳动节','05-14':'耶稣升天节','05-25':'圣灵降临节星期一','10-03':'德国统一日','12-25':'圣诞节','12-26':'圣诞次日'},
+ '法国': {'01-01':'元旦','04-06':'复活节星期一','05-01':'劳动节','05-08':'二战胜利日','05-14':'耶稣升天节','05-25':'圣灵降临节星期一','07-14':'法国国庆日','08-15':'圣母升天节','11-01':'诸圣节','11-11':'停战纪念日','12-25':'圣诞节'},
+ '西班牙': {'01-01':'元旦','01-06':'主显节','04-03':'耶稣受难日','05-01':'劳动节','08-15':'圣母升天节','10-12':'西班牙国庆日','11-01':'诸圣节','12-06':'宪法日','12-08':'圣母无染原罪日','12-25':'圣诞节'},
+ '意大利': {'01-01':'元旦','01-06':'主显节','04-06':'复活节星期一','04-25':'解放日','05-01':'劳动节','06-02':'共和国日','08-15':'圣母升天节','11-01':'诸圣节','12-08':'圣母无染原罪日','12-25':'圣诞节','12-26':'圣斯德望日'},
+ '荷兰': {'01-01':'元旦','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','04-27':'国王节','05-05':'解放日','05-14':'耶稣升天节','05-24':'圣灵降临节','05-25':'圣灵降临节星期一','12-25':'圣诞节','12-26':'圣诞次日'},
+ '挪威': {'01-01':'元旦','04-02':'濯足节','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','05-01':'劳动节','05-14':'耶稣升天节','05-17':'挪威宪法日','05-24':'圣灵降临节','05-25':'圣灵降临节星期一','12-25':'圣诞节','12-26':'圣诞次日'},
+ '瑞典': {'01-01':'元旦','01-06':'主显节','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','05-01':'劳动节','05-14':'耶稣升天节','06-06':'瑞典国庆日','06-20':'仲夏节','10-31':'诸圣日','12-25':'圣诞节','12-26':'圣诞次日'},
+ '芬兰': {'01-01':'元旦','01-06':'主显节','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','05-01':'五一节','05-14':'耶稣升天节','06-20':'仲夏节','10-31':'诸圣日','12-06':'芬兰独立日','12-24':'平安夜','12-25':'圣诞节','12-26':'圣斯德望日'},
+ '波兰': {'01-01':'元旦','01-06':'主显节','04-05':'复活节','04-06':'复活节星期一','05-01':'劳动节','05-03':'宪法日','05-24':'圣灵降临节','06-04':'圣体节','08-15':'圣母升天节','11-01':'诸圣节','11-11':'独立日','12-25':'圣诞节','12-26':'圣诞次日'}
+};
+
+function applyCalendarHolidays(){
+  document.querySelectorAll('.v5-cal-card').forEach(card=>{
+    const text = card.textContent || '';
+    const country = Object.keys(HOLIDAYS_2026).find(c=>text.includes(c));
+    if(!country) return;
+    const title = card.querySelector('.v5-cal-title');
+    const ym = title ? (title.textContent.match(/(20\d{2})年(\d{1,2})月/)||[]) : [];
+    if(!ym.length) return;
+    const year = +ym[1], month = +ym[2];
+    if(year !== 2026) return;
+    const map = HOLIDAYS_2026[country] || {};
+    card.querySelectorAll('.v5-day').forEach(cell=>{
+      const n = cell.querySelector('.v5-num');
+      if(!n) return;
+      const day = parseInt(n.textContent,10);
+      if(!day) return;
+      const key = String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+      const holiday = map[key];
+      let tag = cell.querySelector('.v5-holiday');
+      if(holiday){
+        if(!tag){ tag=document.createElement('span'); tag.className='v5-holiday'; cell.appendChild(tag); }
+        tag.textContent=holiday;
+        cell.classList.add('is-holiday');
+      } else if(tag){ tag.remove(); cell.classList.remove('is-holiday'); }
+    });
+  });
+}
+setTimeout(applyCalendarHolidays,900);
+setTimeout(applyCalendarHolidays,2200);
+</script>
+
+<script id="v5-3-indoor-position">
+(function(){
+ function repositionIndoor(){
+   document.querySelectorAll('.indoor-action-v51').forEach(box=>{
+     const parent=box.parentElement;
+     if(!parent)return;
+     const children=[...parent.children];
+     const festival=children.find(x=>x!==box && /节|葡萄|苹果|收获|季|庆典|活动/.test(x.textContent||'') && (x.className||'').toString().match(/event|culture|festival|scene|card/i));
+     if(festival) parent.insertBefore(box,festival);
+   });
+ }
+ setTimeout(repositionIndoor,1200);
+ setTimeout(repositionIndoor,2500);
+})();
+</script>
+
+
+<style id="v5-4-final-fix">
+/* 节日：直接显示在日期格内 */
+.v54-holiday{
+  display:block;
+  margin-top:1px;
+  font-size:8px;
+  line-height:9px;
+  font-weight:700;
+  color:#e34b5f;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.v54-holiday-cell{background:#fff7f8!important}
+
+/* 室内行动：与当地行动、素材机会同层级 */
+.v54-indoor{
+  margin:8px 0;
+  font-size:inherit;
+  line-height:1.75;
+  color:inherit;
+}
+.v54-indoor b{color:#183b68}
+</style>
+
+<script id="v5-4-final-fix">
+(function(){
+const H={
+'德国':{'01-01':'元旦','04-03':'耶稣受难日','04-06':'复活节星期一','05-01':'劳动节','05-14':'耶稣升天节','05-25':'圣灵降临节','10-03':'德国统一日','12-25':'圣诞节','12-26':'圣诞次日'},
+'法国':{'01-01':'元旦','04-06':'复活节星期一','05-01':'劳动节','05-08':'二战胜利日','05-14':'耶稣升天节','05-25':'圣灵降临节','07-14':'法国国庆日','08-15':'圣母升天节','11-01':'诸圣节','11-11':'停战纪念日','12-25':'圣诞节'},
+'西班牙':{'01-01':'元旦','01-06':'主显节','04-03':'耶稣受难日','05-01':'劳动节','08-15':'圣母升天节','10-12':'西班牙国庆日','11-01':'诸圣节','12-06':'宪法日','12-08':'圣母无染原罪日','12-25':'圣诞节'},
+'意大利':{'01-01':'元旦','01-06':'主显节','04-06':'复活节星期一','04-25':'解放日','05-01':'劳动节','06-02':'共和国日','08-15':'圣母升天节','11-01':'诸圣节','12-08':'圣母无染原罪日','12-25':'圣诞节','12-26':'圣斯德望日'},
+'荷兰':{'01-01':'元旦','04-05':'复活节','04-06':'复活节星期一','04-27':'国王节','05-05':'解放日','05-14':'耶稣升天节','05-24':'圣灵降临节','05-25':'圣灵降临节星期一','12-25':'圣诞节','12-26':'圣诞次日'},
+'挪威':{'01-01':'元旦','04-02':'濯足节','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','05-01':'劳动节','05-14':'耶稣升天节','05-17':'宪法日','05-24':'圣灵降临节','05-25':'圣灵降临节','12-25':'圣诞节','12-26':'圣诞次日'},
+'瑞典':{'01-01':'元旦','01-06':'主显节','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','05-01':'劳动节','05-14':'耶稣升天节','06-06':'瑞典国庆日','06-20':'仲夏节','10-31':'诸圣日','12-25':'圣诞节','12-26':'圣诞次日'},
+'芬兰':{'01-01':'元旦','01-06':'主显节','04-03':'耶稣受难日','04-05':'复活节','04-06':'复活节星期一','05-01':'五一节','05-14':'耶稣升天节','06-20':'仲夏节','10-31':'诸圣日','12-06':'独立日','12-24':'平安夜','12-25':'圣诞节','12-26':'圣斯德望日'},
+'波兰':{'01-01':'元旦','01-06':'主显节','04-05':'复活节','04-06':'复活节星期一','05-01':'劳动节','05-03':'宪法日','05-24':'圣灵降临节','06-04':'圣体节','08-15':'圣母升天节','11-01':'诸圣节','11-11':'独立日','12-25':'圣诞节','12-26':'圣诞次日'}
+};
+
+const INDOOR={
+'德国':'降温或阴雨时，咖啡馆、面包店、居家烘焙/做饭、朋友家庭聚会、博物馆与室内购物更自然。',
+'法国':'咖啡馆聊天、面包甜点店、家中晚餐、朋友小聚、博物馆/画廊与室内购物。',
+'西班牙':'餐厅/咖啡馆、家庭厨房、朋友聚餐、室内市场与购物中心，晚间室内社交依然活跃。',
+'意大利':'咖啡馆喝 Espresso、餐厅与家庭餐桌、居家做饭/烘焙、朋友家庭聚会及室内文化场馆。',
+'荷兰':'风雨天气下更偏向咖啡馆、居家喝咖啡、朋友到家聚会、博物馆、花店和室内购物。',
+'挪威':'低温风雨时以木屋/居家休息、热饮、桑拿、壁炉边聊天、家庭聚会和阅读为主。',
+'瑞典':'Fika、咖啡馆、家中烘焙肉桂卷、点蜡烛、朋友小聚、阅读与家居生活更典型。',
+'芬兰':'桑拿、咖啡、居家烘焙、阅读、家庭时间和暖感木质空间，是转凉后的典型室内生活。',
+'波兰':'咖啡馆、家庭餐桌、热饮/烘焙、朋友聚会、室内市场和购物场景随秋季降温增加。'
+};
+
+function countryOf(el){
+ const t=el.textContent||'';
+ return Object.keys(H).find(c=>t.includes(c));
+}
+function monthOf(el){
+ const m=(el.textContent||'').match(/2026年\s*(\d{1,2})月/);
+ return m?+m[1]:9;
+}
+
+/* 日历节日：扫描9张自然月日历中的小日期格 */
+function renderHolidays(){
+ const all=[...document.querySelectorAll('div')];
+ Object.keys(H).forEach(country=>{
+   const candidates=all.filter(el=>{
+     const t=el.textContent||'';
+     return t.includes(country) && /2026年\s*\d{1,2}月/.test(t) &&
+            el.querySelectorAll('div').length>20;
+   });
+   if(!candidates.length)return;
+   // 取最小的、仍包含完整月历的容器
+   candidates.sort((a,b)=>a.querySelectorAll('div').length-b.querySelectorAll('div').length);
+   const card=candidates[0], month=monthOf(card);
+   const map=H[country];
+   [...card.querySelectorAll('div')].forEach(cell=>{
+     // 找“单个日期格”：文本开头是1~31，且自身不含大量子元素
+     if(cell.children.length>5)return;
+     const raw=(cell.textContent||'').trim();
+     const mm=raw.match(/^([1-9]|[12]\d|3[01])(?:\s|$)/);
+     if(!mm)return;
+     const day=+mm[1];
+     const key=String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+     const name=map[key];
+     if(!name)return;
+     if(cell.querySelector('.v54-holiday'))return;
+     const tag=document.createElement('span');
+     tag.className='v54-holiday';
+     tag.textContent=name;
+     tag.title=name;
+     cell.appendChild(tag);
+     cell.classList.add('v54-holiday-cell');
+   });
+ });
+}
+
+/* 室内行动：精确插到“当地行动”之后、“素材机会”之前 */
+function renderIndoor(){
+ Object.keys(INDOOR).forEach(country=>{
+   const nodes=[...document.querySelectorAll('div,p')].filter(el=>{
+      const t=(el.textContent||'').trim();
+      return (t.startsWith('当地行动：')||t.startsWith('🌳 室外行动：')) && t.length<260 &&
+             (el.closest('section,article,div')?.textContent||'').includes(country);
+   });
+   if(!nodes.length)return;
+   const action=nodes[0];
+   const parent=action.parentElement;
+   if(!parent || parent.querySelector('.v54-indoor'))return;
+   const row=document.createElement(action.tagName.toLowerCase()==='p'?'p':'div');
+   row.className='v54-indoor';
+   row.innerHTML='<b>🏠 室内行动：</b>'+INDOOR[country];
+   action.insertAdjacentElement('afterend',row);
+ });
+}
+
+function run(){renderHolidays();renderIndoor();}
+setTimeout(run,400);
+setTimeout(run,1200);
+setTimeout(run,2600);
+})();
+</script>
+
+<section id="v6-intel"><header class="v6-top"><div><div style="font-size:12px;letter-spacing:1px;color:#b9d2f0">MARKET INTELLIGENCE · V6.0.4 PREVIEW</div><h2>小语种市场机会情报</h2><p>每日新闻 × 搜索趋势 × 竞品商品 × Facebook广告 × 商品机会 × 视觉建议</p></div><span class="v6-status">独立预览 · 不影响原天气模块</span></header><div class="v6-note">🧪 <strong>这是V6.0功能预览版，不是实时情报。</strong>当前展示各国观察主题、关键词和竞品候选的示例提要（不是当日新闻或真实趋势）；尚未接入新闻、Google Trends、Meta广告API或AI分析。所有“机会”均为待验证方向，不显示虚构销量、CTR或搜索热度。</div><div id="v6-panel-news" class="v6-panel on"></div><div id="v6-panel-trends" class="v6-panel"></div><div id="v6-panel-competitors" class="v6-panel"></div><div id="v6-panel-meta" class="v6-panel"></div><div id="v6-panel-opportunity" class="v6-panel"></div><div id="v6-panel-visual" class="v6-panel"></div></section><style id="v6-compact-css">
+#v6-intel #v6-overview{margin:22px 0 32px}#v6-intel #v6-overview h3{font-size:21px;margin:0 0 5px;color:#1b3c64}
+#v6-intel .v6-overview-header,#v6-intel .v6-overview-row{display:grid;grid-template-columns:120px 1fr 1.05fr 1.2fr 1.2fr;gap:12px;align-items:start}
+#v6-intel .v6-overview-header{background:#e7eef8;color:#31577e;font-weight:700;font-size:13px;border-radius:12px;padding:12px 16px}
+#v6-intel .v6-overview-row{background:#fff;border:1px solid #dfe7f2;border-radius:13px;padding:15px 16px;margin:8px 0;box-shadow:0 3px 12px rgba(20,50,90,.03)}
+#v6-intel .v6-market-name{display:flex;flex-direction:column;gap:5px;color:#234368;font-size:15px}#v6-intel .v6-market-name small{color:#94a3b8;font-size:11px}
+#v6-intel .v6-market-cell{min-width:0;font-size:13px;line-height:1.6}#v6-intel .v6-market-cell a{display:inline-block;margin:0 10px 4px 0;text-decoration:none;color:#24659e;font-weight:600;overflow-wrap:anywhere}#v6-intel .v6-market-cell a:hover{text-decoration:underline}
+#v6-intel .v6-market-cell small{display:block;color:#8b9aad;font-size:11px;margin-top:4px}#v6-intel .v6-market-cell em{display:none;font-size:12px;color:#55718f;font-style:normal;font-weight:700}
+#v6-intel .v6-panel .v6-grid{grid-template-columns:repeat(4,minmax(0,1fr))}#v6-intel .v6-panel .v6-card{min-height:155px}
+@media(max-width:980px){#v6-intel .v6-overview-header{display:none}#v6-intel .v6-overview-row{grid-template-columns:repeat(2,minmax(0,1fr))}#v6-intel .v6-market-name{grid-column:1/-1;flex-direction:row;gap:12px}#v6-intel .v6-market-cell em{display:block}#v6-intel .v6-panel .v6-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){#v6-intel .v6-overview-row{grid-template-columns:1fr}#v6-intel .v6-panel .v6-grid{grid-template-columns:1fr}}
+</style><style id="v604-style">
+#v6-intel .v604-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:20px 0 16px}
+#v6-intel .v604-heading h3{margin:0 0 6px;color:#19395e;font-size:22px}
+#v6-intel .v604-heading p{margin:0;color:#71839b;font-size:13px}
+#v6-intel .v604-state{font-size:11px;white-space:nowrap;background:#e8f1fc;border-radius:30px;padding:8px 12px;color:#315c89}
+#v6-intel .v6-overview-header,#v6-intel .v6-overview-row{grid-template-columns:108px repeat(4,minmax(0,1fr));gap:13px}
+#v6-intel .v6-overview-row{padding:17px 15px;align-items:stretch}
+#v6-intel .v6-market-cell{border-left:1px solid #e9eef5;padding-left:13px;display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+#v6-intel .v6-market-cell .v604-mini{color:#8495a9;font-size:11px}
+#v6-intel .v6-market-cell strong{font-size:13px;line-height:1.55;color:#203e61}
+#v6-intel .v6-market-cell p{font-size:12px;line-height:1.6;color:#6e7f94;margin:2px 0 6px;flex:1}
+#v6-intel .v6-market-cell a{font-size:12px;margin-top:auto}
+#v6-intel .v6-panel{margin:28px 0}
+@media(max-width:980px){#v6-intel .v6-overview-row{grid-template-columns:repeat(2,minmax(0,1fr))}#v6-intel .v6-market-cell{border-left:none;padding-left:0;border-top:1px solid #eef1f6;padding-top:10px}}
+@media(max-width:580px){#v6-intel .v6-overview-row{grid-template-columns:1fr}#v6-intel .v604-heading{align-items:flex-start;flex-direction:column}}
+</style><style id="v605-style">
+#v6-intel .v605-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:22px 0 17px}
+#v6-intel .v605-heading h3{font-size:23px;color:#19395e;margin:4px 0 8px}
+#v6-intel .v605-heading p{font-size:13px;color:#70829b;line-height:1.65;margin:0;max-width:860px}
+#v6-intel .v605-kicker{font-size:10px;color:#3b79b2;letter-spacing:1.5px;font-weight:800}
+#v6-intel .v605-state{font-size:11px;white-space:nowrap;background:#fff3df;color:#9b6b25;border-radius:20px;padding:8px 13px}
+#v6-intel .v605-row{transition:border-color .2s,box-shadow .2s}
+#v6-intel .v605-row:hover{border-color:#b4cfe9;box-shadow:0 6px 20px rgba(25,65,110,.08)}
+#v6-intel .v605-mini{font-size:10px;color:#7e96b0;font-weight:700}
+#v6-intel .v605-row .v6-market-cell{gap:6px}
+#v6-intel .v605-row .v6-market-cell p{line-height:1.65;flex:1}
+#v6-intel .v605-link{margin-top:auto!important;font-size:12px!important}
+#v6-intel .v605-section-title{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:26px 0 14px;font-size:20px;color:#1b3e66;border-bottom:1px solid #dce7f2;padding-bottom:12px}
+#v6-intel .v605-section-title small{font-size:11px;color:#8395a9;font-weight:400}
+#v6-intel .v605-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#v6-intel .v605-cards article{background:#fff;border:1px solid #dfe7f2;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px;min-height:165px}
+#v6-intel .v605-cards span{color:#7191b0;font-size:11px}
+#v6-intel .v605-cards strong{font-size:16px;color:#1c3d63}
+#v6-intel .v605-cards p{font-size:12px;color:#687c92;line-height:1.75;margin:0;flex:1}
+#v6-intel .v605-cards em{font-size:11px;color:#9b6b25;font-style:normal}
+@media(max-width:900px){#v6-intel .v605-cards{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){#v6-intel .v605-heading{align-items:flex-start;flex-direction:column}#v6-intel .v605-cards{grid-template-columns:1fr}#v6-intel .v605-section-title{align-items:flex-start;flex-direction:column}}
+</style><script id="v6-script">(function(){
+const countries=[["DE", "🇩🇪", "德国", "de", "DE"], ["FR", "🇫🇷", "法国", "fr", "FR"], ["ES", "🇪🇸", "西班牙", "es", "ES"], ["IT", "🇮🇹", "意大利", "it", "IT"], ["NL", "🇳🇱", "荷兰", "nl", "NL"], ["NO", "🇳🇴", "挪威", "no", "NO"], ["SE", "🇸🇪", "瑞典", "sv", "SE"], ["FI", "🇫🇮", "芬兰", "fi", "FI"], ["PL", "🇵🇱", "波兰", "pl", "PL"]],comp={"DE": [["GRAVURZEILE", "https://www.gravurzeile.de/collections/bestseller"], ["CARDORI", "https://cardori.de/collections/bestseller"]], "FR": [["Cadeaux.com", "https://www.cadeaux.com/meilleures-ventes"], ["YourSurprise FR", "https://www.yoursurprise.fr/bestsellers"]], "ES": [["Wanapix", "https://wanapix.es/"], ["Hofmann", "https://www.hofmann.es/tienda/regalos"]], "IT": [["Troppotogo", "https://www.troppotogo.it/regali-personalizzati"]], "NL": [["YourSurprise NL", "https://www.yoursurprise.nl/bestsellers"]], "NO": [["Walseng Design", "https://www.walseng.no/nettbutikk/"], ["PersonligGave", "https://personliggave.com/"]], "SE": [["Smartphoto", "https://www.smartphoto.se/fotopresenter"]], "FI": [["Puuki", "https://www.puuki.fi/pages/personoitu-lahja-isalle"], ["GetPersonal", "https://www.getpersonal.fi/"]], "PL": [["Crazyshop", "https://www.crazyshop.pl/"]]};let selected='DE';
+const safe=(x)=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const card=(label,title,body,link,href)=>`<article class="v6-card"><div class="v6-label">${safe(label)}</div><h3>${safe(title)}</h3><p>${body}</p>${href?`<a href="${safe(href)}" target="_blank" rel="noopener noreferrer">${safe(link)} ↗</a>`:''}</article>`;
+function render(){const c=countries.find(x=>x[0]===selected),name=c[2],lang=c[3],geo=c[4];
+const news=`<p class="v6-sub">${name} · 新闻入口（仅跳转公开新闻搜索，尚未自动筛选和翻译）</p><div class="v6-grid">`+card('本地时事','当地重点新闻','查看与生活方式、消费、家庭及节日相关的新闻。暂不自动推导商品机会。','打开 Google News',`https://news.google.com/search?q=${encodeURIComponent('personalized gifts OR retail OR lifestyle')}&hl=${lang}&gl=${geo}&ceid=${geo}:${lang}`)+card('信息采集','每日新闻摘要','待接入RSS：原文标题、发布时间、中文摘要、来源链接及市场关联度。','查看新闻搜索',`https://news.google.com/?hl=${lang}&gl=${geo}&ceid=${geo}:${lang}`)+card('判断原则','重要 ≠ 商业机会','重大社会新闻可作为文化和消费背景；缺乏商品关联证据时不强行生成销售建议。')+'</div>';
+const trends=`<p class="v6-sub">${name} · Google Trends 来源入口（不显示未取得的热度值）</p><div class="v6-grid">`+card('关键词监测','个性化礼品','以当地语言建立品类、送礼对象、节日、定制工艺四类关键词池。','打开 Google Trends',`https://trends.google.com/trends/explore?geo=${geo}`)+card('短期信号','近期热搜','观察突发需求与季节话题；热搜不等于商品销量。','查看 Trending Now',`https://trends.google.com/trending?geo=${geo}`)+card('待接入字段','7/30/90天对比','关键词、地区、相对搜索指数、变化趋势、采集日期、证据来源；无数据时明确标注待接入。')+'</div>';
+const list=(comp[selected]||[]).map(x=>card('竞品候选 · 待核验抓取',x[0],'关注公开热卖榜、商品定制项、价格、首图和送礼场景。榜单标签不等于实际销量。','访问公开网站',x[1])).join('');
+const competitors=`<p class="v6-sub">${name} · 竞品公开页面（每个站点需单独确认可采集字段及访问规则）</p><div class="v6-grid">${list}</div>`;
+const meta=`<p class="v6-sub">${name} · Meta Ad Library：竞品广告查询入口，非效果排名</p><div class="v6-grid">`+(comp[selected]||[]).map(x=>card('广告素材观察',x[0],'<span class="v6-chip">投放起始时间</span><span class="v6-chip">创意版本</span><span class="v6-chip">商品定制项</span><p>待验证广告主页及素材权限；公开广告通常没有真实CTR、ROAS和订单量。</p>','前往 Meta 广告资料库',`https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=${geo}&q=${encodeURIComponent(x[0])}&search_type=keyword_unordered`)).join('')+'</div>';
+const opportunity=`<p class="v6-sub">${name} · 机会池模板（暂无足够证据生成真实机会排名）</p><div class="v6-grid">`+card('需求证据','搜索趋势','记录关键词、时间窗口、当地语言、变化幅度与数据来源；缺失时不评分。')+card('商品证据','竞品公开热卖','记录商品链接、公开榜单位置、售价、定制方式及历史变化。')+card('广告证据','Facebook 竞品广告','记录广告链接、投放国家、创意变化及持续观察日期；不把投放时长等同效果。')+card('最终决策','商品机会分级','综合多源证据后建议：开发新品 / 优化SKU / 测试素材 / 持续观察。')+'</div>';
+const visual=`<p class="v6-sub">${name} · 设计建议框架（通用方法，尚非该国实时市场结论）</p><div class="v6-grid">`+card('品类设计','商品图策略','首图识别商品与定制卖点；补充工艺、材质、佩戴或使用场景及礼物包装。')+card('营销设计','广告视觉策略','基于当地语言和送礼场景，突出单一核心卖点，避免堆叠信息。')+card('视频设计','15秒创意框架','第1秒停滑、第2秒看懂、第3秒促点击；后续突出定制细节、使用场景和情感价值。')+card('验证方式','对照真实数据','形成首帧A/B测试假设；待后续接入内部CTR、加购率等数据验证，不预判爆款。')+'</div>';
+const vals={news,trends,competitors,meta,opportunity,visual};for(const k in vals)document.getElementById('v6-panel-'+k).innerHTML=vals[k];}
+
+const panelNames=['news','trends','competitors','meta','opportunity','visual'];
+selected='DE';render();
+const saved={opportunity:document.getElementById('v6-panel-opportunity').innerHTML,visual:document.getElementById('v6-panel-visual').innerHTML};
+const marketFocus={
+DE:['家庭送礼、节日零售、消费动态','personalisierte Geschenke','雕刻礼品、定制首饰','定制工艺特写与佩戴场景'],
+FR:['家庭文化、节日消费、情感礼物','cadeau personnalisé','家庭纪念、照片礼品','送礼惊喜与生活化佩戴'],
+ES:['家庭聚会、节庆、照片礼物','regalos personalizados','照片定制、家居礼品','鲜明主体与生活场景'],
+IT:['家庭庆祝、零售、节日习俗','regali personalizzati','家居礼品、趣味定制','材质质感与送礼仪式'],
+NL:['家庭生活、零售、照片礼物','gepersonaliseerd cadeau','照片礼品、实用定制','使用场景与定制细节'],
+NO:['户外文化、季节、家庭生活','personlig gave','雕刻木制、户外礼物','真实材质与户外使用'],
+SE:['Fika、家庭生活、季节消费','personlig present','照片礼品、居家纪念','自然光与温暖家居'],
+FI:['桑拿、户外、家庭送礼','personoitu lahja','雕刻礼品、户外用品','实用细节与木质质感'],
+PL:['家庭节庆、婚礼、零售','prezent personalizowany','相册、抱枕、家庭礼品','定制细节与礼物包装']};
+const href=(u,t)=>`<a class="v605-link" target="_blank" rel="noopener noreferrer" href="${safe(u)}">${safe(t)} ↗</a>`;
+const overview=document.createElement('div');overview.id='v6-overview';
+overview.innerHTML='<div class="v605-heading"><div><div class="v605-kicker">MARKET INTELLIGENCE · NINE COUNTRIES</div><h3>🌍 9国市场情报速览</h3><p>每个国家直接展示四项内容提要。先看信息，再点击来源深入了解；目前为监测方向预览，尚非当日已采集的新闻、热度或广告表现。</p></div><span class="v605-state">结构预览 · 数据待接入</span></div><div class="v6-overview-header"><span>国家</span><span>📰 每日新闻</span><span>📈 搜索趋势</span><span>🛍️ 竞品商品</span><span>🎬 Facebook 广告</span></div>';
+for(const c of countries){
+ const [code,flag,name,lang,geo]=c,shops=comp[code]||[],f=marketFocus[code];
+ const news=`https://news.google.com/search?q=${encodeURIComponent('personalized gifts retail family lifestyle')}&hl=${lang}&gl=${geo}&ceid=${geo}:${lang}`;
+ const trend=`https://trends.google.com/trends/explore?geo=${geo}&q=${encodeURIComponent(f[1])}`;
+ const ads=`https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=${geo}&q=${encodeURIComponent(shops[0]?.[0]||'personalized gifts')}&search_type=keyword_unordered`;
+ const shop=shops[0];
+ overview.insertAdjacentHTML('beforeend',`<article class="v6-overview-row v605-row">
+ <div class="v6-market-name"><b>${flag} ${name}</b><small>${code}</small></div>
+ <div class="v6-market-cell"><em>📰 新闻</em><div class="v605-mini">当地观察主题</div><strong>${safe(f[0])}</strong><p>关注与礼品消费相关的真实事件。今日新闻标题、时间和中文摘要待采集。</p>${href(news,'阅读新闻')}</div>
+ <div class="v6-market-cell"><em>📈 趋势</em><div class="v605-mini">本地语言关键词</div><strong>${safe(f[1])}</strong><p>拟追踪7/30天变化；尚无搜索指数，不判断热度涨跌。</p>${href(trend,'查看趋势')}</div>
+ <div class="v6-market-cell"><em>🛍️ 竞品</em><div class="v605-mini">重点观察品类</div><strong>${safe(f[2])}</strong><p>候选来源：${safe(shops.map(x=>x[0]).join('、')||'待补充')}。榜单与价格待核验。</p>${shop?href(shop[1],'查看商品'):''}</div>
+ <div class="v6-market-cell"><em>🎬 广告</em><div class="v605-mini">视觉研究方向</div><strong>${safe(f[3])}</strong><p>仅为创意研究假设，真实素材、投放时间及效果尚待核验。</p>${href(ads,'查看广告')}</div>
+ </article>`);
+}
+document.querySelector('#v6-intel .v6-note').insertAdjacentElement('afterend',overview);
+for(const k of ['news','trends','competitors','meta'])document.getElementById('v6-panel-'+k).remove();
+document.getElementById('v6-panel-opportunity').innerHTML=`<h3 class="v605-section-title">💡 重点商品机会观察 <small>需真实数据验证</small></h3><div class="v605-cards"><article><span>01 · 德国 / 法国</span><strong>名字与纪念定制首饰</strong><p>验证刻字、名字和生辰花等定制需求，对照当地搜索趋势和竞品公开榜单。</p><em>待验证机会</em></article><article><span>02 · 法国 / 西班牙 / 荷兰</span><strong>照片与家庭情感礼品</strong><p>研究照片定制、相册和家居礼品，重点观察送礼情绪与真实使用场景。</p><em>待验证机会</em></article><article><span>03 · 北欧 / 波兰</span><strong>实用型个性化礼物</strong><p>关注木制、户外和居家用品，区分文化契合度与真实热卖证据。</p><em>待验证机会</em></article></div>`;
+document.getElementById('v6-panel-visual').innerHTML=`<h3 class="v605-section-title">🎨 视觉策略与测试建议 <small>设计方向示例</small></h3><div class="v605-cards"><article><span>品类设计</span><strong>商品图结构</strong><p>首图交代商品和定制项；后续补充工艺、材质、佩戴或使用场景，不只关注首图。</p></article><article><span>营销设计</span><strong>广告图表达</strong><p>突出单一核心卖点，结合当地节日及生活场景，减少画面信息堆叠。</p></article><article><span>视频设计</span><strong>15秒素材框架</strong><p>第1秒停滑、第2秒看懂、第3秒促点击；后续展示定制、使用及情感价值。</p></article></div>`;
+})();</script><style id="v6-live-style">
+#v6-intel .v6-live-summary{display:block;font-size:12px;line-height:1.55;margin:4px 0 8px;color:#61768c}
+#v6-intel .v6-live-item{display:block;margin:6px 0 8px;padding-bottom:8px;border-bottom:1px dashed #e3eaf3}
+#v6-intel .v6-live-item:last-child{border-bottom:0}
+#v6-intel .v6-live-item strong{display:block;font-size:12px;line-height:1.5}
+#v6-intel .v6-live-item small{display:block;font-size:10px;color:#8494a7;margin-top:2px}
+#v6-intel .v6-live-item a{display:inline-block;margin-top:4px;font-size:11px}
+#v6-intel .v6-data-notice{padding:10px 13px;border-radius:10px;background:#edf5fc;color:#3b6589;font-size:12px;margin:10px 0}
+</style>
+<script id="v6-live-loader">(function(){
+const escapeHTML=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeURL=x=>{try{const u=new URL(x,location.href);return ['https:','http:'].includes(u.protocol)?u.href:'#'}catch(e){return '#'}};
+const fmt=x=>x?new Date(x).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}):'时间未知';
+const root=document.getElementById('v6-overview');if(!root)return;
+const rows=[...root.querySelectorAll('.v6-overview-row')];
+const status=root.querySelector('.v605-state');
+const show=(cell,kind,items,stamp)=>{
+ const label=cell.querySelector('.v605-mini');if(label)label.textContent=kind;
+ const strong=cell.querySelector('strong');if(strong)strong.remove();
+ const p=cell.querySelector('p');if(p)p.remove();
+ const entries=(items||[]).slice(0,3);
+ if(!entries.length){cell.insertAdjacentHTML('beforeend','<p class="v6-live-summary">该来源暂未返回可验证的数据，保留来源入口。</p>');return}
+ const frag=document.createElement('div');
+ for(const x of entries){const item=document.createElement('div');item.className='v6-live-item';
+  const heading=document.createElement('strong');heading.textContent=x.title||x.name||'未命名';item.appendChild(heading);
+  const meta=document.createElement('small');meta.textContent=[x.source,x.published?fmt(x.published):'',x.signal||''].filter(Boolean).join(' · ');item.appendChild(meta);
+  if(x.summary){const summary=document.createElement('div');summary.className='v6-live-summary';summary.textContent=x.summary;item.appendChild(summary)}
+  if(x.url&&safeURL(x.url)!=='#'){const a=document.createElement('a');a.href=safeURL(x.url);a.target='_blank';a.rel='noopener noreferrer';a.textContent='查看详情 ↗';item.appendChild(a)}
+  frag.appendChild(item)
+ }
+ cell.appendChild(frag)
+};
+fetch('./data/market.json?ts='+Math.floor(Date.now()/1800000),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
+ if(!data.updated_at)throw Error('missing timestamp');
+ const age=(Date.now()-Date.parse(data.updated_at))/3600000;
+ status.textContent=(age>36?'⚠ 数据较旧 · ':'● 情报已同步 · ')+fmt(data.updated_at)+'（北京时间按本机时区显示）';
+ rows.forEach((row,i)=>{const key=['DE','FR','ES','IT','NL','NO','SE','FI','PL'][i];const v=data.countries?.[key]||{};const cells=row.querySelectorAll('.v6-market-cell');
+ show(cells[0],'已采集新闻标题',v.news,data.updated_at);
+ show(cells[1],'近期搜索热搜（非商品销量）',v.trending,data.updated_at);
+ show(cells[2],'竞品公开商品线索',v.products,data.updated_at);
+ show(cells[3],'Meta 广告观察',v.ads,data.updated_at);
+ });
+ }).catch(err=>{status.textContent='○ 情报数据尚未同步 · 请先运行 GitHub Actions';console.warn('V6 market feed unavailable:',err.message)})
+})();</script></body></html>
