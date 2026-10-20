@@ -1,45 +1,57 @@
 {
-  "updated_at": "2026-10-20T10:06:39.712677+00:00",
+  "updated_at": "2026-10-20T10:25:32.981962+00:00",
   "countries": {
     "DE": {
       "news": [
         {
-          "title": "Walmart und Target bestreiten personalisierte Preise in den USA - etailment",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWVXWDUxMmFYQ3AzRFVaQzNJVVgyZDhBWjN1Q21fbE1hcTgwemVuTkxVMTRrd2VRSFBCV0h5S1d6TkRfUTJnb1lLejZ4YlJDNWFhbGMwVUllZmVpZ0d0NEV4Tjc3NjNxelRIREpBZkRCY2NSam83NE5rU2FYcXhGS0YzQnpIQmZqZEpaUE5FaTFzWmI5S0JCN3VnX2t6Zw?oc=5",
-          "source": "etailment",
-          "published": "2026-10-20T05:07:00+00:00"
+          "title": "Wahlen in den USA: Was zu den Midterms wichtig ist - tagesschau.de",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hclMwNVZQbkF3Wmo2MmJsc1prZXBTUjMySHhhbnVua0lFajdiNFJRdEZwTTVYRkFMVVVJenFXbHF3MXlDblBVYVRHV29tSjNGTDZPWDFocmNUbTZBNV8yYjFtOEhlSmVJTWhBeG1vQ2U?oc=5",
+          "source": "tagesschau.de",
+          "published": "2026-10-20T06:00:00+00:00",
+          "title_zh": "美国选举：中期选举的重要内容 - tagesschau.de",
+          "translation_status": "translated"
         },
         {
-          "title": "Spionage-Trojaner kamen gezielt über personalisierte Werbeanzeigen - WinFuture",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lcU9zYXZRQkdobXNibm1rZHpKY3VnQTN2a0duRXFUbXRra0M2YUVKUmRhaXZ5RVZJTnBYbm5LYTF1Y1JBdUpKeHhIVllwZw?oc=5",
-          "source": "WinFuture",
-          "published": "2026-10-16T09:20:00+00:00"
+          "title": "Positionen zu Israel: Berliner Linke berät über umstrittene Abgeordnete Emde - rbb24.de",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSVhiRl9XYmJ1QkMwNUdSU3B6Rm40WnhGYUJEdU5zakQwZlVyTnUzdFBONUtjaDJOVERTaE9KZ2JWVTVyTk9pbUFSbVZwdndiXzEwTW1Tc2FQOGd0UUMyUUFtMmtPN0gtMW1namVmTUt3WWllcHJoT3l1a0tjb2tMQnJFN0dtbEEwNWI4R0tnXzdnN3pHT2ZDYlhUNmFReHVZZURUVXlyVk9rZnJ5a3Q0dDRn?oc=5",
+          "source": "rbb24.de",
+          "published": "2026-10-20T05:22:00+00:00",
+          "title_zh": "对以色列的立场：柏林左翼为有争议的埃姆德议员提供建议 - rbb24.de",
+          "translation_status": "translated"
         },
         {
-          "title": "SIAL Paris 2026: Souveränität im Hinblick auf Lebensmittel, KI, personalisierte Ernährung … Drei wichtige Debatten, die die Zukunft der Ernährung prägen werden - Yahoo Finanzen Deutschland",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmRBTU9FSnVnUXVHbnFMTEpEeGdXSVRKYTZKU0tCZWhpY2JvVmJKX0QzellsSThBOUVfSnNZbHl3ak9UT0RncTB3QllGcWp1TzNXR1Fnbi1nZFFmaXB0VTY3WDNLbk1fM0c0alpJM256RTJLMEQzVUZQR0FCdnp2T01OYTBYblU4LS1oTk1KcjJlajE5M2N2R1V4a09NcGFGMUdPU3FR?oc=5",
-          "source": "Yahoo Finanzen Deutschland",
-          "published": "2026-10-14T10:03:00+00:00"
+          "title": "Ausschreitungen in Frankreich Dobrindt sieht in Protesten Gewalt von Linksextremisten und Migranten - Tagesspiegel",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUlZ1aW12R1BQQnZ3eDdnQ0t0aXV0ZU4xM2dQQktTcDF0NTlEV29DTHQ4c01Nb3BORUpJX2xWLW1fY05XdmFNV3VDSE9yUDA2OEI0eXltLVF3VDNvc3d2VVRWQi1GeU51OUdJQ2g5cUJXZWJLaVJ6SlQwSWRGOTN5bXMxdjNucWhtRU9Ec3p5UDdBZnpHd0xPM2V2RTNJZzFncjdrOXE1TDdTSVhYVzU4dmtXemJhRENxWUxNUDlhc1M2RHlETkczdE1BN094eXFleFBJTEVFS1kwd2dkS0M5U19xdVNTY1dJ?oc=5",
+          "source": "Tagesspiegel",
+          "published": "2026-10-19T14:06:46+00:00",
+          "title_zh": "法国骚乱 多布林特在抗议活动中看到左翼极端分子和移民的暴力行为 - Tagesspiegel",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "ballon d'or 2026",
+          "title": "bergrettung",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "山地救援",
+          "translation_status": "translated"
         },
         {
-          "title": "e-mail",
+          "title": "philipp türmer",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "菲利普·特默",
+          "translation_status": "translated"
         },
         {
-          "title": "philipp hochmair",
+          "title": "basketball",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "篮球",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -63,42 +75,54 @@
     "FR": {
       "news": [
         {
-          "title": "Une RTX 5090 en guise de cadeau de mariage ! - Overclocking.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HMjVUXzJKUFl3TWtsMnV4eVcyNi1ucVZQUnhNMFBNSmRIcGVZek00NlFnUXgwTV9XWUZ5ZDBPcUVlTlY5SFBWMW81ajJiaC0tRERzQUdGdEZTcE1GWmpNXzB2ak5uR29lbVBfMkd6U1NaQXRmX18w?oc=5",
-          "source": "Overclocking.com",
-          "published": "2026-10-20T09:46:05+00:00"
+          "title": "Incendie de la mairie de Limoges : le principal suspect, « un activiste d’ultragauche », interpellé par le Raid ce mardi matin en Haute-Vienne - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQc0Y4UjdDSnJfV1NEbDdWUXJ2NW9VWnB1dVF4N2JWNUpsZk1Td1ctVFJPU01fb3cyOFVFNkRob3FMQ1JtMk9RN1B4dnpfeURKVzVaX3JyeG50a01OOUtHZGp3MTdKVjBNQ2lUcnlOWXJxaGZ6cklZa05OaDVEN2FmVlRUZEdEcS1BWDZZX3JSNGVtcXl6X2xSRnNlWG9BVmMydzNLcUxxQVVZcjQwQmlUY1hUdHJWUXNGeEU2c1VRSkF2aWJMTEwxUkZCbkpQLXUtN3U5T19tWkJvcmkwUEJFMEpZWDltVEFKY0Iza0JsWTM4UjYyLTJOMDZXMnp4Ql9MOXJJSDROcWh0SUVjdnNfZjdsNF9ZSjhLcjg2Q0Ryd2VnaDZo?oc=5",
+          "source": "Le Parisien",
+          "published": "2026-10-20T06:59:33+00:00",
+          "title_zh": "利摩日市政厅火灾：主要嫌疑人是“极左活动分子”，周二上午在上维埃纳省的突袭行动中被捕 - Le Parisien",
+          "translation_status": "translated"
         },
         {
-          "title": "La clé de la victoire : Mourinho attend un précieux cadeau de Paris dans le Clasico - Goal.com",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbDhzbkdOOHk4eFVvYWc4aGNSYzBTVUVBSFZ6bllnZUJ2RENhMmtTVkZwUlJWeEcxYzN3bExLYkZPWDY1TXpVREVUZjNlaVpEQXBUZzBSOFMyamR5UmdPcXM3cTJOWTY2NmtvRU1OV25jM3RBaXNDVFQzMG1TSkY2dGhnSWRqeU10OFJONHJsYXVHdktocmpyNnF3anZlallBNTVXM2tSM2VIQVhVcWZVdndtMzNqLWFQUUxIT2Y1S1RxTDNOY1ppZ2hB?oc=5",
-          "source": "Goal.com",
-          "published": "2026-10-20T06:39:47+00:00"
+          "title": "EN DIRECT, manifestation du 17 octobre : « On n’a pas besoin de l’état d’urgence », affirme Gérald Darmanin - Le Monde.fr",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOZ1d5YXRTMV9nbU5NTGh3b19tNDRqYTZqdlRNYTFCeGNCTTRudFhGdXBBS1hGcWNJRHM3N055a0pudDFfc0RQUWpKUEFoakRHZ2Yzc1RXemhZX29YdUJ4U1ZfTWpuWmVxSWx6NlpfQ1pQLTBhbzBkaTB0S0d0elZFVmhJbERVUVV1ZWJtczBPZGFDRTdOb3V0Z3NreDkwR3lFRWRON25WNmxmQ1hqemtaYWdIM244YmdROFhSMmtYMTFxd2ZKelY5bV9CWTlXTkZwT1F3R1VVLW1aSi1rV2RLSmRJczFOOFRsU3dQS2xrQW5IankzeVBJNS13?oc=5",
+          "source": "Le Monde.fr",
+          "published": "2026-10-20T06:37:45+00:00",
+          "title_zh": "10 月 17 日的现场示威：“我们不需要紧急状态，”Gérald Darmanin 说道 - Le Monde.fr",
+          "translation_status": "translated"
         },
         {
-          "title": "Le cadeau parfait pour les petits fans de Pokémon : cette montre à moins de 13 euros sur Amazon - parismatch.com",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ1FzcDlFSWtfWmVqM21GTGxOcllIYmhhcDdseVhTZkNMQ3JzLTNCY20wbVJNTHRwSE1KTzFtb0ZPcE1xVFF3ZXZUWlRPNWtpLU15TnhXeERqMVlyQ2hUcW5pTmc5aGVQeFZ5QUdnQWdzVHBoQ1c5NEJYYUhIRVlPRnBVbkcxY1F3Q2ZtOUgtNDVnZUZaRWJ6NE1RRHdZSDFwS25SN0hvMTZOT0p3Z2ZSYmxMcXExSGxsU1NuYUJ4Vk5HTHdEYzJZcjlJSTJ5ZFFIVEJ6Zk4xbkIwdw?oc=5",
-          "source": "parismatch.com",
-          "published": "2026-10-20T06:30:24+00:00"
+          "title": "Intempéries en Plaine orientale : effondrement du faux plafond de la crèche de Ghisonaccia, axes submergés et quotidien au ralenti - Corse Matin",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPTXI0dWRYajhEbXBrY2lzd2ZKbDRnT2k4Tm5BMGpaWXJ5X01INnlrb2EyRTFlUkhIZDYwX2tNSkRPWURoSC1lRlNKbWJjSk12R0lSX01XWG5mOThWTVFGQXRLdk5zSGlMa1lySlZ5LVRXNDZHM1QwODhYUkxzUTY0LS1mdms4TU82dWhPdmgyLS1tOFFRbHFaR0NFdW1XeGNsNjh4d09uOGowaWlpZ2pYeHBCaXdOaWRFVTZRQ3IyNjlwaU0wRmRrZVRKVlVBRnM5MGllYXNoS3lqRHBkY3V1YnZMQWs0djVQT05vMmV3V3FmY2JWdkNrZ3Y1LV9GUE5TZW84U21HZC16cjg2OEpUV0RPdw?oc=5",
+          "source": "Corse Matin",
+          "published": "2026-10-20T08:25:37+00:00",
+          "title_zh": "东部平原的恶劣天气：吉索纳恰苗圃的假天花板倒塌、斧头被淹没以及慢动作中的日常生活 - Corse Matin",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "toprak razgatlıoğlu",
+          "title": "jean-philippe tanguy",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "让·菲利普·唐吉",
+          "translation_status": "translated"
         },
         {
-          "title": "ultradroite",
+          "title": "marmande",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:30:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "马尔芒德",
+          "translation_status": "translated"
         },
         {
-          "title": "make america great again",
+          "title": "impôt",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:30:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "税",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -122,42 +146,54 @@
     "ES": {
       "news": [
         {
-          "title": "Urko Olazabal, actor y profesor de interpretación: “¡Joder, qué regalos me da la vida!” - La Vanguardia",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTkdUQnpWOXFBcVZGaDlLQkJ0M3NpMmp5a09XUDVnTTZIbEhqbGxoeHFyY29FZzNQc2x2a3owaGR3Qm5MbUdkdGtYRUNMUWVnWHM5RmtKdHJrNnBCVHV4VGxraHhwSjF6XzFQeFBmU3RkaVhabllVMjZXUGZOYy1HcGYxNzBRd2dHRUF4a09fbmJWT2ozLWplWFI5cUc1NklCV29Hd2VB0gGrAUFVX3lxTE1iYXhTTV9DYTR0UmR6azhEdU1KVzhWNEwzUUwzU1I0N2d3V1ZMT2doWlVkT0JFQzhoZ19vSFlmdS1nckNUaWJjMW5VdWdMYUR2emRFYURBRjhOS2FDSUl4Q1kycjQ3NTZjUGdqNlBJVm1ZZzctbEFIdHdVOVplbXVKdlFnSk0ya09QRV91T3c1R3FoNFR5Y3hPajJ2SGFEek5KRFBseFBJQ0ozNA?oc=5",
-          "source": "La Vanguardia",
-          "published": "2026-10-19T22:05:00+00:00"
+          "title": "Feijoo confirma conversaciones con Vox para contrarrestar el pacto entre el PSOE y otras formaciones de izquierda en el Senado - La Voz de Galicia",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMm5veERFUVVsUjBwQmwzdWpaLS1EckhDZF9LVDA3UnZaX3JDNm5UazBKbTl2NllFOEZJRkxvU3h3NXJ0eGg5UUlHREwtbTNqaHQzRlFMZHlQOU1lMkVtNmowYlBWdmxNVXZ1TlpybXVnajctYUtBVDNQTlFRSmJpR29HTlIyYlo5VFhsTDUzR1M4Q2d0QjcwaUF3WDlybUVicDdHT010aTZFNTB1RjN5Rjl2R2dTU1cxSzh2bDlQMFo2aEtTS1EyVTRPak96ZnYyVkc3THlJZUxoZVNGVGFjVVNMSElneGNwcEJJTVlONXhOVFphRlVxYTNfZTJOelRYTUHSAZ4CQVVfeXFMTjBmRzVOUzk5VVFfby02cXdQR09FZlJuVHhRb3pqTjR2T0Y1a1hkNnVSclBiRlJ3R0Y4cmNRSld1WkQ2dXZlTkc0ZjRwcHZvZU1lNms1VkVvYjVWNzRSQ2FkNHpUeFBvdVR3RTBvZG1PZ1pHQjJlSl9sdjdmUU43Y2RyQmRHNkRjRHdrQTlCQlhVWmtFVnRoc1ZGaDVwYjRiMk1UUVVUWXBKanZSVEU5YUZIb1ZaZDYwWGNJa1FpeWhQQkpEdEtWMzU3YkpCOVRRbDZGVDRLcEpFUVhVbU5MMGJUUkdlTGtMV0ZlOHpISzlKNElUNVNUQlZBZU1sQUc4ako5WmdHYXRKUVJxUzk0dHhweGt1Q1NSZEI5c2NpQQ?oc=5",
+          "source": "La Voz de Galicia",
+          "published": "2026-10-20T07:48:51+00:00",
+          "title_zh": "Feijoo 证实与 Vox 进行了对话，以抵制社会党与参议院其他左翼组织之间的协议 - La Voz de Galicia",
+          "translation_status": "translated"
         },
         {
-          "title": "JCC Pokémon Pocket recibe nuevo evento de Pikachu con todos estos regalos por iniciar sesión y más - Nintenderos",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFFxS25jWnh6VUhIbTFuWGhUUjl2NzVNYkxXYmVUTlM5OWEwM2E4ZG1rWXlQSVU4eFVMclJ1NFFKeDhBZHNGeGFSWHotR1BSWEM4YkhfLXo3emhWSDIwMG14RTVuTlBuUm1xc0MtUUozM0RHVzZBV3JFT0ItUThaNFJCSm9CTmhKak9zazR1MGk4UEQzVFlTWlAyZE5kamZPbFBzcUJoRVhQdEdUdUU1VnhyVlpsTk5MZERBaWk5LVVOWUktSEpibVZlbXg1N3lk?oc=5",
-          "source": "Nintenderos",
-          "published": "2026-10-20T06:11:55+00:00"
+          "title": "Francia: Toques de queda y primeras condenas tras los graves disturbios del 17 de octubre - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUhTQTgySjRDWGVtRUV2REhKWGY1S3VzdWowSkZYcU5hc3BPejFFY1hYRUNQU052YTlPS1hXdWlsNDNERDhxMGpGTUZSMDF0OUMxZ1BmZzBiSG8zZXVXSnpzUVlzSzhsM1hES0hpcTVjeEcwNWRBXzk4R1ZwTTVSYnBoN0xKakYzYjY5N2VGOFZRdTJVRndkanRYalFDdnBNbzRlRQ?oc=5",
+          "source": "Euronews.com",
+          "published": "2026-10-20T07:51:36+00:00",
+          "title_zh": "法国：10 月 17 日严重骚乱后实施宵禁和首次判刑 - Euronews.com",
+          "translation_status": "translated"
         },
         {
-          "title": "Silla Karibic De Regalos Miguel, En Polipropileno Negro Con Patas De Metal, Diseño Moderno Y Ligero Para Comedor O Terraza - Poder Popular",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSmtFaDJ5b2k0Si1oaWRMbFVfTy1GaFJrU1Q1by0yUlFWbllUNXlxQkRXbDd3dVU0T1NTQkFCRUU1R083SHBRaUpRdy1LNjNFLTN0aXdpcVZ3SjFxTVRUMTdyZGlsdk1feVVoc0lKWGttNVlQYTRqSzFlazNEaXBGN0JpWWVsVlFObFRzQy1ReE5BRHJPVjl4WHlKSQ?oc=5",
-          "source": "Poder Popular",
-          "published": "2026-10-19T12:02:07+00:00"
+          "title": "La dana Adam mantiene la alerta tras cuatro muertos y más de 1.700 incidentes en Valencia - El Diario Vasco",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGZKMUg5THVwTWNlU0NTeEZDYmR4R3Z0Z0xzOWF6OTBUYUNPa0NWRXdzQU9USjlnREJTa0pFWkNCUTJMT2hqLUk2Z092Q2lfQXZyUDU0a0lvczdBN1hDeUwzQV9XeTN1MUM0cGZKMEI5T2gyRy0tY0ozTkpQYXA1ejRJTmhTVVhhM25rblVrTWNLeWpEM1prRExBQWJ5ZFNkX3A3azFBVjk?oc=5",
+          "source": "El Diario Vasco",
+          "published": "2026-10-19T21:35:06+00:00",
+          "title_zh": "巴伦西亚发生 4 人死亡和 1,700 多起事件后，达纳·亚当 (Dana Adam) 保持警惕 - El Diario Vasco",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
+          "title": "airbus a330 mrtt",
+          "url": "https://trends.google.com/trending/rss?geo=ES",
+          "source": "trends.google.com",
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "空客 A330 MRTT",
+          "translation_status": "translated"
+        },
+        {
           "title": "alcalde de parauta",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:10:00+00:00"
+          "published": "2026-10-20T09:10:00+00:00",
+          "title_zh": "帕劳塔市长",
+          "translation_status": "translated"
         },
         {
           "title": "futbolista",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:10:00+00:00"
-        },
-        {
-          "title": "tubos reunidos",
-          "url": "https://trends.google.com/trending/rss?geo=ES",
-          "source": "trends.google.com",
-          "published": "2026-10-20T08:50:00+00:00"
+          "published": "2026-10-20T09:10:00+00:00",
+          "title_zh": "足球运动员",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -181,42 +217,54 @@
     "IT": {
       "news": [
         {
-          "title": "Libri, letture e regali utopie - dirittodicronaca.it",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ21mZ0hjTlBHa3pLSmFza1hJUURZTnp5SWhSRkhmRzhsUnFYdExVTkxLaXFGbjR5SExfQWNOdy1RTFRMM2N5ajlJWjFydG4zMkh1UXBBQzUwZnBQbkFhdkVUeEgydmE3RHE4dk9tZ1I2QnNYNTRIbldrb193UzBpTERad3dBdEVhdlk3UFpNb000WDhoTXA0N09vbkJsTm8?oc=5",
-          "source": "dirittodicronaca.it",
-          "published": "2026-10-20T06:00:40+00:00"
+          "title": "Autotrasportatori, prosegue la protesta nel Sud Italia. Salvini: 'Subito i fondi stanziati' - ANSA",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOM2ppd3gxdE5PTUhEQUNoX1JGMW41VTFETWRCMkk1SlZjY2hIY1p1OThHX2lEOEVpY3UwSmRvR0tLOGtRZzVjTkgtekstYXhOQWVVcFhzNGd3ZVJmMW44dUNHRldDUlM1UzhLamoyM0pWM0FzbVJGNUVqblpXdktGMzFBZDQtc0FoZmFhWGUzYXpLQlhNQTlQM1cxaWdDUk8zZkdQeV8zWWNWX3ZjVFd2SHg5UXM2cnkyNmhFdHJiR1E5MWNybHJCYWxrT0NzVmQya0Z1S0pNdTA5bXQ3UVFjSUh6bVRnQkhxNGFUaVVWbVFtWnk0V3U5VlZmT1A0S21QMHh2SlNSVlhWcXlTWXfSAZMCQVVfeXFMUHh0cjlrckFtYTB4QzItajhac1FBSEhURXpITDBBcHc5RDVwWGRacFFpSnFHZmI3dnlLM3VJeTRDaUhwbGdFZm05TGRlSmlvcWoxQzQwOFM1UmJEUFVEX0ZRbHp0bzZCOXJ2ellYeXZCandhZXZyaUF3dkhGYW5pTVlxNE1JdFZGQ0hqampVNHFuN3RxSVRDT2hIRkJtd0xOMTEweTVSVnBYcHJyTC1yTlZnbnVUblZURl9XSVJRTGxQeVNyTHNPT1ZMWXl5WnJrX0ZWbHU3ZmhJOS1YTUU5VWxhVmwybmtjQjZYc1BQTmVCbmF2NTZWeFpOVWVyaWtncUV6dHJ0N3duN3ZhU1RPd0kzclE?oc=5",
+          "source": "ANSA",
+          "published": "2026-10-20T09:20:49+00:00",
+          "title_zh": "公路运输商，意大利南部的抗议活动仍在继续。萨尔维尼：“资金立即分配” - 安莎社",
+          "translation_status": "translated"
         },
         {
-          "title": "Massimiliano De Conca: “Lo Stato fa regali ai privati, i giovani finiscono in tenda” - Il Fatto Quotidiano",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOHNDTTNySGpsMDQzRDV5Um10WWZkRnNXUnhnOU9wNEY1OTJpeDdwN0tJazZzZDh5T0JGY25UcDdOQkxzMmZ2U01DeHVqLVZmM3E1QnFJbFhYbXdacDlIaWNuYW1kcUNjbmR1VzhybDdjNFhMM1pUNGYxUFhYZ1BYa3VOX0d6TUpEOHVuRS1ZUkVnOXRLZFlTdTZ0UXp4b0dnMnNMN05IOEVfbnN1SGFqWG5SNExISVlQdzdaZE53bFB5YW9JVzJ2UHpvYw?oc=5",
-          "source": "Il Fatto Quotidiano",
-          "published": "2026-10-18T22:01:00+00:00"
+          "title": "Scontri a Milano, governo verso una stretta. Oggi Cdm per decreto legge. LIVE - Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUlBUM0pEZWJkaXNQd0NEZmlldXhyVElUZ2dYLVFNVGZlZDNxQUFXTWc4MUpRT1JaTkZfdVNHLTd2d2tWNXp6QXZpcjU3bUlLdTNOWk13dUVIVUZsVnZRM3lNMGIxNTYyNkg2aDF3V0c5QjhXcTM1LXlWamdSdXBic2VUUzdBZUZFaHBnTjNOd2xHTUk?oc=5",
+          "source": "Sky TG24",
+          "published": "2026-10-20T09:51:56+00:00",
+          "title_zh": "米兰发生冲突，政府走向镇压。今天的清洁发展机制是通过法令制定的。直播 - 天空 TG24",
+          "translation_status": "translated"
         },
         {
-          "title": "L’orologio e il lingotto. La diplomazia dei regali a Trump imbarazza la Svizzera - HuffPost Italia",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMmVjLTFhcXRJbVowT1lWVnBueEVnMFFzMkM1eHRRU0xkb1BWYzJ2b3RNTHJoeFVkQmlaV3FTaDVEcHBXeG9Kdlg1WUlKUUVyaGpGTlp0Y2pOZXRrZ3EzT25yUXE5b01GNkx4UUl0d3BPMkJPcW9VelowY0ZrQ3ItcGY5YVV0WTFZQllfamkwSlo0Xzg?oc=5",
-          "source": "HuffPost Italia",
-          "published": "2026-10-18T15:44:00+00:00"
+          "title": "Ranucci sceglie Rainews, comunicata la decisione alla Rai. «Report» torna l'8 novembre: l'incoraggiamento di Gabanelli - Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdUh3bzdtM3ZqQUJoX05mTWVKTld6SUtKWHVJX0NrTXNEczdfc0tWZmJsVUlubU9uV21MNzQ4X3RGZWU2OEg0dGY5MWJFOThrLS1mM0VkRGJXZFVrZmU5OVhIVjBKc3BzMmZhd195aHU3bmFQeUFmS0FLZi1mMmpRNms5UHFtMGFiVHNFZkNTbTM4NEVGZlZJdzB0T3hEeDd6R2RMcWFKN3l1TmVCM1ZRODA0TVZVeERuQ09VS3RldG81cE1xaEZtZEZLWmF0N1VYZVVkdkt6MEQzWjhmTldJ0gHkAUFVX3lxTE9hVlZyamIyUWw0SFROUlJzLXVQcVlLMVhSNkQtUmhmbG81aWY1cjIwU0dmWHpfY1dlalJtN2NBdmZpRDc2T3RuUmlmWVF4RE5UbnF0elFKTWdvdFVOTFZnaHRmaFlBX3R3N1A1OHBYQ1BfVFZMVm9VbUNyS1VqdWt6bDZfemJKc0xfN2dEdjBEREV6clppM0ZwRG80YWJOUWs5TDF5cTU0aEVXZUs4aVF3Q0FreWtBOGNTbnpkOG1qalBTYWNwVG55NlFJcjJROHFFZE9palVJSHRxNzRpY25uWDM4Sw?oc=5",
+          "source": "Corriere della Sera",
+          "published": "2026-10-20T06:02:17+00:00",
+          "title_zh": "拉努奇选择Rainews，并将决定传达给Rai。 《报告》将于 11 月 8 日回归：加巴内利的鼓励 - Corriere della Sera",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "mirko conte",
+          "title": "toprak razgatlioglu",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "托普拉克·拉兹加特勒奥卢",
+          "translation_status": "translated"
         },
         {
-          "title": "the washington post",
+          "title": "juve conte",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "尤文孔蒂",
+          "translation_status": "translated"
         },
         {
-          "title": "toprak razgatlıoğlu",
+          "title": "genova",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T10:00:00+00:00",
+          "title_zh": "热那亚",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -233,42 +281,54 @@
     "NL": {
       "news": [
         {
-          "title": "Dying Light 2 en Dying Light: The Beast krijgen gepersonaliseerd 3D-geluid met Immerse Gamepack - That's Gaming",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcTZNMk5XQkVfYnZtUzhVTkM3bG5CRHF3YzBSRWlVNHNBal9CQkNIZmdoNm80MG1iT3FvM3BySGlqVVMzWVZQWWQ5Tkk1bWZhaGd6Tks0MlhUWHVwQWRkLVVaby0wRUdkZTVxZHprTlpvWm43RkpmX1ZaaURLOFRjWEMzenJRN040bUtiaXo2eTN1MWVsVmhXeFVTU3N5V0lJbGZEWk15Q25GTEtVb3Z1WE4wR0Z4dHdGUmc?oc=5",
-          "source": "That's Gaming",
-          "published": "2026-10-16T10:28:16+00:00"
+          "title": "Trump grijpt onrust in Frankrijk aan om Amerikaanse kiezers op te hitsen - NU",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbTkzZDNNZHJhbmgtZzJFNURUdVFVaE1FdWp5d3ZCZEpRdGg2ZEh6cHk3WnRtSzJjZEdmTlNCRk12d05WV0w4dFozYTNES0NWRW1KTlBGUGxEX1c0TlZNd1lJOXE1cXJfbU5LOTRfUTBxa0l0ZkhfSnk3X2NhMzhTa19PZk9rRTc4RndRNTd2MjBDQmN4NGtHRjZkYmdmMkR0Wkt2OENGOGw5SmpxeUx6QjFoRzN6VHFqcmM4?oc=5",
+          "source": "NU",
+          "published": "2026-10-20T05:47:00+00:00",
+          "title_zh": "特朗普利用法国骚乱煽动美国选民 - 现在",
+          "translation_status": "translated"
         },
         {
-          "title": "Gepersonaliseerd kankervaccin biedt perspectief op verbeterde behandeling huidkanker - bnr.nl",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMU40VHBkZWc5ckhreWxoMzRhOVhwZC1iODhtOURGUVZRY1F0WWt1Qk5sMS1haTFhX1E0UWJrOS1OUTZUY2tjU1JBVVlCR1ZtSXR0b28wTEJxcnBJbGR3WDltNXF3OHVPeW5UTlNuWWlkNkJ1WDNHVlkwMFhTXzdDQW14RDEydG5UYkwyUHFTa1hrRUlJbzNRYlFsWlhvcWpkZDJqODV3UTMzNnBxV1FiZ2NCdlA5Rk9TQmZxZ2JQX2gxa293ZC1aNg?oc=5",
-          "source": "bnr.nl",
-          "published": "2026-08-20T07:00:00+00:00"
+          "title": "Rellen in Frankrijk: rel-app, plunderingen en geweld - De Telegraaf",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQeGhlTGVBYjZENWtvSjhDQVZKTldZS1pJRjVKVTlfTmlMYjdnVEdraS1LYnk1eXhremFva2hBdWhQTjhsVXhubHhELXNIUjZ0NXoteWlPUFRjRWtOc0Y2Tlg5TGFJZ1dzMzlZSmVoV3NHNnZmZzdhT1hWNlk2VHJ1aFAtTWQ1Z0hRVV9vN2VRUU1TQnJLeTNOaVlGX084NS1tS0VaVDY3YXY0RWZiRF95dGdxMW9KWV9OYjZTdlZfNHYxR2tyOHY5UnlxZ1JRTTdJZk9JRGNTSVA5bXN0SUNsRVdvWHh4WjhBY0VPYW5ITzRiSkFfaHFoZlJYRXRzRG8?oc=5",
+          "source": "De Telegraaf",
+          "published": "2026-10-20T03:15:00+00:00",
+          "title_zh": "法国骚乱：防暴应用程序、抢劫和暴力 - De Telegraaf",
+          "translation_status": "translated"
         },
         {
-          "title": "Een gepersonaliseerd model van het hart - Rijksuniversiteit Groningen",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQREY3Vlg3bmpTMUpFeHJQV3BoVHhrQzBEc0FrajN2aFc4MGhsc2R2NFpGWDNDMmlhOGRHdlplZklQemRkMmR5WjYtc2ptMHFVTlozcWl1S2FZcUFoUEwzWktXWlhQS01NWFNPSzJ1RmFpLV9xTUxQSXFRY0EySDUzOWJ5NTlXcTlxTE9UQjlnMDZ0ci1SaUNR?oc=5",
-          "source": "Rijksuniversiteit Groningen",
-          "published": "2026-05-11T07:00:00+00:00"
+          "title": "Storm Adam eist vier levens in Spanje en trekt nu naar Frankrijk, waar lokaal 300 millimeter regen wordt verwacht - AD.nl",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQb0doYW15MDRibU1pWDNGMXRoRy1aYUNKY1BhTGdIcUZub2QyMFFQS2JyX0NNcGZOa05FTDZ6dmFVcC1VbWVzMjktLW1Rek03N3BuRFdraXNibFgzejZWUVdEZHBQbThjSnlHNkc4Y1ZuUVJ0Yk1VU3VmTUVHVGpyYXpqTkVJZG1sLVhsZUFsZUJQdDVWZ3JfYTJ3TGl4OURabkM0ZHloYzJUMDEzMERTbHQwU29fRDNCZXk1T1dYc1Z5bXY5Z3M4VnZnQUhUbzRXOThJVlFqaHlwVXByS0Q4bGYweGZvUQ?oc=5",
+          "source": "AD.nl",
+          "published": "2026-10-20T07:38:26+00:00",
+          "title_zh": "风暴亚当在西班牙造成四人死亡，目前正向法国转移，预计当地降雨量将达到 300 毫米 - AD.nl",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "eindhoven",
+          "title": "a16",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
+          "published": "2026-10-20T10:00:00+00:00",
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "noa vahle",
+          "title": "videoland viaplay",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
+          "published": "2026-10-20T10:00:00+00:00",
+          "title_zh": "视频世界viaplay",
+          "translation_status": "translated"
         },
         {
-          "title": "loterij",
+          "title": "klaasje meijer",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
+          "published": "2026-10-20T10:00:00+00:00",
+          "title_zh": "克拉斯杰·梅杰",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -285,22 +345,28 @@
     "NO": {
       "news": [
         {
-          "title": "Kjosen, Vindkraft | – Vindkraftdebatten: For meg er dette personlig - Drangedalsposten",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTW1QejFtRzJrZ0wwekFpNVk4TEJIa2g5RG5Ia3FEMmFfMk9MaFBJcG5NRlFwMjl6Vm52Yk1EZnZDNlJsdkNXWUhyWExaY2lyR1hubHI4b2NaQTJJMWh6V2ZvS2N0LTNhdEtkVGdORFY1c2ZUZkFIa2NHcXM3LUx6TUdOYTdueFo1YUFONUxPb1Q2N1pK?oc=5",
-          "source": "Drangedalsposten",
-          "published": "2026-10-20T09:30:00+00:00"
+          "title": "Opplysninger til Aftenposten: Ordkrigen med Trump utløste omfattende internasjonalt diplomati - Aftenposten",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc2lYN3dUYjNaNmVqRUR2YjNsajQ3RW0zMXNLbzc4S0cta1l0cFN0SVJwcVUwV1U0Q1NLbFh4RUFZU2ttNDFCMU11aUlyeGFzZkJLT3VyR1NNNW9wTzJKaWs1N0ZEcThYdmFfUmkzOGQwYnVHUVhsSllYRTRBZnNTVVpDWFp6TUVNV1A5eUI4OVE5NTlNUm5nWVd4LVRvSTlLT0x5Nw?oc=5",
+          "source": "Aftenposten",
+          "published": "2026-10-20T08:08:33+00:00",
+          "title_zh": "晚邮报信息：与特朗普的口水战引发了广泛的国际外交 - 晚邮报",
+          "translation_status": "translated"
         },
         {
-          "title": "Åpner personlig bar i Pedersgata: – Det skal føles som å komme hjem - RA Stavanger",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNS1vMG0xMjZsTzNOcW9GWVB4bWJnUXk2c2IyWDUxVWdObVVuenNWUzF2YUFFYk5Fazk5dFNsMDBVcGNYU3lTT0VhRlI2V2dCaUw5VG9tQlMwX29ndW96a1NBa2JJanlFNU4xeGpSOG9RSVh3RkdxcERneHVvS1VBRXc0eGw0TklaMDNKSFdQR0NSWXFpb0NObFhXSEZVTFdKU2pPZlFSbjBNZw?oc=5",
-          "source": "RA Stavanger",
-          "published": "2026-10-19T22:30:00+00:00"
+          "title": "Opptøyene i Paris: – Vi er her for å plyndre - Nettavisen",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLXVvRERXdVpoaHV1LS0wVmlid2t3Y0pTMUZPMTJUZW5BRjZjZGpTYVZIMW05dTNFS2gwQTJVcW14b0hsbEJiVWpkUzc3WVpLamUwUEw5clpmLTRyclZqUFhhZjZ6WmZjdTJzSjU1NjBPT01Xejhfa0E2ZWxZV0JwT2MydHRuZXlxdnpYSEJQQVlPZnJHNS1HeW5rVjZWb1Q4bHlhQW5WVXdLLWlqNVBHVHlEa0RLZw?oc=5",
+          "source": "Nettavisen",
+          "published": "2026-10-20T09:02:42+00:00",
+          "title_zh": "巴黎骚乱：我们来这里是为了抢劫 - Nettavisen",
+          "translation_status": "translated"
         },
         {
-          "title": "Johaug satte personlig rekord og brøt barriere - TV 2",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOalF0SHlnMndRUkJoSXRUUW1XYy1lNFdNcklvNHhkSzFYZk5xR0YtblBubjNsN2tickp6dVVJellvS05pLXB1OFZBMTFLUnpMUHhkd212bTVlWXpOYXhyWlg2cDJoQ0FuTjBmQW03VW11ZjhkVHhBV19WcVNva1RkU1BWbkNXaFdf?oc=5",
-          "source": "TV 2",
-          "published": "2026-10-17T12:36:35+00:00"
+          "title": "En trøblete norsk EU-høst. Flere vanskelige saker venter. - Aftenposten",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTXdidlU5dzREWlVVR2ZTc3NZcTBhc3M0S2xQbmNKbmkyMEd3MHhta0s5MnF5VVBFd3JSMDhVU2c2NndXam50cWtzSnU4WlhDRVViSGtmWlFlUi1YcU9rX2xpcGNJd1M2TC04SzdRczh4Q3hUUVd4SU5xTXVNS2pYeTM0a0M2ODhRdWpGV2tvRFV3RkpnZ3VDTkUyLUV3blpSLUtJUEdiM3E?oc=5",
+          "source": "Aftenposten",
+          "published": "2026-10-20T08:03:00+00:00",
+          "title_zh": "挪威欧盟的秋天陷入困境。更棘手的案件等待着我们。 - 晚邮报",
+          "translation_status": "translated"
         }
       ],
       "trending": [
@@ -308,19 +374,25 @@
           "title": "arbeidsavklaringspenger",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
+          "published": "2026-10-20T09:50:00+00:00",
+          "title_zh": "工作间隙津贴",
+          "translation_status": "translated"
         },
         {
           "title": "steve witkoff",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T09:40:00+00:00",
+          "title_zh": "史蒂夫·威特科夫",
+          "translation_status": "translated"
         },
         {
-          "title": "formuesskatt",
+          "title": "tiller",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-20T08:50:00+00:00"
+          "published": "2026-10-20T09:00:00+00:00",
+          "title_zh": "分蘖",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -344,22 +416,28 @@
     "SE": {
       "news": [
         {
-          "title": "DEBATT: Många anordnare av personlig assistans planerar att lägga ner - UNT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc1BiVENRQlZUa3RRay1sTjJpV1VRTGhNbU9EMUItVTVFVkpxZjh4ZUNVQ0RRdVI2VHhjdHVQQlpncGh4N1Jic2oyRHF5M29tTU0zVUtva0RlbFZ0dHNYX1FEbjJKOTVYY0R5RW1mQXR6VUtNeUxhQjFxQXgweWk0VnQwT0xqY1BHUHFrZjNQdFRKMlRGTm9KSU1rWnoxRmZnLVFuR3ZJOA?oc=5",
-          "source": "UNT",
-          "published": "2026-10-20T03:00:00+00:00"
+          "title": "Ytterligare ett misstänkt brottsoffer i Sigtuna - Göteborgs-Posten",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTWZ6NnJselFBSENzcjk2bWQ1a2lUYnB0Q2p0YTB0d3RhajJ2eGx0Q2ZWcGViVnZZMEdnalNtM1BYbUxUdmxmaWVrNzVwOEt0dXBkRXdoTEF1cXJPeUljX0daYkcyOVZYZkpNVF80dmN1MW9sQVp4T3NBRmZGVEVOaUJKcTBIb3dkUlV3RUlybnF5cVpuZEtHQUpvQk1KSVk0U2NQQnN1SEdnbWVJRk9sYjNZbG93U1hsQkE?oc=5",
+          "source": "Göteborgs-Posten",
+          "published": "2026-10-20T10:07:24+00:00",
+          "title_zh": "锡格蒂纳的另一名疑似犯罪受害者 - Göteborgs-Posten",
+          "translation_status": "translated"
         },
         {
-          "title": "Forskningen blir personlig – när ska vi låta naturen ha sin gång? - Åbo Underrättelser",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmlDOHBlZjBDNW1OUkhIOVJrUXE0N2NfSmRUTERHNTBCeGJ4aGJNTU1JRkhxN195NEpZa2V2Ti1uWXFiTkVGRGlBSk1PY2dNaEFsT1BRT0Y4dGp3R1lINlczMmJXYXFGTG1abmF1cEwzWjR1VWNreHJIUzZHZm5FN05LeGFad1NmV3h6THdqTXFzY2JzcjJqQUo5c3Q5QnU2b1VIRXR5NA?oc=5",
-          "source": "Åbo Underrättelser",
-          "published": "2026-10-20T02:00:00+00:00"
+          "title": "Mygga som kan sprida dödliga gula febern hittad i Skåne - SVT Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOGd5N25LY2dPUi1NdkdjWUVTUHV3Y1FYemRQUFZhNWpsaF9hamZaaTRUVWVSal9OVjNPRmhWY21CSVZsX0pIOUhBOE4tMTdRNk9EYl93bWotaTRHbGRFaWN1VlZpSmVlaDhvU2R4UGthYy1XNFVpbmxyWVZNVmdGcFVoVWNNbnJLcHAyeDJrLTRtY0NIYm5EWVRPOA?oc=5",
+          "source": "SVT Nyheter",
+          "published": "2026-10-20T08:42:09+00:00",
+          "title_zh": "斯科讷发现可传播致命黄热病的蚊子 - SVT Nyheter",
+          "translation_status": "translated"
         },
         {
-          "title": "Otänkbart för ”lilla Dessi” – så blev segern personlig för tränaren - Sveriges Radio",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRmtUY3hjcnBvb20zVThodG9PNFMxUDRyODlvdXNCXzJILWxlVVNtZUN5cmV4V3ZMM2otZmhEVDAtLUZfUnJFQlRISWNaZjFSQUJYTHNSVEE4c2RnVVhaVVRCRFp0TDZSdmlBZ1NBeHR1enBLR0hHbmpUaUxLNG9BSmtzYTJJVWpkRWRvQVdCbE1VX3lqY052U2NUTFNrRmM?oc=5",
-          "source": "Sveriges Radio",
-          "published": "2026-10-18T12:00:28+00:00"
+          "title": "Nya borgarrådet välkomnar vänsterstämpeln: ”Helt okej” - Omni – Alla nyheter. Alla perspektiv.",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR3lkZ0pSMGxoR1IzdGt6ajFNcXdHYU55Q1pNRThkdlctWFpJYXdNMGxsY1c5N1NFSmplUVMzaEdXVVduQzlDa0ZCaklnNHJWVVdzcmpUS294Y0JJeWxSQm5lZklaWVZNS0l4NFgzNmlTcmRCX2pYWUFQMXRINkJrdUdn?oc=5",
+          "source": "Omni – Alla nyheter. Alla perspektiv.",
+          "published": "2026-10-20T07:18:42+00:00",
+          "title_zh": "新市议会欢迎左翼印章：“好吧” - Omni - 所有新闻。所有观点。",
+          "translation_status": "translated"
         }
       ],
       "trending": [
@@ -367,19 +445,25 @@
           "title": "saba",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:20:00+00:00"
+          "published": "2026-10-20T09:20:00+00:00",
+          "title_zh": "萨巴",
+          "translation_status": "translated"
         },
         {
           "title": "daniel helldén",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:10:00+00:00"
+          "published": "2026-10-20T09:10:00+00:00",
+          "title_zh": "丹尼尔·赫尔登",
+          "translation_status": "translated"
         },
         {
           "title": "steffi graf",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:10:00+00:00"
+          "published": "2026-10-20T09:10:00+00:00",
+          "title_zh": "施特菲·格拉芙",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -396,42 +480,54 @@
     "FI": {
       "news": [
         {
-          "title": "Video - MTV Uutiset - mtvuutiset.fi",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DRTFBV3lReUEzRzJ3ZURjclpXQ3k0VkNnajhkTmFCZGo4VUNQN0d1ZF9BS3FsMVJJNXFtb19ud0NTWkVfTWdpeXFLb3NkaHc4U0hOdXU0UURhUjdXUkhHOA?oc=5",
-          "source": "mtvuutiset.fi",
-          "published": "2026-10-20T03:35:40+00:00"
+          "title": "Stubb yllätysvierailulle Osloon – tapaa Zelenskyin ja Witkoffin - Ilta-Sanomat",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85a2J3dy15cWJKMlBaOU9ZSjlWLXB5ODQwQnp1bjVMM2dzd0haSDZNeTFTMlpJOVQ3RDZjSDIwOVZGTmFTaGM4NTYzaGlSaUJrN3RpeDJhTVdPd2lJOG9XRw?oc=5",
+          "source": "Ilta-Sanomat",
+          "published": "2026-10-20T08:11:00+00:00",
+          "title_zh": "斯塔布意外访问奥斯陆 - 会见泽连斯基和维特科夫 - Ilta-Sanomat",
+          "translation_status": "translated"
         },
         {
-          "title": "Personoitu ravitsemus - lähiajan arkipäivää vai utopiaa? - Duodecimlehti.fi",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxenVnVnZtSllCeWFTQ2dZUmgtaklHTUVmcmxSS0xJQTZtWDktYXEySldiY3B0Rm9jTjFjZ1ZUT2paUGg2VXJ2VHFwRGtJQQ?oc=5",
-          "source": "Duodecimlehti.fi",
-          "published": "2023-09-19T20:31:15+00:00"
+          "title": "Outo kolmikko herätti poliisipartion huomion – Muovipussissa oli yli 76 000 euroa käteistä - Iltalehti",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oMVdNOTFwT1d0Qnp6N0ZlejlDRmhIbTJJQWMwaW5wckplTkJKZ0dPZ0E0VzJMTGJYRHdTLVlSQW5qaExKeVBZd1cwVzlDNlI1RkhfZHdPd2FFMVZJRFVHMm84MlpoOG1nVl9xQzdnSmN2MXF2eUdhRElENA?oc=5",
+          "source": "Iltalehti",
+          "published": "2026-10-20T07:56:46+00:00",
+          "title_zh": "奇怪的三人组引起了巡逻警察的注意 - 塑料袋里有超过76,000欧元的现金 - Iltalehti",
+          "translation_status": "translated"
         },
         {
-          "title": "Pyhä vai personoitu? Kansallispukujen tuunaus kasvattaa suosiotaan mutta jakaa mielipiteitä - ts.fi",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE56bHZTai1Yb2FValpXRW9qdHRPUUVQT1FFRE1EeFFKWUpRa2c5VWk5U3Jrd2JaMzljVks2QXdoSkQ?oc=5",
-          "source": "ts.fi",
-          "published": "2025-08-07T07:00:00+00:00"
+          "title": "Pääkallot yllättivät tutkijansa: osa Suomeen palautetuista kalloista ei olekaan suomalaisten - Yle",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5iTDh2VVViZzBKTkItemlDeHNROGQyZEpGelhiR0hMbEdIQlNQNXBjSTkyZXp3cE9zc1dLOTZiME1Wdw?oc=5",
+          "source": "Yle",
+          "published": "2026-10-20T07:00:39+00:00",
+          "title_zh": "这些头骨让他们的研究人员感到惊讶：返回芬兰的一些头骨毕竟不是芬兰人的 - Yle",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
+          "title": "unemployment",
+          "url": "https://trends.google.com/trending/rss?geo=FI",
+          "source": "trends.google.com",
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "失业",
+          "translation_status": "translated"
+        },
+        {
+          "title": "richard riehle",
+          "url": "https://trends.google.com/trending/rss?geo=FI",
+          "source": "trends.google.com",
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "理查德·里尔",
+          "translation_status": "translated"
+        },
+        {
           "title": "jere lassila",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:10:00+00:00"
-        },
-        {
-          "title": "eläke",
-          "url": "https://trends.google.com/trending/rss?geo=FI",
-          "source": "trends.google.com",
-          "published": "2026-10-20T09:00:00+00:00"
-        },
-        {
-          "title": "venäjä",
-          "url": "https://trends.google.com/trending/rss?geo=FI",
-          "source": "trends.google.com",
-          "published": "2026-10-20T08:50:00+00:00"
+          "published": "2026-10-20T09:10:00+00:00",
+          "title_zh": "杰雷·拉西拉",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -455,42 +551,54 @@
     "PL": {
       "news": [
         {
-          "title": "Nietypowy prezent na Boże Narodzenie? Poznaj pomysły dla miłośników strzelectwa sportowego - Ostrów Mazowiecka internetowy portal OstrowMaz24.pl",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV0ZhdTdRU0dRRU9uZTJLWjdxNjJxRHUyXzJULXo1dzVPSEFBZDZsTHJvZUZXbDd5VFRKMkVua0FTZVl1cFNIU3NKQkhaTWhqeHpMOEhLbXhPREhTQUF0MVdybVJ1bFBLcFRvZHhXdVJiay1kT3N3dTJTUVNGMmlFcFRIUHlhcGZVOTB4bF9OQjhnU3JVNldkY3NTbk02UHB0ZlFlT2pLZVc5aHQ2Mi1FeGczS1RxS2ZXZGk1SEpn?oc=5",
-          "source": "Ostrów Mazowiecka internetowy portal OstrowMaz24.pl",
-          "published": "2026-10-20T09:27:35+00:00"
+          "title": "Rosja ponownie zaatakowała Ukrainę. Operuje polskie lotnictwo - PolsatNews.pl",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ01JWjZPTVZIU3JJQ0ZscjQ1bG4yYzNBejE1QzdtV2pGUHhpdGN6QlFCOFdQODA5VlFKMjgyMXZWc1JDTDhlM25raEJIbWhndFp1S0JPR2lfWW10YUQwbGdqaC04NHdLYzUwdUdDcDcwUkVxc0M0aUlhMDAzME9pTlRHcVlya2tvdnlhVFF1Y3BoblZ0VU1SMWE4SlJkOWZyXzBFUkZVTDFLT2tQ?oc=5",
+          "source": "PolsatNews.pl",
+          "published": "2026-10-20T08:06:00+00:00",
+          "title_zh": "俄罗斯再次袭击乌克兰。波兰航空运营 - PolsatNews.pl",
+          "translation_status": "translated"
         },
         {
-          "title": "20 stopni, a nawet więcej. Pogoda zrobi prezent ciepłolubnym - TVN24",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEYyN0U4REdUdUQxQldiR1hoZDdwQWdKR3hVelFpNmZhRDVHajI4aWJUVFhUWUlpY0lJNWZydEZnaXB2cjVzVHZpdjRkQU81Y3lQUUhRTzVyLXBlVVZQSVd2VGt1ODFTeDJVZ0owdXcxSjFQTTNMM2luTnh6czRVWllpSk9FMmpTcktwX2RnTWxnR2tJTHcyR0pGSFJkQkx5Y3dUeXRB?oc=5",
-          "source": "TVN24",
-          "published": "2026-10-19T16:13:51+00:00"
+          "title": "Wojna w Ukrainie. Będą rozmowy USA z Zełenskim w Norwegii. Zaproszono też Polskę - Wyborcza.pl",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYUtzSTBWcjFKZDF1Vkd2ay03NG1GYnhqZmU2WDVSMkUwcXFraHo2TDZSZ2t6Vk9VbjlwMnMzSkotb0hTS0JFR1dDbTViR3NpZWd4SnJkdk9zdFNzOFFBMWlhcHNEcHBOcDdOT3dzb2FlRFJZMnZhSVMtU0VtR3VUTHN0NVdfSUlmWDQwc3l2NE5sOXFnaFIyNU9oRVVMRlkyYWFv?oc=5",
+          "source": "Wyborcza.pl",
+          "published": "2026-10-20T04:56:12+00:00",
+          "title_zh": "乌克兰战争。美国和泽连斯基将在挪威举行会谈。波兰也被邀请 - Wyborcza.pl",
+          "translation_status": "translated"
         },
         {
-          "title": "Chris Wright tłumaczy porozumienie z Rosją: to forma presji na Kreml, a nie prezent dla Putina - Energetyka24",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVWdXcWNER1ZlVFB3MzUtMUg4TS03empkUU1FWWlfRG5TQ3hRY1RWa2t2M2dHWkF0Y01jUTYtR1ZudWVTZGZLMmxTeGtKWUdMME9Yb2x6aFI3WmhrbVhveFd2SGxFQVE3VW1UaEkxT29EeXM3ckwxR04tNlRGdTVYQjZIbjNKQS0zR2VsTGpmLWNlMkdfZUxXa2c3X1BDSXVVcEozdXF0Vy13aG5BeElrenJGM1hKSTFpbDI2VWRXTDVZUlNYaURsdlNB?oc=5",
-          "source": "Energetyka24",
-          "published": "2026-10-20T07:30:00+00:00"
+          "title": "Trump stawia Europie ultimatum. \"Nie będziemy mieli innego wyboru\" - WP Wiadomości",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZzNnV3VJd2dCbUJDNkdZUFVnU0NvcTRwTFZaUU9oUXhQWTBDaEN5TFktWEd6RzRRTFRPeGJpdVhkM2FZZlNsZ2s1NUctYU1jdFdJMWoyVDViaFhaVUJCQ0szU1RYc3RhWWNNeVM4NE9kOEpBcTAtc0tqOEJaRzM0T29ORHBYRkZfdnhfNzZaSlA0SGZWUllQNVJ6UDB4eGhrOTBlcm5BOWx4UQ?oc=5",
+          "source": "WP Wiadomości",
+          "published": "2026-10-20T04:15:26+00:00",
+          "title_zh": "特朗普向欧洲发出最后通牒。 “我们别无选择” - WP News",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
+          "title": "jeļena ostapenko",
+          "url": "https://trends.google.com/trending/rss?geo=PL",
+          "source": "trends.google.com",
+          "published": "2026-10-20T10:10:00+00:00",
+          "title_zh": "杰娜·奥斯塔彭科",
+          "translation_status": "translated"
+        },
+        {
+          "title": "wątroba",
+          "url": "https://trends.google.com/trending/rss?geo=PL",
+          "source": "trends.google.com",
+          "published": "2026-10-20T10:00:00+00:00",
+          "title_zh": "肝",
+          "translation_status": "translated"
+        },
+        {
           "title": "paliwo",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
-        },
-        {
-          "title": "ursynów",
-          "url": "https://trends.google.com/trending/rss?geo=PL",
-          "source": "trends.google.com",
-          "published": "2026-10-20T09:50:00+00:00"
-        },
-        {
-          "title": "manchester city f.c.",
-          "url": "https://trends.google.com/trending/rss?geo=PL",
-          "source": "trends.google.com",
-          "published": "2026-10-20T09:40:00+00:00"
+          "published": "2026-10-20T09:50:00+00:00",
+          "title_zh": "燃料",
+          "translation_status": "translated"
         }
       ],
       "products": [
