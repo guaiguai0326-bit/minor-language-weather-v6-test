@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Public RSS data collector. No login, scraping or fabricated scores."""
-import json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, re, time, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -30,19 +30,46 @@ def readfeed(url,limit=3):
  except Exception as e:
   print('Feed unavailable:',url,str(e)[:130]);return []
 
+# Public Google Translate endpoint: best-effort, unofficial, may be rate-limited or change.
+# Do not claim translation success if the service fails. Cached results reduce requests.
+def translate_zh(text,lang,cache):
+ if not text:return ''
+ key=lang+'|'+text
+ if key in cache:return cache[key]
+ try:
+  query=urllib.parse.urlencode({'client':'gtx','sl':lang,'tl':'zh-CN','dt':'t','q':text})
+  req=urllib.request.Request('https://translate.googleapis.com/translate_a/single?'+query,headers={'User-Agent':'Mozilla/5.0'})
+  with urllib.request.urlopen(req,timeout=10) as r:data=json.loads(r.read(200000).decode('utf-8'))
+  result=''.join(str(x[0] or '') for x in data[0] if isinstance(x,list))
+  if result and result.strip().casefold()!=text.strip().casefold():
+   cache[key]=result.strip();return cache[key]
+ except Exception as exc:print('Translation unavailable:',lang,str(exc)[:100])
+ return ''
+
 previous={}
 path=ROOT/'data/market.json'
 if path.exists():
  try:previous=json.loads(path.read_text(encoding='utf-8')).get('countries',{})
  except Exception:pass
+cache={}
+for country_code,old_items in previous.items():
+ lang=COUNTRIES.get(country_code,('auto',))[0]
+ for group in ('news','trending'):
+  for entry in old_items.get(group,[]):
+   if entry.get('title') and entry.get('title_zh'):cache[lang+'|'+entry['title']]=entry['title_zh']
 result={'updated_at':datetime.now(timezone.utc).isoformat(),'countries':{}}
 for code,(lang,geo,term) in COUNTRIES.items():
  query=urllib.parse.quote('("'+term+'" OR "'+term.split()[0]+'")')
- news=f'https://news.google.com/rss/search?q={query}&hl={lang}&gl={geo}&ceid={geo}:{lang}'
+ news=f'https://news.google.com/rss?hl={lang}&gl={geo}&ceid={geo}:{lang}'
  trending=f'https://trends.google.com/trending/rss?geo={geo}'
  newsitems=readfeed(news,3)
  trenditems=readfeed(trending,3)
  old=previous.get(code,{})
+ for group in (newsitems,trenditems):
+  for entry in group:
+   entry['title_zh']=translate_zh(entry['title'],lang,cache)
+   entry['translation_status']='translated' if entry['title_zh'] else 'unavailable'
+   time.sleep(0.12)
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
  products=[{'name':n,'title':n+' · 公开商品/热卖页面','url':u,'source':'竞品官网','summary':'已确认候选来源；商品排名、价格和销量尚未自动验证。'} for n,u in SHOPS.get(code,[])]
  result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[]}
