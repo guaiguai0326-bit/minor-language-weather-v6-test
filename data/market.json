@@ -1,56 +1,56 @@
 {
-  "updated_at": "2026-10-23T22:37:09.974539+00:00",
+  "updated_at": "2026-10-24T22:34:23.809621+00:00",
   "countries": {
     "DE": {
       "news": [
         {
-          "title": "Unwetter erwartet: Sturmflutwarnung: Inselgäste sollen Parkplatz räumen - DIE ZEIT",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeEhPSFpqUHVoVGFYcERHM1JBYS1aemRsYktoc01iV3NxSXpxZHJIU1JUaHNBU3VKZE9QbWl6VzAtdDN2d2k1eXhmNHcxT182MmthQ3RKWndDNFBYU0s4YWx5MDZZenprNWZpN1NzaG0zaW5ibjRiU2V0b3Rua0hydndSaWJIb1NPY2hIMWNOVWxjMUU?oc=5",
-          "source": "DIE ZEIT",
-          "published": "2026-10-23T08:09:34+00:00",
-          "title_zh": "预计会有风暴：风暴潮警告：岛上客人应腾出停车位 - DIE ZEIT",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Vermittelt durch Melania Trump - Waffenruhe für besetzte ukrainische Stadt - tagesschau.de",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLVdPYjY4elNucEppdFNwc291WE5PemM0OVFudHZvRG9IN2JIcjNnUVZodW1naWxxNkFLNElORGJ6SWhmRjZMY1REcXl5TUFaTGJNdkJXRGItOFdoVnAxVWxvM0hOMkszZjZwckVoeW11bl9TNEI5Rm1ua0xaeUt6THp3?oc=5",
+          "title": "Hunderttausende protestieren in Frankreich - neue Unruhen - tagesschau.de",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXE5d29LQlJEc1FfSmhDZTRIb1QxRDB2TUtDRUFmemZqc0tDRm83QUgyWFpwVWdKWmNfNlFQRl9aVnlJc1dnV3VSMmVrOHc5R3JZRW9HUmRWUHJxMVZDSkRhLU82RGw0dWhCWW1IbUNlWEkyZVd5VFBOWFVabVZBbDB3NnY4WkM4cnBkU0R2WXM1Mnc?oc=5",
           "source": "tagesschau.de",
-          "published": "2026-10-23T17:26:00+00:00",
-          "title_zh": "由梅拉尼娅·特朗普调解 - 被占领的乌克兰城市停火 - tagesschau.de",
+          "published": "2026-10-24T19:00:00+00:00",
+          "title_zh": "法国数十万人抗议——新的骚乱 - tagesschau.de",
           "translation_status": "translated"
         },
         {
-          "title": "Das ist der CDU-Systemsprenger von Magdeburg - STERN.de",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcXR5MVNYZUtvRzZRMXl5THVZRU5kelF6TzVSTUpkN3dvcTFIa0RVZ3RuWjZNWG1WQWtCYUJPeWRZcU5aWmNtN3dqdWl0akVJZHc2TWJvOXZRVkk2dy1oRjlDNFBBdi1tM2hDR2JacmNVSExfNE5sYlFKU0tUZlN3Ym5ScmdJV3lKeWZudDNVRllsYkotLTFZZ1M3QWl1aFVHMjRDRlFRQnkzNGFzWmc?oc=5",
-          "source": "STERN.de",
-          "published": "2026-10-23T18:09:00+00:00",
-          "title_zh": "这是来自马格德堡的 CDU 系统破坏者 - STERN.de",
+          "title": "Unions-Zoff über Bundespräsidenten-Wahl: Merz vermeidet jede Unterstützung für Aigner - Tagesspiegel",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQURBcWJiUy1xdUNJRm53OGI5NFVsUW9sSEpYMU52YVNJQzZRMWV1VHRnd01xLWZtUUZ3OTB1RkFWeHFJUDI3X1ZYRzlGWGZibzZDVXdQS0lvWk4tQmwwWXRycVB2SGZQSDlTRm1KeFdSSEh6X3ZHNE9oYU0tczA0clNHdnVYaDVvanlhRFVDRUVzNWkwd2VDWTA2ejVQU3RBb3p2bTNmemw0VENTWm9sR213TEt4NGloQXM2eVd1R0tEaDI1WFFVTHFudnA3RDA?oc=5",
+          "source": "Tagesspiegel",
+          "published": "2026-10-24T16:55:46+00:00",
+          "title_zh": "联邦总统选举中的工会争议：默茨避免对艾格纳提供任何支持 - Tagesspiegel",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Frankreich: Drei weitere Festnahmen nach tödlichen Schüssen nahe Paris - DIE ZEIT",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWVsTWRENThxTXBXLVpIWDNOV0VvSG1iTnVMc0lRczktVXVqTV9Ka1lXZDU1T0VmOXBQUkxfUnJ0bmlGWDhaLUZkeWRwWlBsREpoanZYWFBQU1NDZndjaWVXLS04eHZJdnBtLUhnZks4OWdmeE9OX09NWmFqMV80WWtVME9qczhoNDVwVEVRZVZvOWJHTnU0Q0xLem1hbm05XzlpTDVBYVdLNkpfTHAtT3VGUDRjV0JxMUNj?oc=5",
+          "source": "DIE ZEIT",
+          "published": "2026-10-24T20:42:16+00:00",
+          "title_zh": "法国：巴黎附近发生致命枪击事件，另有三人被捕 - 时代周报",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "tierheim nürnberg",
+          "title": "f1",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "纽伦堡动物收容所",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "drake",
+          "url": "https://trends.google.com/trending/rss?geo=DE",
+          "source": "trends.google.com",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "德雷克",
           "translation_status": "translated"
         },
         {
-          "title": "wow forever",
+          "title": "birmingham city",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "哇永远",
-          "translation_status": "translated"
-        },
-        {
-          "title": "inas nacht heute",
-          "url": "https://trends.google.com/trending/rss?geo=DE",
-          "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "今天伊娜的夜晚",
+          "published": "2026-10-24T22:00:00+00:00",
+          "title_zh": "伯明翰市",
           "translation_status": "translated"
         }
       ],
@@ -75,53 +75,53 @@
     "FR": {
       "news": [
         {
-          "title": "Un combattant amateur de MMA a été tué dans l'attentat à Trappes et La Verrière - L'Équipe",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeFB3b0hZakZPcnBDbmdvZmMzb0RoWnB3UTEyRHROMWppb2ozLXBWUmhCVE9PZXp4dG5xU1pOaC1FODFsSHdMZ29jQmh3aEQ4c3J0OWM0bHBWUXZmb3FWU3RpTGp4aVByaDJoRTZHd25LUnp5aW53dmtvUlZWNTVQZjNiVFdKbUpXN1Y0dDdRZEVvZHlHbzhlQkNCbFJIOXc1ZURZRHJRLVgyb0cyWXB3dlNCWTg4ZFRUWnpmVXhTSXp4Nk0?oc=5",
-          "source": "L'Équipe",
-          "published": "2026-10-23T19:01:47+00:00",
-          "title_zh": "一名业余综合格斗选手在特拉普和拉维里埃的袭击中丧生 - L'Équipe",
+          "title": "EN DIRECT, manifestations du 24 octobre : entre 410 000 et 800 000 manifestants, cortèges sous haute surveillance, tensions en fin de journée... Revivez la journée de mobilisation - Le Monde.fr",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOTFVBWWZORkplS2ZZN3dOS1lTZlBrc2JqQ2JDYlJMZzlleDRYMDZ0bTVRTVJuRE5FeU8wMElOT2dmNzNqNVc2c3k3NlQ2bUtHQjR0ai15ajRZRXp3enVoWnhRQWJUc3gwMzlnTThmQko3UG9jdk5uVDBOc3dDMEJOd2N2SGZiamlKVnk0X1MyM2ZZTUtDN2FkeDh6c2N6ZkU2X2VQWjlVdTFEdTdFckMxOEp0eHFmYWJhUkh5eUpHclBzUDdFTnNValEwZFNGa0xXNERqcDJIa1NiMk5acGJGSHNrM3VOdFNGdEdWeDRWV0Y1QllNdWpybVZzM2FaTlJHWC1Zd2JERmtLUURBaEtOUlNJYVcySmxjTWNZV2pnQkxYSDQxOW5LTklIelkwb2JKaTRnbkdnQ1BHLUpaRWFsc3hvX3BjejJpRHd6V3k3dURnWnc5QTc0?oc=5",
+          "source": "Le Monde.fr",
+          "published": "2026-10-24T22:23:33+00:00",
+          "title_zh": "10 月 24 日的示威活动现场直播：41 万至 80 万示威者、严密监视下的游行、一天结束时的紧张气氛……重温动员日 - Le Monde.fr",
           "translation_status": "translated"
         },
         {
-          "title": "Manifestations autorisées ou non, mobilisation de l'armée : ce qu'il faut savoir sur la journée du 24 octobre - Les Echos",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVGRNZDMxQ0xhYmVsV0o3THhvdDgxZmxOUmkyblZEX0tocXRPVnBiT2IyOWJoX2VGSzdzUm81a1c3ZkJGT2FMTXNjU1liU0RiX0xxbkpnRE83RFNYNmJwZG92ZWNMZmVOVG53MTZHUmFHMTcyUkpmeWlOQV9XRGJWRTQ1bms4SVhhRWJwRFVuMjRlaHlOS0hYT202Skw5YW9HTGk3blBYY2pQdHJoY1diYTI2MTlmSFpmUm1VYVpyUWJLbmV1alFsYXBQSVgtLUZidl9kVXdHaHJNcHZIbEJiOVVqWjZJdm9Yb2pJdl9zVWV0OGNC?oc=5",
-          "source": "Les Echos",
-          "published": "2026-10-23T14:21:35+00:00",
-          "title_zh": "是否批准示威、动员军队：关于 10 月 24 日您需要了解的信息 - Les Echos",
+          "title": "Attaque terroriste dans les Yvelines : le livre d’Hitler Mein Kampf retrouvé au domicile du tireur - Le Figaro",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTjhkWkVHUTdmY2FOekFrV2d0cG9JdDFtT0huczJWMFh0ZWNBYjBzdFk0cTZmZHA4RldWYXhhUklfb3dqY2RzRFRtYUZpWXVoVEZTa3IwVm1scEpLSk1wYjZRSGZlaHlxY1lpMnJIU1UxVWVoa0RKaFl3ZDZUT05PZlJkb1M3R1JsN0pEakc2SWprWGppYktVWFM2bkl4X0ZKWncxbnpyX3NqN1Nsc2RxOVlzQmp1Zm1oMUxNcE03cXZPM1A4M0JvY2JZOXdTdnBLUGYtZEREVXVTQQ?oc=5",
+          "source": "Le Figaro",
+          "published": "2026-10-24T17:44:41+00:00",
+          "title_zh": "伊夫林省恐怖袭击：枪手家中发现希特勒的书《我的奋斗》 - 费加罗报",
           "translation_status": "translated"
         },
         {
-          "title": "Vigilance vents violents – Tempête Boelo du 24 au 25 octobre 2026 - Mairie de Quimper",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNnRBdnJRNjktNDdQaXQ5c0VhekpQSnZtWUV5RHhPRUUzSWIzZmhNUzVsTnlXQy1SZlFqSEZQSjhjVWQ0bm1MbFN3cGNaU05MLVVKcl9Ra2FyWGRVSXZiYXk2LTdrLTgzMGpwV3AwYzlCNmR5eGthRUlFdW5RSG5rVUpjM0FOZi1DVFJqUlhwbHZRQUp1Vlc0QlBQYmRkZXhkT2s2cDAzeVludXlvWVE?oc=5",
-          "source": "Mairie de Quimper",
-          "published": "2026-10-23T21:35:34+00:00",
-          "title_zh": "警惕强风 – 2026 年 10 月 24 日至 25 日的博埃洛风暴 - 坎佩尔市政厅",
+          "title": "De Mediapart aux soutiens-gorge des femmes, le RN embarrassé par son service d’ordre lors de son congrès - Le HuffPost",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNU2ZkQmN4ejR5VVNNM2FkNGhDbVdJbGpFMy11Zkd0Qm1KSzZYOEZSd1BVcTdhZXNSdmVWODYwcUt6WHZDbUpJSDBvU2RacEpLZkFUWl9tWkJwVWl1ZmlGejVnZXdHamRLSV9yZzBoVjVXMlZXM0t2LUlISEoxS1dGaHdSLUpiZjVjT0VicWxfVFMwaHZLUVZkaUo1RWs0VFg1QWJsM095XzhERlh2TnV4QlZ2c1ptZ2xQeFpRLW1NaFhlMDNMUS04M25nR2xCdkFlMUYwSmVqN0dxZmNGTFI2TzZhMHRqUFRpVjBpV0JQaWMtbXktN1E?oc=5",
+          "source": "Le HuffPost",
+          "published": "2026-10-24T16:44:32+00:00",
+          "title_zh": "从 Mediapart 到女性胸罩，RN 在国会期间因其安全问题而感到尴尬 - 赫芬顿邮报",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "celtics – knicks",
+          "title": "bilal hassani",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "凯尔特人队 - 尼克斯队",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "比拉尔·哈萨尼",
           "translation_status": "translated"
         },
         {
-          "title": "classement torino football club – ac monza",
+          "title": "emilia clarke",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:00:00+00:00",
-          "title_zh": "都灵足球俱乐部排名 - ac Monza",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "艾米莉亚·克拉克",
           "translation_status": "translated"
         },
         {
-          "title": "idealogeek",
+          "title": "buddy",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:50:00+00:00",
-          "title_zh": "理想客",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "伙伴",
           "translation_status": "translated"
         }
       ],
@@ -146,53 +146,53 @@
     "ES": {
       "news": [
         {
-          "title": "De Felipe VI pidiendo cuidar las formas y las instituciones de la democracia al momento mágico de Patti Smith - LaSexta",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZ0FCWXpiT1RwdkljZkRkZFdNdFZqNWwzRFduYWVJbDl1UXBqeXBSbi0wNE55X01HWGthSjRta25FMlA1M0Z3S2dNOXVoVGJJTUJ5aW1ldUVMcGcyZ3dmUmM1d0toT0dhUmdvN3A3SEdGZWRnR0UwZElCc05tVWQ0QnB0aVgzR1k3SVhnV0FqRnZhRndteWFVWjZZUnV0SXFEeGlfNFhncEhUdl9TckYxNTVzNGRVWVlldUo2M3VDUk5IS0hRMU1nVG9lTGZLNWtvSFVDOXJZT3FrNzZZZ2t1aUtaQk5ZZmN6SHZtZEFpV1JGd9IB8gFBVV95cUxOWEJVeklmYlQ3S2NfMGpYc3dRbF9PYVhwcjg2WHgzX3c4SXdaNTRzQUFHTWUtb0lDQndYNjU5VmhJNm1LMW1xVzQtRHFWb0N1dXdESEJ3TDZSZEtFRGxRbGpuSEVlVklQaFdxdGphZWNiSzNMWFNkMmNqdlBKdURXUmF3WVhvRGNlQkJmQU1iSFlEX0dmX2VjQlpvNF83NU5ZenVzeXJ2ZWI3UGFiM2JLQURNSmQzNS1vbUhtU0pmTkdJVGF4TjB6aWp5bmdsMDV6aGg4dkxFYTFoQUY1ZXBxVHdZWGtBRVI5VFFEam9mbDFmQQ?oc=5",
+          "title": "Casi 1.000 detenidos en Francia después de que miles de personas salieran a las calles a protestar - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LVmV4alFmdHF5aV84a3dsUkpPS0hUU3RtX3YxWTJRQmx5VDNwY3d4VVMxOHlubGpCaHJ1elhwQi1zb1FaQlhENE52a3FPZFVnTG1qVEdsYkdXOTZn0gFiQVVfeXFMTnA2SlVpZmlWUzd6MmtqMGtxN3k1SmstV19oNUlBTEwxSWZ4NEZCemViMi1MckNMMWg0NWxjdndnLWx5LVFYRGd5VnRKVXBQOVZnMEd3VlpMbEdlaGk0UFR5cEE?oc=5",
+          "source": "BBC",
+          "published": "2026-10-24T17:40:53+00:00",
+          "title_zh": "数千人走上街头抗议，法国近千人被捕 - BBC",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Exteriores refuerza el personal de los consulados para acelerar la presentación de la lista de la \"ley de nietos\" tras el ultimátum del Supremo - LaSexta",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQdjFiWXMwVThrbTdleDJSTGdiSGhmNEZuWWxYUERlcnBlcnVqT0pKM3VpdkVLUmNnMFZjZ1drUnRNejJtTnNpcmY3dy1TcmpYYTNsTktRcVluaHZHa2ZhSDlPc0ZsRzhNRnAyVjItMjN5ZUxZNDhILU1TVnBidkg4blZBZDl1RWpYNy1FVDlRYl9Eb18wbFN6eXVoQ19aRzhPVmo3WWR6T1hXTVZmXzd6Q2s5OTdxUTkxSUljTkdEZlVObzlnekVuUjV3SjIzXzZXcXJQRUhLbjN5WUI4Qkw0bzJXTUFES0xJM3BCTTdKUVctcDZvRjV6b0czNkllMUFsUGltWWpJRUpxNknSAYsCQVVfeXFMUEVySnRTbUxrOVpSWkdzRWtWQ2EzZXFBb2lzQzc2NEQ1c0NsTHJaam9uMVEwZVVFY0M3NHVXc1U2V1luQ2MzNzk0WmRnOHRvd2ltdkRTZExnZG9mdFprTEtpOGdWcE9GQlRnYm9LNjB3VlE3dF92Q3JDVk9RRjN5aFM3UGlPOTNyQjNHQklrTk9zLVk0Y25yWFNHZm1JbmZialRTNm5xXzVraHVWSk9IQm5jbXh3X2Z5UlVaVHp5NDZhUFhUbEVWbEppQVhKOUI4cWJnNnVqb2hzOERYRE0tRU9nRlR5MUtBUHJZd1hmVEtLVmtDT1VyblBmTWozQlFURTNtME9jRkNDOW1j?oc=5",
           "source": "LaSexta",
-          "published": "2026-10-23T19:15:23+00:00",
-          "title_zh": "从费利佩六世要求照顾民主的形式和机构到帕蒂·史密斯的神奇时刻 - LaSexta",
+          "published": "2026-10-24T13:51:05+00:00",
+          "title_zh": "最高法院下达最后通牒后，外交部增援领事馆工作人员，加快提交“孙子法”清单 - LaSexta",
           "translation_status": "translated"
         },
         {
-          "title": "Vota y opina: ¿Qué horario prefieres, el de verano o el de invierno? - La Voz de Galicia",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa1Q0c1JhUjJvWFI2ZjJhY0sxNG45SU5HczVLY0tJRE5uUHFmM1luRUU1MjB6UndkQmRFUFJDNy1pSlp1NnFTNWZBLUw2VkI3WFgxdUI4NDA0b2tGYmNSQVhzS1VYd0NOWDJQV0QwTmtPLUZ6dWh2S2d1WDJXZDRPbkFXWGVXYy1jX3hGdTE0Vk9OMnhCR295MFczRFhDanp0MkN1aGpFYkI5a2xEWFB3VHlpT1VsVUZMa1MwOGU4ekhWZm8xZjhZ0gHjAUFVX3lxTE5VQlBnanRZV0luRU9rQzFUV1NUT3huZUFBYkh6R19jMGFxUGhDUU9tWkNuME1YV0NmMjZVTExraURQd3lHTjNkNkJuNXB1U3JDTW4tYzF4bW5DZC1DNG5JV3RDSGpWbkNGYUFUXzJYTUdxdlNQNHQwWUlpeFVpNDViVFBQM2ZJdHpielYxUGgyYUQxaG1uRmx6V3JXT1ZhbTdpOVhwWWxWQlFJdUxIelBCYkExV2RiZ2hTZnp6QWdTLWF2YzdVZDZ3bkcxeE94R2U2OC1kV2s5ckkyTS05UUFBTUQ4?oc=5",
+          "title": "Feijoo en Vigo: «Todo se va a limpiar desde el 29N barriendo en las urnas y no les vamos a indultar» - La Voz de Galicia",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNc1lESExIQm1WMkplcmlhaTNuYWlHWVQ5N0k2b1doMVBJdEZIMVotdXpWOUtWZXhWM29sVUllaGxiWUIxdzJMdVluRFdXOFpqYzJucm9DNkhjNjlEdWdERnlNdkVVWk9kYkZfeEw4WGtfeDJxVTYwWExqR1NBYUxsSi1VSkFzYTNBb3ZJR2lNcWkyQVk4b0NZM0c4ekU0alVlNWRDNXF6MTg1R0xsLVJ5UlNPMGo1Q09HaHFLa21SdXdJZ1otYTVHLWxFaGFEYmNDMWfSAe4BQVVfeXFMTjV1MzlTYUdwamhrRlNrUEtOMzhJalFKLTR6eEl4b3hNbl9nOEpITXNVUzNfSVhjSlhqaEhWbEk0YjBSdVRoRk9zQXllOWlwZFNaZjBZMFYxV2tLQXJOUmdWWkxpOFVVV01LTElOcEZCdzVKMFJwcnIyc2JwUkMwX1JtYlg3SjFzcDFMUFBuQmphMVFOYkZuWVQtZkc5czlob0dKZDVIQTFCSHBfV1RYQjFtcmxENXVYRklubDQzMmE0UW5xbUdMM1E2c2tvWTV6ZExMcTNrUzZub19BSDFfbnRBMTJDbWNXS0ZFaWRrdw?oc=5",
           "source": "La Voz de Galicia",
-          "published": "2026-10-23T13:37:07+00:00",
-          "title_zh": "投票并发表您的意见：您更喜欢哪种时间表，夏季还是冬季？ - 加利西亚之声",
-          "translation_status": "translated"
-        },
-        {
-          "title": "El Supremo exige la lista de afectados por la Ley de Nietos - Euronews",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0hJNGhqckFjMlRzVmZjVHloVWtXUEtSZnVpNXgtbXVsd2p6dEFCd0RtR1BkUm1hS0YzUXhWOWFSLVR2ZVpjVktuWmkybmJQR1NITkVReTRFTUZ2T0NlSE1ubVpqT0tqYm5wSVZPWXJUNTgzODMwMG1JUUNNdG0xbmREVnUwc2hYek9tMG9uQzlJTEpid1hwZjhVTFFEeHdrRjl5eDBPWU1EVkVBYmpCeDRxM09kbEdZVzBHQUZXWURoQW8?oc=5",
-          "source": "Euronews",
-          "published": "2026-10-23T16:27:09+00:00",
-          "title_zh": "最高法院要求提供受孙子法影响的人名单 - Euronews",
+          "published": "2026-10-24T16:06:13+00:00",
+          "title_zh": "维戈的 Feijoo：“从 29 点开始，一切都将通过彻底投票来清理，我们不会赦免他们” - La Voz de Galicia",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "eurovision junior",
+          "title": "james foley",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "欧洲青年歌唱大赛",
+          "published": "2026-10-24T22:10:00+00:00",
+          "title_zh": "詹姆斯·弗利",
           "translation_status": "translated"
         },
         {
-          "title": "atentado francia",
+          "title": "novela",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:10:00+00:00",
-          "title_zh": "法国袭击",
+          "published": "2026-10-24T22:10:00+00:00",
+          "title_zh": "小说",
           "translation_status": "translated"
         },
         {
-          "title": "entre tierras",
+          "title": "hornets - heat",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:10:00+00:00",
-          "title_zh": "土地之间",
+          "published": "2026-10-24T22:00:00+00:00",
+          "title_zh": "黄蜂 - 热火",
           "translation_status": "translated"
         }
       ],
@@ -217,54 +217,54 @@
     "IT": {
       "news": [
         {
-          "title": "Scatta la tregua umanitaria ad Oleshky, 'merito di Melania' - ANSA",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdlZFNHNrcVhEaW5QYUFIRkpLNzdfc1lONFg1VVJpdWlNN2dTV0lZblB4TUw3WEFHS3VHRmFUV056a05YV2NnYnFCLVN5dlhIUmF1MU4zbnB2bVQtZW9PMVhlcmhJSnNQQmUyNWhKZnNKZ0wyU0hMX0l3dWVJNDV3R3kxaW5mVWNvMEszb0xfWWFZdU5XUUpSOGp2VVhoYWpKM3oxemlhY0VOcWl6QkNWblNVOFNTbDd6MFhONDhDOGFWV195MnRmbkdydHRERnhzMlNqOVVrT3hwVFRJRmxVdnpjQ1VLbG92bTVra2FR0gHzAUFVX3lxTE53bDBNZzZJd2RadXh3N1pteldaMVJSWndFUHRKMXpENVdxci05ZG5iVEdJYUFsTXBtcjlhbGxIV3JGVWlqMkZLbW5Pb2U4T2lPbUNGS1dsSHRxS08tQWNITHlxUzhhaVhoMkMyWEtqdHd4SE45WDNCR0c5MG5OUWZzcjg3Z2lWeGZpVzdkYlF0c2F2eDVwaGVnX04xY2lXMm4zV2xlRGFNOU9ob19uck9sOFB2RFRXM2d1Ym9fMHAtU2hVWk5QZHl5OUdTa05QWm5vWEQ1aS1WaC0zb3loU1IyUDJybXdWVTQxWlZjM2tVSlFBdw?oc=5",
-          "source": "ANSA",
-          "published": "2026-10-23T18:29:00+00:00",
-          "title_zh": "安莎社称，“感谢梅拉尼娅”，奥列什基触发了人道主义休战",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Cortei, il Movimento 17 ottobre cambia tutto: «Non andate nelle piazze blindate, concentramenti comunicati all'ultimo» - Corriere Roma",
-          "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQV05QNDk0YmFRb0EwMUlET1NkeTZobjA2bW9oc2ladDZLQTh2aU9PejRCXzZBckhjaWJHa0tSOXFSRnBBbHJzTXJGaV9PSGRvUUFYMUg4V1U0V3l0aWY3aUpzTG51MXRoYWtsMHFjTWFleHlfdDB5RXhYdzZQTU5NbnZUVWRFYVZJVU9Ua016Y2NzTVk2OVlLVXZlcUloYkZrYWNzTUM4cDNPck9FQzVRdEZtckw3aThDdlU0Y2lucDJXSmw0amtoUVVFQlRaVjJFNWdlTUZob1M5NXZ1Y2VkdFJWRG10MktLbXlIT1FyWFBrZnlBeW04Q29ZbEdkaHZNMUZoVHVtUVFMYU9XU0wwbDVvQUlSR0ZlVVZPeUxqUHVTVnYzUVZpVGRXZGpPVVhtdmhMZk5uUE_SAb4CQVVfeXFMUDE3OWxHNk9tTTVvZjdzUm1ZRlBEbUxZa0t0aGxxZmRCSlFGU3cyMTFneENDTVJ2eGFJblhsUXdOdFFUUDFWdFJ4SURXMTU0NWNhYmFSMWxTNXU4ZXl1Z1NLQkhoekxaYnpQUWtBaUdmZWF1dzFWR09lb1ZoZ2VyTGo0LUR4OVY0M3ludlpQMEZVYnFQQVRWaGlHb3J0bUxwZmhsS0hOZHk1TG55NHhIaGctZ3lkVENqaUZzbnViSmRkdURXR1JKWE9oZ0pNREZZS2NOcUlIZE5aWUdGSXgtNkxDQzlRaFRtWXItVmpfRTZ4MGZqMHhPMnpHbnBpbWd0bUswc21MQ1duSjJrQ1NCU0c5T1RIRXRpa1ozcDI1ZUlzS3YtUmhHRnJTRlEyYzhRWFpuN0pnZUJvbldMOUJR?oc=5",
-          "source": "Corriere Roma",
-          "published": "2026-10-23T16:20:57+00:00",
-          "title_zh": "游行，10 月 17 日运动改变了一切：“不要去装甲广场，最后一刻宣布集中” - Corriere Roma",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Milano, domani attese altre proteste. Perquisizioni in varie città - Sky TG24",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelpTSXNoY1JhZFMtcXlROU5KYjUxd0w4NXVHaXY0SldXV0M5ZHBGUkU4amtPM29CUHNUTnQ1OFliTmpHZUFwZ1BLMGZQMGYwdjVRdDUwQmV4cUdVZFhTRXVNMU9OQldteGxDeElNazZRNDlWV19CRGluZEhBLWNRS2twek1UQUFtcnc?oc=5",
+          "title": "Proteste, tensioni a Torino, Bologna e Roma. Fermati in 371. LIVE - Sky TG24",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU2R4eUdxdVp6NVNIRmViS0VrNS1EcHRXbUlwMEVDWVR6S1FDdnNHRnlPcklsQ0tDbVNoTVVWaEtKMS1xLVVhYVJEYkdtZnNPNE14M2hJc05xSjFkbFhPS1VqTV9hMEVLQVpGdmFmX0ZqcE5GMzVBem1LV2Mxd3R0WFo3TmpLeGQ1NWozN3NUdEtGQjc0aGg3cjNwNA?oc=5",
           "source": "Sky TG24",
-          "published": "2026-10-23T19:25:28+00:00",
-          "title_zh": "米兰，预计明天会有更多抗议活动。各个城市的搜索 - Sky TG24",
+          "published": "2026-10-24T21:42:26+00:00",
+          "title_zh": "都灵、博洛尼亚和罗马的抗议和紧张局势。停在 371. LIVE - Sky TG24",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Meloni, con le nuove misure libertà di manifestare senza città a ferro e fuoco - ANSA",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQOWs2aU41SzVpUXBvbjV2ZGdzbElhODlGbkFKbmh3Wmh6cUtnZ29qS3dEaFMyMUZfNmZSd3RfQkI3LUdTemlIUnByNmNSeVQyYTRpVGowdXZLbjBac3I5UzhsbDhzTDdzQTdfdmh6QmliQ0wydHVpLUUya0Q4OF9ubzVGcFp0NzctNVUtdHg0dy1naUljcG9yM0lTcmpqc0ZkdEpXWmJlXzRvOG5HZ1Z2dmRnWlc0dHN2U2o1blozRWNPM0pzU0Y0dnVLNjNFWWtlOUQ5SzN3YVJuWGZ3cXJfU2ZlU3YtVjktb2NkclN1SFVfTGZxNlkxVGJBaXBIdWc2?oc=5",
+          "source": "ANSA",
+          "published": "2026-10-24T19:48:00+00:00",
+          "title_zh": "梅洛尼通过新措施，可以在没有城市受到枪林弹雨的情况下自由示威 - 安莎社",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Così un gruppo di estrema destra ha diffuso su Telegram i nomi dei capi del movimento 17 ottobre - Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUXdIeHE2RlBtWnIwMVBNWjFOVEE5ZHNzSW5aN1dxN2Z6enhiOW1ocnY3NG9oSUstYzZBd2E0Q2RMREJMOTFrRks0TFdfSkxLWEhHN1UwVHNPLVZMWElPRkozblUyaVh6SVNRcnJaZWZrSHJ3TkVJd2FxeFRTNXdKSlRERUUwbWhPT3I5WmxTOTFsWUVjT3VjdzZULUZKZ016TWdVdTA1Q0Vldmp0STFMVjBvT21VeU9jbXc?oc=5",
+          "source": "Il Sole 24 ORE",
+          "published": "2026-10-24T15:40:39+00:00",
+          "title_zh": "因此，一个极右团体在 10 月 17 日的 Telegram 上公布了该运动领导人的姓名 - Il Sole 24 ORE",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "lebron james",
+          "title": "comiso",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "勒布朗·詹姆斯",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "科米索",
           "translation_status": "translated"
         },
         {
-          "title": "lavoratore",
+          "title": "sienna miller",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:10:00+00:00",
-          "title_zh": "工人",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "西耶娜·米勒",
           "translation_status": "translated"
         },
         {
-          "title": "sic",
+          "title": "f1",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:10:00+00:00",
-          "title_zh": "是的",
-          "translation_status": "translated"
+          "published": "2026-10-24T22:10:00+00:00",
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "products": [
@@ -281,53 +281,53 @@
     "NL": {
       "news": [
         {
-          "title": "Politiebaas in mail naar collega’s over moordzaak Hajar: ‘Vreselijke uitkomst, maar er is zorgvuldig gehandeld’ - AD.nl",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc0MtOEJyVlhxM3RCNm9mLUVsaFJEV3VQNjlDN2VER2ltNzFFcXJvTk0yOXlqQ0VKNUU5U0I0M3ZJVUhTSTBMdFF5R0ZPV3hqcUJoaUFRb0IyNHFqa3A5b1hOeVA1ajR0ZjVuaEktek42azZ1V180ZHVVNDU1a0EyYS1pbzRlbXp6aEZXRW13OHRmVjNfNnZqRTc1VWh1OGV3U2pKTlJkLS10VHRaX0tIY0FrTHItODZhcTE5NHpjMFNfbWRQWHAwU1NqN1FmY09sNG13U0hxdko0RnJRUmc?oc=5",
-          "source": "AD.nl",
-          "published": "2026-10-23T15:49:00+00:00",
-          "title_zh": "警察局长在关于哈贾尔谋杀案的电子邮件中向同事表示：“结果很糟糕，但采取了谨慎的行动” - AD.nl",
+          "title": "Uitslag kwalificatie F1 GP Verenigde Staten 2026 - RacingNews365",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BeVBvYWtsX0Rnd3lMZC01bmVtV2w2SnR6dkFrQ0lEMHp5MGs3NDBNSEladXV5OERGT29vNjBiUXZlWEM0X2NDRDZaUXF1dk02YnY2TnhCU1NpQW9zMFRUWXIxYzVFbWpvTS1UT0RQanc1Y1FFNk1xenVSWlFfUQ?oc=5",
+          "source": "RacingNews365",
+          "published": "2026-10-24T22:05:00+00:00",
+          "title_zh": "2026 年 F1 GP 美国站排位赛成绩 - RacingNews365",
           "translation_status": "translated"
         },
         {
-          "title": "Regering-Trump vecht uitslag midterms Alaska aan nog vóór één stem is uitgebracht - De Telegraaf",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWXpYVVVxUVlLS3pIMU1RR3daNVEwT2Y5MFdEbE9vb19fMDFaenpwVzY0Q2JkeFQ2RmlJYkZVbExKLVowWTk1Nnp6aGUxOGxZaEExczR4NjNlcVBlcXJxMmVaVWcySzJOTnRTUkNlblFPYm9KUjZTNnFkTzdUbXBYMkVhVmpYeEtoLVdpVnhsRUIyR2tfeFBsdGJFNGN0akM4ckVoTWZ6S2RlSFZUVmZpLU1TRElNQW9pc1loelRtQThzUEdJNXRRbnY0U2o?oc=5",
-          "source": "De Telegraaf",
-          "published": "2026-10-23T22:26:35+00:00",
-          "title_zh": "特朗普政府在投票前对阿拉斯加州中期选举结果提出质疑 - De Telegraaf",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Storm Austen trekt over Nederland: zware windstoten tot 105 kilometer per uur verwacht - Hart van Nederland",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcW9Vb3M4dzFOV0pXSllBT21mUDd4QlRKTGNJbDdNWXkyVnM0MXBxcmkwMENvV19fLS1mUDN4WENMb0JrcHVOMGdTOFo4b3FpWW1teUdNTXBkbWhsa2l0U0JQLWt5OWEyUHhMQmJfQ2J4eWRhZ1laYS03Y0JTNFpmWVhMMHVIUl9QclJLY09xVlcycGRkQ1VfZ2huM2VMUF9ocTBSRE8yWFY2elZwOUdjcG5MNTlyQm1HbXN4NWpGc18waDBt?oc=5",
+          "title": "KNMI waarschuwt met code geel voor zware windstoten tot 100 km/u - Hart van Nederland",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZmRPWlltZmstMENIVFFBc2VjeXA2TzdPeDVvSUtnbTl2YktqUlVOc1BkNGN3VU9nSTVsR043YzBtbW1Qcm54VGRfSGN0b2hPTjRqODJpVmY3WmdZWjA1T2h5dERTeFVZZ0M0Zl95ZTZ1RGpvZmtpN2dNSl9IdnhaT2VoTUVlbEZtVU9xMFlWa1ZXbzRPeWpQQ3A0QkRfMzY0TkNGZncxUQ?oc=5",
           "source": "Hart van Nederland",
-          "published": "2026-10-23T05:51:28+00:00",
-          "title_zh": "奥斯汀风暴席卷荷兰：预计阵风时速可达 105 公里 - Heart of the Dutch",
+          "published": "2026-10-24T13:52:28+00:00",
+          "title_zh": "KNMI 针对时速高达 100 公里的强风发出黄色代码警告 - Heart of the Dutch",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Teruglezen | Bijna duizend arrestaties in Frankrijk na 'goed verlopen' protesten - NU",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWVVQZHpocDJMNkZiVmlhaHpndXdQdVpYVjN1WGlVSmwxcGVmMk1fR0g1c1h5Y2xlWW85TWRvQ3ZhOFktbDdmcjUyTVA5WjRiNEJIeW9mQ1k3SVVLUUJyMm1lcFdBUHI5RG1Cck9mem9iS0ZJNUZ3NFhWUk14RzZzQU1VdVRpdDBsR0FqZnFZRVJmM0d2Y1BDaHA1X0hxbkdTMWs5eExvb1E4X1VCZDVfcmZqMFp4Slh4OUE?oc=5",
+          "source": "NU",
+          "published": "2026-10-24T19:26:39+00:00",
+          "title_zh": "回读 |法国“精心策划”的抗议活动导致近千人被捕 - 现在",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "weer morgen",
+          "title": "stand gil vicente fc - fc porto",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:20:00+00:00",
-          "title_zh": "明天再来",
+          "published": "2026-10-24T22:10:00+00:00",
+          "title_zh": "看台 吉尔维森特足球俱乐部 - 波尔图足球俱乐部",
           "translation_status": "translated"
         },
         {
-          "title": "ufc 333",
+          "title": "sanne wevers",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:10:00+00:00",
-          "title_zh": "终极格斗冠军赛333",
+          "published": "2026-10-24T22:10:00+00:00",
+          "title_zh": "桑尼·韦弗斯",
           "translation_status": "translated"
         },
         {
-          "title": "dronten",
+          "title": "tobi slimste mens",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:50:00+00:00",
-          "title_zh": "德龙滕",
+          "published": "2026-10-24T22:10:00+00:00",
+          "title_zh": "托比最聪明的人",
           "translation_status": "translated"
         }
       ],
@@ -345,53 +345,53 @@
     "NO": {
       "news": [
         {
-          "title": "Storbrann i Hitlers «Ørnerede» - Nettavisen",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlo2VnpnX0RLRlJZc0t4dDhBbmNORWY2cDRVR2hxS2tGZVRRQnp4S0x0ZUowWHB3Q1lNSjhrQjgtcHk5ZGM3bmxMWkYwRUJEelVGMm81YUgtdjVUZDlUZUpqS1hXRDRLRnpPVlBVRVY1SHVScjBYd2cwTGZZSlhwZFRYMHMtMTBTRU1BSnFkOW1QelVBZ3ZydG9kWFg5eVA2bll1aw?oc=5",
-          "source": "Nettavisen",
-          "published": "2026-10-23T21:25:49+00:00",
-          "title_zh": "希特勒“鹰巢”发生大火 - Nettavisen",
+          "title": "Katelyn Garbin er ute av «Skal vi danse» - TV 2",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY09mY1V2emxzU25qUmJYWWNrTTduWEEwXzBIdV95MEEyOGtQS2xWdXFpT2MyVC1TZjBMbEs2cDNqa3AxYzMzZGZsalVHVEVfZzBPd0lfa19NdDJaQ1dzTU9Zd2F6c1RIV3FUR1pBcVhuSjl2d0hJSDFPNFJ1YjUzTGlSY1FCUHBL?oc=5",
+          "source": "TV 2",
+          "published": "2026-10-24T20:50:52+00:00",
+          "title_zh": "凯特琳·加宾 (Katelyn Garbin) 退出《我们跳舞吧》 - TV 2",
           "translation_status": "translated"
         },
         {
-          "title": "- Gjør meg veldig urolig - Dagbladet",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wZ2N5MS1rVjBYWnh0UGdRcGx6V2JpMVZlemNKMy0yUWx3YWJhNkZfTTVXZUhGOWF6UTRDWFFmZkg0ZEN5R0RBYWFXQk9RalNBNFRnaXk1bjlWeVhJQVFHMFoyV1JLV3RncDlqa2pzSHNBUQ?oc=5",
-          "source": "Dagbladet",
-          "published": "2026-10-23T20:02:32+00:00",
-          "title_zh": "- 让我很不安 - Dagbladet",
+          "title": "Stormvarsel på Østlandet: – Kan bli omfattende flomskader og jordskred - NRK",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbEExV01jallQVl9qODg5bW04c3R5dEo2bTBSU2NmRkY1UlhwelFjNzFLVzFZeGtEMUwtYnhaVHd6NXcyTjJJLU95amx2R0FSc2VYOE9Kc0txZnZ1TzQzdWItSlBaVTczRGZzLVJ6cWtuOTdLam1oYXdfc25NMW9XTGFJNXdXNkRXbElrcm95TjF1a1gxYTF0Tms3bkxyRkIwWVZVcGwzd0xJQWdOVjBSZUlIRHlXdXBnd3M4?oc=5",
+          "source": "NRK",
+          "published": "2026-10-24T13:37:38+00:00",
+          "title_zh": "挪威东部风暴警告： - 可能会发生大范围的洪水破坏和山体滑坡 - NRK",
           "translation_status": "translated"
         },
         {
-          "title": "Værvarsel, Kristiansund | Har sendt ut farevarsel – Nordmøre slipper ikke unna uværet - Tidens Krav",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdkJDSTZMa1N0YzdqTkc0aEFPR0pTajM5Y284dUJvUENQZzlBWE1qOExCWk95ZzNWaldpbHJkd2E0bXBFcnp0VU5OODFONV95LTBuMVFQcm1jOWNFUDhEMXdTWEVrdnlYSDhqVkctOUlwLXpYT0NVcTZEZDBmTmM1QkRqWW1UZUZWRUtFaDFMQkFSalU?oc=5",
-          "source": "Tidens Krav",
-          "published": "2026-10-23T17:20:59+00:00",
-          "title_zh": "天气预报，克里斯蒂安松|已发出危险警告 - Nordmøre 无法逃脱风暴 - Tidens Krav",
+          "title": "Zelenskyj bekrefter: Starlink tilbake med «hastigheten vi trenger» - ABC Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUJKQXFaZHIwTlZoaFVXbFAxX2pUUWlUVHRaMTAzeWtuU2dHSVJ5aHhMbzRxYVRpSDVIM3hEWk5JLTRUS290U3F1eE5sS29ZbGo4RUNhWWx1RDBrUHhIdlNxM0tCRktGaEVPd2NFMndUdExvRnVCU0kzSXlOb2NrVHlnaEtra0NpVmlsUFNDZlFndU15RVR1c05sTlE2a0JxdmtQOGtyWGE?oc=5",
+          "source": "ABC Nyheter",
+          "published": "2026-10-24T08:27:30+00:00",
+          "title_zh": "泽伦斯基证实：星链以“我们需要的速度”回归 - ABC Nyheter",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "kehlsteinhaus",
+          "title": "alexander sørloth",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:00:00+00:00",
-          "title_zh": "凯尔施泰因豪斯",
+          "published": "2026-10-24T21:50:00+00:00",
+          "title_zh": "亚历山大·索洛斯",
           "translation_status": "translated"
         },
         {
-          "title": "norsk tipping",
+          "title": "svalbard",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:00:00+00:00",
-          "title_zh": "挪威小费",
+          "published": "2026-10-24T21:20:00+00:00",
+          "title_zh": "斯瓦尔巴特群岛",
           "translation_status": "translated"
         },
         {
-          "title": "ipswich town fc mot nottingham forest tabeller",
+          "title": "hvem røk ut av skal vi danse",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:30:00+00:00",
-          "title_zh": "伊普斯威奇镇足球俱乐部 VS 诺丁汉森林 积分榜",
+          "published": "2026-10-24T21:10:00+00:00",
+          "title_zh": "我们应该从谁的烟雾中跳舞",
           "translation_status": "translated"
         }
       ],
@@ -416,54 +416,54 @@
     "SE": {
       "news": [
         {
-          "title": "Storbrand i ”Örnnästet” – Hitlers prestigebygge i lågor - Göteborgs-Posten",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOHFFcTBVb0tWWm5XRUtIQjVBYzFiOUJjelU0NE9mNjlKLWEyQWUtMzhwZHpzTHlOMHBoLVpwbkwwYlo5YXJoek9XV0FGb3plTE9VQUM0MzlDQ1A5M3otc0FoaTJKYjNSdy1ZTERpUWtYRko4YkVBZVY3b0Y0el9LeUlOT09HV0lvM1RkeHNudTFDNWhuN1pBLVVUUU1YVFZqTWw5WGN2OUJRYlB3U0N6Nkc4SlJ2Z0Rib01nN20zQQ?oc=5",
+          "title": "Stormen Boelo drar in över Sverige – påverkar tågtrafiken - SVT Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdDBEMXpZOG81T3BaTWU0TGtOOHJLTU5wdUpSRFZSRW5NTDdEVW1vTUUycnFvOGYtSGNnek5UZl9vZnhGUlVvcjA4WUZSMEc0SGlCSkNHTGNKQWlCUFFjaEZVMzN0NE9jSmt3MTNRVDVrUUZTRDQzbC1HMVllUjlLS1pQNVBLektXZ2pmbkxuVVMzMnIyWmlZ?oc=5",
+          "source": "SVT Nyheter",
+          "published": "2026-10-24T12:30:50+00:00",
+          "title_zh": "风暴博埃洛席卷瑞典，影响火车交通 - SVT Nyheter",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Amandas granne sköts ihjäl: ”Måste man hitta en tryggare plats?” - Aftonbladet",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS0VrTmxWaDVDQm5iUzFZRldCdTNuckZnQzA1ODdoVXhkR2pLMHlocFp1NGlWTFBOeVctR3k0WXZ6ZGVURmRDbVNNaHZZenZzeUJKb3VsazhtV19wVEw5V0M0cC1ZMTZMUEhKM0lJZzZVWl9WVG8zWGhxajIwZUh6eHIzWkVXSXRMNl9yVUYxRlpyT0RXRjJONE5MYjFjRDB6bGgw?oc=5",
+          "source": "Aftonbladet",
+          "published": "2026-10-24T20:29:33+00:00",
+          "title_zh": "阿曼达的邻居被枪杀：“你必须找一个更安全的地方吗？” - 雅夫顿报",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Stora protester väntas i Frankrike – 70 000 poliser involverade - Göteborgs-Posten",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa3V5STNaQ0laQWxFZkgyM1J5N2xDWDkwT0lRMjU2bG1laXhkRDFGUDZWR3hWMlZIbzVXeHpSbWlabjQ4c2k0cGliSXU0amRXZ0luV3VGbG81by1OUzNrVlR5VzZ4MW5MbUhZVGRnYlNfanctdlZidTRKQjV1ZldaMGE2T21oZ1hZdlhiSUZUS21sSDFRdkZCX1QwMnl2aHNyT2ZLMG1iOWVqS3laZlp0NmZuMk5aeGRW?oc=5",
           "source": "Göteborgs-Posten",
-          "published": "2026-10-23T21:37:53+00:00",
-          "title_zh": "“鹰巢”发生大火——希特勒著名的建筑在火焰中 - 哥德堡邮报",
-          "translation_status": "translated"
-        },
-        {
-          "title": "23 oktober 16.47, Skottlossning, Stockholm - polisen.se",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMThJNDhPWGJuX0E2T2RDeHJwSlJVU28weW9PMG5HZTNrRzdka19wSE01Qi04Sk5ITVBSWS1yal9CUVE2RFFBUlR4NXlwb0RUbzFCV3hEQm84S0psMEZRMFpWcFNEQVJCTXpGVUdLM2ZKclZDd3M2YU5nblZENzAxaWp1X015MWxMVGRmMFg3eUhhaXUxY2tPTVhtWQ?oc=5",
-          "source": "polisen.se",
-          "published": "2026-10-23T17:40:56+00:00",
-          "title_zh": "10 月 23 日 16.47，枪击事件，斯德哥尔摩 - polisen.se",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Sju barn allvarligt skadade i garagebrand utanför Borås - Dagens Nyheter",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPME8yaXhHNGJBM2xwT1dmR0paODF0Q2lPVlVpTF85eW9mbEhHbFZURzM4ZzFKOWh6YVE3Qlc5UFhfSWp3YWlNektqa3RycnVhUXIzRlFKc29zYVVHcEJwNk1yN0VHcmxWeVI5bmoxZmRiTTdxXzE2bzJ2QUxiNDZ2bg?oc=5",
-          "source": "Dagens Nyheter",
-          "published": "2026-10-23T21:31:53+00:00",
-          "title_zh": "布罗斯郊外车库火灾，七名儿童受重伤 - Dagens Nyheter",
+          "published": "2026-10-24T18:38:11+00:00",
+          "title_zh": "法国预计将发生大规模抗议活动——7万名警察参与其中 - Göteborgs-Posten",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "kehlsteinhaus",
+          "title": "bruce willis",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:30:00+00:00",
-          "title_zh": "凯尔施泰因豪斯",
+          "published": "2026-10-24T21:50:00+00:00",
+          "title_zh": "布鲁斯·威利斯",
           "translation_status": "translated"
         },
         {
-          "title": "helen mirren",
+          "title": "poängställning i atlético madrid mot deportivo la coruna",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:30:00+00:00",
-          "title_zh": "海伦没药",
+          "published": "2026-10-24T21:30:00+00:00",
+          "title_zh": "马德里竞技 VS 拉科鲁尼亚 积分榜",
           "translation_status": "translated"
         },
         {
-          "title": "bt",
+          "title": "liam neeson",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:10:00+00:00",
-          "title_zh": "",
-          "translation_status": "unavailable"
+          "published": "2026-10-24T21:30:00+00:00",
+          "title_zh": "连姆·尼森",
+          "translation_status": "translated"
         }
       ],
       "products": [
@@ -480,53 +480,53 @@
     "FI": {
       "news": [
         {
-          "title": "Suora lähetys: Ranska sulkeutuu – uusi kaaos uhkaa - Ilta-Sanomat",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jTUpCS2RBV3N5bl94TDVzdXR1aktDVlVfaGpDbEFRa0FlUmFfU3pNU0dVNDc1RUFHTDdHcWwwSmlDRkVEZnpMY2pIemktOU9VdThWTmZHRF9OZVpWQ0E?oc=5",
-          "source": "Ilta-Sanomat",
-          "published": "2026-10-23T18:32:00+00:00",
-          "title_zh": "直播：法国关闭——新的混乱威胁 - Ilta-Sanomat",
+          "title": "Noin tuhat pidätetty, poliisi laukaissut kyynelkaasua mielenosoittajien joukkoon – MTV seuraa Ranskan protesteja - mtvuutiset.fi",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVk9Pb2l0ZXZjTXN0d2Y2dlhKeUZ6WGsxWlNYaTZiWWhFdmppWHpEbmNVaGpkaDFycVFCckNpNEl2SW8zcDNQS2x1VU81bVJBbER3NWhPZVA4ZVJfSS1FUEVjb1lBNW81VUlUMy1KeDNhWnRwZTEtemV5eGVPOWhMTTdQVWw2VG5hS1JGeFRrSjVzT2o0cVJHUWVzUGFCVXM0TEdwMUxMYVhkZ2lEdEY2RXdXUDFhZ3lETlZvQThmakE1ZEhTWEVrdjdn?oc=5",
+          "source": "mtvuutiset.fi",
+          "published": "2026-10-24T19:40:38+00:00",
+          "title_zh": "大约一千人被捕，警方向抗议人群发射催泪瓦斯 - MTV 跟踪法国抗议活动 - mtvuutiset.fi",
           "translation_status": "translated"
         },
         {
-          "title": "Putinilta uusi vaatimus rauhanneuvotteluista – asiantuntija: Koskee suoraan Suomea - Ilta-Sanomat",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OT1V5U3pwYlU1SW02XzNhNWR5VnJYUEFjNmpiUHVzU3ZrRHo2N0UxckFYMzZIU2IySjkzdmdEbGRkYmxvTE84OTI0TWY2T0tZcFM4el9yaHRmSTdjVVE?oc=5",
-          "source": "Ilta-Sanomat",
-          "published": "2026-10-23T14:45:00+00:00",
-          "title_zh": "普京对和平谈判的新要求 - 专家：直接影响芬兰 - Ilta-Sanomat",
+          "title": "Mielenosoittajat tunkeutuivat Colosseumiin ja sytyttivät tulipalon Albaniassa – protestit leviävät Euroopassa - Yle",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9EdjY3NFFaVEdGS0J6VW5VOUsxWlM2UmEwcEw3VlhvNzNIR2R2V0tKRXBNOGJibXhPZXkxbUlMYVVKZw?oc=5",
+          "source": "Yle",
+          "published": "2026-10-24T18:22:15+00:00",
+          "title_zh": "示威者冲进罗马斗兽场并纵火焚烧阿尔巴尼亚——抗议活动蔓延整个欧洲 - Yle",
           "translation_status": "translated"
         },
         {
-          "title": "Bild: Historiallinen Kotkanpesä palaa Saksassa - HS.fi",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LSmNWVW5veUdURGttRDBlU3lQWDY5b3VWUV9WQVUyUlR1SF96Q3VEQ21uQUJJWmo2ejB6ODFjUmhza2tyUkxiLUZ0c21sR3lOcV9ubXhISWtNTzBO?oc=5",
-          "source": "HS.fi",
-          "published": "2026-10-23T22:02:00+00:00",
-          "title_zh": "图片报：德国历史悠久的鹰巢正在燃烧 - HS.fi",
+          "title": "Tuhannet ihmiset Tampereelta käyvät pääkaupunkiseudulla töissä – myös Pirkkala yhä suositumpi - Aamulehti",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02d1M1V1AxZEE4WHJXTlF3STEtdTFJNm9UdmpaaXRsbmhCMHE4VDNmbm5ILUpDamdDVnZuVVNzakRWNE4wYVl6ektQOXEzZlhuRGhPLUYwdWx1UW4zMU5CSDdkbVM?oc=5",
+          "source": "Aamulehti",
+          "published": "2026-10-24T18:59:00+00:00",
+          "title_zh": "数千名坦佩雷人前往首都地区工作 - Pirkkala 也越来越受欢迎 - Aamulehti",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "mtv",
+          "title": "f1",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:20:00+00:00",
-          "title_zh": "音乐电视",
+          "published": "2026-10-24T21:20:00+00:00",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "volkanovski",
+          "url": "https://trends.google.com/trending/rss?geo=FI",
+          "source": "trends.google.com",
+          "published": "2026-10-24T21:00:00+00:00",
+          "title_zh": "沃尔坎诺夫斯基",
           "translation_status": "translated"
         },
         {
-          "title": "ethan klein",
+          "title": "atlético madrid – deportivo",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:00:00+00:00",
-          "title_zh": "伊森·克莱因",
-          "translation_status": "translated"
-        },
-        {
-          "title": "matias petäistö",
-          "url": "https://trends.google.com/trending/rss?geo=FI",
-          "source": "trends.google.com",
-          "published": "2026-10-23T20:50:00+00:00",
-          "title_zh": "马蒂亚斯作弊",
+          "published": "2026-10-24T19:40:00+00:00",
+          "title_zh": "马德里竞技 - 拉科鲁尼亚",
           "translation_status": "translated"
         }
       ],
@@ -551,53 +551,53 @@
     "PL": {
       "news": [
         {
-          "title": "Jaka będzie przyszłość rządu Tuska? \"Od dłuższego czasu dryfuje\" - PolsatNews.pl",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUhBblc4LVRCZ1FNUFdmUEZoX3VPZENpOG1RWFBTdkRlWFh4OWZtOEZLWWc4UlVQNjlaSWhTQ0RYTVVJREo2T0YwZFV1S05GTWVBVDFaRDZHazhacXFUUmFtOThVVmlkdS1DVUo3c1czcWM1WllSdzJNaHROTXBEYUZ0MmRpVzU2OFNtc1JBbUhyREFoRkZySksyMkZnUjRRYXZFRFZFaUwtSUtWc3lVZmJwSXBNNEd4?oc=5",
-          "source": "PolsatNews.pl",
-          "published": "2026-10-23T18:47:00+00:00",
-          "title_zh": "图斯克政府的未来会怎样？ “它已经漂移了很长时间” - PolsatNews.pl",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Ukraina i Rosja znów przy stole, sędziowie TK odpowiadają Pałacowi [SKRÓT DNIA] - WP Wiadomości",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYlZGMi1NaWZiaGRoUHV0bC13NG1GTFlzQncxWEZvZE1pZWJ2ZDdsOVJkb0VGUzh0OWRYTHBJRm1WNjZvdU5mX2piZ0xnN2tGakNHLXo5T0twdUk4NXZURktQTE5tSkhWX1VZU1pOVFBmTmh4bC1DMkJGNTJyUDUzR2xFeEtmZXd5dDJQSDI3dUhteDNXc3ZBN2hSaTdGLUstR1pKWGd0V3k0NlhCRmhNaWN2YXV4YzM4cjR3?oc=5",
+          "title": "Pełczyńska-Nałęcz reaguje na wykluczenie. Wbiła szpilę Hołowni - WP Wiadomości",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWpiam50QmU1QndqVk9SNjBjdGNOZ1N4TlBkTUdNbzFJRGZ4cWpaQXNhZktwWnRIWk1wa2xQdzB5MWxxdFV6ZGlfRTdFc0FiY0dOSk81MWhURjFiVl9Hckx0Q21GOThwTWJabkdjTnlZOHFLcFFYZ2NoZlZlZWFPS1hRUDhsbXVnbkFobU04SnZPSHNZY2FsVnBnbmg0X3dBRWl4SGNTWQ?oc=5",
           "source": "WP Wiadomości",
-          "published": "2026-10-23T17:03:27+00:00",
-          "title_zh": "乌克兰和俄罗斯再次坐到谈判桌前，宪法法庭法官对宫殿做出回应 [DAY SHORT] - WP News",
+          "published": "2026-10-24T19:44:45+00:00",
+          "title_zh": "佩乌琴斯卡-纳文茨对排斥做出反应。她钉住了 Hołownia - WP News",
           "translation_status": "translated"
         },
         {
-          "title": "Ukraina w UE zamiast NATO? \"Economist\" ujawnia plan USA - Money.pl",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTE4c043MkY2YnVid2luODZKTjYxY1JxOEJlaFRjZ1J4d2VFLVctY0Fua1lUblBHdVZhS3dmWFdKdUhQRDJCZEtDeDNJYU1EWHFOalRvUWVvLXdRUEFQOVYtenl5NVZHNUlzVmdGRzkzSHZDY3lNZzlJN01hZ0JYX0pzVGMyakc2NWJKOFRjRTMyOWt0VU9NbTlYeldUU291NkRMbnNVamVDTTQ?oc=5",
-          "source": "Money.pl",
-          "published": "2026-10-23T19:42:08+00:00",
-          "title_zh": "乌克兰加入欧盟而不是北约？ 《经济学人》揭示美国计划 - Money.pl",
+          "title": "Są zarzuty dla policjantki w sprawie ZOO Łączna. Miała ostrzec właściciela przed interwencją - PolsatNews.pl",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUzdzc2dJMzl5MUdzVmVhTXRVb19TV01KaXJQM2N4RFpVcExrQ085VUw3Z0IwVEdTbXpRVTducEJOYXQ4ZGEzSTl3ejJDTzRPMm5hV09rdWg5R3dYMzhuYUIxUjdFenh4dGVWcE8zS0c3NmRCRzYtZnpxcGFMbmZmWWJmWWdfRnJSQUQ0eDQ0NTMxQU5kbHJJdHdIR2YxUmtxS1lrYUlpVE14U1UzYXpzUXptZHhBSmZnak5J?oc=5",
+          "source": "PolsatNews.pl",
+          "published": "2026-10-24T19:51:00+00:00",
+          "title_zh": "在 ZOO Łączna 案件中，一名女警察受到指控。她应该警告主人不要干预 - PolsatNews.pl",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Pilny alert RCB. Mieszkańcy sześciu obszarów ostrzeżeni przed potężnym wiatrem - PolsatNews.pl",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVU9SczZWYTV3Tm01RGlyTVZKZ0lPaHlMLUVHM0V4aEdkWUhGRl9kODRPeXhWclo0UFBrVUpvRTRiM1l4Z0stbWpyalJCV0JmYWM0bkRoSS1lSDREQWpzS2dHMVl4VDMyd2w1eEFvZTBOVkYwQmEzSk1zeEZXUHVQYWxWX3l5QW5RZDN2N1VwdmpEdnRDZ2hURkdEcktxanBZdEdDNW1SR0pqQ0xUOUVzVQ?oc=5",
+          "source": "PolsatNews.pl",
+          "published": "2026-10-24T17:31:00+00:00",
+          "title_zh": "RCB 紧急警报。六个地区的居民收到强风警告 - PolsatNews.pl",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "el clasico",
+          "title": "f1 kwalifikacje",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-23T22:30:00+00:00",
-          "title_zh": "国家德比",
+          "published": "2026-10-24T22:20:00+00:00",
+          "title_zh": "F1排位赛",
           "translation_status": "translated"
         },
         {
-          "title": "worlds",
+          "title": "zmiana czasu",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:30:00+00:00",
-          "title_zh": "世界",
+          "published": "2026-10-24T21:40:00+00:00",
+          "title_zh": "时间改变",
           "translation_status": "translated"
         },
         {
-          "title": "mężczyzna",
+          "title": "sumo",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-23T21:20:00+00:00",
-          "title_zh": "男人",
+          "published": "2026-10-24T21:40:00+00:00",
+          "title_zh": "相扑",
           "translation_status": "translated"
         }
       ],
