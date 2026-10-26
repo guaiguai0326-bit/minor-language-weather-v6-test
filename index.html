@@ -1666,7 +1666,7 @@ fetch('./data/market.json?category='+Math.floor(Date.now()/1800000),{cache:'no-s
 const c=data.countries?.[keys[i]]||{},cells=row.querySelectorAll('.v6-market-cell');
 const trend=cells[1];if(trend){
 const label=trend.querySelector('.v605-mini');if(label)label.textContent='定制礼品品类 · 公开线索（非搜索指数）';
-const oldItems=trend.querySelectorAll('.v6-live-item');oldItems.forEach(n=>n.remove());
+const signals=c.category_signals||[];if(!signals.length){const label=trend.querySelector('.v605-mini');if(label)label.textContent='Callie商品关键词 · 等待下一次数据采集';const note=document.createElement('p');note.className='v6-live-summary';note.textContent='新关键词数据尚未生成，当前先保留综合热搜。下次自动采集后显示 Callie 相关品类。';trend.appendChild(note);return;}const oldItems=trend.querySelectorAll('.v6-live-item');oldItems.forEach(n=>n.remove());
 const box=document.createElement('div');box.className='v6-category-keyword-list';
 for(const s of (c.category_signals||[]).slice(0,10)){const el=document.createElement('div');el.className='v6-category-chip';
 const title=document.createElement('strong');title.textContent=s.category+' · '+s.keyword;el.appendChild(title);
