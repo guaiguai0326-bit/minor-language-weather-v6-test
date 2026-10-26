@@ -93,9 +93,18 @@ for code,(lang,geo,term) in COUNTRIES.items():
    entry['title_zh']=translate_zh(entry['title'],lang,cache)
    entry['translation_status']='translated' if entry['title_zh'] else 'unavailable'
    time.sleep(0.12)
+ # Industry-related public news signals: search evidence, NOT Google Trends volume.
+ gift_query=urllib.parse.quote('"'+term+'" when:14d')
+ gift_feed=f'https://news.google.com/rss/search?q={gift_query}&hl={lang}&gl={geo}&ceid={geo}:{lang}'
+ gift_signals=readfeed(gift_feed,3)
+ for entry in gift_signals:
+  entry['scope']='礼品行业相关新闻（搜索匹配，非销量或搜索指数）'
+  entry['title_zh']=translate_zh(entry['title'],lang,cache)
+  entry['translation_status']='translated' if entry['title_zh'] else 'unavailable'
+  time.sleep(0.12)
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
  products=[{'name':n,'title':n+' · 公开商品/热卖页面','url':u,'source':'竞品官网','summary':'已确认候选来源；商品排名、价格和销量尚未自动验证。'} for n,u in SHOPS.get(code,[])]
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'news_method':'本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国'}
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国'}
  print(code,'news',len(newsitems),'trends',len(trenditems))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
