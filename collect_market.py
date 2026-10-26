@@ -100,28 +100,6 @@ def retailer_products(shop_name, landing, max_items=2):
   print('Retailer product unavailable:',shop_name,str(exc)[:90]);return []
 
 
-# Product category monitoring: localized public-news signals, not invented search volumes.
-CATEGORY_TERMS={
-'DE':{'围巾':'personalisierter Schal','小夜灯':'personalisiertes Nachtlicht','首饰':'personalisierter Schmuck'},
-'FR':{'围巾':'écharpe personnalisée','小夜灯':'veilleuse personnalisée','首饰':'bijou personnalisé'},
-'ES':{'围巾':'bufanda personalizada','小夜灯':'luz nocturna personalizada','首饰':'joyas personalizadas'},
-'IT':{'围巾':'sciarpa personalizzata','小夜灯':'luce notturna personalizzata','首饰':'gioielli personalizzati'},
-'NL':{'围巾':'gepersonaliseerde sjaal','小夜灯':'gepersonaliseerd nachtlampje','首饰':'gepersonaliseerde sieraden'},
-'NO':{'围巾':'personlig skjerf','小夜灯':'personlig nattlampe','首饰':'personlige smykker'},
-'SE':{'围巾':'personlig halsduk','小夜灯':'personlig nattlampa','首饰':'personliga smycken'},
-'FI':{'围巾':'personoitu huivi','小夜灯':'personoitu yövalo','首饰':'personoidut korut'},
-'PL':{'围巾':'szalik personalizowany','小夜灯':'lampka nocna personalizowana','首饰':'biżuteria personalizowana'}}
-def category_signals(code,lang,geo):
- signals=[]
- for category,keyword in CATEGORY_TERMS[code].items():
-  q=urllib.parse.quote('"'+keyword+'" when:30d')
-  rss=f'https://news.google.com/rss/search?q={q}&hl={lang}&gl={geo}&ceid={geo}:{lang}'
-  matches=readfeed(rss,1)
-  explore='https://trends.google.com/trends/explore?'+urllib.parse.urlencode({'geo':geo,'date':'today 3-m','q':keyword})
-  signals.append({'category':category,'keyword':keyword,'signal_type':'公开新闻匹配' if matches else '关键词观察','news_count_sample':len(matches),'article':matches[0] if matches else None,'url':explore,'source':'Google News RSS / Google Trends 查询入口','note':'有匹配新闻不代表搜索热度上涨；未获取搜索指数。'})
- return signals
-
-
 # Callie public catalog-derived product families (not a claim about private sales).
 CALLIE_FAMILIES={
 '首饰':{'DE':'personalisierter Schmuck','FR':'bijoux personnalisés','ES':'joyas personalizadas','IT':'gioielli personalizzati','NL':'gepersonaliseerde sieraden','NO':'personlige smykker','SE':'personliga smycken','FI':'personoidut korut','PL':'biżuteria personalizowana'},
@@ -141,7 +119,7 @@ def category_signals(code,lang,geo):
  for category,locales in CALLIE_FAMILIES.items():
   keyword=locales[code]
   explore='https://trends.google.com/trends/explore?'+urllib.parse.urlencode({'geo':geo,'date':'today 3-m','q':keyword})
-  signals.append({'category':category,'keyword':keyword,'signal_type':'Callie公开在售品类关键词','url':explore,'source':'Callie官网公开商品 / Google Trends 查询入口','catalog_url':CALLIE_CATALOG_SOURCE,'note':'关键词基于Callie公开商品整理；没有获取搜索指数，不能据此判断热度增长。'})
+  signals.append({'category':category,'keyword':keyword,'signal_type':'Callie商品方向候选关键词','url':explore,'source':'Callie商品方向关键词池 / Google Trends 查询入口','catalog_url':CALLIE_CATALOG_SOURCE,'note':'关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。'})
  return signals
 
 previous={}
