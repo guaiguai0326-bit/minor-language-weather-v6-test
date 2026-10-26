@@ -1666,13 +1666,13 @@ fetch('./data/market.json?category='+Math.floor(Date.now()/1800000),{cache:'no-s
 const c=data.countries?.[keys[i]]||{},cells=row.querySelectorAll('.v6-market-cell');
 const trend=cells[1];if(trend){
 const label=trend.querySelector('.v605-mini');if(label)label.textContent='定制礼品品类 · 公开线索（非搜索指数）';
-const old=trend.querySelector('.v6-live-item')?.parentElement;if(old)old.remove();
-const box=document.createElement('div');
-for(const s of c.category_signals||[]){const el=document.createElement('div');el.className='v6-category-chip';
+const oldItems=trend.querySelectorAll('.v6-live-item');oldItems.forEach(n=>n.remove());
+const box=document.createElement('div');box.className='v6-category-keyword-list';
+for(const s of (c.category_signals||[]).slice(0,10)){const el=document.createElement('div');el.className='v6-category-chip';
 const title=document.createElement('strong');title.textContent=s.category+' · '+s.keyword;el.appendChild(title);
-const meta=document.createElement('small');meta.textContent=s.signal_type==='公开新闻匹配'?'近30天有公开新闻匹配 · 不代表搜索量增长':'暂未找到相关新闻 · 可查看搜索趋势';el.appendChild(meta);
+const meta=document.createElement('small');meta.textContent='Callie商品方向候选 · 查看当地关键词趋势（未获取搜索指数）';el.appendChild(meta);
 if(s.url){const link=document.createElement('a');link.textContent='查看该国 Google Trends ↗';link.href=s.url;link.target='_blank';link.rel='noopener noreferrer';el.appendChild(link)}
-box.appendChild(el)}trend.appendChild(box)}
+box.appendChild(el)}const existing=trend.querySelector('.v6-category-keyword-list');if(existing)existing.remove();trend.appendChild(box)}
 const ads=cells[3];if(ads&&!((c.ads||[]).length)){
 const msg=document.createElement('div');msg.className='v6-image-unavailable';msg.textContent='暂无可验证的公开广告图片 · 请通过下方广告资料库查看真实素材';ads.appendChild(msg)}
 const products=cells[2];if(products){
