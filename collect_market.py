@@ -46,6 +46,59 @@ def translate_zh(text,lang,cache):
  except Exception as exc:print('Translation unavailable:',lang,str(exc)[:100])
  return ''
 
+
+# Public retailer discovery: only explicitly published Product JSON-LD, never inferred sales.
+def retailer_products(shop_name, landing, max_items=2):
+ try:
+  from html.parser import HTMLParser
+  class StructuredProducts(HTMLParser):
+   def __init__(self):super().__init__();self.active=False;self.parts=[];self.blocks=[]
+   def handle_starttag(self,tag,attrs):
+    attrs=dict(attrs)
+    if tag=='script' and 'ld+json' in attrs.get('type','').lower():self.active=True;self.parts=[]
+   def handle_data(self,data):
+    if self.active:self.parts.append(data)
+   def handle_endtag(self,tag):
+    if tag=='script' and self.active:self.blocks.append(''.join(self.parts));self.active=False
+  req=urllib.request.Request(landing,headers={'User-Agent':'Mozilla/5.0 (compatible; MarketDashboard/1.0)'})
+  with urllib.request.urlopen(req,timeout=12) as r:
+   raw=r.read(1200000).decode('utf-8','replace')
+   resolved=r.geturl()
+  parser=StructuredProducts();parser.feed(raw)
+  found=[];seen=set()
+  def walk(node):
+   if isinstance(node,list):
+    for x in node:walk(x)
+   elif isinstance(node,dict):
+    types=node.get('@type',[])
+    if isinstance(types,str):types=[types]
+    if 'Product' in types and isinstance(node.get('name'),str):
+     name=re.sub(r'\s+',' ',node['name']).strip()[:150]
+     link=node.get('url') or resolved
+     if isinstance(link,dict):link=link.get('@id','')
+     link=urllib.parse.urljoin(resolved,str(link))
+     parsed=urllib.parse.urlparse(link)
+     if name and parsed.scheme=='https' and parsed.hostname and name.casefold() not in seen:
+      seen.add(name.casefold())
+      offers=node.get('offers') or {}
+      if isinstance(offers,list):offers=offers[0] if offers else {}
+      if not isinstance(offers,dict):offers={}
+      price=offers.get('price') or offers.get('lowPrice')
+      currency=offers.get('priceCurrency','')
+      pic=node.get('image') or ''
+      if isinstance(pic,list):pic=pic[0] if pic else ''
+      if isinstance(pic,dict):pic=pic.get('url','')
+      pic=urllib.parse.urljoin(resolved,pic) if isinstance(pic,str) else ''
+      found.append({'name':shop_name,'title':name,'url':link,'source':shop_name+' · 官网结构化商品数据','price':str(price) if price is not None else '','currency':str(currency),'image':pic if pic.startswith('https://') else '','summary':'官网公开商品信息；不代表销量或热卖排名。','verified_public_product':True})
+    for key,value in node.items():
+     if isinstance(value,(dict,list)):walk(value)
+  for block in parser.blocks[:30]:
+   try:walk(json.loads(block))
+   except (ValueError,TypeError):continue
+  return found[:max_items]
+ except Exception as exc:
+  print('Retailer product unavailable:',shop_name,str(exc)[:90]);return []
+
 previous={}
 path=ROOT/'data/market.json'
 if path.exists():
@@ -103,8 +156,12 @@ for code,(lang,geo,term) in COUNTRIES.items():
   entry['translation_status']='translated' if entry['title_zh'] else 'unavailable'
   time.sleep(0.12)
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
- products=[{'name':n,'title':n+' · 公开商品/热卖页面','url':u,'source':'竞品官网','summary':'已确认候选来源；商品排名、价格和销量尚未自动验证。'} for n,u in SHOPS.get(code,[])]
+ products=[]
+ for shop_name,landing in SHOPS.get(code,[]):
+  discovered=retailer_products(shop_name,landing)
+  if discovered:products.extend(discovered)
+  else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'该站点未返回可核实的商品结构化数据；点击查看官网。','verified_public_product':False})
  result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
- print(code,'news',len(newsitems),'trends',len(trenditems))
+ print(code,'news',len(newsitems),'trends',len(trenditems),'products',sum(bool(p.get('verified_public_product')) for p in products))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
