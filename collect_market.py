@@ -121,6 +121,29 @@ def category_signals(code,lang,geo):
   signals.append({'category':category,'keyword':keyword,'signal_type':'公开新闻匹配' if matches else '关键词观察','news_count_sample':len(matches),'article':matches[0] if matches else None,'url':explore,'source':'Google News RSS / Google Trends 查询入口','note':'有匹配新闻不代表搜索热度上涨；未获取搜索指数。'})
  return signals
 
+
+# Callie public catalog-derived product families (not a claim about private sales).
+CALLIE_FAMILIES={
+'首饰':{'DE':'personalisierter Schmuck','FR':'bijoux personnalisés','ES':'joyas personalizadas','IT':'gioielli personalizzati','NL':'gepersonaliseerde sieraden','NO':'personlige smykker','SE':'personliga smycken','FI':'personoidut korut','PL':'biżuteria personalizowana'},
+'围巾':{'DE':'personalisierter Schal','FR':'écharpe personnalisée','ES':'bufanda personalizada','IT':'sciarpa personalizzata','NL':'gepersonaliseerde sjaal','NO':'personlig skjerf','SE':'personlig halsduk','FI':'personoitu huivi','PL':'szalik personalizowany'},
+'小夜灯':{'DE':'personalisiertes Nachtlicht','FR':'veilleuse personnalisée','ES':'luz nocturna personalizada','IT':'luce notturna personalizzata','NL':'gepersonaliseerd nachtlampje','NO':'personlig nattlampe','SE':'personlig nattlampa','FI':'personoitu yövalo','PL':'lampka nocna personalizowana'},
+'毯子':{'DE':'personalisierte Decke','FR':'plaid personnalisé','ES':'manta personalizada','IT':'coperta personalizzata','NL':'gepersonaliseerde deken','NO':'personlig pledd','SE':'personlig filt','FI':'personoitu viltti','PL':'koc personalizowany'},
+'包袋':{'DE':'personalisierte Tasche','FR':'sac personnalisé','ES':'bolso personalizado','IT':'borsa personalizzata','NL':'gepersonaliseerde tas','NO':'personlig veske','SE':'personlig väska','FI':'personoitu laukku','PL':'torba personalizowana'},
+'照片礼品':{'DE':'Fotogeschenke','FR':'cadeau photo personnalisé','ES':'regalos con fotos','IT':'regali con foto','NL':'fotocadeau','NO':'fotogaver','SE':'fotopresenter','FI':'valokuvalahjat','PL':'prezenty ze zdjęciem'},
+'宠物纪念':{'DE':'personalisiertes Haustier Geschenk','FR':'cadeau personnalisé animal','ES':'regalo personalizado mascota','IT':'regalo personalizzato animali','NL':'gepersonaliseerd huisdier cadeau','NO':'personlig kjæledyr gave','SE':'personlig husdjurspresent','FI':'lemmikkilahja omalla kuvalla','PL':'prezent personalizowany dla miłośnika zwierząt'},
+'钥匙扣':{'DE':'personalisierter Schlüsselanhänger','FR':'porte clés personnalisé','ES':'llavero personalizado','IT':'portachiavi personalizzato','NL':'gepersonaliseerde sleutelhanger','NO':'personlig nøkkelring','SE':'personlig nyckelring','FI':'personoitu avaimenperä','PL':'brelok personalizowany'},
+'水杯':{'DE':'personalisierte Trinkflasche','FR':'gourde personnalisée','ES':'botella personalizada','IT':'borraccia personalizzata','NL':'gepersonaliseerde drinkfles','NO':'personlig drikkeflaske','SE':'personlig vattenflaska','FI':'personoitu juomapullo','PL':'butelka personalizowana'},
+'家居装饰':{'DE':'personalisierte Wohndeko','FR':'décoration personnalisée','ES':'decoración personalizada','IT':'decorazioni personalizzate','NL':'gepersonaliseerde woondecoratie','NO':'personlig interiør','SE':'personlig heminredning','FI':'personoitu sisustus','PL':'dekoracje personalizowane'}
+}
+CALLIE_CATALOG_SOURCE='https://www.callie.com/best-sellers'
+def category_signals(code,lang,geo):
+ signals=[]
+ for category,locales in CALLIE_FAMILIES.items():
+  keyword=locales[code]
+  explore='https://trends.google.com/trends/explore?'+urllib.parse.urlencode({'geo':geo,'date':'today 3-m','q':keyword})
+  signals.append({'category':category,'keyword':keyword,'signal_type':'Callie公开在售品类关键词','url':explore,'source':'Callie官网公开商品 / Google Trends 查询入口','catalog_url':CALLIE_CATALOG_SOURCE,'note':'关键词基于Callie公开商品整理；没有获取搜索指数，不能据此判断热度增长。'})
+ return signals
+
 previous={}
 path=ROOT/'data/market.json'
 if path.exists():
