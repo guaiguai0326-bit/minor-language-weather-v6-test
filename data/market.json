@@ -1,418 +1,580 @@
 {
-  "updated_at": "2026-10-26T06:55:56.788894+00:00",
+  "updated_at": "2026-10-26T07:27:43.759115+00:00",
   "countries": {
     "DE": {
       "news": [
         {
-          "title": "Orkantief \"Manja\" fegt über Deutschland - tagesschau.de",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mZ1U5ZUlDeHk2ajkyWjBWT1d6TnN5c19SdFVDaGw5T0ZsTlFuYzJDb1g1T25QdHRaNU04VW83NWtpeHNpOGdWZEs5SmFFQzg2QjBjdXUyVTBGQ0g5eklj?oc=5",
-          "source": "tagesschau.de",
-          "published": "2026-10-25T10:33:38+00:00",
+          "title": "Ferienende, Sperrungen, Baustellen: Hier kann sich heute der Verkehr stauen - NDR.de",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaHlKUWkxLWR0N2NRdnd0S1l0OXY2QlNtSzVDd1ZfekhNUUVQNGlQejRhMWR3MkZ3cllxM3VjNXk1NHZWSVVHVkpPd2tPSWJaV21ZSWV6T0ZKYlkwNktid3FfYVc0cE5zaUsxR2VQcnotZ01BZUxrR0IyTkFTdzNGeDBRVjhDdm1Mbm5xVEY0by1xc2lmNnQ4ejFIc092Tm4tMGZCOEc2Wlc4SG8?oc=5",
+          "source": "NDR.de",
+          "published": "2026-10-26T03:52:50+00:00",
           "scope": "本国热点候选",
-          "title_zh": "飓风“曼贾”席卷德国 - tagesschau.de",
+          "title_zh": "假期结束、关闭、建筑工地：今天这里的交通可能会堵塞 - NDR.de",
           "translation_status": "translated"
         },
         {
-          "title": "„AfD-Regierung würde Deutschland in Abgrund führen“ – Fahimi warnt vor wirtschaftlicher Isolation - WELT",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQYUJET2Z5OVY2dWxpVHR6V05QaW1iWjY1VUV1MmdyLVdzQmhiSWRKSlhTZXJsbzlyU3FRSThjY0VhUWt5ZjlaeVNFaUZxYXhyREp6VE9CZ0VyMTVEdGE4TnpTdVBha1lGTmtNZmM3emotdzhnNmpaQUkzMVNhRWxqVlFTX1p2bXlOa0xFRnNCN1RkbV93UnVXS2E5LW90eDcxMEZGNEt3b0NTckY5TkFCZWczdE5FWndUOElWNUJOTkJkc0R0V3hlVWszbDlJZU5OU0w2Vy1wN0RfUlByME12SWhuOFIyLW0yTHlGS0sxOHQ2cUhfOEVRbWF5bzgzdVlj?oc=5",
-          "source": "WELT",
-          "published": "2026-10-26T05:56:08+00:00",
+          "title": "Feuerwehr rettet Frau: Sturmflut in Hamburg - Frau auf Autodach gefangen - DIE ZEIT",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdW1TazBKSi1xdnV4VUNlZzN2U3VsU2UxWEMzMFRtTGFrcEp1YUNCMHVjZ0ZRYmhINUUzNmV3enpoSE54VTE0aC0zbWJaREFFb1RrUFZoZk9HTU1icXBqZ2h5N0VQdEFnbUNvdExnenozelhtZEoxRGVrcnRkM09VeWlkV1l4bDR5cVh3?oc=5",
+          "source": "DIE ZEIT",
+          "published": "2026-10-26T05:42:49+00:00",
           "scope": "本国热点候选",
-          "title_zh": "“德国选择党政府将把德国带入深渊”——法希米警告经济孤立 - WELT",
+          "title_zh": "消防队拯救了一名妇女：汉堡风暴潮——妇女被困在车顶上 - DIE ZEIT",
           "translation_status": "translated"
         },
         {
-          "title": "„Deutschland tut nicht genug“ Hofreiter fordert Bundeswehreinsatz gegen russische Schattenflotte - Tagesspiegel",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmFIU0FZLWlXWTQzRkRFTGtYRHNuTGYwM1FVRGVDTGF2QTlMVU1CVHI5aXZFYkpuaHNVcmJTNC1hb2hIVmk2TmxLeU1CNjlWcmZrdVlnTUNHdWZQQ1ZLZTJtcWhua2FRRk5lUU8tSzZ1TkRxMFljR2w2eFdBNC12dG5jSHlCdk8xeUlLdEVlbHpCaGFLUWZhN2NQQTVMWkpNYmM2cW5iSWNzX05xVzVoRHJKNVJOcHNiUERtRQ?oc=5",
-          "source": "Tagesspiegel",
-          "published": "2026-10-26T06:01:52+00:00",
+          "title": "Sturmflut an der Nordsee: Wassermassen verschlucken ganzes Auto in Hamburg – Frau schrie um Hilfe - Merkur",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWkM2UHFTV1l3M2pCdW5YTTdBMlBmaXJMb1Y5cmI3WFZnNkw4dERsRzBkNms0Q0I5VGtpcHFVUjg1MHZYdFlMLVJBbXVGbzctbHBQSlk3b19DLWtoc0tKbEpIU0d4WWpZOWJrV0RLTTdzTkozcHJFbVNyakVua2o0dTZLcUQ4dlRxdF9IcFVQWTJhUVpESGt0emdUQXNrdw?oc=5",
+          "source": "Merkur",
+          "published": "2026-10-26T07:20:51+00:00",
           "scope": "本国热点候选",
-          "title_zh": "“德国做得还不够” 霍夫赖特呼吁德国联邦国防军对俄罗斯影子舰队采取行动 - 每日镜报",
+          "title_zh": "北海风暴潮：大量水吞没了汉堡的整辆车 - 女子尖叫求救 - Merkur",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "freida pinto",
+          "title": "bargeld",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "芙蕾达·平托",
+          "title_zh": "现金",
           "translation_status": "translated"
         },
         {
-          "title": "bolsonaro flavio",
+          "title": "phantom blade zero test",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "博尔索纳罗·弗拉维奥",
+          "title_zh": "幻刃零测试",
           "translation_status": "translated"
         },
         {
-          "title": "üstra",
+          "title": "wochenhoroskop",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "乌斯特拉",
+          "title_zh": "每周星座运势",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "GRAVURZEILE",
-          "title": "GRAVURZEILE · 公开商品/热卖页面",
+          "title": "GRAVURZEILE · 公开商品页面",
           "url": "https://www.gravurzeile.de/collections/bestseller",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         },
         {
           "name": "CARDORI",
-          "title": "CARDORI · 公开商品/热卖页面",
+          "title": "CARDORI · 公开商品页面",
           "url": "https://cardori.de/collections/bestseller",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "personalisierte Geschenke",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [
+        {
+          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-19T16:09:18+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
+          "source": "iphone-ticker.de",
+          "published": "2026-10-19T12:31:52+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckk0ZGd2cmlGbmZyYUhhM1VuSWJVNkFzNkZPNjFQOEJTRUp0YUJodmJkdlU3OVpRMUNoMkhsVURQNTJKeEJDNzZNQnlMVEdOdEZBbmlfV0ZfRkx3aEtaSm1qcTRTa2V0a0RORTdnUWtNeFhSNnFubHI3amRBWFMxTjY2NzY3UFRPUFdIMWNkUWlPWmZYaEgzcG9tRkp6NmFmdXlrYkV3MzVhamJXRkRJbXh1cVdJTDVpLVdBNnNB?oc=5",
+          "source": "Fränkischer Tag",
+          "published": "2026-10-23T17:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "库姆巴赫：现在“Ideenreich”——法兰克日也即将结束",
+          "translation_status": "translated"
+        }
+      ],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "FR": {
       "news": [
         {
-          "title": "PLF et PLFSS: pourquoi vote-t-on deux budgets en France ? - LCP-Assemblée nationale",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZWRZTE1XNFFqaDhFWS1ORzFOS2YySWh6XzJSZnFpMnpjbGNZX0QtYnhlc19pMi1ydnI3QXdNbFMzTTUzMVZJTE5VMzVVZVpiZG9LcHhsc2J6eUtOUXFlUVpwWTh4czR3eV9jSnNTYUFMcm81N1QzWG8ydWZNTF9tMHdvWVJzYUw2ZHRzUU8yS0g?oc=5",
-          "source": "LCP-Assemblée nationale",
-          "published": "2026-10-26T05:50:02+00:00",
+          "title": "Des passagers d'un OUIGO Rennes-Paris bloqués une nuit dans le train, après deux incidents successifs ayant entraîné 6h de retard - franceinfo",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNZGIxR0RPWGZYNGRDZVNuVTlfVWxVTm5NV1o4VDJ4Q1BMTGVKWElEc0tOajFwZGZfWUozQ3JKYmtuVmlyVjU1UVdoOWVYZVMwSG5JQUVCWU1mZVBOZ0lNR3U1aGVRTlZ2MDU2WVhkaVBxNUJMSGFDS2d2Mjc1TWZfUG5MbjBXWWFIclQxWVR2dFlIc0M0T0hMUWtKSzA3VXR5QjdPZFNsRlJUeFNZSGlmU1d6aVk2S2tHZ3J4am1KQjQ5Y1c3aHZ4WnFUYWUtTi13b0pGN011ZExILUFxT3FzRXYwbGk3clY5cFE5WjFmMjJLNjFzYTN6d3ZSdkhPeWpEUlNfV05GZnczRmFkSXFRd3kzTDlMMmhvVGFBWg?oc=5",
+          "source": "franceinfo",
+          "published": "2026-10-26T06:18:36+00:00",
           "scope": "本国热点候选",
-          "title_zh": "PLF 和 PLFSS：为什么我们要投票支持法国的两项预算？ - LCP-国民议会",
+          "title_zh": "连续两起事故导致晚点 6 小时，OUIGO 雷恩-巴黎列车上的乘客整夜滞留在火车上 - franceinfo",
           "translation_status": "translated"
         },
         {
-          "title": "Sénégal: un nouveau bras de fer annoncé à l’Assemblée nationale entre le gouvernement et le Pastef - RFI",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcVdQVVFqMWhkX1JaZFZ5WGZfZlc2TldhbXdJV0FjZEFtbFZGOC02TG1OSExkel9oeU53LW96Ym5kMFdtazg1VlNUWUo3d3R1UXJNbUJXbER6azdOZkhtT3lwYUFQcC1Kdkttd1J1a2pwVEZnMHZabllXTk9XYjdXTTc2c1ZLaTJaVnBnOURHbUtyeUtXZU14azJ6M09vb01IQ3F2Y2xpaURWWDZsYnRpQlh1Y2JNMjBKNktLVHk1VF8yNkYyeEtQMmp0cEVXc3Y3OWVWRWp1RDJoYVpHQ3FyU0hldkZQSDVpU09wbjdFVzg4VXc?oc=5",
-          "source": "RFI",
-          "published": "2026-10-25T22:58:07+00:00",
+          "title": "PSG - Lyon : sur quelle chaîne et à quelle heure regarder le match de Ligue 1 en direct ce dimanche ? - RMC Sport",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOelRyZUJfUWNlV3o2V3kxSXpFbU5WRWV4d1lrLTZRVmNaeUJWaHNhb0tFSUpIS0RONFVVUjBUOURtX055c085RGxzT1dzQVJlTzBuWXVEbm91S0pDWEJ1OVhSM2Uxb0IzY3gwbVl5OTFfWU9vQno0Y2N5X1JyM3ZkUmYxc1I0WElLOWZBUzJHOWhMRnRSSW1pTF8xLWExYklkQUwwdjBRZTVON1dqbzRXd2g5LVVGcnBtY0FFYzVmSG16VF8tRjJkRTQzR04wblpZSnhlUTJXWERkMGR4WUpDWlVsNi1IdWotLXhQcWJVQnQ5QQ?oc=5",
+          "source": "RMC Sport",
+          "published": "2026-10-26T05:10:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "塞内加尔：国民议会宣布政府与帕斯特夫之间出现新的对峙 - RFI",
+          "title_zh": "巴黎圣日耳曼 - 里昂：本周日在哪个频道、什么时间观看法甲比赛直播？ - RMC 体育",
           "translation_status": "translated"
         },
         {
-          "title": "Fin de vie : le Parlement adopte définitivement la proposition de loi - info.gouv.fr",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdTFNdFdWNVB6bVZvNDZhbm1lTjQwQ1hTdkZQaVNxdzNRdngyT1llMWhzMm5RbjE0RUdkc19sRkROd1VmcHZEUVRwZ0wyMEJKVF9WbjN3LWdtMFNLQlpTeTZjcm9KblJTWlpGbnF0TkZmLUdLUUVLajNfckJtZ1FfY2Zsc1BGSFlvOF9jOEJYSXRYaGpZUDctZUp1ZFhCQmRoeE84Qw?oc=5",
-          "source": "info.gouv.fr",
-          "published": "2026-10-24T10:54:31+00:00",
+          "title": "PSG-OL. Les compos probables du choc de Ligue 1 avec de nombreux absents à Paris et Lyon - Ouest-France",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNanJVZVdHY1B5OFRfVmd1bTByeExfaXgxM0VQRUNsNS14UGdGd1pOeGs0VGVFN29qVlA5dzMwbEQteFpfMkw2MHpzSU0wX0t3SXo2ZDBraVdNbGZpVTdFOHhwUnFJaTRvYnVRWTdGcXlkZWw3SkxJS0JPUVlZQXJLZnY3ZXU2R2dlV0FJN0s0MjBtbjlrbzNZZUt5LU5EclYzc0tMUVcyMUlRcmp3anZVTEd6eXV1YnNseVZjR3JKVDdJQnlMYkNhV3piYjZiVllrTWs1eUh0YTA0b2M1RU1UOFU2V0tIRWVKdmtGbGNselc4eUtOVGtGNzg2SUpiWjNPQzFaUTBR?oc=5",
+          "source": "Ouest-France",
+          "published": "2026-10-26T05:15:02+00:00",
           "scope": "本国热点候选",
-          "title_zh": "生命终结：议会最终通过该法案 - info.gouv.fr",
+          "title_zh": "巴黎圣日耳曼-OL。法国甲级联赛的可能阵容与许多人缺席巴黎和里昂的比赛发生冲突 - 法国西部",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "eric bauza",
+          "title": "trafic de stupéfiants",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "埃里克·鲍扎",
+          "title_zh": "贩毒",
           "translation_status": "translated"
         },
         {
-          "title": "air france-klm",
+          "title": "ian cathro",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:20:00+00:00",
+          "published": "2026-10-26T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "法荷航",
+          "title_zh": "伊恩·卡斯罗",
           "translation_status": "translated"
         },
         {
-          "title": "iain armitage",
+          "title": "laure manaudou",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:20:00+00:00",
+          "published": "2026-10-26T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "伊恩·阿米蒂奇",
+          "title_zh": "劳尔·马纳杜",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "Cadeaux.com",
-          "title": "Cadeaux.com · 公开商品/热卖页面",
+          "title": "Cadeaux.com · 公开商品页面",
           "url": "https://www.cadeaux.com/meilleures-ventes",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         },
         {
           "name": "YourSurprise",
-          "title": "YourSurprise · 公开商品/热卖页面",
+          "title": "YourSurprise · 公开商品页面",
           "url": "https://www.yoursurprise.fr/bestsellers",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "cadeau personnalisé",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [
+        {
+          "title": "Cadeau homme 60 ans : nos meilleures idées par profil et budget - Toutes les Box",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bU1FeDBaOFVlQ05KbmliMHByR0NZdVB3R01sc3BuT3VoZVZzV2N5aHdQSzFYcjNvMXZUNFFSbGllOXhkTTJfV2ltaGZSbzBvakh2bzBMMA?oc=5",
+          "source": "Toutes les Box",
+          "published": "2026-10-23T07:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "60 岁男人的礼物：我们按个人资料和预算列出的最佳创意 - 所有盒子",
+          "translation_status": "translated"
+        },
+        {
+          "title": "MieuxQueDesFleurs, des idées cadeaux uniques à prix doux toute l’année - Le Messager",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMVhDSDlDblZ6M1N3SkdhUmpobklfMlJwWDVIcmFDeW9wV3hOV3NQczE3S201akxQQmxBbDdVR1Axd1lpR2dsemNlZWlhcW1kTHVzQlZtN2JPMVI5X2l4NXZnZEhNcFhSOW1hQTJNVk1UVXUzR3JYa0pTWlhWS2NjTEx0bGQ3SjdxemF3Y1k4VVJZT1VfejQ0TzhIVHhuYk9pR25Mc0dBX1NTZDFYQXRrZ3NNbGVoS0d3bkk2SE1zZ2dob29kNUtfMHQ1dW5RQTA?oc=5",
+          "source": "Le Messager",
+          "published": "2026-10-16T07:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "MieuxQueDesFleurs，全年低价的独特礼物创意 - Le Messager",
+          "translation_status": "translated"
+        },
+        {
+          "title": "10 cadeaux locaux et originaux pour un papa - Femmes d'Aujourd'hui",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcmZjRnBHandwUTBQMUQxd3pWTEt6VlZDZGhjbW95SllDNGR6SzB4RWxNb1FtWVAyUF90RUk1dmFzaVNnSERZY1hNT25RYTktUFJtbTdxZzg0Q0MtVnpNWGFOMS10WXNQYWlwSlVkRmhBdDJEVG1CQzVnT2FsQVdaN0hJQVJOM2sw?oc=5",
+          "source": "Femmes d'Aujourd'hui",
+          "published": "2026-10-20T09:44:05+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "送给父亲的 10 件本地原创礼物 - Femmes d'Aujourd'hui",
+          "translation_status": "translated"
+        }
+      ],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "ES": {
       "news": [
         {
-          "title": "Amaya Echevarría, presidenta de Novartis España: \"Falta equidad en el sistema sanitario español: el acceso a un tratamiento no debe depender de dónde viva el paciente\" - El Mundo",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeVZRYVd6Y1ZGY1V1ZXFCWEFmeHBmTHdYZXQ4ZlU4NlpRajRBZmtRUUJZMUltbmxOaVhVZWdMeWxYU3ozaHJ3SWJQR0xmeUFraUdIbjRycmQ5X0d1aWY0YWFLWlJFemRkWkdFUFQ4UTdQMGthY2UxZzZiX3RsRnBOSkduam8xR1lZ0gGIAUFVX3lxTE9RNm5ucXE4NGFoU24zOXFrbFp0STZtNkNwQlJoWGs5YU9wV2FfUmFJMm9EU1p6UU5PdTczNjA5aXhLYkppZERsbjFJOVJPR2tCQUdQZm1OTXJnb0hRNG5mc1VZcWswRmZyM2RZbmdwLUZBQ29aS3N5cTdGbzNZMXRmcU5XUjJ0ZUo?oc=5",
-          "source": "El Mundo",
-          "published": "2026-10-26T00:48:45+00:00",
+          "title": "El Madrid gana el Clásico con un doblete de Mbappé - Real Madrid CF | Web Oficial",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbVNIOGpHN0NtQlJKVFFSRER0TGlBeGZ1ZWZJTFMzc3BmUkdIaF9yR2k4RUh0RTRlVEFLRndEQWstOWRzN1VRblVMbGZ1VG8xa0ptY0E3TmFqWk1KcEtXRjlqWHFLd3dKa3lxemQ4WTJPZ2gySVRpZDF6NlZETEhpX2pDQlRhY1FHWDZHVHF3OVB4NUNqR05RVjlMUWdxeW9vTDVBLWdqT0lkNlJPZHFWdG9ZQnlPTXF2a0JkWnJB?oc=5",
+          "source": "Real Madrid CF | Web Oficial",
+          "published": "2026-10-25T21:50:57+00:00",
           "scope": "本国热点候选",
-          "title_zh": "诺华西班牙公司总裁阿马亚·埃切瓦里亚 (Amaya Echevarría)：“西班牙卫生系统缺乏公平：获得治疗的机会不应取决于患者居住的地方” - El Mundo",
+          "title_zh": "姆巴佩梅开二度，皇马赢得国家德比 - 皇马 |官方网站",
           "translation_status": "translated"
         },
         {
-          "title": "El delegado del Gobierno en Madrid dimite tras quedarse fuera de las listas del PSOE para el 29-N - EL PAÍS",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZHZwWVRNeFlUQUtVWnVvSWlfTXRCN0NHQmVzSVJVcEFOYUdtelc5RVdJcW80ckxRV2k2U0VaM2FpdXd2aG1vdWdNQ1VRb2l0ZEY4VHBmTGJPc3U5RG4tN2Rzci1mVnpxa0xmczh4TnZybm1LcEJDckJoTVdNYnZhd29HZE00MnVtNlBXTFZRTzhlbExsdEdGYVhBVExNeWdaSHJuMXdNY2hqUDlqNGRtWTZRVHpFZ05fcHM0bDRKVU1XNXNqRDVuVkNjWlYza1FndEJfeS1lVmc2Z9IB7gFBVV95cUxPZndpdEpSS2xSMGhhNmt1dnB4eVc2MnppVjFDODR5NWJUY3FJVVJ1T09icDlHaDdOYkZyOWNkbkR1MTVUU1FoOUpubjRuOU1PdklpTWJ0dWVqaGZJS2cwSTFOYjBmLXB5ZmRjVWthZm04dUU1ak9iSVFoV3NtTEdXdG5WUGZZTHBQVkl1QW9nVW5GbThXMTV5aWFDeHBlYVNweXRaZ0FxcmNBV2Ryb3BsdE1MbHFIdVktLUg5SVVLcVowSG0xZmVfd1l6MklMUGttU0M1WnRkV1ZQbmpLaE4wMC12ME1FMXZFb3dZZkdn?oc=5",
-          "source": "EL PAÍS",
-          "published": "2026-10-25T16:30:42+00:00",
+          "title": "¿Dónde ver El Clásico entre Real Madrid y FC Barcelona en LALIGA 2026/27 hoy? - DAZN",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0p3UVhVb09YclBOOFdNa1dSTTRmNUFEMnp0NnNrWDBDUm9tWXh6bjJiMVp2eXB3VUVodldvX2lBLU1oVHhfN0pEaXVtb1BOX3B0c3BkOFpLaEJ2aG9vQ1gzcmNNc3laYWlUWmZBZU5JSHhCMXM5bXJsWHpGcElVWmlneldjVFk2bHRGVUdIUU45V2NIUjB1Um9Fem5fU0U2OUVlaFU4REhHUGhveGFqbkhOUDdLR25iNjRuX3lUcWRUWk5Y?oc=5",
+          "source": "DAZN",
+          "published": "2026-10-25T22:47:26+00:00",
           "scope": "本国热点候选",
-          "title_zh": "马德里政府代表因被排除在 29-N 西班牙社会党名单之外而辞职 - 西班牙国家报",
+          "title_zh": "今天在哪里观看 2026/27 年 LALIGA 皇家马德里队和巴塞罗那队之间的国家德比？ - 达兹恩",
           "translation_status": "translated"
         },
         {
-          "title": "¿Gobierno en funciones? - Diario de Valladolid",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdjFEc05teko4QWxyTHItdXd1LW5LUEN5NU9UNVJRSUMyMHpjc1JnZnBCQ0ZwOExoZ3hndWpvR0pSMG5DaVhmcGRab1hXakQyM3daSTFhWFpjSkVvalh5ZkpIVnVvR3VYZHJvOGZaMjF6Q0xweHZCN09JdzNaRmttaTRBT0dDYWNQd2N30gGLAUFVX3lxTFB2MURzTm16SjhBbHJMci11d3UtbktQQ3k1T1Q1UlFJQzIwemNzUmdmcEJDRnA4TGhneGd1am9HSlIwbkNpWGZwZFpvWFdqRDIzd1pJMWFYWmNKRW9qWHlmSkhWdW9HdVhkcm84ZloyMXpDTHB4dkI3T0l3M1pGa21pNEFPR0NhY1B3Y3c?oc=5",
-          "source": "Diario de Valladolid",
-          "published": "2026-10-26T05:30:00+00:00",
+          "title": "El Real Madrid asalta el Camp Nou con un doblete de Mbappé en un Clásico trepidante - RTVE.es",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORm56MnkxaVhPamhLVkJQTER5MTE5TGh1aHdvRmV5djA3Sk42cnl3cExidVo1ekhCX3VRVUV4UDZ1bGRjd3B2ZThQeGZ6N2tuc3I2c2dJZmVhN3NPamV0NThPbmN3UmFyTTlWYnRzamtEdlRGZGZibHVtcmhsSFJOLXdYY2ljWV9JRmpaUXRHbDYtZ3ZqcFpxbGE1Rm1OWnRxa3ZYQU5BbGFjelRSbTEzMWNuYWFBV3VNUDhpZXlSNnk?oc=5",
+          "source": "RTVE.es",
+          "published": "2026-10-25T17:45:45+00:00",
           "scope": "本国热点候选",
-          "title_zh": "政府在任？ ——巴利亚多利德日报",
+          "title_zh": "皇马在快节奏的国家德比中凭借姆巴佩的梅开二度席卷诺坎普 - RTVE.es",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "portugal",
+          "title": "irene urdangarin y borbón",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "葡萄牙",
+          "title_zh": "艾琳·乌丹加林和波旁威士忌",
           "translation_status": "translated"
         },
         {
-          "title": "joe manganiello",
+          "title": "unicaja",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "乔·曼根尼罗",
+          "title_zh": "独一无二的",
           "translation_status": "translated"
         },
         {
-          "title": "eric bauza",
+          "title": "taller",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "埃里克·鲍扎",
+          "title_zh": "车间",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "Wanapix",
-          "title": "Wanapix · 公开商品/热卖页面",
+          "title": "Wanapix · 公开商品页面",
           "url": "https://wanapix.es/",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         },
         {
           "name": "Hofmann",
-          "title": "Hofmann · 公开商品/热卖页面",
+          "title": "Hofmann · 公开商品页面",
           "url": "https://www.hofmann.es/tienda/regalos",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "regalos personalizados",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [
+        {
+          "title": "Grabadora De Voz De 60 Segundos Con Caja De Sonido, Reutilizable Para Peluches Y Regalos Personalizados - MotorVSMotor",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQU9BWnAzZWk4Xzc2aXJ4YzFUZ2hkTldmemlkTVpSRTlOUURiaGpUaGdTdGQxQy1hRlFWY1ZQRW5MWVZ3aUZEVzVCRzZweTRCT0ZMT2duUTNTSHFBTXhWWUhHRE1kbHJfNldxWXlzX3ZJZHE0eG5FOWxEajFuTjdweFROVGdROUxCcVpCZzQzREtxMzUxdUdZ?oc=5",
+          "source": "MotorVSMotor",
+          "published": "2026-10-19T10:09:56+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "带音箱的 60 秒录音机，可重复用于毛绒玩具和个性化礼品 - MotorVSMotor",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Regalos corporativos premium: cómo refuerzan la marca y el employer branding - PR Noticias",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHE0Q0owLTZxWDhKZWtubWE3cmFJMkRfdDU1bjBiOVVvUUN0Njh6d3NnN3VmM1ZqMUNoM1BIei1uV01PdTF0dHlrTE9ycmwyeWNRX29rREh4REl0cVRqMzNYMVdPX2lJMWdPSzJ3cWc1aUtHWjFlMm1KbnNkSFNxV1BWRGZ4R0x3UmRxRkZPWGhaUnp4eEFPQWpyYU9La0FuaUZzMDJjdlMxWHpHSEtv0gGvAUFVX3lxTFBkcTRDSjAtNnFYOEpla25tYTdyYUkyRF90NTVuMGI5VW9RQ3Q2OHp3c2c3dWYzVmoxQ2gzUEh6LW5XTU91MXR0eWtMT3JybDJ5Y1Ffb2tESHhESXRxVGozM1gxV09faUkxZ09LMndxZzVpS0daMWUybUpuc2RIU3FXUFZEZnhHTHdSZHFGRk9YaFpSenh4QU9BanJhT0trQW5pRnMwMmN2UzFYekdIS28?oc=5",
+          "source": "PR Noticias",
+          "published": "2026-10-20T10:09:02+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "优质企业礼品：如何强化品牌和雇主品牌 - 美通新闻",
+          "translation_status": "translated"
+        },
+        {
+          "title": "La tienda cofrade de Granada que vuelve a abrir tras los terremotos: MiCreación estrena local en el Zaidín - Ideal",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLU9fMzZ3cDVGWEN4dldGa0VtS2ZlMkZLaEI2NE5YTWFuQnZ3UDJDM1hhWXBOc0NfU1dwckdJWTl3S2VsM0gxdjdOVU1yMmxYZnpORTdnbXFHYUVJN3RGSGlMNU5Tb0xQLUxCMmI4b1pVa3Jhb0J4eFJkbFJ4SVhMQzFBZkJnbmdCejVPaHhOUEFmYmQxNjU1ajlzMEhNbWZVQTFXeElKbU1GbjhUYWU1OHM5eWTSAboBQVVfeXFMUFZ1NzB6TUpLeElyREQ0TFhTSkFtZnhfbmNsXzh0cDU2ZDU4V2NOYXNHWTl0TjZURjIzRjJLQTgtc1lzRjdHTnpnaUJidTZzamcyVDl2ODA5YmtsWnZwWUE4V0ZmeWVtN3R2eDZRVi04dVJkWThkQUFhRzNHTFZzck9jaFNZYm1yMmRJaXBGV1BoRWcwQmtOYkkwbm1YRmlIWGJvYktQWXRBTW12Q1BJNm5fSnFkOU53bUNR?oc=5",
+          "source": "Ideal",
+          "published": "2026-10-20T11:23:23+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "格拉纳达兄弟店在地震后重新开业：MiCreación 在 Zaidín 开业 - Ideal",
+          "translation_status": "translated"
+        }
+      ],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "IT": {
       "news": [
         {
-          "title": "Gli altri primati di Meloni che hanno svuotato il Parlamento (di E. Vito) - HuffPost Italia",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON25jTWRHUVFQS3lKLWtyR0JmYUR0ZWJ6bzZDREpvMkNfN2NUVjd2OVJBY09ZWXBYc1VpR0ZXOXNlcHJWeThrOXBZbE5qZkZxdU9rVzFnblVQUWhVSV85OGVTLTNfQUlsLWtJVVZMdV9JNjkySUVOUTVfb2RfMGVTWFAydUIwelhDUzJ6VnBjcTZXZHhJWm9qMXVPOUtkeVVfMDJmUG1INlMwR09odUFqVDZQOUpDWU95a1haQzhUYjQ3Mms?oc=5",
-          "source": "HuffPost Italia",
-          "published": "2026-10-25T15:51:00+00:00",
+          "title": "Sciopero generale confermato: gli orari dei treni a Milano e gli autobus sostitutivi per Malpensa - MilanoToday",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS2dsTlJLLVNsSWsxME5RZEdVY3VrbnhoN09rZnd1eC1tTWhEc2N5eGdGZ1ppM0ZLdzlaMDJ6VzZtS2Q4cV9FZ1JRSC1rS3NTQ21fZ0F1blV1cmk0ODFuaTNpOTlFTFVJVHg2eXFNbWlpZC16MTBkbUlDdWN3MWRBUDZINi0yZk9sMURXeWZ0emtoUQ?oc=5",
+          "source": "MilanoToday",
+          "published": "2026-10-26T06:04:12+00:00",
           "scope": "本国热点候选",
-          "title_zh": "梅洛尼的其他导致议会空空如也的记录（作者：E. Vito） - 赫芬顿邮报",
+          "title_zh": "大罢工已确认：米兰的火车时刻表和前往马尔彭萨的替代巴士 - MilanoToday",
           "translation_status": "translated"
         },
         {
-          "title": "Il Ministro degli Esteri italiano Tajani illustra gli obiettivi della riunione di Istanbul - Ministero degli Affari Esteri e della Cooperazione Internazionale",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdEpHWHV3SDJ6OFRXU0x1VHhtMUZmLXRqRERPS29Kc1JEenpMNXVrSXg3VThVamFrTTUxdFNqZkpWcWdueHBUWWdlSndSQXVkOXNCSVVud0ZlNWNUbWZhcFJadDhXbmZWbFF5bW1XcXk0c2JoZGVsa0V2SGpnYVB1LWRNNlpZa043RDA5cFprdUtWbldyN1RoTXFBbGhBUm5JR2EtWlpXOWpqVjgwbE9ocWh6elRaLXJxeVJESWtsY2VPd19Sekk3VEdQbndBd0tHVUlrY21wUzZtVE80d0JwSXlZeVNJUmFxT2d6eWVKTm55emc?oc=5",
-          "source": "Ministero degli Affari Esteri e della Cooperazione Internazionale",
-          "published": "2026-10-23T12:04:25+00:00",
+          "title": "Sito Istituzionale | Mobilità e trasporti, weekend 24 e 25 ottobre - Roma Capitale",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVHJyaUNEUTdQSFQtdWtlalF5emowREQtb2xlSjc5azdIQVNHLVpZWDFpSWNRMFVEa2dIQVRUdkExNThqcHB6XzhIbThEM09GZkZ0SWI0c0Q1M01xT3ZkZVBDc0U2Q1NPVnJENHU5VWxFVzM4cUZlV1czRjk5UWxiVTM1N003clRqNUtubg?oc=5",
+          "source": "Roma Capitale",
+          "published": "2026-10-25T19:31:06+00:00",
           "scope": "本国热点候选",
-          "title_zh": "意大利外长塔亚尼阐述伊斯坦布尔会议目标 - 外交与国际合作部",
+          "title_zh": "机构网站 |出行和交通，10 月 24 日至 25 日周末 - 罗马首都",
           "translation_status": "translated"
         },
         {
-          "title": "L’espresso italiano deve puntare su valore, qualità e cultura di prodotto - TeatroNaturale.it",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa0RCUlVENUVoYXNKVzBCLUYxdGt6ODlvZkxObUIwajgwemE1bXNnX05hTzM3OFdtb2xUc0JLMVBDWXJPODJXcEJuRlFfOVdKT01UaERmb1RfeE1oV3E2Zk5aSm50OU5MTXJTcFJjQkktRWlpeVFWbTF6enZkWHpQQXZDSUhZem50aGRZZVpwNFZ6bThYcVdHbDJtbldMeVY2eDF0d3lnd3ExTEJTWFJ3Y1JjendYczQ2WC1aR1FUR2gzc0U?oc=5",
-          "source": "TeatroNaturale.it",
-          "published": "2026-10-25T21:53:39+00:00",
+          "title": "Sciopero a Roma, venerdì 30 ottobre stop dei trasporti. Bus, metro e treni a rischio per 24 ore. Tutte le informazioni - RomaToday",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRGttRmZBUnU0aGRkdVFhanlacmZSdmE5al9KRC1mOXBQc2p2dDA2MkFBZjM3LWJhLUw2Qi0xMTFuVmdzUHJIV0s2dWhzVGkzQThyU0p3YVowTnZ5UUw1WmRXMG1aX3RKRXI5YWdLTWhneUFhbWlZbWVyQmNlX3Q1VVpJOA?oc=5",
+          "source": "RomaToday",
+          "published": "2026-10-26T06:10:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "意大利浓缩咖啡必须关注价值、质量和产品文化 - TeatroNaturale.it",
+          "title_zh": "罗马罢工，10 月 30 日星期五交通停止。公共汽车、地铁和火车 24 小时处于危险之中。所有信息 - RomaToday",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "kings - grizzlies",
+          "title": "un milione",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "国王队 - 灰熊队",
+          "title_zh": "一百万",
           "translation_status": "translated"
         },
         {
-          "title": "spaziociclismo",
+          "title": "daniele adani",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:30:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "太空自行车",
+          "title_zh": "丹尼尔·阿达尼",
           "translation_status": "translated"
         },
         {
-          "title": "jair bolsonaro",
+          "title": "heute",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:30:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "贾尔·博尔索纳罗",
+          "title_zh": "休特",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "Troppotogo",
-          "title": "Troppotogo · 公开商品/热卖页面",
-          "url": "https://www.troppotogo.it/regali-personalizzati",
-          "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "title": "Boccale da Birra Personalizzato con Logo e Faccia",
+          "url": "https://www.troppotogo.it/boccale-da-birra-personalizzato-con-logo-e-faccia",
+          "source": "Troppotogo · 官网结构化商品数据",
+          "price": "24.99",
+          "currency": "EUR",
+          "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/p/e/personalisierbarer-bierkrug-mit-logo-und-gesicht-foto-vorher-nachher-stefan-01_de_v2.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true
+        },
+        {
+          "name": "Troppotogo",
+          "title": "Boccale da Birra Personalizzato con Logo e 4 Volti",
+          "url": "https://www.troppotogo.it/boccale-da-birra-personalizzato-con-logo-e-4-volti",
+          "source": "Troppotogo · 官网结构化商品数据",
+          "price": "24.99",
+          "currency": "EUR",
+          "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/i/c/ichnusa_1200x1200px_v3_1.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true
         }
       ],
       "ads": [],
       "gift_keyword": "regali personalizzati",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [
+        {
+          "title": "Idee regalo per il 20 ottobre: ​​puntare su esperienze e valore emotivo. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcTEwZENmdXV6bG9PbWdOTHBvaWtZSklLMWgwU084Ml9MOVNXdW5rQXloN0lXZ3p0dHlRODRxU1lfUVc1WmxmRUIweWF1Z0w3U1V5S3RVQXZBNFpIR0FCRndCV0lOczR5Nzd6eVdTQUR2VHI3QkJxM3Y4d2hKQ1k2aWdBT3c?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-20T07:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "10 月 20 日的礼物创意：注重体验和情感价值。 - 越南.vn",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Frecce Tricolore a Piacenza - Gazzetta dell'Emilia & Dintorni",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeFZHcU5aaEdvbm80WjdSRW0wV2I4RVkzZXM5QzlpYXc1UGdraHVUeEJCLTdILXQ3Q280NHZ5N3llM1VUcWQ5bVZSdmRLaU5qWXAxNmlNMEMxMlc0b1l2V0lRX3FiYlhvbjc4WXlKNzN0V3RtSm14cHFsVGpQUnlkQjB0V2RTeEJDbXFZM3hKenpFSjFLVjZFN3ctWnpRWVNOUTh1T0tNc0paelNoUGpPVHRR?oc=5",
+          "source": "Gazzetta dell'Emilia & Dintorni",
+          "published": "2026-10-17T05:10:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "皮亚琴察的三色旗 - Gazzetta dell'Emilia & Surroundings",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Gruppo Casalasco: campagna del pomodoro record con 880 mila tonnellate conferite, +10% sul 2025 - Gazzetta dell'Emilia & Dintorni",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPcTNfMnVhd0dRX2xNdkNHRmNqc0RCRkNnZEl6Ykx1SjlLNGsyQ3hUUmZyaW1VZzlDOXNvQUdsN21VX1hPNW9YdnpFNFVXTDRRcUctOWgwUWFBeDhjMU42bjBLODVUU3k1Q3dVVnRwVFpzTXBvTXp5S2Z5MDRYcnFUQ1JYWGQ5enp6aDRHakxEN1hyOURBeUcwMng2NFZ3WWxNMmVrMTkwWF9lNzlHTnNKZTFhS2RmSmM2WERCZ0xLRTJHNDAtY1hMcERtRjVnenQ0QjQyODFMRlZkbzMwdDR3LVhHVGVVTnY5Q0ZoeXROVVdrTVNndXgzUVdqY2ZTNUp4ZEp6QzNn?oc=5",
+          "source": "Gazzetta dell'Emilia & Dintorni",
+          "published": "2026-10-16T12:16:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "Casalasco 集团：番茄产量创纪录，交付 88 万吨，2025 年增长 10% - Gazzetta dell'Emilia & Dintorni",
+          "translation_status": "translated"
+        }
+      ],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "NL": {
       "news": [
         {
-          "title": "Wekdienst 26/10: Debat Tweede Kamer over Belastingplan • Wie wint de Gouden Bal? - NOS",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcUtVX3JJSXAxNXNXV25Jd285RWJ4MndvYkpBaG5VZlU4ZVZBM25qbWdxWXpTMm9yWEUtTVN3c0VheTdVVHJON3BQY1ZXWHlSdlU3bV9tVW10a2pSdVZ3ekprcWFNbFI5LTc5X2VEZHhHc2J6YWNzV19VT0RXZkhIYURpSDR3UFM4WEVPRFVJTkN0ZjNGbWZseUNXUmwzZElJd0dSZkFEUVhJNFE?oc=5",
+          "title": "Stemmers urenlang in rij bij ambassade in Den Haag: 'Wil nieuwe toekomst voor Servië' - NOS",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWJOaWJoWXY5X3c3c2tqY0sydjBtQVJabUdIcjlydE9kUHd2TFNraXdrWEpodHdYd1haZEJ6OGFwVnFmWVBGYVZTdzlDbFJSVVlyanlaWGFmTmFNQWRPQ0FkTmRjT0RpSnloLVhkekJZclA3VnNtbXRERzAzaXZKc3B4YjBJemtPMHR4anc1YnUtUlYtaVM2VHp0TXdPclpvenE1NHJ6UjdvT0plWjc3c1VFUQ?oc=5",
           "source": "NOS",
-          "published": "2026-10-26T05:59:41+00:00",
+          "published": "2026-10-25T14:09:29+00:00",
           "scope": "本国热点候选",
-          "title_zh": "26/10 警钟：众议院就税收计划进行辩论 • 谁将赢得金球奖？ - 一氧化氮合酶",
+          "title_zh": "选民在海牙大使馆排队数小时：“希望塞尔维亚有一个新的未来” - NOS",
           "translation_status": "translated"
         },
         {
-          "title": "Kabinet gaat onderhandelen over steun voor belastingplan: als het mislukt, dreigt extra pijn aan de pomp - De Telegraaf",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNG5YU3ctemlZNjdsZ3REQlFzNThVQl90Sl9zMUV1b3BsaHFfZWZBZGYxRy1udXhPNlc4OXpaQUFQSzl0cXVGUGkweU1VdGVieXIzY09XVnBPS1R3WDVsNENOMHR0ZFplZXVTVEdSQktJcnZsaGpoWFRtdS11Q2lhWmE3TXpNbUlNUkFYYUlwOElOTHpXbm1Hd1FCZ2R6b2p5b3pQWEJpSEhyZFppVjR4VDlkMlBkOWljS1k0czdLdGtaZVRBTGU1RFhMU0VuamJIRWF2TjFKNDc1Z04yZHgxcl9Gc2Vvdw?oc=5",
-          "source": "De Telegraaf",
-          "published": "2026-10-26T05:40:00+00:00",
+          "title": "Storm blaast bouwmateriaal van flat Den Haag, meerdere auto's zwaar beschadigd - Hart van Nederland",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN1puOTE5ajdwVFBQU0lvc3NGU1dGY3Z6TGFkcTFZRk5wUlpHdnR0RnZBNjZva09zcTc0U19yblJXRVEyWjZiUG1hUjc2dk51b3pfb2FvS0NXNWY3NkFQTU5zc0VhdE9yTTBuN0ZMNHhaOWtSb1otNjRGRy1fWHBaWDBtOVlmUDBveWhIc3pvdDBpY0xIbEItQ2RobGJfa3MtVG5R?oc=5",
+          "source": "Hart van Nederland",
+          "published": "2026-10-25T17:59:38+00:00",
           "scope": "本国热点候选",
-          "title_zh": "内阁将就一项税收计划的支持进行谈判：如果失败，则存在额外痛苦的风险 - De Telegraaf",
+          "title_zh": "暴风雨吹走了海牙公寓楼的建筑材料，严重损坏了几辆汽车 - 荷兰之心",
           "translation_status": "translated"
         },
         {
-          "title": "Kabinet schrapt 25.000 voltijdbanen uit Haagse ambtenarij en gaat voor een ‘slagvaardige overheid’ - de Volkskrant",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSW96VHpBWXZtUXhLUFp5NUNuU3NqWmtKc1VMM29sRW53ak5XOTlNX2ZzRS1xY2wwZU8wTF9nYTFSTlhzVTRSZUxGSktZeWwwaDlaYkF1Wk9SZ1VSNnFFVmpHS0tYVFU0R09jRVJWRHdoOThNYzg3NHlaX1R6RHkwM2FHZHQ5aTZlTjVRREVjWG5ERmhjeDBXRFd3Skp4MFJaelFpMzhTdk9ORlhJbG85emdDX3FmQlU5bFcydnZwQ1BvelIyQkI1eHZTaEVuOWZLZVFhS3Y5VmY?oc=5",
-          "source": "de Volkskrant",
-          "published": "2026-10-26T05:58:06+00:00",
+          "title": "Verkoop van Robin Radar vergt duidelijkheid uit Den Haag - Het Financieele Dagblad",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlp2V2ZhQllFY3Y3dHB3RjFQclE3eDZYaUhOcC02MlZCNFNlWUZ4Ri1LVXdWZjB5cm9CUnJZSW5VRW5Ja0J2ajVQWFMzNnJGbmxjNWF0ajBTM1NSSGVQY0xtZmhQOW51VUZ3MVBscFEyeDlUMjV3VGtKMVJSbFMwQmtQeDl3cDRDUnQ2cFlR?oc=5",
+          "source": "Het Financieele Dagblad",
+          "published": "2026-10-25T19:00:03+00:00",
           "scope": "本国热点候选",
-          "title_zh": "内阁将从海牙公务员队伍中裁减25,000个全职工作岗位并选择“果断政府” - de Volkskrant",
+          "title_zh": "Robin Radar 的出售需要海牙的澄清 - Het Financieele Dagblad",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "inbreker",
+          "title": "getuige",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:30:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "窃贼",
+          "title_zh": "证人",
           "translation_status": "translated"
         },
         {
-          "title": "rente",
+          "title": "dassault rafale",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:20:00+00:00",
+          "published": "2026-10-26T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "兴趣",
+          "title_zh": "达索阵风",
           "translation_status": "translated"
         },
         {
-          "title": "cruiseschip",
+          "title": "matthijs de ligt",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:20:00+00:00",
+          "published": "2026-10-26T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "游轮",
+          "title_zh": "马泰斯·德利格",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "YourSurprise",
-          "title": "YourSurprise · 公开商品/热卖页面",
+          "title": "YourSurprise · 公开商品页面",
           "url": "https://www.yoursurprise.nl/bestsellers",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "gepersonaliseerd cadeau",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "NO": {
       "news": [
         {
-          "title": "Skriftlig spørsmål fra Marius Arion Nilsen (FrP) til energiministeren - Stortinget.no",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMkhDVUZzMlZhYmlSWVpROWI3WWtjWVlKTDlqdU51NFVsdWFzbi1uTFRpNGw1aG1NejlFUFM2ZlhCaGxkWW95N3dXWmI2WlFjUHI5NmQwVGJXRklYWVNQb1UxbS1HRmZoRkZ5dXlyS0h5V3hJbGZsVXNsaXJxVnJnY0pOcmdBX3RtclFLZFRmZ1Yxa1BpdkRGbzl5eFljQ1BoVEZVckR1SGoxQjktbjk0bFprU3FFS2ZkYXgtTg?oc=5",
-          "source": "Stortinget.no",
-          "published": "2026-10-26T04:33:16+00:00",
+          "title": "Bryggen i Bergen stenges for trafikk – setter opp flomvern - Finansavisen",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNckFTazBpWGhnSXZnci0wb1lrX05mdW42dWstdXlhRG5lVGhTbUVLVTN2ZkU2VGVLbzNjR1pkdGViYjZ1RUxlZzRTdG12R1J1N0o0a3BndTkxMlZQYlZxYW4yeTFlemZXU08tYTV0U0pCNEJjZWY4TWhWandjYS1KYUZmTXlwYU56TWFJUFE4eFFOdzRoWTFUVThYd0ltX0ZXWnI1Wmhybkk2V0xZSUR2OA?oc=5",
+          "source": "Finansavisen",
+          "published": "2026-10-26T05:40:53+00:00",
           "scope": "本国热点候选",
-          "title_zh": "Marius Arion Nilsen (FrP) 向能源部长提出书面问题 - Stortinget.no",
+          "title_zh": "卑尔根的布吕根市禁止交通 - 建立防洪设施 - Finansavisen",
           "translation_status": "translated"
         },
         {
-          "title": "Trump kjemper for å beholde makten. Nye tall viser fortsatt motbakke. - Aftenposten",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTVKeDFCbkJyTTRRVllNTFhNeklNY3RRZmE5NkllSUxTZS0xVFU1U2VMTXJPN2pyZDFVbHI2T1UzUXVBZnRnYjhCVlVoTWdqUFg2Q0hNeFVJaG5UNDA3WVd3R0xfaFhnUG9yNWRNR3d4UHZSVUFLWDVsLVJTN3k0NHdkdmJiNE1TZFhZVkJJWWVyTWhCSFhHR053NXNjOERlTzcyUUU2NFJQSGRkQ1Y4aGRvMjFDVlFZaklLYndUZ20?oc=5",
-          "source": "Aftenposten",
-          "published": "2026-10-26T02:18:52+00:00",
+          "title": "Bryggen i Bergen er stengt for trafikk på grunn av fare for flom - NRK",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVmFoUTFwTDd4Zl9wZXIxN25hcUYxaXA5WnF2MDJfRDBGeExHNnUtQVJDN2ZhOGFISGRMVXh0YzVHZnQ0OFBkYjE4S1VxOEp5S3hCc3A3X2p5WkFtV1dQV2pTR2dyWnFBTGE1YVZ6Z3JVV1BMQnYweWZnc00xUEFrclVfalMzOFVCUVVDd1NmT1pMb3BIbTdkMnhYUmFjak92WXBFUWNR?oc=5",
+          "source": "NRK",
+          "published": "2026-10-26T06:26:11+00:00",
           "scope": "本国热点候选",
-          "title_zh": "特朗普正在为继续掌权而奋斗。新数据仍然显示出不利的一面。 - 晚邮报",
+          "title_zh": "卑尔根的布吕根因洪水风险而封闭交通 - NRK",
           "translation_status": "translated"
         },
         {
-          "title": "Retur og utvisning av kriminelle på dagsorden på nordisk ministermøte - Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWS16dDZNZmhJY1c1TUNEMEt2ZUkzQk95OC1CdV9uUVJUckR0cU1RajY5ODhhRlR4dmNDWG93S3ZGTHdvR1JxRVFCVjdPMEhHMEttV0p6LURjYUFjQi1Ed29fanI1b0hFVDU1YlpWYnpyZjRyc0dEYnZwUG1yeU54c3dHM1E5Zm9QaTA2MWlOZkU2Z3ViZHBYaXduTW81Q2JVTFdtTTNkOTBJbWJYVkJjVmFKR05JMUpqZ0E?oc=5",
-          "source": "Regjeringen.no",
-          "published": "2026-10-25T19:45:18+00:00",
+          "title": "Høy vannstand: Bryggen i Bergen stenges - VG",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWGM0QlpLbDdnMlNBa2g2eFRBM2J2Z0hhSWh3TUE2OWs3OGtMY2dYbHFxOS1ScGZGdzExM1lxemdrXzhQTjFJN0R1MzBZYWhCQ1BkNUc1ekNaZk1rREhwdlhPZkJ4cF9LSFpjZ0dVX25sRTZnU09nb0E2WGMzaGt3RzZmZlJMNHhqU1lPVg?oc=5",
+          "source": "VG",
+          "published": "2026-10-26T06:19:42+00:00",
           "scope": "本国热点候选",
-          "title_zh": "北欧部长级会议将罪犯遣返和驱逐列入议程 - Regjeringen.no",
+          "title_zh": "高水位：卑尔根的布吕根关闭 - VG",
           "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "diesel",
+          "url": "https://trends.google.com/trending/rss?geo=NO",
+          "source": "trends.google.com",
+          "published": "2026-10-26T07:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "柴油机",
+          "translation_status": "translated"
+        },
+        {
+          "title": "ringblad",
+          "url": "https://trends.google.com/trending/rss?geo=NO",
+          "source": "trends.google.com",
+          "published": "2026-10-26T06:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "环叶",
+          "translation_status": "translated"
+        },
         {
           "title": "погода",
           "url": "https://trends.google.com/trending/rss?geo=NO",
@@ -421,77 +583,109 @@
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "天气",
           "translation_status": "translated"
-        },
-        {
-          "title": "ringerikes blad",
-          "url": "https://trends.google.com/trending/rss?geo=NO",
-          "source": "trends.google.com",
-          "published": "2026-10-26T05:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "林厄里克叶",
-          "translation_status": "translated"
-        },
-        {
-          "title": "bt",
-          "url": "https://trends.google.com/trending/rss?geo=NO",
-          "source": "trends.google.com",
-          "published": "2026-10-26T05:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "",
-          "translation_status": "unavailable"
         }
       ],
       "products": [
         {
           "name": "Walseng Design",
-          "title": "Walseng Design · 公开商品/热卖页面",
+          "title": "Walseng Design · 公开商品页面",
           "url": "https://www.walseng.no/nettbutikk/",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         },
         {
           "name": "PersonligGave",
-          "title": "PersonligGave · 公开商品/热卖页面",
+          "title": "PersonligGave · 公开商品页面",
           "url": "https://personliggave.com/",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "personlig gave",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [
+        {
+          "title": "Farsdag 2026: Her er årets beste gavetips til pappa - Nettavisen",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZTBrZ0hOZkJ1OE40RXBRSTBPRkRjUG1CSTZfeVNUcUp5RnZ4MFAyb1I4cjl5ZUUxNXVFUGcwMzc0d3J0WHBYZmVmbnhodmpGb0NtLXdzTkgyTTNVSUdYM245UGRqSUFyNldoT0NVUHV0TFdSa2VNTHg1MVJrSk5sUHM0SnlQNUU0MVpsZWZn?oc=5",
+          "source": "Nettavisen",
+          "published": "2026-10-18T11:04:52+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "2026 年父亲节：这是今年送给爸爸的最佳礼物提示 - Nettavisen",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Her finner du beste spiselige julekalendere til voksne og barn - VG",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91UkdNQzRDMmxBRkQxQzVjWVd4YVNRem85aWNlcWluLXV0VlBPa0dQTWk4ek5LMWJqLTJhSUdpRW1GemQ0dUNNS0NvcTRlZmFwQ3dIWHZOUUVWTi1MNk1faFlCV0l3UlNOLWVYMXFyY3NELUFOOF9Zaw?oc=5",
+          "source": "VG",
+          "published": "2026-10-21T09:18:54+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "在这里您可以找到适合成人和儿童的最佳食用圣诞日历 - VG",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Kultur, Musikk | Preben og Tina fikk en helt spesiell bryllupsgave: – En opplevelse for livet - iHarstad",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObXJSTnF3YmhaM2hDTDJ6b3Q4VU1yclZucGIxR3NKQ3ZqSlVXUThOaDg2cmpSUURfR0lJZVE3T0thOHV6RzVVai0tT2FfUVVHaHIxdEJTOUthb2V2X0s2MC1qMzdCbzUtemd1UDBSV0hkdWFNSEY4OGlhcjl1STBTWXc4WkN0UllmQUgzSVJhU21yV05wZXdCU0ZqTndfWUxuSk5xWXRxUDJ2STRETXZzb3FrMXE0alJQSGtF?oc=5",
+          "source": "iHarstad",
+          "published": "2026-10-12T07:51:51+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "文化、音乐 |普雷本和蒂娜收到了一份非常特别的结婚礼物： - 一生的经历 - 在哈尔斯塔",
+          "translation_status": "translated"
+        }
+      ],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "SE": {
       "news": [
         {
-          "title": "Sverige riskerar att missa nästa gröna industri - Via TT",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUlhteEdKdzMySnUzQW5nSHFRc3k4WjVaaWM0eERlMmxWS2hIV2dyd3NFcUpDd1FGbllSXzdsZzN3b2g2bEIzajdUWVpTRjZJMnR2YTVYb3YycHFLeTBGTExxdG5kcDhCQnVYSmhMWkVSR3pGRHBhbTMtWE04RlphMEhSa2J1WmE3aFdUVGpfdTc4UFNmZEdjSkVWQk12UF9xemlkY1ltQTBHZjRMSEdiZzYxNFI5d1p5?oc=5",
-          "source": "Via TT",
-          "published": "2026-10-26T05:00:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "瑞典有可能错过下一个绿色产业 - Via TT",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Fler måste använda AI på jobbet om inte Sverige ska bli förbisprunget - Göteborgs-Posten",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUHA4TlJNMXZqVnV4aEFvZWpma0ZVNkhxOWt2N1c1eUl1d1dMaDlmSjE2RzgwcHlYelVTOGo3emIyNmhycVN2T191YjhlcFo0dER0MlF4eHRsOHVEcjRXZUJNUGM4TW1JSVlnb0hvT1RqSnB1ZDhrZnY1ZU5xa2xKVFlGaENpYkRiU0RNQzNPMXNUUS1HaDk1SXI3U3JOallOaDZkTXBsRzREbVYydTdMRkVJYmE2dHp1TDVCczIxYkxlWHFmZFB1ZHJYeENJeHJCaUtzV2ducVFDWDkzcVJEbGV3?oc=5",
+          "title": "Så blir vädret på måndagen - Göteborgs-Posten",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUXg5dE9tNUxYRmhUcmQ0MU90c3d4ZlBEQTVibF9INWdvdGRidmhTSzJUTkozREJuSVBKQmNIRE42aGMyUmF5UEdYeUlUNjhJRVVKU1cyc1owMzNBaUg0X3pmeEFJUmpPQV9TVDlpU3NtcHdEckNDblhWOS1Gcm1Wb2k3dGJDbHFtYW1qSHBiblQycHlhSXRFcXFNSzFJQ3JkdTlvOG9KcnBGSEk1YjllUnl3SzluZm9pa0s5Wmtib0laZWVoV0wwdkN1MnhveFZCbnU0eTZVcjhhZ1d1enAyVmtfS09KQTA?oc=5",
           "source": "Göteborgs-Posten",
-          "published": "2026-10-26T04:00:00+00:00",
+          "published": "2026-10-26T05:10:12+00:00",
           "scope": "本国热点候选",
-          "title_zh": "如果瑞典不想被忽视，就必须有更多的人在工作中使用人工智能 - Göteborgs-Posten",
+          "title_zh": "这是周一的天气 - Göteborgs-Posten",
           "translation_status": "translated"
         },
         {
-          "title": "Samhall går mot jätteförlust – i krismöte med regeringen - Arbetsvärlden",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTERLWkhDb2N2ZkZWbVdDTzUwMVp5M3dRSWlmOHBBanBYNGdaWDZFdjRzZmIxcHhmYWV4dmlfdUhXUTlJNnpJbFF0MzhGdGZtSEprVlE2UU4tWmtGaWJRZG5Zc05UaHl0TmttMExUWDVMSTdJQ2dtYzhLdGFJSnZLWkk0VlRMeTVPZlR5aQ?oc=5",
-          "source": "Arbetsvärlden",
-          "published": "2026-10-26T05:34:14+00:00",
+          "title": "Berättelser i Fångtornet på höstlovet - Malmö stad",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRkNwYkhNMTAwblBaZU9fNGxhTGJwWUN0MzFwRGFwZWd4TlM2b2V2d3JpOFBORFdvNExNOS1namNhTF9XM0pIU0ZPYnJhN3lKR01ZU21MNmJHVHB0dXFMcXU5cVIxWHZ3R2RhUDRzODhXRW9oWWtHT2JBenhmODNtSm5EVi1BU2hJaU1tSkVrQk5PZF80aE9fQjdmeDJCQS10WU1jcjhUdW9kU3BEZm84RmMwbVNleUtOSHVtbkplMzRkMlBzTTAtMDF6RzR0UzQzeENJaXp2TW0wX1k1Rm5zMzBSRW14bi1SQ1k4bmx6X3ExMllDaUJJQXVDVkRaRkVmN0Ew?oc=5",
+          "source": "Malmö stad",
+          "published": "2026-10-26T06:13:08+00:00",
           "scope": "本国热点候选",
-          "title_zh": "萨姆霍尔在与政府举行的危机会议中面临巨大损失 - Arbetsvärlden",
+          "title_zh": "秋季假期期间 Fångtornet 的故事 - 马尔默市",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Japanska regeringen i krismöte om cyberhot - Dagens industri",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45YXkxYWZvNFpKVXdrMVVJVF9hQnhvNkZkM1dJSnhDcW1kakp1cndJbGFCdm5lc3h1a3FpM2hjYy1OcXJaM0ZYRDFDdHE2STI0MFhCd09FMTRWdGpnX2p1SFdUaTUzSmlNSEs3RllFem9Tbmgt?oc=5",
+          "source": "Dagens industri",
+          "published": "2026-10-26T05:59:09+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "日本政府召开网络威胁危机会议 - 当今业界",
           "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "mike tyson",
+          "url": "https://trends.google.com/trending/rss?geo=SE",
+          "source": "trends.google.com",
+          "published": "2026-10-26T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "迈克·泰森",
+          "translation_status": "translated"
+        },
+        {
+          "title": "eric bauza",
+          "url": "https://trends.google.com/trending/rss?geo=SE",
+          "source": "trends.google.com",
+          "published": "2026-10-26T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "埃里克·鲍扎",
+          "translation_status": "translated"
+        },
         {
           "title": "martin järborg",
           "url": "https://trends.google.com/trending/rss?geo=SE",
@@ -500,189 +694,209 @@
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "马丁·贾伯格",
           "translation_status": "translated"
-        },
-        {
-          "title": "thomas markle",
-          "url": "https://trends.google.com/trending/rss?geo=SE",
-          "source": "trends.google.com",
-          "published": "2026-10-26T06:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "托马斯·马克尔",
-          "translation_status": "translated"
-        },
-        {
-          "title": "lasse kronér",
-          "url": "https://trends.google.com/trending/rss?geo=SE",
-          "source": "trends.google.com",
-          "published": "2026-10-26T06:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "拉塞克朗",
-          "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "Smartphoto",
-          "title": "Smartphoto · 公开商品/热卖页面",
+          "title": "Smartphoto · 公开商品页面",
           "url": "https://www.smartphoto.se/fotopresenter",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "personlig present",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [
+        {
+          "title": "Älskade H&M Home på Drottninggatan öppnar igen – i helt ny skepnad! - Metro Mode",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEFhZ0dKZTgwOVVjX1FnVVZPelhIWkhPUVJUZENlbVdUajhNVmJvZEM2R3BsOWV0VDBoN0ZtUlpWeDUzZEwxa2lQZFJtZzF6bHBicndROWVyb3g5N29VdC1KeVBMTXJvdmhzMEZvS1JneDJ6SmFzV1hJT3VXMk41UTIyNThFT0hoWmZKU3NuMG1yWUltMXdicA?oc=5",
+          "source": "Metro Mode",
+          "published": "2026-10-14T07:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "位于 Drottninggatan 的心爱 H&M Home 以全新面貌再次开业！ - 都市时尚",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Bästa hand- och fotavtryck för barn 2026 – test av minnessaker - testix.se",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IckpDdjFXLVc4WVItZDM5LURpWmlQYTRtZTkwS2ZHdHdhYTQ2OVoyajhSdU8taEV3R1BVcDB6YlpzWWdpY1pfOEdjNjZpWVJ0RHg3cHN3VmZhMmlxdnRzNw?oc=5",
+          "source": "testix.se",
+          "published": "2026-10-16T12:49:23+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "2026 年儿童最佳手脚印 - 纪念品测试 - testix.se",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Bästa berlocker och hängen 2026 – test, recension & trender - testix.se",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9leUxIbllET3pqQjJnMTVwTjJSSHBURWoyZEVjX2VWNmRLZDgzdS11bk00LWNpdHVERVZ1RkRVREdaU0pwT05MZjFsMm1tNXl1SmlUbkhn?oc=5",
+          "source": "testix.se",
+          "published": "2026-10-16T12:49:06+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "2026 年最佳吊坠和吊坠 - 测试、回顾和趋势 - testix.se",
+          "translation_status": "translated"
+        }
+      ],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "FI": {
       "news": [
         {
-          "title": "Edustusto on suljettuna maanantaina 26.10.2026. - Suomi ulkomailla",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcmdGQTdYSlhCc0lWWWN0MnpOdkNFOEhIb1hVcU82MWtTX3JvekNVNWZIYnpaeW9BbUV5c2tfSS1QWkhRQWVWakZQQXRGMEd2TzM0Q0c3c3p6aVpIQXpLY3B5cWUzcFBuRXltSnI2ZTRjNktQcE1pcGY2ZGQwSG51UmU4Y0tENFJWTTJ4czNkZzNYMG9jWGZWQ0dOUXZ0YlVMejBTY1dyZkQzbFpIdVRVM2hOVjZWeFQtR2xVMG5NejZmbUhTeXpsXzhfVmVDaG5rZjdnUGV4SQ?oc=5",
-          "source": "Suomi ulkomailla",
-          "published": "2026-10-25T23:49:21+00:00",
+          "title": "Helsingin budjettineuvottelujen tulos julkistetaan 26. lokakuuta – katso suoraa lähetystä Helsinki-kanavalta - Helsingin kaupunki",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNlZER2xCSVNTdkwtUHVla21DVUgyWFBIcWhZY1I5S1lWOUlRTndBaUNoLVE3U2dkYnlvQXluSnZwZGNYcWdfUUY4a3ZuamtJSmVuTllaVmZweDEyN3RJVmVVajh3UVNOa3NwU2JmUGFBUkM3TW83RWdFdUdJTTlYVmItblU0SEJINmduNnVmZTVQRGJoS2Z0QVNiQk1DN0g3M0RoeHZYQVhfMzloWTNyX3BTaWdiaEVySTk1djNuZ1ViS3c?oc=5",
+          "source": "Helsingin kaupunki",
+          "published": "2026-10-26T05:31:47+00:00",
           "scope": "本国热点候选",
-          "title_zh": "代表处于 2026 年 10 月 26 日星期一关闭。 - 芬兰国外",
+          "title_zh": "赫尔辛基预算谈判结果将于10月26日公布 - 观看赫尔辛基频道直播 - City of Helsinki",
           "translation_status": "translated"
         },
         {
-          "title": "SDP:n itäisen Suomen kansanedustajat: EU:lta uusia mahdollisuuksia Itä-Suomen tukemiseen – hallituksen tartuttava niihin - STT Info",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQdFhOSzhFX2lNUzFVRlJJeDdpU3V1N2YyLXEzN1Z4WTdBLTVTLXRkRXp4X0NWTWNqcmhZQWhFSnU4c1FVQmczNnZ4dU8tcVNNOVRvcTdROHMwMml2MG52ZG5uQ0NmaVBIVW0tYWlCQXdpNjZmWWhIQTJUMWZlZ3V0ZXRWaGYwUjJDZkZhNEFSaTFPcG9oV0R6R2s0MjQ5WjRpMlpBRGZDV2JwUHMyRGFCaHYzUFFkVGE0VkhmR1Fwa1Vwc0l0RzJVN29ndTNONkJzN0hHU1VaT3JOT0piY0VjdzJzcVhYZlFsc1psbWZOUDBabU1xaksxSF90N2FHcHhzMERNWFh5MkhZZXF2Wm9vMi1R?oc=5",
-          "source": "STT Info",
-          "published": "2026-10-26T06:03:00+00:00",
+          "title": "Suomi ja Japani allekirjoittivat uuden puolustussopimuksen - Valtioneuvosto",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVFZqY3ZvT1BXU1hSeXJXWTRPUElUR0dqYUMya0g2ZTJjbXRvY0NaUWI4ZllLaGJua3NHRTZDZTBtX2dvSS1TRjYtVTlVV0NZRGtQSm5odnVFVEUtY0NoajZOSHk1eWhMNXdqRkUxaVZ4dEptdllIOVRfZzNta2swV0FqU3BpUFQ5RXpUcmRqWGJzam8tV0IydGZQYmY?oc=5",
+          "source": "Valtioneuvosto",
+          "published": "2026-10-26T06:53:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "东芬兰社会民主党议员：欧盟支持东芬兰的新机会 - 政府应该利用它们 - STT Info",
+          "title_zh": "芬兰与日本签署新防务协议 - 国务院",
           "translation_status": "translated"
         },
         {
-          "title": "Karstulalaislähtöinen sotilas päätyi elokuvaan ja löysi sodan keskeltä armollisuuden | Keski-Suomi - Keskisuomalainen",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VT2hWdUotV2xjU09mWmxPUW4xWGNtWFR3dmo0ZXdlLTZjdjFfS2VIWTlDdzBUSGF0MGpvcmVhbTllb3FjQXEyYzhGd285dWhx?oc=5",
-          "source": "Keskisuomalainen",
-          "published": "2026-10-26T02:00:00+00:00",
+          "title": "Seuraamme | Leikkaako Helsinki lapsiperheiltä 264 e/kk? – seuraa suoraa lähetystä kello 8.30 | Paikalliset - Helsingin Uutiset",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55ci1acFZpbFo2Zjk1aHZOdzY3STFFT2U0aFdPZ3RtR0M5MzJzN2JkT0JSd09PQ3dZcGtuUWNtR2ZqaFktWnZ0Mzd2aGxDU19BeE1McmdSQmtiWkpDaDQ0dA?oc=5",
+          "source": "Helsingin Uutiset",
+          "published": "2026-10-26T06:25:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "来自卡尔斯图拉的士兵最终出现在电影中，并在战争中得到了仁慈 |芬兰中部 - 芬兰中部",
+          "title_zh": "我们关注 |赫尔辛基会为有孩子的家庭每月削减 264 欧元吗？ – 上午8点30分观看直播|本地 - 赫尔辛基新闻",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "remppa vai muutto suomi",
+          "title": "tamperelainen",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "remppa 或移居芬兰",
+          "title_zh": "从 坦佩雷",
           "translation_status": "translated"
         },
         {
-          "title": "rasmus rissanen",
+          "title": "terveys",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-26T05:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "拉斯穆斯·里萨宁",
+          "title_zh": "健康",
           "translation_status": "translated"
         },
         {
-          "title": "svenska yle",
+          "title": "lebron james",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-26T05:40:00+00:00",
+          "published": "2026-10-26T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "瑞典语",
+          "title_zh": "勒布朗·詹姆斯",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "Puuki",
-          "title": "Puuki · 公开商品/热卖页面",
+          "title": "Puuki · 公开商品页面",
           "url": "https://www.puuki.fi/pages/personoitu-lahja-isalle",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         },
         {
           "name": "GetPersonal",
-          "title": "GetPersonal · 公开商品/热卖页面",
+          "title": "GetPersonal · 公开商品页面",
           "url": "https://www.getpersonal.fi/",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "personoitu lahja",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "PL": {
       "news": [
         {
-          "title": "Zmiany w ryczałcie uchwalone. Jakie alternatywy mają przedsiębiorcy - Business Insider Polska",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY056OHhVVFVhbkYxc0JhSkRONnJUdlhhcHRpaGtPN1JLVzBsLXgzQVBqbzlYUXozTDVvajdEY1ZuZWtBSTItNTlvM2xGYlQwTnd3QXFFTlRmeFVVTmdma2FVekp5bEQ1OUpBaXdZbk54cXoyWnVEQzA0aS1DLVV4RlNjOFd3UXRCSHNSREpVeXBHMWtlNkNOTTUzLVktdnBaUjM2Zi1kOHZzcUNQekZrSEVQZ0FxNGQ3bWhNVFNUb25yTUZuMzNr?oc=5",
+          "title": "Wisła Kraków wygrała Ligę Mistrzów w amp futbolu - TVP Kraków",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQekc1Z2VreFBXNnEtVzBSWG93Ym9UZFhiN0paemdZMlpiRWEwR3BwNXdBZm5FczRELXgxTWx4bnRpZGNvZXl3QmV0V3RNQmlmei15Qkt2YXE0SU1kZ1g1X0ZMbllnU0I5eEpfWDBKZm93WlhaaWZWSjloa0dZWmVKbjhqX0htM1JHMFdVY3ROdzdOUG03elNvdUs3RkxEdUhsaVRValotUEE1dw?oc=5",
+          "source": "TVP Kraków",
+          "published": "2026-10-26T06:33:47+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "维斯瓦克拉科夫赢得了足球冠军联赛 - TVP Kraków",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Saudi Aramco rozważa sprzedaż biznesu w Polsce. Decydujący głos ma rząd - Business Insider Polska",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMWdSZHctekI5Q0twbU84cTBaM2xjQllnTWFMT2JLZUFLYUJ1eVJLd3JoODItTTlfYkwydEhMc2dHeTlsNEp3R0NFRWtoX1h5NW5Relo4RU9sbkliSE1fbEJyWkszRjh1dHpoa0gxNnFGSHkzdGswUnFxWnpnbU1vWkZmVTBzSDI0RXlMcHA3UHRlLXVncVZLaXRPdlU5S2hmblNIYXpwaEt3TlRidmI2SQ?oc=5",
           "source": "Business Insider Polska",
-          "published": "2026-10-26T05:06:00+00:00",
+          "published": "2026-10-26T05:00:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "一次性付款的变更已获得批准。企业家有哪些选择 - Business Insider Polska",
+          "title_zh": "沙特阿美公司正在考虑出售其在波兰的业务。政府拥有决定性的一票 - Business Insider Polska",
           "translation_status": "translated"
         },
         {
-          "title": "Polska broń przyciąga uwagę. Tusk o nowej randze stosunków z Wietnamem - Interia Wydarzenia",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSjF0dE53MU4zWVVSQmRaeUlPZF9yX0FtYWJITkxDZ0syN2JxeWdsSC0tdmwzY1VuaGc5QVJydmU3STVrTnk4NDFuT0toTW16MXVUVFZxU19tbzJvTldHZXUzSmgzNm52VGVSXy1tUVo3OWZXelVVU1hiSTdSLWsyNVhTUlE5NGZQQVVCdjRvQ21iUVNIUzUyeW8tRWQtMFlvaDRQVFRmUEtUSE12Zm1TaTdRTm5iUTJy?oc=5",
-          "source": "Interia Wydarzenia",
-          "published": "2026-10-26T05:55:09+00:00",
+          "title": "Ukraińcy piszą o Polsce i opóźnionych dostawach. „Polska stopniowo się uzbraja” - Defence24",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOajNZN0ZFU2tIX18xenBTOXEwMDM0MzBGRFZhS19IaERMWmVJYko0eWhsMkRTci1IMVpocUZJc0pYVkJwRnhjVTBoSlJtQUZCcElZWEF0djQyTUNla1plbXB3RjVObFVrV09tYUplazRtVTgwV1NlMnNxNTlwbUNMa0w5bVBSU1ZxRUFLYnJwTmt5UzVVSjBWQXJseWc1cFdtc3J6ZjZGQXgxQQ?oc=5",
+          "source": "Defence24",
+          "published": "2026-10-26T04:30:02+00:00",
           "scope": "本国热点候选",
-          "title_zh": "波兰武器引起关注。图斯克谈与越南关系的新阶段 - Interia Events",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Poniedziałek po Wszystkich Świętych, czyli 2 listopada 2026 r., jednak dniem wolnym od pracy – można już anulować wnioski urlopowe? Sejm podjął decyzję - Forsal.pl",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNbUZ4TEJHc1dKQnN2OVJfS1EtOGk5U2pQLTc1Z2t2b2w2R3hwazM4ZWs0MkxLZWItVTZKYU1zSms4cnVsd3ExMVhmZVF2cDZTdEdscktHNzdaYklOUDdCNGhHOWlnSGVJaEhIbTZ4aVFyc09hTEpwNXYya1pSODJDY196Y21tT29lSVpmY0NtaXVTM3pXaXgxOXM2U1lZa3ZiT1hCY25FOVB5eWpuXzJVbjFHQVV2YmZuMzZVb0t2dVIwbHl6b0tpS25WaDZzVWhxcUF2WUVrWHd5ajdnX2J5ak5tV3ZxOTZqYVFVdncycDh6YjI0eTN2OFMwTFhFUGdXYXdrYlRYa0JDNG01Z3hGRVc3UlNOR1FpZjRxcEVLbVF3czRiNm1sZVkxVkgxZklpeFlZ?oc=5",
-          "source": "Forsal.pl",
-          "published": "2026-10-26T06:04:53+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "然而，万圣节后的星期一，即 2026 年 11 月 2 日，是休息日 - 您现在可以取消假期申请吗？众议院做出决定 - Forsal.pl",
+          "title_zh": "乌克兰人写了关于波兰和延迟交货的文章。 “波兰正在逐步武装自己” - Defence24",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "tele magazyn",
+          "title": "2 listopada czy to dzien wolny od pracy",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "电视杂志",
+          "title_zh": "11月2日休息一天",
           "translation_status": "translated"
         },
         {
-          "title": "bartłomiej lemański",
+          "title": "phantom blade zero",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:40:00+00:00",
+          "published": "2026-10-26T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "巴特沃米耶·莱曼斯基",
+          "title_zh": "幻影之刃零",
           "translation_status": "translated"
         },
         {
-          "title": "czy 2 listopada jest dniem wolnym od pracy",
+          "title": "radio zet",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-26T06:30:00+00:00",
+          "published": "2026-10-26T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "11月2日是否休息日",
+          "title_zh": "收音机",
           "translation_status": "translated"
         }
       ],
       "products": [
         {
           "name": "Crazyshop",
-          "title": "Crazyshop · 公开商品/热卖页面",
+          "title": "Crazyshop · 公开商品页面",
           "url": "https://www.crazyshop.pl/",
           "source": "竞品官网",
-          "summary": "已确认候选来源；商品排名、价格和销量尚未自动验证。"
+          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "verified_public_product": false
         }
       ],
       "ads": [],
       "gift_keyword": "prezent personalizowany",
-      "news_method": "本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国"
+      "gift_signals": [],
+      "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
+      "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     }
   }
 }
