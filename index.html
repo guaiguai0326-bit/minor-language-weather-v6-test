@@ -1471,7 +1471,7 @@ setTimeout(run,2600);
 })();
 </script>
 
-<section id="v6-intel"><header class="v6-top"><div><div style="font-size:12px;letter-spacing:1px;color:#b9d2f0">MARKET INTELLIGENCE · V6.0.4 PREVIEW</div><h2>小语种市场机会情报</h2><p>每日新闻 × 搜索趋势 × 竞品商品 × Facebook广告 × 商品机会 × 视觉建议</p></div><span class="v6-status">独立预览 · 不影响原天气模块</span></header><div class="v6-note">🧪 <strong>这是V6.0功能预览版，不是实时情报。</strong>当前展示各国观察主题、关键词和竞品候选的示例提要（不是当日新闻或真实趋势）；尚未接入新闻、Google Trends、Meta广告API或AI分析。所有“机会”均为待验证方向，不显示虚构销量、CTR或搜索热度。</div><div id="v6-panel-news" class="v6-panel on"></div><div id="v6-panel-trends" class="v6-panel"></div><div id="v6-panel-competitors" class="v6-panel"></div><div id="v6-panel-meta" class="v6-panel"></div><div id="v6-panel-opportunity" class="v6-panel"></div><div id="v6-panel-visual" class="v6-panel"></div></section><style id="v6-compact-css">
+<section id="v6-intel"><header class="v6-top"><div><div style="font-size:12px;letter-spacing:1px;color:#b9d2f0">MARKET INTELLIGENCE · V6.0 TEST</div><h2>小语种市场机会情报</h2><p>每日新闻 × 搜索趋势 × 竞品商品 × Facebook广告 × 商品机会 × 视觉建议</p></div><span class="v6-status">测试站运行 · 不影响原天气模块</span></header><div class="v6-note">🌍 <strong>V6.0 市场情报测试版｜9国新闻与近期热搜已接入自动更新及中文翻译。</strong>新闻以各国综合热点为主，不限制礼品行业；热搜为大众近期热搜，并非礼品行业需求指数。新闻标题及搜索词保留当地语言，中文紧贴下方。竞品目前仅提供公开来源入口，Facebook广告尚未接入真实素材；不展示未经验证的销量、广告效果或热度排名。</div><div id="v6-panel-news" class="v6-panel on"></div><div id="v6-panel-trends" class="v6-panel"></div><div id="v6-panel-competitors" class="v6-panel"></div><div id="v6-panel-meta" class="v6-panel"></div><div id="v6-panel-opportunity" class="v6-panel"></div><div id="v6-panel-visual" class="v6-panel"></div></section><style id="v6-compact-css">
 #v6-intel #v6-overview{margin:22px 0 32px}#v6-intel #v6-overview h3{font-size:21px;margin:0 0 5px;color:#1b3c64}
 #v6-intel .v6-overview-header,#v6-intel .v6-overview-row{display:grid;grid-template-columns:120px 1fr 1.05fr 1.2fr 1.2fr;gap:12px;align-items:start}
 #v6-intel .v6-overview-header{background:#e7eef8;color:#31577e;font-weight:700;font-size:13px;border-radius:12px;padding:12px 16px}
@@ -1548,7 +1548,7 @@ FI:['桑拿、户外、家庭送礼','personoitu lahja','雕刻礼品、户外�
 PL:['家庭节庆、婚礼、零售','prezent personalizowany','相册、抱枕、家庭礼品','定制细节与礼物包装']};
 const href=(u,t)=>`<a class="v605-link" target="_blank" rel="noopener noreferrer" href="${safe(u)}">${safe(t)} ↗</a>`;
 const overview=document.createElement('div');overview.id='v6-overview';
-overview.innerHTML='<div class="v605-heading"><div><div class="v605-kicker">MARKET INTELLIGENCE · NINE COUNTRIES</div><h3>🌍 9国市场情报速览</h3><p>每个国家直接展示四项内容提要。先看信息，再点击来源深入了解；目前为监测方向预览，尚非当日已采集的新闻、热度或广告表现。</p></div><span class="v605-state">结构预览 · 数据待接入</span></div><div class="v6-overview-header"><span>国家</span><span>📰 每日新闻</span><span>📈 搜索趋势</span><span>🛍️ 竞品商品</span><span>🎬 Facebook 广告</span></div>';
+overview.innerHTML='<div class="v605-heading"><div><div class="v605-kicker">MARKET INTELLIGENCE · NINE COUNTRIES</div><h3>🌍 9国市场情报速览</h3><p>每个国家直接展示四项内容提要。先看信息，再点击来源深入了解；新闻与热搜每日自动更新；新闻优先展示本国热点候选，搜索趋势为综合热搜，竞品和广告不代表销量或投放成绩。</p></div><span class="v605-state">结构预览 · 数据待接入</span></div><div class="v6-overview-header"><span>国家</span><span>📰 每日新闻</span><span>📈 搜索趋势</span><span>🛍️ 竞品商品</span><span>🎬 Facebook 广告</span></div>';
 for(const c of countries){
  const [code,flag,name,lang,geo]=c,shops=comp[code]||[],f=marketFocus[code];
  const news=`https://news.google.com/search?q=${encodeURIComponent('personalized gifts retail family lifestyle')}&hl=${lang}&gl=${geo}&ceid=${geo}:${lang}`;
@@ -1580,7 +1580,7 @@ document.getElementById('v6-panel-visual').innerHTML=`<h3 class="v605-section-ti
 <script id="v6-live-loader">(function(){
 const escapeHTML=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeURL=x=>{try{const u=new URL(x,location.href);return ['https:','http:'].includes(u.protocol)?u.href:'#'}catch(e){return '#'}};
-const fmt=x=>x?new Date(x).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}):'时间未知';
+const fmt=x=>x?new Date(x).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}):'时间未知';
 const root=document.getElementById('v6-overview');if(!root)return;
 const rows=[...root.querySelectorAll('.v6-overview-row')];
 const status=root.querySelector('.v605-state');
@@ -1594,7 +1594,7 @@ const show=(cell,kind,items,stamp)=>{
  for(const x of entries){const item=document.createElement('div');item.className='v6-live-item';
   const heading=document.createElement('strong');heading.textContent=x.title||x.name||'未命名';item.appendChild(heading);
   if(x.title_zh){const translation=document.createElement('div');translation.className='v6-translation';translation.textContent=x.title_zh;item.appendChild(translation)}
-  const meta=document.createElement('small');meta.textContent=[x.source,x.published?fmt(x.published):'',x.signal||''].filter(Boolean).join(' · ');item.appendChild(meta);
+  const meta=document.createElement('small');meta.textContent=[x.scope||'',x.source,x.published?fmt(x.published):'',x.signal||''].filter(Boolean).join(' · ');item.appendChild(meta);
   if(x.summary){const summary=document.createElement('div');summary.className='v6-live-summary';summary.textContent=x.summary;item.appendChild(summary)}
   if(x.url&&safeURL(x.url)!=='#'){const a=document.createElement('a');a.href=safeURL(x.url);a.target='_blank';a.rel='noopener noreferrer';a.textContent='查看详情 ↗';item.appendChild(a)}
   frag.appendChild(item)
@@ -1604,10 +1604,10 @@ const show=(cell,kind,items,stamp)=>{
 fetch('./data/market.json?ts='+Math.floor(Date.now()/1800000),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
  if(!data.updated_at)throw Error('missing timestamp');
  const age=(Date.now()-Date.parse(data.updated_at))/3600000;
- status.textContent=(age>36?'⚠ 数据较旧 · ':'● 情报已同步 · ')+fmt(data.updated_at)+'（北京时间按本机时区显示）';
+ status.textContent=(age>36?'⚠ 数据较旧 · ':'● 情报已同步 · ')+fmt(data.updated_at)+'（北京时间）';
  rows.forEach((row,i)=>{const key=['DE','FR','ES','IT','NL','NO','SE','FI','PL'][i];const v=data.countries?.[key]||{};const cells=row.querySelectorAll('.v6-market-cell');
- show(cells[0],'已采集新闻标题',v.news,data.updated_at);
- show(cells[1],'近期搜索热搜（非商品销量）',v.trending,data.updated_at);
+ show(cells[0],'本国热点优先 · 当地媒体补充',v.news,data.updated_at);
+ show(cells[1],'当地综合热搜 · 非礼品需求指标',v.trending,data.updated_at);
  show(cells[2],'竞品公开商品线索',v.products,data.updated_at);
  show(cells[3],'Meta 广告观察',v.ads,data.updated_at);
  });

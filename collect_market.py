@@ -59,11 +59,34 @@ for country_code,old_items in previous.items():
    if entry.get('title') and entry.get('title_zh'):cache[lang+'|'+entry['title']]=entry['title_zh']
 result={'updated_at':datetime.now(timezone.utc).isoformat(),'countries':{}}
 for code,(lang,geo,term) in COUNTRIES.items():
- query=urllib.parse.quote('("'+term+'" OR "'+term.split()[0]+'")')
- news=f'https://news.google.com/rss?hl={lang}&gl={geo}&ceid={geo}:{lang}'
+ # Country-first news: search local domestic headlines; supplement with local edition top stories.
+ # Headlines are only labeled domestic if sourced from the country-focused search feed.
+ local_terms={
+  'DE':'Deutschland OR Bundesregierung OR Bundestag',
+  'FR':'France OR gouvernement français OR Assemblée nationale',
+  'ES':'España OR Gobierno español OR Congreso',
+  'IT':'Italia OR governo italiano OR Parlamento',
+  'NL':'Nederland OR kabinet OR Tweede Kamer',
+  'NO':'Norge OR regjeringen OR Stortinget',
+  'SE':'Sverige OR regeringen OR riksdagen',
+  'FI':'Suomi OR hallitus OR eduskunta',
+  'PL':'Polska OR rząd OR Sejm'}
+ query=urllib.parse.quote('('+local_terms[code]+') when:3d')
+ domestic_url=f'https://news.google.com/rss/search?q={query}&hl={lang}&gl={geo}&ceid={geo}:{lang}'
+ edition_url=f'https://news.google.com/rss?hl={lang}&gl={geo}&ceid={geo}:{lang}'
  trending=f'https://trends.google.com/trending/rss?geo={geo}'
- newsitems=readfeed(news,3)
+ domestic=readfeed(domestic_url,5)
+ for x in domestic:x['scope']='本国热点候选'
+ general=readfeed(edition_url,5)
+ for x in general:x['scope']='当地媒体关注'
+ newsitems=[];seen=set()
+ for entry in domestic+general:
+  token=re.sub(r'\W+','',entry['title'].lower())[:90]
+  if token in seen:continue
+  seen.add(token);newsitems.append(entry)
+  if len(newsitems)>=3:break
  trenditems=readfeed(trending,3)
+ for x in trenditems:x['scope']='当地综合热搜（非礼品需求）' 
  old=previous.get(code,{})
  for group in (newsitems,trenditems):
   for entry in group:
@@ -72,7 +95,7 @@ for code,(lang,geo,term) in COUNTRIES.items():
    time.sleep(0.12)
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
  products=[{'name':n,'title':n+' · 公开商品/热卖页面','url':u,'source':'竞品官网','summary':'已确认候选来源；商品排名、价格和销量尚未自动验证。'} for n,u in SHOPS.get(code,[])]
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[]}
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'news_method':'本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国'}
  print(code,'news',len(newsitems),'trends',len(trenditems))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
