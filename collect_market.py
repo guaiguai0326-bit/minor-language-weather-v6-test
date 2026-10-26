@@ -99,6 +99,28 @@ def retailer_products(shop_name, landing, max_items=2):
  except Exception as exc:
   print('Retailer product unavailable:',shop_name,str(exc)[:90]);return []
 
+
+# Product category monitoring: localized public-news signals, not invented search volumes.
+CATEGORY_TERMS={
+'DE':{'围巾':'personalisierter Schal','小夜灯':'personalisiertes Nachtlicht','首饰':'personalisierter Schmuck'},
+'FR':{'围巾':'écharpe personnalisée','小夜灯':'veilleuse personnalisée','首饰':'bijou personnalisé'},
+'ES':{'围巾':'bufanda personalizada','小夜灯':'luz nocturna personalizada','首饰':'joyas personalizadas'},
+'IT':{'围巾':'sciarpa personalizzata','小夜灯':'luce notturna personalizzata','首饰':'gioielli personalizzati'},
+'NL':{'围巾':'gepersonaliseerde sjaal','小夜灯':'gepersonaliseerd nachtlampje','首饰':'gepersonaliseerde sieraden'},
+'NO':{'围巾':'personlig skjerf','小夜灯':'personlig nattlampe','首饰':'personlige smykker'},
+'SE':{'围巾':'personlig halsduk','小夜灯':'personlig nattlampa','首饰':'personliga smycken'},
+'FI':{'围巾':'personoitu huivi','小夜灯':'personoitu yövalo','首饰':'personoidut korut'},
+'PL':{'围巾':'szalik personalizowany','小夜灯':'lampka nocna personalizowana','首饰':'biżuteria personalizowana'}}
+def category_signals(code,lang,geo):
+ signals=[]
+ for category,keyword in CATEGORY_TERMS[code].items():
+  q=urllib.parse.quote('"'+keyword+'" when:30d')
+  rss=f'https://news.google.com/rss/search?q={q}&hl={lang}&gl={geo}&ceid={geo}:{lang}'
+  matches=readfeed(rss,1)
+  explore='https://trends.google.com/trends/explore?'+urllib.parse.urlencode({'geo':geo,'date':'today 3-m','q':keyword})
+  signals.append({'category':category,'keyword':keyword,'signal_type':'公开新闻匹配' if matches else '关键词观察','news_count_sample':len(matches),'article':matches[0] if matches else None,'url':explore,'source':'Google News RSS / Google Trends 查询入口','note':'有匹配新闻不代表搜索热度上涨；未获取搜索指数。'})
+ return signals
+
 previous={}
 path=ROOT/'data/market.json'
 if path.exists():
@@ -161,7 +183,7 @@ for code,(lang,geo,term) in COUNTRIES.items():
   discovered=retailer_products(shop_name,landing)
   if discovered:products.extend(discovered)
   else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'该站点未返回可核实的商品结构化数据；点击查看官网。','verified_public_product':False})
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
  print(code,'news',len(newsitems),'trends',len(trenditems),'products',sum(bool(p.get('verified_public_product')) for p in products))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
