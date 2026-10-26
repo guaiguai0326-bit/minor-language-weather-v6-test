@@ -1607,7 +1607,7 @@ fetch('./data/market.json?ts='+Math.floor(Date.now()/1800000),{cache:'no-store'}
  status.textContent=(age>36?'⚠ 数据较旧 · ':'● 情报已同步 · ')+fmt(data.updated_at)+'（北京时间）';
  rows.forEach((row,i)=>{const key=['DE','FR','ES','IT','NL','NO','SE','FI','PL'][i];const v=data.countries?.[key]||{};const cells=row.querySelectorAll('.v6-market-cell');
  show(cells[0],'本国热点优先 · 当地媒体补充',v.news,data.updated_at);
- show(cells[1],'当地综合热搜 · 非礼品需求指标',v.trending,data.updated_at);
+ if((v.category_signals||[]).length){const cell=cells[1];const label=cell.querySelector('.v605-mini');if(label)label.textContent='Callie商品方向 · 当地关键词（非热度排名）';const old=cell.querySelector('strong');if(old)old.remove();const oldP=cell.querySelector('p');if(oldP)oldP.remove();const oldLink=cell.querySelector('a');if(oldLink)oldLink.remove();const wrap=document.createElement('div');wrap.className='v6-category-keyword-list';for(const s of v.category_signals.slice(0,10)){const el=document.createElement('div');el.className='v6-category-chip';const title=document.createElement('strong');title.textContent=s.category+' · '+s.keyword;el.appendChild(title);const note=document.createElement('small');note.textContent='Callie商品方向候选 · 未获取搜索指数';el.appendChild(note);if(s.url&&safeURL(s.url)!=='#'){const link=document.createElement('a');link.href=safeURL(s.url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='查看当地趋势 ↗';el.appendChild(link)}wrap.appendChild(el)}cell.appendChild(wrap)}else{show(cells[1],'当地综合热搜 · 等待Callie关键词数据',v.trending,data.updated_at);}
  show(cells[2],'竞品公开商品线索',v.products,data.updated_at);
  show(cells[3],'Meta 广告观察',v.ads,data.updated_at);
  });
@@ -1657,29 +1657,4 @@ grid.appendChild(card)
 #v6-intel .v6-category-chip small{font-size:10px;color:#71849b;display:block}
 #v6-intel .v6-category-chip a{font-size:11px}
 #v6-intel .v6-image-unavailable{border:1px dashed #d1ddeb;border-radius:8px;padding:12px 7px;color:#8192a5;font-size:11px;text-align:center;margin:8px 0;background:#f8fafc}
-</style><script id="v6-category-view">
-(function(){
-const keys=['DE','FR','ES','IT','NL','NO','SE','FI','PL'];
-const root=document.getElementById('v6-overview');if(!root)return;
-fetch('./data/market.json?category='+Math.floor(Date.now()/1800000),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('feed');return r.json()}).then(data=>{
-[...root.querySelectorAll('.v6-overview-row')].forEach((row,i)=>{
-const c=data.countries?.[keys[i]]||{},cells=row.querySelectorAll('.v6-market-cell');
-const trend=cells[1];if(trend){
-const label=trend.querySelector('.v605-mini');if(label)label.textContent='定制礼品品类 · 公开线索（非搜索指数）';
-const signals=c.category_signals||[];if(!signals.length){const label=trend.querySelector('.v605-mini');if(label)label.textContent='Callie商品关键词 · 等待下一次数据采集';const note=document.createElement('p');note.className='v6-live-summary';note.textContent='新关键词数据尚未生成，当前先保留综合热搜。下次自动采集后显示 Callie 相关品类。';trend.appendChild(note);return;}const oldItems=trend.querySelectorAll('.v6-live-item');oldItems.forEach(n=>n.remove());
-const box=document.createElement('div');box.className='v6-category-keyword-list';
-for(const s of (c.category_signals||[]).slice(0,10)){const el=document.createElement('div');el.className='v6-category-chip';
-const title=document.createElement('strong');title.textContent=s.category+' · '+s.keyword;el.appendChild(title);
-const meta=document.createElement('small');meta.textContent='Callie商品方向候选 · 查看当地关键词趋势（未获取搜索指数）';el.appendChild(meta);
-if(s.url){const link=document.createElement('a');link.textContent='查看该国 Google Trends ↗';link.href=s.url;link.target='_blank';link.rel='noopener noreferrer';el.appendChild(link)}
-box.appendChild(el)}const existing=trend.querySelector('.v6-category-keyword-list');if(existing)existing.remove();trend.appendChild(box)}
-const ads=cells[3];if(ads&&!((c.ads||[]).length)){
-const msg=document.createElement('div');msg.className='v6-image-unavailable';msg.textContent='暂无可验证的公开广告图片 · 请通过下方广告资料库查看真实素材';ads.appendChild(msg)}
-const products=cells[2];if(products){
-const productItems=products.querySelectorAll('.v6-live-item');
-productItems.forEach((node,j)=>{if(!(c.products||[])[j]?.image){const placeholder=document.createElement('div');placeholder.className='v6-image-unavailable';placeholder.textContent='官网未提供可读取的商品图片';node.appendChild(placeholder)}})
-}
-})
-}).catch(()=>{});
-})();
-</script></body></html>
+</style></body></html>
