@@ -59,19 +59,19 @@ for country_code,old_items in previous.items():
    if entry.get('title') and entry.get('title_zh'):cache[lang+'|'+entry['title']]=entry['title_zh']
 result={'updated_at':datetime.now(timezone.utc).isoformat(),'countries':{}}
 for code,(lang,geo,term) in COUNTRIES.items():
- # Country-first news: search local domestic headlines; supplement with local edition top stories.
+ # General country news only: local events across politics, economy, society, culture, weather, etc. Gift industry signals are separate.
  # Headlines are only labeled domestic if sourced from the country-focused search feed.
  local_terms={
-  'DE':'Deutschland OR Bundesregierung OR Bundestag',
-  'FR':'France OR gouvernement français OR Assemblée nationale',
-  'ES':'España OR Gobierno español OR Congreso',
-  'IT':'Italia OR governo italiano OR Parlamento',
-  'NL':'Nederland OR kabinet OR Tweede Kamer',
-  'NO':'Norge OR regjeringen OR Stortinget',
-  'SE':'Sverige OR regeringen OR riksdagen',
-  'FI':'Suomi OR hallitus OR eduskunta',
-  'PL':'Polska OR rząd OR Sejm'}
- query=urllib.parse.quote('('+local_terms[code]+') when:3d')
+  'DE':'Deutschland OR Berlin OR München OR Hamburg OR Bundesregierung',
+  'FR':'France OR Paris OR Marseille OR Lyon OR gouvernement',
+  'ES':'España OR Madrid OR Barcelona OR Valencia OR Gobierno',
+  'IT':'Italia OR Roma OR Milano OR Napoli OR governo',
+  'NL':'Nederland OR Amsterdam OR Rotterdam OR Den Haag OR kabinet',
+  'NO':'Norge OR Oslo OR Bergen OR Trondheim OR regjeringen',
+  'SE':'Sverige OR Stockholm OR Göteborg OR Malmö OR regeringen',
+  'FI':'Suomi OR Helsinki OR Tampere OR Turku OR hallitus',
+  'PL':'Polska OR Warszawa OR Kraków OR Gdańsk OR rząd'}
+ query=urllib.parse.quote('('+local_terms[code]+') when:2d')
  domestic_url=f'https://news.google.com/rss/search?q={query}&hl={lang}&gl={geo}&ceid={geo}:{lang}'
  edition_url=f'https://news.google.com/rss?hl={lang}&gl={geo}&ceid={geo}:{lang}'
  trending=f'https://trends.google.com/trending/rss?geo={geo}'
@@ -104,7 +104,7 @@ for code,(lang,geo,term) in COUNTRIES.items():
   time.sleep(0.12)
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
  products=[{'name':n,'title':n+' · 公开商品/热卖页面','url':u,'source':'竞品官网','summary':'已确认候选来源；商品排名、价格和销量尚未自动验证。'} for n,u in SHOPS.get(code,[])]
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'本国关键词优先，国家版头条补充；搜索匹配不等于事件必然发生在本国'}
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
  print(code,'news',len(newsitems),'trends',len(trenditems))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
