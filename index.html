@@ -1612,4 +1612,43 @@ fetch('./data/market.json?ts='+Math.floor(Date.now()/1800000),{cache:'no-store'}
  show(cells[3],'Meta 广告观察',v.ads,data.updated_at);
  });
  }).catch(err=>{status.textContent='○ 情报数据尚未同步 · 请先运行 GitHub Actions';console.warn('V6 market feed unavailable:',err.message)})
-})();</script></body></html>
+})();</script><style id="v6-gift-signal-style">
+#v6-intel .v6-gift-heading{margin:24px 0 10px;color:#19395e;font-size:19px}
+#v6-intel .v6-gift-sub{font-size:12px;color:#697f99;margin:0 0 14px}
+#v6-intel .v6-gift-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#v6-intel .v6-gift-card{background:#fff;border:1px solid #dfe7f2;border-radius:12px;padding:14px;font-size:12px}
+#v6-intel .v6-gift-card h4{margin:0 0 10px;color:#1d436c;font-size:14px}
+#v6-intel .v6-gift-card p{margin:5px 0;color:#6a7c90;line-height:1.5}
+#v6-intel .v6-gift-card a{color:#24659e;overflow-wrap:anywhere}
+#v6-intel .v6-gift-card .v6-gift-item{padding:9px 0;border-top:1px dashed #e3eaf3}
+@media(max-width:850px){#v6-intel .v6-gift-grid{grid-template-columns:1fr}}
+</style>
+<script id="v6-gift-signals">
+(function(){
+const codes=[['DE','德国'],['FR','法国'],['ES','西班牙'],['IT','意大利'],['NL','荷兰'],['NO','挪威'],['SE','瑞典'],['FI','芬兰'],['PL','波兰']];
+const section=document.getElementById('v6-intel'), anchor=document.getElementById('v6-panel-opportunity');
+if(!section||!anchor)return;
+const wrap=document.createElement('section');wrap.id='v6-gift-signals-section';
+const heading=document.createElement('h3');heading.className='v6-gift-heading';heading.textContent='🎁 九国个性化礼品行业线索';
+const desc=document.createElement('p');desc.className='v6-gift-sub';desc.textContent='自动搜索当地语言的个性化礼品相关新闻。仅表示公开新闻匹配，不代表搜索量、购买需求、销量或增长。';
+const grid=document.createElement('div');grid.className='v6-gift-grid';
+wrap.append(heading,desc,grid);anchor.parentNode.insertBefore(wrap,anchor);
+function el(tag,txt){const e=document.createElement(tag);e.textContent=txt||'';return e}
+fetch('./data/market.json?gift='+Math.floor(Date.now()/1800000),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('data unavailable');return r.json()}).then(data=>{
+for(const [code,name] of codes){
+const card=el('article');card.className='v6-gift-card';card.appendChild(el('h4',name+' · 行业线索'));
+const c=data.countries?.[code]||{},items=(c.gift_signals||[]).slice(0,3);
+if(!items.length)card.appendChild(el('p','暂未获取到可验证的行业新闻，不代表没有市场需求。'));
+for(const item of items){
+const line=el('div');line.className='v6-gift-item';
+const title=el('div',item.title);title.style.fontWeight='600';line.appendChild(title);
+if(item.title_zh)line.appendChild(el('p',item.title_zh));
+const source=el('p',[item.source,item.published?new Date(item.published).toLocaleDateString('zh-CN'):''].filter(Boolean).join(' · '));line.appendChild(source);
+try{const url=new URL(item.url);if(url.protocol==='https:'){const a=el('a','查看原始报道 ↗');a.href=url.href;a.target='_blank';a.rel='noopener noreferrer';line.appendChild(a)}}catch(e){}
+card.appendChild(line)
+}
+grid.appendChild(card)
+}
+}).catch(()=>{grid.appendChild(el('p','行业线索暂未加载，请查看最近一次 GitHub Actions 运行状态。'))})
+})();
+</script></body></html>
