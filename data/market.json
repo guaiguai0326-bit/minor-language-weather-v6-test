@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:53:16.077281+00:00",
+  "updated_at": "2026-10-27T06:58:09.464040+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -22,12 +22,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Athen: Warum die griechische Hauptstadt plötzlich das hat, was Berlin verloren hat - WELT",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPd1Jsa3NVa2ItVFJ2YkJzWFFwVUx1M2JyMnpmX2hmNU9hN1pKLWFqa1ZVLTh4WFFEdGZPVExXWTJHZmg4Y3F2amV4Z2puMDl5bE5VQlZUUmhEYVdTLVZoeEZZY3VOMzBUWElVN0VNU0RkOXpWb3hDeEc4SXlOTmJpVHVoWlJISVh0Z0xaZ3JxLXpmWk8zR1RUNzBWU25HcUU0Vi10UEpBWlpvUFR6ZjJqbC1BTmcyR3otcHY5NzcyeHJvemFvNGZVMGJ4b003QjloMjN6dDhTaVJfRXhVRlE?oc=5",
-          "source": "WELT",
-          "published": "2026-10-27T04:15:44+00:00",
+          "title": "Streit um Enteignungen in Berlin: Immobilienriese stoppt Investitionen in Deutschland - BILD",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVFlUQWFRbldreFlJT0VESlFxWm5KcmljeXg2N2JEaWptRi01aWpyS3gxWXU3UjNaX2poYmVUN2o1S1FoVFJhVnNVMDJ1cE5mWHZZRERVQkZrb3NhQ21jXzBmSEplWFN0TVhxTEI5YXZqeVphYnNIa1Ixdi1QdVdXREs0RlgtcUlhWkYyTWpnTHJDQXVyc1JzRWVqQXRDellFaTR5TjFVVzJiYVZ1Mkl2WGJmNnpxVjF3c1dHd0J2T2daTTk4VGVxWjVLaHJ4TmItR1Zya1ltYnBlOWxJ?oc=5",
+          "source": "BILD",
+          "published": "2026-10-26T18:12:58+00:00",
           "scope": "本国热点候选",
-          "title_zh": "雅典：为何希腊首都突然拥有柏林失去的东西 - WELT",
+          "title_zh": "柏林征用纠纷：房地产巨头停止在德国投资 - BILD",
           "translation_status": "translated"
         }
       ],
@@ -275,8 +275,8 @@
           "source": "iphone-ticker.de",
           "published": "2026-10-19T12:31:52+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "",
-          "translation_status": "unavailable"
+          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
+          "translation_status": "translated"
         },
         {
           "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
@@ -353,24 +353,12 @@
       "products": [
         {
           "name": "YourSurprise",
-          "title": "Mug avec photo",
-          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-blanc",
-          "source": "YourSurprise · 官网结构化商品数据",
-          "price": "11.99",
-          "currency": "EUR",
-          "image": "https://static.yoursurprise.com/galleryimage/f1/f1df5ed682505c7e2a216c536f376418/mug-avec-photo.jpg?width=900&amp;crop=1%3A1",
-          "summary": "官网公开商品信息；不代表销量或热卖排名。",
-          "verified_public_product": true,
-          "selection_basis": "官网公开商品（未验证热销排名）"
-        },
-        {
-          "name": "YourSurprise",
-          "title": "Mug Cappuccino Personnalisé",
-          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-cappuccino",
+          "title": "Mug personnalisé - Noir",
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-couleurs",
           "source": "YourSurprise · 官网结构化商品数据",
           "price": "12.99",
           "currency": "EUR",
-          "image": "https://static.yoursurprise.com/galleryimage/dd/dd4a533b7dc674019beb3e11d74e2471/mug-cappuccino-personnalise.png?width=900&amp;crop=1%3A1&amp;bg-color=F5ECE6&amp;format=jpg",
+          "image": "https://static.yoursurprise.com/galleryimage/f3/f302868f36056c18660255b9571d4bf8/mug-personnalise-noir.png?width=900&amp;crop=1%3A1&amp;bg-color=F5ECE6&amp;format=jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
@@ -410,18 +398,54 @@
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Plaid polaire blanc 150x200",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/plaid-polaire?pvc=blanketfleecesheepwhite150x200",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "74.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/blanketfleecesheepwhite150x200/tileimage/image/recommendations-150x200.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Pot de fleurs Small",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/pot-fleurs?pvc=flowerpot",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "15.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/flowerpot/tileimage/image/flowerpot.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Coussin satiné carré M imprimé sur 1 côté",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/coussin-personnalise-photo-texte/deco-interieur?pvc=pillowpattern",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "23.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/pillowpattern/tileimage/image/pillowpattern.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
         }
       ],
       "product_source_audit": [
         {
           "brand": "YourSurprise",
-          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-blanc",
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-couleurs",
           "verified_count": 1
         },
         {
           "brand": "YourSurprise",
-          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-cappuccino",
-          "verified_count": 1
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise",
+          "verified_count": 0
         },
         {
           "brand": "Smartphoto",
@@ -441,7 +465,7 @@
         {
           "brand": "Smartphoto",
           "url": "https://www.smartphoto.fr/",
-          "verified_count": 0
+          "verified_count": 3
         }
       ],
       "ads": [],
@@ -455,9 +479,9 @@
           "status": "待获取可核实的广告记录"
         },
         {
-          "brand": "YourSurprise",
+          "brand": "Smartphoto",
           "country": "FR",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=YourSurprise&search_type=keyword_unordered",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=Smartphoto&search_type=keyword_unordered",
           "source": "Meta Ad Library",
           "record_type": "search_link",
           "status": "待获取可核实的广告记录"
@@ -609,6 +633,15 @@
           "translation_status": "translated"
         },
         {
+          "title": "Se celebró la gala del Balón de Oro 2026 - Real Madrid CF | Web Oficial",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQVhpbk82Y01sTVo0T09fV0x3ZVFwMlp2c3E2eElkUk15ZWpwT2lOcFZRcWkxeEVVRkhTNF82ems1cFdKdU5SdDh4Y3MxY3lXRHE4QkM0SHg5MllUY3JTSlhWSDhoRnlVaHZIQmtadTVzZk83aW5fYU9LVkloLXV3cUsxcFVHSS1Da213UC1TVldIUWV2cFJNRWVSYVZuVEZvVW1PNy1IV1daU3NDV0tnOHlEbXdWLU10cEx0MFpMRVF2Tml1N1c2UkNnWUxyUWJucU0ydGo3cDRUUjhMUDdfbG9LT00za3NoMFlnb0tnNElMV0VkMzd5MDkxZkJOdFpIanc3bDhfZkw?oc=5",
+          "source": "Real Madrid CF | Web Oficial",
+          "published": "2026-10-26T15:56:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "2026 年金球奖盛典隆重举行 - 皇家马德里 |官方网站",
+          "translation_status": "translated"
+        },
+        {
           "title": "El Real Madrid es un relámpago: 14 segundos por posesión y 15 triples por partido - EL PAÍS",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGtMMmdZNk1BN1hLWlJnTjlJRHhYdU05QmNzTzZYOWR0RzRDWDBkSmxiR0g0ZzVPalJVbzQ4SkxBLTZpV2laekcwc1RXcUgwa1R3bHRLcGtHYXZCeGFpNnlZbkVSY25BSzZfbi0tMjJWNXZSV3BYcUdNU1ZXeWlrbmlscnRsOHhMQVkwNUVSVjhQYU5xMUI3MzZMblJYUm03NHhJVkpjQ2JDUk9IUHlQOUc5dzYzMEV4TDdRNkNLbnQxTl81eDNmeFhGN3RsMThW0gHkAUFVX3lxTE9mMzctZ0hnVGJtUllSaXBySFpLa2d5Z3JGcklTZFZZWWxjc29PUnk4dk9PRnY3R3lwbmctbEFPeTNBSE9yajgxNzg4ZTZhU2gzUDRhSzFUem1yUEpldG5QSVB6d25pMTlRZXBua09TMnhlOHFvQWtxRmpmWHZrd241NjlrbWM0V2ZWaDJXZUp5V2ZJNW03bkszTXcybnhha1Y3U2dkX1RRN25CUHhPMWg2amMydTk1NGVkSS0taUwza1h0cFN0Y1lJR1ZHdTBVUG56MTItOGNMRE1OZmI5a0d5UDFsNw?oc=5",
           "source": "EL PAÍS",
@@ -616,25 +649,25 @@
           "scope": "本国热点候选",
           "title_zh": "皇马闪电般：每次控球时间 14 秒，场均 15 个三垒安打 - 西班牙国家队",
           "translation_status": "translated"
-        },
-        {
-          "title": "Dentro de los grupos 'blocus' que preparan más saqueos en Barcelona: \"¿Alguien puede conseguir bengalas?\" - elDiario.es",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMjJRb0ViREZ4MzlCSmVRY1VOVENvVGlTbDF1elM5U0hfWlFjcU53ZE45N2ozUE5ydEdFTXN6UDh1ZV85eDJlWC1XMmJOamkwQWctbTZmY0p3MjVObDRhYWo3Rm95RDBGcFptZGhRQmVlQUVFU2RzdUhUX2NMRkthRHJOSXBCbzlqUnhTNF9ZRHdaOEczRmtYbl9RY0RyczEyT212clQxZ1MybzTSAbABQVVfeXFMTkZRWlNFazZHX3NlWnFJSDFfLTFydHd0SnYwVm1QdTV1QnkxcEdCb2dfT3VNZXdhUGwzTFh4bDlCc2RRMnZYcDVFTUtpekFwR3djeDg1c1I3SHk1R2t3dzNLZEhqSy12RlM4dFU4bVVXWWEzY2lreERQYVdjU3hfQVF6dE9fQkdyQzV6UzlZNkRURWt4ZmFSd2w2U1dQMlB6NmtHWldOZG9MSU9BZ1Eyemc?oc=5",
-          "source": "elDiario.es",
-          "published": "2026-10-27T04:07:47+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "在准备在巴塞罗那进行更多抢劫的“集团”组织中：“有人能拿到照明弹吗？” - elDiario.es",
-          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "playa de arnao",
+          "title": "exilio",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:40:00+00:00",
+          "published": "2026-10-27T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "阿瑙海滩",
+          "title_zh": "流亡",
+          "translation_status": "translated"
+        },
+        {
+          "title": "pedro piqueras",
+          "url": "https://trends.google.com/trending/rss?geo=ES",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "佩德罗·皮克拉斯",
           "translation_status": "translated"
         },
         {
@@ -644,15 +677,6 @@
           "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "我的希夫",
-          "translation_status": "translated"
-        },
-        {
-          "title": "golden boy 2026",
-          "url": "https://trends.google.com/trending/rss?geo=ES",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:40:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "金童2026",
           "translation_status": "translated"
         }
       ],
@@ -823,12 +847,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Digitale, le reti avanzano ma l’Italia perde terreno in Europa - Il Sole 24 ORE",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWRLc21MN0tiTzd6Umg2MjRxa0JnR0k5Zk8xbnBmZzVoYWxRSHZZWTRPU1NSYmVtczd3dFdrWWZ6ZmxJb0pnb2Vvdm9iOG43VHBkWUFjS3Q4Z2RfV2QzM196bmEtWFoxdjk4aXAzLTNfaVIyVGtZbDJnLWlKclVodTA3SE1tWkZHN1lPUGRSOUFsdUl0MmNYaGZJcVQ?oc=5",
-          "source": "Il Sole 24 ORE",
-          "published": "2026-10-27T06:32:31+00:00",
+          "title": "La rivolta dei giovani delle periferie di Milano contro una città troppo cara - Internazionale",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSjc0R3pGRG9lT2s1OUE3c1RlZDFzUThPRTYtMWI0OXg0S0Jna0k1UVQ0NzFmQnl3ejIxNUNoMmN6V3RfQ3dKSXRrUkxFd2RibXpjaXZvQThkQW9sYVpuWHZ2M0gyeHRyY0pnVVZFSW91NUt6Z1pkTFU1NjFOR2psbXl1d2swR2F2VWV0TkNLNkh5cjZReTVVTWpn?oc=5",
+          "source": "Internazionale",
+          "published": "2026-10-27T06:45:50+00:00",
           "scope": "本国热点候选",
-          "title_zh": "数字化、网络正在进步，但意大利在欧洲正在节节败退 - Il Sole 24 ORE",
+          "title_zh": "米兰郊区的年轻人对这座过于昂贵的城市的反抗 - International",
           "translation_status": "translated"
         }
       ],
@@ -1036,7 +1060,7 @@
           "source": "Media Key",
           "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 提供沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -1218,12 +1242,12 @@
     "NO": {
       "news": [
         {
-          "title": "Kran demontert etter kollaps­fare i Oslo sentrum - VG",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODctaFVBQUZ2ZmZraHp2ZEtkVlR4LUZXWVA1dWxpNkpZdEF2VTdfMWx1alNUOVItald6YVplaE9aVnQ1RHBnT2xyd09BN1l6c3EwUDBOZ2xfMnhwWFVNbmlkeWE2VHpzRHkzR29IUllWREF2ZlhtX25nOHU2OVI1STBtRXBjSnNRQU9r?oc=5",
-          "source": "VG",
-          "published": "2026-10-26T22:54:07+00:00",
+          "title": "Norsk støtte til Ukraina og nabolandene - Regjeringen.no",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObl9JYjc1N3JqSE5NWjBNYXFKUmg5YzNMN1FhejdZSHJjal9VaFk2SWtXc1IwNE0xY1dVVjcyNXp3NlNab1JrbllTbklIMXotLXVoS2x3M0hZcm5SZm9HbjctSlREUVUyQlVYNHVFQ0tUYmhwOXNweTNLU3hiUTJvZ3NhS3k5dTBqMVV6ZWp3YmNITlUtTmFZ?oc=5",
+          "source": "Regjeringen.no",
+          "published": "2026-10-27T02:53:43+00:00",
           "scope": "本国热点候选",
-          "title_zh": "奥斯陆市中心发生倒塌危险后起重机被拆除 - VG",
+          "title_zh": "挪威对乌克兰及其邻国的支持 - Regjeringen.no",
           "translation_status": "translated"
         },
         {
@@ -1247,6 +1271,15 @@
       ],
       "trending": [
         {
+          "title": "aurora hoff konkurs",
+          "url": "https://trends.google.com/trending/rss?geo=NO",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "奥罗拉法院破产",
+          "translation_status": "translated"
+        },
+        {
           "title": "beatrice keul",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
@@ -1262,15 +1295,6 @@
           "published": "2026-10-27T04:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "拖拉机",
-          "translation_status": "translated"
-        },
-        {
-          "title": "pass",
-          "url": "https://trends.google.com/trending/rss?geo=NO",
-          "source": "trends.google.com",
-          "published": "2026-10-27T03:50:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "护照",
           "translation_status": "translated"
         }
       ],
@@ -1689,6 +1713,15 @@
       ],
       "trending": [
         {
+          "title": "emmerdale",
+          "url": "https://trends.google.com/trending/rss?geo=FI",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "艾默代尔",
+          "translation_status": "translated"
+        },
+        {
           "title": "beatrice keul",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
@@ -1704,15 +1737,6 @@
           "published": "2026-10-27T06:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "泰格·伍兹",
-          "translation_status": "translated"
-        },
-        {
-          "title": "prinssi edward",
-          "url": "https://trends.google.com/trending/rss?geo=FI",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:40:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "爱德华王子",
           "translation_status": "translated"
         }
       ],
@@ -1907,30 +1931,30 @@
       ],
       "trending": [
         {
+          "title": "leylah fernandez",
+          "url": "https://trends.google.com/trending/rss?geo=PL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "莱拉·费尔南德斯",
+          "translation_status": "translated"
+        },
+        {
+          "title": "keely shaye smith",
+          "url": "https://trends.google.com/trending/rss?geo=PL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "基利·沙耶·史密斯",
+          "translation_status": "translated"
+        },
+        {
           "title": "rmf fm",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
           "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "调频调频",
-          "translation_status": "translated"
-        },
-        {
-          "title": "beatrice keul",
-          "url": "https://trends.google.com/trending/rss?geo=PL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "比阿特丽斯·库尔",
-          "translation_status": "translated"
-        },
-        {
-          "title": "amd ryzen",
-          "url": "https://trends.google.com/trending/rss?geo=PL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "AMD锐龙",
           "translation_status": "translated"
         }
       ],
@@ -2052,7 +2076,7 @@
     "country_count": 9,
     "product_coverage": {
       "DE": 6,
-      "FR": 5,
+      "FR": 7,
       "ES": 0,
       "IT": 3,
       "NL": 0,
