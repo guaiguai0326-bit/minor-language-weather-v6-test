@@ -205,10 +205,10 @@ def sitemap_product_links(landing,max_links=3):
 def discover_retailer_cards(shop_name,landing,max_items=2):
  direct=retailer_products(shop_name,landing,max_items)
  if len([x for x in direct if x.get('image')])>=max_items:return direct[:max_items]
- links=discover_product_links(landing,5)
+ links=discover_product_links(landing,10)
  if len(links)<2:links+=sitemap_product_links(landing,3)
  verified=[x for x in direct if x.get('image')];seen={x.get('url') for x in verified}
- for link in links[:6]:
+ for link in dict.fromkeys(links[:12]):
   if len(verified)>=max_items:break
   for item in (retailer_products(shop_name,link,1) or html_product_metadata(shop_name,link)):
    if item.get('image') and item.get('url') not in seen:
@@ -288,7 +288,7 @@ for country_code,old_items in previous.items():
  for group in ('news','trending'):
   for entry in old_items.get(group,[]):
    if entry.get('title') and entry.get('title_zh'):cache[lang+'|'+entry['title']]=entry['title_zh']
-result={'updated_at':datetime.now(timezone.utc).isoformat(),'countries':{}}
+result={'updated_at':datetime.now(timezone.utc).isoformat(),'countries':{},'quality':{'country_count':len(COUNTRIES),'product_coverage':{},'ad_coverage':{},'missing_product_countries':[]}}
 for code,(lang,geo,term) in COUNTRIES.items():
  # General country news only: local events across politics, economy, society, culture, weather, etc. Gift industry signals are separate.
  # Headlines are only labeled domestic if sourced from the country-focused search feed.
@@ -337,8 +337,9 @@ for code,(lang,geo,term) in COUNTRIES.items():
  products=[]
  for shop_name,landing in SHOPS.get(code,[]):
   discovered=discover_retailer_cards(shop_name,landing)
-  if discovered:products.extend(discovered)
-  else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'该站点未返回可核实的商品结构化数据；点击查看官网。','verified_public_product':False})
+  verified=[x for x in discovered if x.get('verified_public_product') and x.get('image')]
+  if verified:products.extend(verified)
+  else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'尚未采集到可核实的商品图片；点击查看官网。','verified_public_product':False})
  # Meta Ad Library discovery links are verified navigation, not individual ads.
  # Real ad records require Meta-approved API access or separately verified public post URLs.
  ad_searches=[]
@@ -346,6 +347,10 @@ for code,(lang,geo,term) in COUNTRIES.items():
   query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':brand,'search_type':'keyword_unordered'})
   ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'待获取可核实的广告记录'})
  result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'ad_searches':ad_searches,'ad_data_status':'Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字','gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
- print(code,'news',len(newsitems),'trends',len(trenditems),'products',sum(bool(p.get('verified_public_product')) for p in products))
+ verified_count=sum(bool(p.get('verified_public_product') and p.get('image')) for p in products)
+ result['quality']['product_coverage'][code]=verified_count
+ result['quality']['ad_coverage'][code]=0
+ if not verified_count:result['quality']['missing_product_countries'].append(code)
+ print(code,'news',len(newsitems),'trends',len(trenditems),'verified_products',verified_count,'ad_records',0)
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
