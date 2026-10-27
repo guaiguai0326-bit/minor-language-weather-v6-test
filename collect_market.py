@@ -381,7 +381,12 @@ for code,(lang,geo,term) in COUNTRIES.items():
  ad_searches=[]
  for brand,landing in selected:
   query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':brand,'search_type':'keyword_unordered'})
-  ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'待获取可核实的广告记录'})
+  ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'广告资料库实时检索（非单条已核实广告）','category':'竞品品牌'})
+ for category in ('定制首饰','刺绣礼品','照片礼品'):
+  keyword=CALLIE_FAMILIES.get(category,{}).get(code)
+  if not keyword:continue
+  query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':keyword,'search_type':'keyword_unordered'})
+  ad_searches.append({'brand':category,'keyword':keyword,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'按Callie品类检索公开广告','category':'Callie同类商品'})
  real_ads=[]
  if os.environ.get('META_AD_LIBRARY_ACCESS_TOKEN'):
   for brand,_ in selected[:2]:real_ads.extend(fetch_meta_ads(brand,geo))
