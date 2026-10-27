@@ -18,7 +18,7 @@ PRODUCT_CANDIDATES={
  'ES':[('Wanapix','https://wanapix.es/taza-personalizada-ceramica'),('Wanapix','https://wanapix.es/taza-conica-personalizada'),('Wanapix','https://wanapix.es/taza-personalizada-corazon')],
  'NL':[('Smartphoto','https://www.smartphoto.nl/fotocadeaus/mok-met-foto')],
  'NO':[('Smartphoto','https://www.smartphoto.no/fotogaver/krus')],
- 'PL':[('CEWE','https://www.cewe.pl/fotoprezenty/kubek-ceramiczny-ze-zdjeciem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-z-inicjalami-i-zdjeciem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-magiczny-ze-zdjeciem.html')],
+ 'PL':[('Prazent','https://prazent.pl/products/personalizowany-kubek-z-imieniem-wyjatkowy-prezent'),('Tortli','https://tortli.pl/products/kubek-dla-par-24'),('KubkiBezCenzury','https://kubkibezcenzury.pl/kubki-z-wlasnym-napisem/585-kubek-z-twoim-napisem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-ceramiczny-ze-zdjeciem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-z-inicjalami-i-zdjeciem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-magiczny-ze-zdjeciem.html')],
 }
 def readfeed(url,limit=3):
  try:
