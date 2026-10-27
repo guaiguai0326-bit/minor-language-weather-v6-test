@@ -210,7 +210,7 @@ def discover_retailer_cards(shop_name,landing,max_items=2):
  verified=[x for x in direct if x.get('image')];seen={x.get('url') for x in verified}
  for link in links[:6]:
   if len(verified)>=max_items:break
-  for item in retailer_products(shop_name,link,1):
+  for item in (retailer_products(shop_name,link,1) or html_product_metadata(shop_name,link)):
    if item.get('image') and item.get('url') not in seen:
     verified.append(item);seen.add(item.get('url'))
  if len(verified)<max_items:
@@ -219,6 +219,41 @@ def discover_retailer_cards(shop_name,landing,max_items=2):
     verified.append(item);seen.add(item.get('url'))
    if len(verified)>=max_items:break
  return verified[:max_items] or direct[:max_items]
+
+
+# Public HTML product metadata fallback for stores without JSON-LD.
+def html_product_metadata(shop_name,url):
+ try:
+  from html.parser import HTMLParser
+  class Metadata(HTMLParser):
+   def __init__(self):super().__init__();self.meta={};self.title='';self.in_title=False
+   def handle_starttag(self,tag,attrs):
+    a=dict(attrs)
+    if tag=='meta':
+     key=(a.get('property') or a.get('name') or '').lower()
+     if key:self.meta[key]=a.get('content','')
+    if tag=='title':self.in_title=True
+   def handle_data(self,data):
+    if self.in_title:self.title+=data
+   def handle_endtag(self,tag):
+    if tag=='title':self.in_title=False
+  req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'text/html'})
+  with urllib.request.urlopen(req,timeout=9) as r:
+   final=r.geturl();html=r.read(900000).decode('utf-8','replace')
+  parser=Metadata();parser.feed(html);m=parser.meta
+  kind=(m.get('og:type') or '').lower()
+  name=(m.get('og:title') or m.get('twitter:title') or '').strip()
+  image=(m.get('og:image:secure_url') or m.get('og:image') or m.get('twitter:image') or '').strip()
+  image=urllib.parse.urljoin(final,image)
+  price=(m.get('product:price:amount') or m.get('og:price:amount') or m.get('product:sale_price:amount') or '').strip()
+  currency=(m.get('product:price:currency') or m.get('og:price:currency') or '').strip()
+  path=urllib.parse.urlparse(final).path.lower()
+  product_path=any(t in path for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/artikel/'))
+  if not (name and image.startswith('https://') and (kind=='product' or product_path)):return []
+  return [{'name':shop_name,'title':name[:150],'url':final,'source':shop_name+' · 官网商品页公开元数据','price':price,'currency':currency,'image':image,'summary':'官网商品页公开信息；不代表热卖排名。','verified_public_product':True}]
+ except Exception as exc:
+  print('Product metadata unavailable:',url,str(exc)[:90]);return []
+
 
 # Callie public catalog-derived product families (not a claim about private sales).
 CALLIE_FAMILIES={
