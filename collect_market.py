@@ -15,9 +15,10 @@ ALT_SHOPS={'FR':[('Smartphoto','https://www.smartphoto.fr/')], 'ES':[('YourSurpr
 # Keep a source only after its public metadata yields an actual product image.
 PRODUCT_CANDIDATES={
  'FR':[('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-couleurs'),('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise'),('Smartphoto','https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo')],
- 'ES':[('Smartphoto','https://www.smartphoto.es/regalos-foto/taza-personalizada')],
+ 'ES':[('Wanapix','https://wanapix.es/taza-personalizada-ceramica'),('Wanapix','https://wanapix.es/taza-conica-personalizada'),('Wanapix','https://wanapix.es/taza-personalizada-corazon')],
  'NL':[('Smartphoto','https://www.smartphoto.nl/fotocadeaus/mok-met-foto')],
  'NO':[('Smartphoto','https://www.smartphoto.no/fotogaver/krus')],
+ 'PL':[('CEWE','https://www.cewe.pl/fotoprezenty/kubek-ceramiczny-ze-zdjeciem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-z-inicjalami-i-zdjeciem.html'),('CEWE','https://www.cewe.pl/fotoprezenty/kubek-magiczny-ze-zdjeciem.html')],
 }
 def readfeed(url,limit=3):
  try:
