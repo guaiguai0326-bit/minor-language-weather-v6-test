@@ -147,6 +147,79 @@ def retailer_product_detail(shop_name,landing,max_items=2):
    if len(products)>=max_items:return products
  return products
 
+
+# Read-only public Shopify storefront catalog, where enabled by the retailer.
+# No API keys, private admin endpoints, or inferred bestseller rankings.
+def storefront_products(shop_name, landing, max_items=2):
+ try:
+  root=urllib.parse.urlparse(landing)
+  endpoint=f'{root.scheme}://{root.netloc}/products.json?limit=12'
+  req=urllib.request.Request(endpoint,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'})
+  with urllib.request.urlopen(req,timeout=9) as response:
+   if 'json' not in response.headers.get('Content-Type','').lower():return []
+   data=json.loads(response.read(600000))
+  items=data.get('products',[]) if isinstance(data,dict) else []
+  out=[]
+  for product in items:
+   if not isinstance(product,dict):continue
+   title=str(product.get('title') or '').strip()
+   handle=str(product.get('handle') or '').strip()
+   image=product.get('image') or {}
+   images=product.get('images') or []
+   pic=(image.get('src') if isinstance(image,dict) else '') or ((images[0].get('src') or '') if images and isinstance(images[0],dict) else '')
+   variants=product.get('variants') or []
+   variant=variants[0] if variants and isinstance(variants[0],dict) else {}
+   price=variant.get('price','')
+   if not (title and handle and isinstance(pic,str) and pic.startswith('https://')):continue
+   url=f'{root.scheme}://{root.netloc}/products/'+urllib.parse.quote(handle,safe='-')
+   out.append({'name':shop_name,'title':title[:150],'url':url,'source':shop_name+' · 官网公开商品目录','price':str(price) if price is not None else '','currency':'','image':pic,'summary':'公开商品目录展示；不代表热卖或销量。价格币种需以官网为准。','verified_public_product':True})
+   if len(out)>=max_items:break
+  return out
+ except Exception as exc:
+  print('Public storefront catalog unavailable:',shop_name,str(exc)[:100]);return []
+
+# Additional public product pages discovered from the retailer's sitemap.
+def sitemap_product_links(landing,max_links=3):
+ try:
+  u=urllib.parse.urlparse(landing);root=f'{u.scheme}://{u.netloc}'
+  req=urllib.request.Request(root+'/sitemap.xml',headers={'User-Agent':'Mozilla/5.0'})
+  with urllib.request.urlopen(req,timeout=9) as r:raw=r.read(450000)
+  xml=ET.fromstring(raw)
+  urls=[(x.text or '').strip() for x in xml.iter() if x.tag.rsplit('}',1)[-1]=='loc']
+  sitemap=next((x for x in urls if 'sitemap_products' in x),None)
+  if sitemap:
+   with urllib.request.urlopen(urllib.request.Request(sitemap,headers={'User-Agent':'Mozilla/5.0'}),timeout=9) as r:raw=r.read(650000)
+   xml=ET.fromstring(raw)
+   urls=[(x.text or '').strip() for x in xml.iter() if x.tag.rsplit('}',1)[-1]=='loc']
+  result=[]
+  for link in urls:
+   parsed=urllib.parse.urlparse(link)
+   if parsed.hostname!=u.hostname or parsed.scheme!='https':continue
+   if any(t in parsed.path.lower() for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/')):
+    result.append(link)
+   if len(result)>=max_links:break
+  return result
+ except Exception as exc:
+  print('Sitemap discovery unavailable:',landing,str(exc)[:90]);return []
+
+def discover_retailer_cards(shop_name,landing,max_items=2):
+ direct=retailer_products(shop_name,landing,max_items)
+ if len([x for x in direct if x.get('image')])>=max_items:return direct[:max_items]
+ links=discover_product_links(landing,5)
+ if len(links)<2:links+=sitemap_product_links(landing,3)
+ verified=[x for x in direct if x.get('image')];seen={x.get('url') for x in verified}
+ for link in links[:6]:
+  if len(verified)>=max_items:break
+  for item in retailer_products(shop_name,link,1):
+   if item.get('image') and item.get('url') not in seen:
+    verified.append(item);seen.add(item.get('url'))
+ if len(verified)<max_items:
+  for item in storefront_products(shop_name,landing,max_items):
+   if item.get('url') not in seen:
+    verified.append(item);seen.add(item.get('url'))
+   if len(verified)>=max_items:break
+ return verified[:max_items] or direct[:max_items]
+
 # Callie public catalog-derived product families (not a claim about private sales).
 CALLIE_FAMILIES={
 '首饰':{'DE':'personalisierter Schmuck','FR':'bijoux personnalisés','ES':'joyas personalizadas','IT':'gioielli personalizzati','NL':'gepersonaliseerde sieraden','NO':'personlige smykker','SE':'personliga smycken','FI':'personoidut korut','PL':'biżuteria personalizowana'},
@@ -228,9 +301,7 @@ for code,(lang,geo,term) in COUNTRIES.items():
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
  products=[]
  for shop_name,landing in SHOPS.get(code,[]):
-  discovered=retailer_products(shop_name,landing)
-  if not any(x.get('image') for x in discovered):
-   discovered=retailer_product_detail(shop_name,landing)
+  discovered=discover_retailer_cards(shop_name,landing)
   if discovered:products.extend(discovered)
   else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'该站点未返回可核实的商品结构化数据；点击查看官网。','verified_public_product':False})
  # Meta Ad Library discovery links are verified navigation, not individual ads.
