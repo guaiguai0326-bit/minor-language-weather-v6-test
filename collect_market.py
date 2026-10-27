@@ -100,6 +100,53 @@ def retailer_products(shop_name, landing, max_items=2):
   print('Retailer product unavailable:',shop_name,str(exc)[:90]);return []
 
 
+
+# Second-stage product discovery: inspect product links on public collection pages.
+# Only show a card when the linked detail page publishes Product JSON-LD.
+def discover_product_links(landing, max_links=3):
+ try:
+  from html.parser import HTMLParser
+  class Links(HTMLParser):
+   def __init__(self):super().__init__();self.links=[]
+   def handle_starttag(self,tag,attrs):
+    if tag!='a':return
+    a=dict(attrs);href=a.get('href','')
+    if href:self.links.append(href)
+  req=urllib.request.Request(landing,headers={'User-Agent':'Mozilla/5.0 (compatible; MarketDashboard/1.0)'})
+  with urllib.request.urlopen(req,timeout=12) as response:
+   raw=response.read(1600000).decode('utf-8','replace');base=response.geturl()
+  root=urllib.parse.urlparse(base)
+  parser=Links();parser.feed(raw)
+  found=[];seen=set()
+  for href in parser.links:
+   url=urllib.parse.urljoin(base,href)
+   u=urllib.parse.urlparse(url)
+   if u.scheme!='https' or u.hostname!=root.hostname:continue
+   path=u.path.lower()
+   if not any(t in path for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/p/','/artikel/')):continue
+   if any(t in path for t in ('/collections/','/category/','/categories/')):continue
+   clean=urllib.parse.urlunparse((u.scheme,u.netloc,u.path,'','',''))
+   if clean in seen:continue
+   seen.add(clean);found.append(clean)
+   if len(found)>=max_links:break
+  return found
+ except Exception as exc:
+  print('Product links unavailable:',landing,str(exc)[:110]);return []
+
+def retailer_product_detail(shop_name,landing,max_items=2):
+ links=discover_product_links(landing,3)
+ products=[];seen=set()
+ for link in links:
+  for entry in retailer_products(shop_name,link,2):
+   # The detail page must actually identify a product, not merely the parent store.
+   if not entry.get('verified_public_product') or not entry.get('image'):continue
+   url=entry.get('url','')
+   if urllib.parse.urlparse(url).hostname!=urllib.parse.urlparse(landing).hostname:continue
+   if url in seen:continue
+   seen.add(url);products.append(entry)
+   if len(products)>=max_items:return products
+ return products
+
 # Callie public catalog-derived product families (not a claim about private sales).
 CALLIE_FAMILIES={
 '首饰':{'DE':'personalisierter Schmuck','FR':'bijoux personnalisés','ES':'joyas personalizadas','IT':'gioielli personalizzati','NL':'gepersonaliseerde sieraden','NO':'personlige smykker','SE':'personliga smycken','FI':'personoidut korut','PL':'biżuteria personalizowana'},
@@ -182,6 +229,8 @@ for code,(lang,geo,term) in COUNTRIES.items():
  products=[]
  for shop_name,landing in SHOPS.get(code,[]):
   discovered=retailer_products(shop_name,landing)
+  if not any(x.get('image') for x in discovered):
+   discovered=retailer_product_detail(shop_name,landing)
   if discovered:products.extend(discovered)
   else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'该站点未返回可核实的商品结构化数据；点击查看官网。','verified_public_product':False})
  # Meta Ad Library discovery links are verified navigation, not individual ads.
