@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:44:18.715708+00:00",
+  "updated_at": "2026-10-27T06:53:16.077281+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -13,25 +13,34 @@
           "translation_status": "translated"
         },
         {
-          "title": "Streit um Enteignungen in Berlin: Immobilienriese stoppt Investitionen in Deutschland - BILD",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVFlUQWFRbldreFlJT0VESlFxWm5KcmljeXg2N2JEaWptRi01aWpyS3gxWXU3UjNaX2poYmVUN2o1S1FoVFJhVnNVMDJ1cE5mWHZZRERVQkZrb3NhQ21jXzBmSEplWFN0TVhxTEI5YXZqeVphYnNIa1Ixdi1QdVdXREs0RlgtcUlhWkYyTWpnTHJDQXVyc1JzRWVqQXRDellFaTR5TjFVVzJiYVZ1Mkl2WGJmNnpxVjF3c1dHd0J2T2daTTk4VGVxWjVLaHJ4TmItR1Zya1ltYnBlOWxJ?oc=5",
-          "source": "BILD",
-          "published": "2026-10-26T18:12:58+00:00",
+          "title": "Hier läuft das Pokalspiel zwischen Hamburg und Frankfurt - Eintracht Frankfurt",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNWIxRkJKVE8tN2NTYjJGREd1a0ZMeHF1YWQ2VTdQSWlENGFNcEd6RFkwTGpmdHR2ZFpCNGVET1czbjdnMHR3alBHMW1jVVp4cm1oRS1zb3JUQWhfWFhUbFJTWGVSUk16YjFmdkl0X3MtNnUybU82WWxwYTBNSFVhdUZ6M25VVFFza3VhWkVvY1NIaDRTSC1iU0ViNTRoRUE?oc=5",
+          "source": "Eintracht Frankfurt",
+          "published": "2026-10-27T04:21:18+00:00",
           "scope": "本国热点候选",
-          "title_zh": "柏林征用纠纷：房地产巨头停止在德国投资 - BILD",
+          "title_zh": "汉堡队和法兰克福队之间的杯赛在这里举行",
           "translation_status": "translated"
         },
         {
-          "title": "Dann bilde einen Arbeitskreis: Wie die Bundesregierung auf Zeit spielt - Augsburger Allgemeine",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOV1c3R1Q4Zk1ac1FBTG5FWWxYNHlLbmFYaElaMWJDZTFjanVTTjBBNk5oQmJhOXZhZElhX2JmRkZ6dG9SazBJVFN4SFp4TEMtMm5ENzBUaURLQlZJZUhKelRNYVRWMU1tMzhUOUVhWV82dTBRbk1XOFBGMkdLWjFldWo5RUM2emUybHBQZmtUSGdxUGxCUjFWbFhEZFRFVzNmMHNQVHhrSzZCTW1zRTJ6TVY0d2Y5cUcwQ3Vxbk95Tl94T25xMmNvRlNPSm1fRVZmV3VQWXRud0F1SndtWVNCenZaaDNCUQ?oc=5",
-          "source": "Augsburger Allgemeine",
-          "published": "2026-10-27T05:01:02+00:00",
+          "title": "Athen: Warum die griechische Hauptstadt plötzlich das hat, was Berlin verloren hat - WELT",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPd1Jsa3NVa2ItVFJ2YkJzWFFwVUx1M2JyMnpmX2hmNU9hN1pKLWFqa1ZVLTh4WFFEdGZPVExXWTJHZmg4Y3F2amV4Z2puMDl5bE5VQlZUUmhEYVdTLVZoeEZZY3VOMzBUWElVN0VNU0RkOXpWb3hDeEc4SXlOTmJpVHVoWlJISVh0Z0xaZ3JxLXpmWk8zR1RUNzBWU25HcUU0Vi10UEpBWlpvUFR6ZjJqbC1BTmcyR3otcHY5NzcyeHJvemFvNGZVMGJ4b003QjloMjN6dDhTaVJfRXhVRlE?oc=5",
+          "source": "WELT",
+          "published": "2026-10-27T04:15:44+00:00",
           "scope": "本国热点候选",
-          "title_zh": "然后组建一个工作组：联邦政府如何争取时间 - Augsburger Allgemeine",
+          "title_zh": "雅典：为何希腊首都突然拥有柏林失去的东西 - WELT",
           "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "barbara becker",
+          "url": "https://trends.google.com/trending/rss?geo=DE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "芭芭拉·贝克尔",
+          "translation_status": "translated"
+        },
         {
           "title": "wipshausen",
           "url": "https://trends.google.com/trending/rss?geo=DE",
@@ -48,15 +57,6 @@
           "published": "2026-10-27T06:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "梅赛德斯-奔驰C级",
-          "translation_status": "translated"
-        },
-        {
-          "title": "nz vs ind",
-          "url": "https://trends.google.com/trending/rss?geo=DE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "新西兰 vs 工业",
           "translation_status": "translated"
         }
       ],
@@ -259,7 +259,35 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [],
+      "gift_signals": [
+        {
+          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-19T16:09:18+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
+          "source": "iphone-ticker.de",
+          "published": "2026-10-19T12:31:52+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckk0ZGd2cmlGbmZyYUhhM1VuSWJVNkFzNkZPNjFQOEJTRUp0YUJodmJkdlU3OVpRMUNoMkhsVURQNTJKeEJDNzZNQnlMVEdOdEZBbmlfV0ZfRkx3aEtaSm1qcTRTa2V0a0RORTdnUWtNeFhSNnFubHI3amRBWFMxTjY2NzY3UFRPUFdIMWNkUWlPWmZYaEgzcG9tRkp6NmFmdXlrYkV3MzVhamJXRkRJbXh1cVdJTDVpLVdBNnNB?oc=5",
+          "source": "Fränkischer Tag",
+          "published": "2026-10-23T17:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "库姆巴赫：现在“Ideenreich”——法兰克日也即将结束",
+          "translation_status": "translated"
+        }
+      ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
@@ -295,35 +323,111 @@
       ],
       "trending": [
         {
-          "title": "aukus",
+          "title": "nz vs ind",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "奥库斯",
+          "title_zh": "新西兰 vs 工业",
           "translation_status": "translated"
         },
         {
-          "title": "israel",
+          "title": "les forges de tarbes",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "以色列",
+          "title_zh": "塔布锻造厂",
           "translation_status": "translated"
         },
         {
-          "title": "nice-matin",
+          "title": "jannik sinner",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "早上好",
+          "title_zh": "詹尼克·辛纳",
           "translation_status": "translated"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "YourSurprise",
+          "title": "Mug avec photo",
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-blanc",
+          "source": "YourSurprise · 官网结构化商品数据",
+          "price": "11.99",
+          "currency": "EUR",
+          "image": "https://static.yoursurprise.com/galleryimage/f1/f1df5ed682505c7e2a216c536f376418/mug-avec-photo.jpg?width=900&amp;crop=1%3A1",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "YourSurprise",
+          "title": "Mug Cappuccino Personnalisé",
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-cappuccino",
+          "source": "YourSurprise · 官网结构化商品数据",
+          "price": "12.99",
+          "currency": "EUR",
+          "image": "https://static.yoursurprise.com/galleryimage/dd/dd4a533b7dc674019beb3e11d74e2471/mug-cappuccino-personnalise.png?width=900&amp;crop=1%3A1&amp;bg-color=F5ECE6&amp;format=jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Mug Blanc",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo?pvc=mugpattern",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "11.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/mugpattern/tileimage/image/mugpattern-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Mug Couleur Noir",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo?pvc=coloredmugblack",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "14.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblack/tileimage/image/coloredmugblack-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Mug Couleur bleu",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo?pvc=coloredmugblue",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "14.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblue/tileimage/image/coloredmugblue-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
       "product_source_audit": [
+        {
+          "brand": "YourSurprise",
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-blanc",
+          "verified_count": 1
+        },
+        {
+          "brand": "YourSurprise",
+          "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-cappuccino",
+          "verified_count": 1
+        },
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo",
+          "verified_count": 3
+        },
         {
           "brand": "Cadeaux.com",
           "url": "https://www.cadeaux.com/meilleures-ventes",
@@ -341,7 +445,32 @@
         }
       ],
       "ads": [],
-      "ad_searches": [],
+      "ad_searches": [
+        {
+          "brand": "YourSurprise",
+          "country": "FR",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=YourSurprise&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        },
+        {
+          "brand": "YourSurprise",
+          "country": "FR",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=YourSurprise&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        },
+        {
+          "brand": "Smartphoto",
+          "country": "FR",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=Smartphoto&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        }
+      ],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "cadeau personnalisé",
       "category_signals": [
@@ -489,41 +618,41 @@
           "translation_status": "translated"
         },
         {
-          "title": "De las redes a la calle: qué es Blocus y cómo se alientan los disturbios en Barcelona y el resto de Europa - RTVE.es",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUlOaHk5T2xGOUtaREozV2NwWUcxSjRDZ3NCSENTVmRBRlhYdnlvX0VQcHZibWFGa1l0d0VMX2tfbG1UTkhKSkdQYWY2emdUR1MxOXNWZy13cndEWWFtNXRxR0xBM3hhZ2p4cmU5REhoXzhKY3RxXzgzQVpCV2tORjZHV29uR2tjYy1oYmMwTGI2Y1FfbU9Rc3V5MWpmVGIwNTBZTkkyM2RRVVBYU2NNRFlWeE1icHdVNWlWdUlqUzVwUQ?oc=5",
-          "source": "RTVE.es",
-          "published": "2026-10-26T17:45:26+00:00",
+          "title": "Dentro de los grupos 'blocus' que preparan más saqueos en Barcelona: \"¿Alguien puede conseguir bengalas?\" - elDiario.es",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMjJRb0ViREZ4MzlCSmVRY1VOVENvVGlTbDF1elM5U0hfWlFjcU53ZE45N2ozUE5ydEdFTXN6UDh1ZV85eDJlWC1XMmJOamkwQWctbTZmY0p3MjVObDRhYWo3Rm95RDBGcFptZGhRQmVlQUVFU2RzdUhUX2NMRkthRHJOSXBCbzlqUnhTNF9ZRHdaOEczRmtYbl9RY0RyczEyT212clQxZ1MybzTSAbABQVVfeXFMTkZRWlNFazZHX3NlWnFJSDFfLTFydHd0SnYwVm1QdTV1QnkxcEdCb2dfT3VNZXdhUGwzTFh4bDlCc2RRMnZYcDVFTUtpekFwR3djeDg1c1I3SHk1R2t3dzNLZEhqSy12RlM4dFU4bVVXWWEzY2lreERQYVdjU3hfQVF6dE9fQkdyQzV6UzlZNkRURWt4ZmFSd2w2U1dQMlB6NmtHWldOZG9MSU9BZ1Eyemc?oc=5",
+          "source": "elDiario.es",
+          "published": "2026-10-27T04:07:47+00:00",
           "scope": "本国热点候选",
-          "title_zh": "从网络到街头：Blocus 是什么以及如何在巴塞罗那和欧洲其他地区鼓励骚乱 - RTVE.es",
+          "title_zh": "在准备在巴塞罗那进行更多抢劫的“集团”组织中：“有人能拿到照明弹吗？” - elDiario.es",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "bombero",
+          "title": "playa de arnao",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "消防队员",
+          "title_zh": "阿瑙海滩",
           "translation_status": "translated"
         },
         {
-          "title": "teniente",
+          "title": "mein schiff",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "中尉",
+          "title_zh": "我的希夫",
           "translation_status": "translated"
         },
         {
-          "title": "bucks - pacers",
+          "title": "golden boy 2026",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "雄鹿队 - 步行者队",
+          "title_zh": "金童2026",
           "translation_status": "translated"
         }
       ],
@@ -676,15 +805,6 @@
     "IT": {
       "news": [
         {
-          "title": "Uànema – Festa degli altri vivi - Comune di Napoli",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZUszQnk5dW1QQUdfb19HV09WT3FmOFV0ZWdab2JIRVBBMWRtZ0hSaWd1RF9nQ2pQTkJRS0d0b0RPajlhcHVNSVZYSVgxbHZZakJNXzFaWWdNYjhEYjVqaDg2R3pmOGtiZVBROUxDS3pzM2M?oc=5",
-          "source": "Comune di Napoli",
-          "published": "2026-10-26T18:29:20+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "Uànema – 异界盛宴 - 那不勒斯市",
-          "translation_status": "translated"
-        },
-        {
           "title": "Palazzo Salerno- Lancellotti a Casalnuovo di Napoli - Il portale delle Prefetture",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVlJKbGxmTXM2QW0tajhtejNfMldOOUhSbmMxT1JuV2tERE5TT01vZ2ZIdlB6M0c3b3p1d194d3hpTV9yZEV5S3dhdC1WN21ldFJmX1dOd09RcjNqWk51R1Q3SVhTbkoyMkJvN2tBSTNfSlk5Z0dJUE1XS29HZng1clRfZUtDaUprTnBzYmotYzBmYUl3M0JjU2xteDdkanNLRmxqRzVIUE1yZ2Vn?oc=5",
           "source": "Il portale delle Prefetture",
@@ -701,34 +821,43 @@
           "scope": "本国热点候选",
           "title_zh": "明天12点的部长会议将推出“2027演习”文本。桌面上有哪些措施 - Sky TG24",
           "translation_status": "translated"
+        },
+        {
+          "title": "Digitale, le reti avanzano ma l’Italia perde terreno in Europa - Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWRLc21MN0tiTzd6Umg2MjRxa0JnR0k5Zk8xbnBmZzVoYWxRSHZZWTRPU1NSYmVtczd3dFdrWWZ6ZmxJb0pnb2Vvdm9iOG43VHBkWUFjS3Q4Z2RfV2QzM196bmEtWFoxdjk4aXAzLTNfaVIyVGtZbDJnLWlKclVodTA3SE1tWkZHN1lPUGRSOUFsdUl0MmNYaGZJcVQ?oc=5",
+          "source": "Il Sole 24 ORE",
+          "published": "2026-10-27T06:32:31+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "数字化、网络正在进步，但意大利在欧洲正在节节败退 - Il Sole 24 ORE",
+          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "rockets - hawks",
+          "title": "jazz - grizzlies",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "火箭 - 老鹰",
+          "title_zh": "爵士 - 灰熊",
           "translation_status": "translated"
         },
         {
-          "title": "sassuolo lazio",
+          "title": "sfratto",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "萨索洛 拉齐奥",
+          "title_zh": "被驱逐的",
           "translation_status": "translated"
         },
         {
-          "title": "nz vs ind",
+          "title": "corso como",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
+          "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "新西兰 vs 工业",
+          "title_zh": "当然作为",
           "translation_status": "translated"
         }
       ],
@@ -926,6 +1055,15 @@
           "translation_status": "translated"
         },
         {
+          "title": "A12 naar Den Haag dicht na ongeluk bij Utrecht, ook files op andere wegen - RTV Utrecht",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaTBCZ0drQ3A4SmZKU2gzQVQ5M2taWFF3Zml6c29TbjZDNjI4N1ZnLTduaUgyT3FQeUUtQVZheWZsd29pOWlwRS1PQy05am5fLTctakZhSHpKWEN3cWt2aXhUQ3hjRjREdGd1UFctOEljYkM2emF4dEdLcWtZS2RNcHA3OXVka3BFVmZJT3hNZHltbWE2ZDhIcG84dEVBMnZ5dkVJRXdqaWw5M05waHUwREtGTQ?oc=5",
+          "source": "RTV Utrecht",
+          "published": "2026-10-27T06:38:11+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "乌得勒支附近发生事故后，前往海牙的 A12 高速公路关闭，其他道路也出现交通拥堵 - RTV Utrecht",
+          "translation_status": "translated"
+        },
+        {
           "title": "Verbindingsweg afgesloten - Rijkswaterstaat Verkeersinformatie",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UOV9xOGxlcW5VNktCODRCOFdjeGRvdVlFTXA4WVZjVWZObmVKVVVVM2ltOGlsLTA3b1dSUG8tdjJlb0dORGcxZ2hHLXBZRF9fcGl6djZQcjZsZ1N2Uzd0TmtxUEh3Vk9ncVJQRHd3WEdVbGtp?oc=5",
           "source": "Rijkswaterstaat Verkeersinformatie",
@@ -933,18 +1071,18 @@
           "scope": "本国热点候选",
           "title_zh": "连接道路封闭 - Rijkswaterstaat 交通信息",
           "translation_status": "translated"
-        },
-        {
-          "title": "Jonge boeren dreigen stikstofoverleg te verlaten: waarschuwingsschot richting kabinet - De Telegraaf",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMF9mVUFfb0hmLXFjMzA1UWhyQ3d4cW1DbVZidXRwRVQxUjNWanVOS0NrZ1VtemhyQm93dzRCRTZQUmt1VXI2NmRmNlNyS1dDSW53aDBoNzRZVTZVWjNVQU5MOE44LVp3aERhUjRGWEN0SGh5OWdLUzh0REhBdmdib2xKSDlBZU1JaTdBQU13RF9MNjIyRFp1VFRHdVZMYWp4TXVQM0ZLdGtHSEthZUMzU0dMOEpjX0g2NkpQNEZwNFZhRVM3WU5OUm9VWm9RUQ?oc=5",
-          "source": "De Telegraaf",
-          "published": "2026-10-27T02:00:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "年轻农民威胁退出氮咨询：向内阁发出警告 - De Telegraaf",
-          "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "mat '64",
+          "url": "https://trends.google.com/trending/rss?geo=NL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "哑光'64",
+          "translation_status": "translated"
+        },
         {
           "title": "brandstof",
           "url": "https://trends.google.com/trending/rss?geo=NL",
@@ -961,15 +1099,6 @@
           "published": "2026-10-27T06:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "高压区",
-          "translation_status": "translated"
-        },
-        {
-          "title": "bitcoin koers",
-          "url": "https://trends.google.com/trending/rss?geo=NL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:10:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "比特币汇率",
           "translation_status": "translated"
         }
       ],
@@ -1118,6 +1247,15 @@
       ],
       "trending": [
         {
+          "title": "beatrice keul",
+          "url": "https://trends.google.com/trending/rss?geo=NO",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "比阿特丽斯·科伊尔",
+          "translation_status": "translated"
+        },
+        {
           "title": "traktor",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
@@ -1133,15 +1271,6 @@
           "published": "2026-10-27T03:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "护照",
-          "translation_status": "translated"
-        },
-        {
-          "title": "jason biggs",
-          "url": "https://trends.google.com/trending/rss?geo=NO",
-          "source": "trends.google.com",
-          "published": "2026-10-27T03:00:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "贾森·比格斯",
           "translation_status": "translated"
         }
       ],
@@ -1285,21 +1414,21 @@
     "SE": {
       "news": [
         {
-          "title": "Ovädret Boelo drog in över Sverige – SVT rapporterar direkt - SVT Nyheter",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFFYd0xkcjJiLUltbzJyR05WWWhxbWYyWlNub2hhODQyajFubEFqQm9lSU84RE11R3prcXQ0cm4wNWdDMGhLelZjX3NzbkphWTdmM1Ztcm14MHh3T0Q1bC1ZamdiMGFRLTNITHBXMjA2NjVsYVNmWnZRU2lPbDUxVUtnbm5kS0h1ZmhVUDQ4RUVLaTk0dHNrNDJjRmY1QQ?oc=5",
-          "source": "SVT Nyheter",
-          "published": "2026-10-26T19:35:44+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "风暴“博埃洛”登陆瑞典上空 - SVT 直接报道 - SVT Nyheter",
-          "translation_status": "translated"
-        },
-        {
           "title": "Tusentals privatflyg från Sverige: ”Enorma utsläpp” - Svenska Dagbladet",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWG5YbVJCR04zaVlvcmN2MHU4RzBSYmlrMkhCVFhXTFJwTUNONG5hSWZsVl81aVA3SjVJLWhTaGoyZ1VfNjh6LVA5U3Q2cGRsT19nTGVKR2h4RnZMQ2RxNHlWbXhHNHRYSEZrVnNXN0VWMlhXalZOdkdSc2k3emNLZDJR?oc=5",
           "source": "Svenska Dagbladet",
           "published": "2026-10-27T04:36:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "来自瑞典的数千架私人航班：“排放量巨大” - Svenska Dagbladet",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Ovädret Boelo drog in över Sverige – SVT rapporterar direkt - SVT Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFFYd0xkcjJiLUltbzJyR05WWWhxbWYyWlNub2hhODQyajFubEFqQm9lSU84RE11R3prcXQ0cm4wNWdDMGhLelZjX3NzbkphWTdmM1Ztcm14MHh3T0Q1bC1ZamdiMGFRLTNITHBXMjA2NjVsYVNmWnZRU2lPbDUxVUtnbm5kS0h1ZmhVUDQ4RUVLaTk0dHNrNDJjRmY1QQ?oc=5",
+          "source": "SVT Nyheter",
+          "published": "2026-10-26T19:35:44+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "风暴“博埃洛”登陆瑞典上空 - SVT 直接报道 - SVT Nyheter",
           "translation_status": "translated"
         },
         {
@@ -1313,6 +1442,15 @@
         }
       ],
       "trending": [
+        {
+          "title": "stella svedin figo",
+          "url": "https://trends.google.com/trending/rss?geo=SE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "斯特拉·斯维丁·菲戈",
+          "translation_status": "translated"
+        },
         {
           "title": "när är black friday",
           "url": "https://trends.google.com/trending/rss?geo=SE",
@@ -1329,15 +1467,6 @@
           "published": "2026-10-27T05:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "医生",
-          "translation_status": "translated"
-        },
-        {
-          "title": "black friday 2026",
-          "url": "https://trends.google.com/trending/rss?geo=SE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "2026 年黑色星期五",
           "translation_status": "translated"
         }
       ],
@@ -1516,12 +1645,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Muggburk bäst i test 2026 – jämför muggburkar för köket - testix.se",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1NaVVUZGtRV1U2ZE4yY1pMZEt0dEVnOHUxMkk1ZjF1SkZHWE9PbzkxcmR4NmlhNWlLRVphM1gwTlBPNTl0SFE?oc=5",
+          "title": "Bästa berlocker och hängen 2026 – test, recension & trender - testix.se",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9leUxIbllET3pqQjJnMTVwTjJSSHBURWoyZEVjX2VWNmRLZDgzdS11bk00LWNpdHVERVZ1RkRVREdaU0pwT05MZjFsMm1tNXl1SmlUbkhn?oc=5",
           "source": "testix.se",
-          "published": "2026-10-16T07:00:00+00:00",
+          "published": "2026-10-16T12:49:06+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "2026 年测试中最佳马克杯 - 比较厨房马克杯 - testix.se",
+          "title_zh": "2026 年最佳吊坠和吊坠 - 测试、回顾和趋势 - testix.se",
           "translation_status": "translated"
         }
       ],
@@ -1560,6 +1689,15 @@
       ],
       "trending": [
         {
+          "title": "beatrice keul",
+          "url": "https://trends.google.com/trending/rss?geo=FI",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "比阿特丽斯离开",
+          "translation_status": "translated"
+        },
+        {
           "title": "tiger woods",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
@@ -1575,15 +1713,6 @@
           "published": "2026-10-27T05:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "爱德华王子",
-          "translation_status": "translated"
-        },
-        {
-          "title": "niko saarinen",
-          "url": "https://trends.google.com/trending/rss?geo=FI",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "尼科·萨里宁",
           "translation_status": "translated"
         }
       ],
@@ -1758,12 +1887,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Rząd zabrał się za internetowy ciucholand na Vinted i za handel na OLX. Takiej zmiany nikt się nie spodziewał - Forsal.pl",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNNnAtVnRGMGhkVmZ1S28zZWdJTzJ2Sk90dkFzVXJpMUNjelFMU2FLUTZTR3RjeDlQeHpiQTE4RVVJMHFXTlkyX1Nhb1NXaVdEaWJVc1h6aHVSaWZPQ2w3Zm9qQ29TcThyMWdrcXlHNjlzWUFPUEF3Z0tQbllfcE9uR19VcWhPSnFPNU9kLXRYazhyYk1EYVJIbG5aY21zaHp1SkE0cU5ZMVp2UFh4Si1hRktBaExoSVpfeFRxRW5sblA5SVF2OGJGQ3l4VXNqUkRaZFJvMTAtVWJaNnk3STdMLXFtdENjSUlnTUJkZ2VQUGZSSnJNbTQzT1lnLU12WHdUNHBkR1o1VVduem9jTzYweTZZQ1hZZw?oc=5",
-          "source": "Forsal.pl",
-          "published": "2026-10-27T06:09:20+00:00",
+          "title": "Nowa struktura Urzędu Miasta Krakowa - Magiczny Kraków",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXcyXzhTSTByVTlNTWVGaHM2cGxST2lPVTcyb2poUk1FTjkxY0ljN2llZUlFT18wVDh2VHlKT1V0dkdhbE1Qd0hfcVBTSTlvSmh5QkRYRVJUZ0Z5dXF6VVp6dURWLWpHbzlGb20za0EzVWR4dUpfSTNOOU1fT3dRZTc2MHNCQkE2bS15N2JGSW1HdDMzbWc?oc=5",
+          "source": "Magiczny Kraków",
+          "published": "2026-10-26T14:25:02+00:00",
           "scope": "本国热点候选",
-          "title_zh": "政府在 Vinted 上开设了在线服装店，并在 OLX 上进行了交易。没有人预料到会有这样的变化 - Forsal.pl",
+          "title_zh": "克拉科夫市政厅的新结构 - Magic Krakow",
           "translation_status": "translated"
         },
         {
@@ -1777,6 +1906,15 @@
         }
       ],
       "trending": [
+        {
+          "title": "rmf fm",
+          "url": "https://trends.google.com/trending/rss?geo=PL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "调频调频",
+          "translation_status": "translated"
+        },
         {
           "title": "beatrice keul",
           "url": "https://trends.google.com/trending/rss?geo=PL",
@@ -1793,15 +1931,6 @@
           "published": "2026-10-27T06:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "AMD锐龙",
-          "translation_status": "translated"
-        },
-        {
-          "title": "radio zet",
-          "url": "https://trends.google.com/trending/rss?geo=PL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "收音机",
           "translation_status": "translated"
         }
       ],
@@ -1923,7 +2052,7 @@
     "country_count": 9,
     "product_coverage": {
       "DE": 6,
-      "FR": 0,
+      "FR": 5,
       "ES": 0,
       "IT": 3,
       "NL": 0,
@@ -1944,7 +2073,6 @@
       "PL": 0
     },
     "missing_product_countries": [
-      "FR",
       "ES",
       "NL",
       "NO",
