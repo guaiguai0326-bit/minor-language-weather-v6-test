@@ -1568,7 +1568,7 @@ for(const c of countries){
  };
  const keywordHTML=(keywordFallback[code]||[]).map(([category,keyword])=>'<div class="v6-category-chip"><strong>'+safe(category+' · '+keyword)+'</strong><small>Callie商品方向 · 待核实趋势指数</small><a target="_blank" rel="noopener noreferrer" href="https://trends.google.com/trends/explore?geo='+encodeURIComponent(geo)+'&q='+encodeURIComponent(keyword)+'">查看趋势 ↗</a></div>').join('');
  overview.insertAdjacentHTML('beforeend',`<article class="v6-overview-row v605-row">
- <div class="v6-market-name"><b>${flag} ${name}</b><small>${code} · ${safe(({DE:"Deutschland",FR:"France",ES:"España",IT:"Italia",NL:"Nederland",NO:"Norge",SE:"Sverige",FI:"Suomi",PL:"Polska"})[code])}</small></div>
+ <div class="v6-market-name"><b><img class="v6-country-flag" src="https://flagcdn.io/flags/4x3/${code.toLowerCase()}.svg" alt="${safe(name)}国旗" width="22" height="17" loading="lazy"> ${name}</b><small>${code} · ${safe(({DE:"Deutschland",FR:"France",ES:"España",IT:"Italia",NL:"Nederland",NO:"Norge",SE:"Sverige",FI:"Suomi",PL:"Polska"})[code])}</small></div>
  <div class="v6-market-cell"><em>📰 新闻</em><div class="v605-mini">本国综合新闻（非礼品专题）</div><strong>${safe(f[0])}</strong><p>关注本国政治、经济、社会、文化、天气及重大突发事件。真实标题、时间与中文翻译由每日采集提供。</p>${href(news,'阅读新闻')}</div>
  <div class="v6-market-cell"><em>📈 趋势</em><div class="v605-mini">本地语言关键词</div><div class="v6-category-keyword-list">${keywordHTML}</div></div>
  <div class="v6-market-cell"><em>🛍️ 竞品</em><div class="v605-mini">重点观察品类</div><strong>${safe(f[2])}</strong><p>候选来源：${safe(shops.map(x=>x[0]).join('、')||'待补充')}。榜单与价格待核验。</p>${shop?href(shop[1],'查看商品'):''}</div>
@@ -1678,4 +1678,4 @@ grid.appendChild(card)
 #v6-intel .v6-category-chip small{font-size:10px;color:#71849b;display:block}
 #v6-intel .v6-category-chip a{font-size:11px}
 #v6-intel .v6-image-unavailable{border:1px dashed #d1ddeb;border-radius:8px;padding:12px 7px;color:#8192a5;font-size:11px;text-align:center;margin:8px 0;background:#f8fafc}
-</style></body></html>
+</style><style id="v6-real-flags">#v6-intel .v6-market-name b{display:flex;align-items:center;gap:6px;white-space:nowrap}#v6-intel .v6-country-flag{width:22px;height:17px;object-fit:cover;border-radius:2px;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.1)}</style></body></html>
