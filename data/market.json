@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:07:48.998393+00:00",
+  "updated_at": "2026-10-27T06:11:44.407575+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -33,30 +33,30 @@
       ],
       "trending": [
         {
+          "title": "nierstein",
+          "url": "https://trends.google.com/trending/rss?geo=DE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "尼尔施泰因",
+          "translation_status": "translated"
+        },
+        {
+          "title": "actionspiel",
+          "url": "https://trends.google.com/trending/rss?geo=DE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "动作游戏",
+          "translation_status": "translated"
+        },
+        {
           "title": "color line",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
           "published": "2026-10-27T05:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "色线",
-          "translation_status": "translated"
-        },
-        {
-          "title": "psyren",
-          "url": "https://trends.google.com/trending/rss?geo=DE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "芘",
-          "translation_status": "translated"
-        },
-        {
-          "title": "berti vogts",
-          "url": "https://trends.google.com/trending/rss?geo=DE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "贝尔蒂·沃格茨",
           "translation_status": "translated"
         }
       ],
@@ -219,7 +219,35 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [],
+      "gift_signals": [
+        {
+          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-19T16:09:18+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
+          "source": "iphone-ticker.de",
+          "published": "2026-10-19T12:31:52+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckk0ZGd2cmlGbmZyYUhhM1VuSWJVNkFzNkZPNjFQOEJTRUp0YUJodmJkdlU3OVpRMUNoMkhsVURQNTJKeEJDNzZNQnlMVEdOdEZBbmlfV0ZfRkx3aEtaSm1qcTRTa2V0a0RORTdnUWtNeFhSNnFubHI3amRBWFMxTjY2NzY3UFRPUFdIMWNkUWlPWmZYaEgzcG9tRkp6NmFmdXlrYkV3MzVhamJXRkRJbXh1cVdJTDVpLVdBNnNB?oc=5",
+          "source": "Fränkischer Tag",
+          "published": "2026-10-23T17:00:00+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "库姆巴赫：现在“Ideenreich”——法兰克日也即将结束",
+          "translation_status": "translated"
+        }
+      ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
@@ -235,15 +263,6 @@
           "translation_status": "translated"
         },
         {
-          "title": "Lycées, les annonces du gouvernement - franceinfo",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclkybVVfQ1Z6eFpobnlYcGt0Z2xrRWNDS29MRFZvX25BQmhxUkl5dElXZmtBVzFhajM5MWxhM0ZzREdaeUhZcDVqVDRSeURRb2QwSTRXMlVXZGJERmNiMGJWNnFyYUxUbmEycEV4dUc3X3NHTzhNRG5WeV9VZkpZblRTLUVkazlCS3luUDBROHNnVkk1aE1vYUJ3c19Fa0xKSHhVZG1pRjVPQ1Utby1HSQ?oc=5",
-          "source": "franceinfo",
-          "published": "2026-10-26T20:25:46+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "高中、政府公告 - Franceinfo",
-          "translation_status": "translated"
-        },
-        {
           "title": "Le PSG éteint Lyon et prend le pouvoir en Ligue 1 - Le Figaro",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYTFlTWJvUENoSVhvVDQ0UWxtdlhpem42SlBQX3hpTXR5RTJYdWdWSTkwREJvaThvQTlFS2ozaWNTSU1kTkJ0MEI1a2FqaUc3cU12cWRVbmw0S2tnRmZURU1acl81T2ZfUWFGMUdQTEFqRVFJQ3gxd2RISThFa25RcVBDcVdBUXE3ZHR1bXNRR1dsQnRwYmF1Sl85OGptU29EelRWZ09Nbw?oc=5",
           "source": "Le Figaro",
@@ -251,9 +270,36 @@
           "scope": "本国热点候选",
           "title_zh": "巴黎圣日尔曼消灭里昂并在法甲联赛中掌权 - 《费加罗报》",
           "translation_status": "translated"
+        },
+        {
+          "title": "Lycées, les annonces du gouvernement - franceinfo",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclkybVVfQ1Z6eFpobnlYcGt0Z2xrRWNDS29MRFZvX25BQmhxUkl5dElXZmtBVzFhajM5MWxhM0ZzREdaeUhZcDVqVDRSeURRb2QwSTRXMlVXZGJERmNiMGJWNnFyYUxUbmEycEV4dUc3X3NHTzhNRG5WeV9VZkpZblRTLUVkazlCS3luUDBROHNnVkk1aE1vYUJ3c19Fa0xKSHhVZG1pRjVPQ1Utby1HSQ?oc=5",
+          "source": "franceinfo",
+          "published": "2026-10-26T20:25:46+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "高中、政府公告 - Franceinfo",
+          "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "montauban",
+          "url": "https://trends.google.com/trending/rss?geo=FR",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "蒙托邦",
+          "translation_status": "translated"
+        },
+        {
+          "title": "الطقس",
+          "url": "https://trends.google.com/trending/rss?geo=FR",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "阿尔萨斯",
+          "translation_status": "translated"
+        },
         {
           "title": "mbappe chine",
           "url": "https://trends.google.com/trending/rss?geo=FR",
@@ -261,24 +307,6 @@
           "published": "2026-10-27T05:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "姆巴佩中国",
-          "translation_status": "translated"
-        },
-        {
-          "title": "anthropic",
-          "url": "https://trends.google.com/trending/rss?geo=FR",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "人择的",
-          "translation_status": "translated"
-        },
-        {
-          "title": "sous-marin",
-          "url": "https://trends.google.com/trending/rss?geo=FR",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "潜艇",
           "translation_status": "translated"
         }
       ],
@@ -288,7 +316,7 @@
           "title": "Cadeaux.com · 公开商品页面",
           "url": "https://www.cadeaux.com/meilleures-ventes",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         },
         {
@@ -296,7 +324,7 @@
           "title": "YourSurprise · 公开商品页面",
           "url": "https://www.yoursurprise.fr/bestsellers",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -466,12 +494,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "De las redes a la calle: qué es Blocus y cómo se alientan los disturbios en Barcelona y el resto de Europa - RTVE.es",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUlOaHk5T2xGOUtaREozV2NwWUcxSjRDZ3NCSENTVmRBRlhYdnlvX0VQcHZibWFGa1l0d0VMX2tfbG1UTkhKSkdQYWY2emdUR1MxOXNWZy13cndEWWFtNXRxR0xBM3hhZ2p4cmU5REhoXzhKY3RxXzgzQVpCV2tORjZHV29uR2tjYy1oYmMwTGI2Y1FfbU9Rc3V5MWpmVGIwNTBZTkkyM2RRVVBYU2NNRFlWeE1icHdVNWlWdUlqUzVwUQ?oc=5",
-          "source": "RTVE.es",
-          "published": "2026-10-26T17:45:26+00:00",
+          "title": "La brújula y la empatía de Mourinho rearman al Real Madrid - La Vanguardia",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS3I2NzdjMzdRVER3em5LNG5wa0diNnA3T0tHcGF4bXUxMWlWU0xwOTNaN0g1Nm5aeTgzdG1lMGlLOWxQTDhiSEtMRVJVU29MNC1ZRlhzc0xLVmtvdUppX3duSW1Jck1HaV9HLU12c0hWLWMybms4UlRNQ1Z0TXkyeFkwa2c1c04wT0dmZ1FuaU4xN1Fyb1Y0ODhaTHpGcHJ1SnE4THFWMVJQUGYwRUh0dmpPNTk2RFBY0gG-AUFVX3lxTE5jTHVLNWVIQWw5UkU2bERTemNVcDA5Q09Wb2dJMnNGakY5aUpTRWh3S3VJRWZmcVQydlNHZXF0dmtKMDQ2THF3TDRaODIteGdYTmEtcllOdzZBRG9UWm5lSEJ1VTJISER6cWFCYVYyXzlmb25qdzF1QVFyX1BUcFBnMUg5TzNITmxra3Q1TjRBOUREempRWnNYWllReElTUGpJaXhaTGxTYlBPb3pBcEtmN1BKb2JwSTM0bGx3OGc?oc=5",
+          "source": "La Vanguardia",
+          "published": "2026-10-27T05:05:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "从网络到街头：Blocus 是什么以及如何在巴塞罗那和欧洲其他地区鼓励骚乱 - RTVE.es",
+          "title_zh": "穆里尼奥的指南针和同理心重新武装皇家马德里 - La Vanguardia",
           "translation_status": "translated"
         }
       ],
@@ -510,7 +538,7 @@
           "title": "Wanapix · 公开商品页面",
           "url": "https://wanapix.es/",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         },
         {
@@ -518,7 +546,7 @@
           "title": "Hofmann · 公开商品页面",
           "url": "https://www.hofmann.es/tienda/regalos",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -699,30 +727,30 @@
       ],
       "trending": [
         {
-          "title": "vittima",
+          "title": "eisenkot",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
+          "published": "2026-10-27T06:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "受害者",
+          "title_zh": "艾森科特",
           "translation_status": "translated"
         },
         {
-          "title": "furto",
+          "title": "ponte sullo stretto di messina",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
+          "published": "2026-10-27T06:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "盗窃",
+          "title_zh": "墨西拿海峡大桥",
           "translation_status": "translated"
         },
         {
-          "title": "edenred",
+          "title": "semaglutide",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T05:50:00+00:00",
+          "published": "2026-10-27T06:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "伊登雷德",
+          "title_zh": "索马鲁肽",
           "translation_status": "translated"
         }
       ],
@@ -880,7 +908,7 @@
           "source": "Media Key",
           "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 提供沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -952,7 +980,7 @@
           "title": "YourSurprise · 公开商品页面",
           "url": "https://www.yoursurprise.nl/bestsellers",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -1068,6 +1096,15 @@
     "NO": {
       "news": [
         {
+          "title": "Norsk støtte til Ukraina og nabolandene - Regjeringen.no",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObl9JYjc1N3JqSE5NWjBNYXFKUmg5YzNMN1FhejdZSHJjal9VaFk2SWtXc1IwNE0xY1dVVjcyNXp3NlNab1JrbllTbklIMXotLXVoS2x3M0hZcm5SZm9HbjctSlREUVUyQlVYNHVFQ0tUYmhwOXNweTNLU3hiUTJvZ3NhS3k5dTBqMVV6ZWp3YmNITlUtTmFZ?oc=5",
+          "source": "Regjeringen.no",
+          "published": "2026-10-27T02:53:43+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "挪威对乌克兰及其邻国的支持 - Regjeringen.no",
+          "translation_status": "translated"
+        },
+        {
           "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
           "source": "Aftenposten",
@@ -1083,15 +1120,6 @@
           "published": "2026-10-26T22:54:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "奥斯陆市中心发生倒塌危险后起重机被拆除 - VG",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Tårnkranen: Åpnet sperringen - Nettavisen",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0Fod1FUaTFVbVFMT2pfT0NpcGlyT2NpdVN1eTRvOTRzXy03aXRtdy0wY3U2ZlZpYmJ2cnlDdHBCTGU2el9mVmZrbU5udFBXbWMycHVjUUhjS21vSmdnTGdXYVU5eHZhaTQ1d2diNm9XNXlwZTFxZEpUbFdBT3hDTnhHajhtN2NyWlVkblEtdGJweXExbjc1emczeGdEM2hVUVc4Ymx2RFJIVjRUdXhBOEhubw?oc=5",
-          "source": "Nettavisen",
-          "published": "2026-10-26T23:37:32+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "塔式起重机：打开了屏障 - Nettavisen",
           "translation_status": "translated"
         }
       ],
@@ -1130,7 +1158,7 @@
           "title": "Walseng Design · 公开商品页面",
           "url": "https://www.walseng.no/nettbutikk/",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         },
         {
@@ -1138,7 +1166,7 @@
           "title": "PersonligGave · 公开商品页面",
           "url": "https://personliggave.com/",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -1302,7 +1330,7 @@
           "title": "Håkan Boström: Gör Sverige mer lagom igen - Göteborgs-Posten",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGRyMmhGYmtfbTVlQXdTVkc1eVpCckhIb0ZCaDVHR1d0aEF2SFJXVnd6cmExajVPSzNGSWtPSnZXSE1oV2xmSmEzVXlwX0F6UWFSRlJNMXcyaWRtdEcwMzczODFLR0FxMVEyd3drSk1ycjdvTFhWNVN6bnVLRWFPWWswaE9NR2RHQzVpV19ZLVpKNk1uS1hiWGFtZ3hIclRQMHZCak81dmw?oc=5",
           "source": "Göteborgs-Posten",
-          "published": "2026-10-27T04:02:06+00:00",
+          "published": "2026-10-27T04:00:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "Håkan Boström：让瑞典再次变得更加合适 - Göteborgs-Posten",
           "translation_status": "translated"
@@ -1343,7 +1371,7 @@
           "title": "Smartphoto · 公开商品页面",
           "url": "https://www.smartphoto.se/fotopresenter",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -1571,7 +1599,7 @@
           "title": "GetPersonal · 公开商品页面",
           "url": "https://www.getpersonal.fi/",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -1695,12 +1723,12 @@
     "PL": {
       "news": [
         {
-          "title": "BGK rzuci koło ratunkowe Portowi Polska. W grze 20 mld zł - Rzeczpospolita",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdTJJcnVwNTgySW9MYWoxYkpCZExxc1NnRThHVFRIYkEzNS1NMHBGQVdMWHBkdHB0RnpKOFMyaE1scW5QdjBnblU1V3JzdXpWc0l6cm1xcnQ1NW9lTi1QYy0yd0ZlWUk4Mlp2NUk4WXFORks4ZS1rQ2hrZnNvWDNsXzJwejhWN3NncnZJdVJzbzdrYm9EMGcyaXZPbUk?oc=5",
+          "title": "AI napędza redukcje zatrudnienia. Microsoft uruchamia program dobrowolnych odejść - Rzeczpospolita",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWhqQ2RZWlRRem5sYkF0Qm43QkVCdzNFYTZnTDlKaW5hRndTSWhHYjJfM3NFUjJiQWFXYkFJRC1ZSksyXzdVUE91QkxiNmo5czkzbVB0dG01aldfZ28yVkU4TUdSWDBiVEY3am81R1dxakRHR1dlVGhMVUhOUkdIQTF6V0hLNm4xNUdvTDY3cVd6TTdNUnp3WEFxVGJwMWNPSWVBYVA5R3VCYWUzVVZCNWF6RzZaZw?oc=5",
           "source": "Rzeczpospolita",
-          "published": "2026-10-27T03:30:00+00:00",
+          "published": "2026-10-27T05:30:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "BGK 将为波兰港提供生命线。 200亿兹罗提面临风险 - Rzeczpospolita",
+          "title_zh": "人工智能正在推动裁员。微软启动自愿离职计划 - Rzeczpospolita",
           "translation_status": "translated"
         },
         {
@@ -1757,7 +1785,7 @@
           "title": "Crazyshop · 公开商品页面",
           "url": "https://www.crazyshop.pl/",
           "source": "竞品官网",
-          "summary": "该站点未返回可核实的商品结构化数据；点击查看官网。",
+          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
           "verified_public_product": false
         }
       ],
@@ -1870,5 +1898,38 @@
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     }
+  },
+  "quality": {
+    "country_count": 9,
+    "product_coverage": {
+      "DE": 4,
+      "FR": 0,
+      "ES": 0,
+      "IT": 2,
+      "NL": 0,
+      "NO": 0,
+      "SE": 0,
+      "FI": 2,
+      "PL": 0
+    },
+    "ad_coverage": {
+      "DE": 0,
+      "FR": 0,
+      "ES": 0,
+      "IT": 0,
+      "NL": 0,
+      "NO": 0,
+      "SE": 0,
+      "FI": 0,
+      "PL": 0
+    },
+    "missing_product_countries": [
+      "FR",
+      "ES",
+      "NL",
+      "NO",
+      "SE",
+      "PL"
+    ]
   }
 }
