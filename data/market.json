@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:52:06.450831+00:00",
+  "updated_at": "2026-10-27T05:56:29.664391+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -7,7 +7,7 @@
           "title": "„Wenn es Schule macht, haben wir ein Problem“ – Dutzende Polizisten beantragen Versetzung aus Berlin - WELT",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTno1Y2s2azVYdHFZQzNwZVV0UV9QVTIxLWdQRGdmVW9QRkluaXB1OHJ1a0t4RXhPU29LazFqd0JEbUR6cEN1anBJMlVpdVVwU2gwQXc5eGNWQl81d0poZlI3RTZjR3RZc2VyTXdaZ0FoRlRTbkFtZV95bFNuMjR2eGZEX09US1RrQVpLcDhqMS04aTlraGQzOG9LX1FTbEUtWlZ6YV92YWdTU2FlcnNuekdHYTZORVBfZ0c4NmFsWGFJX250bXE2SjFUNXZGTmNPekV4N0x1dDFsY3MwclVHWWVUd254R2xvZmdtUXJHN0tZS0pjSEx2b21NenY?oc=5",
           "source": "WELT",
-          "published": "2026-10-27T05:51:18+00:00",
+          "published": "2026-10-27T05:52:13+00:00",
           "scope": "本国热点候选",
           "title_zh": "“如果它流行起来，我们就有麻烦了”——数十名警察申请从柏林调动 - WELT",
           "translation_status": "translated"
@@ -219,35 +219,7 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [
-        {
-          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-10-19T16:09:18+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
-          "source": "iphone-ticker.de",
-          "published": "2026-10-19T12:31:52+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckk0ZGd2cmlGbmZyYUhhM1VuSWJVNkFzNkZPNjFQOEJTRUp0YUJodmJkdlU3OVpRMUNoMkhsVURQNTJKeEJDNzZNQnlMVEdOdEZBbmlfV0ZfRkx3aEtaSm1qcTRTa2V0a0RORTdnUWtNeFhSNnFubHI3amRBWFMxTjY2NzY3UFRPUFdIMWNkUWlPWmZYaEgzcG9tRkp6NmFmdXlrYkV3MzVhamJXRkRJbXh1cVdJTDVpLVdBNnNB?oc=5",
-          "source": "Fränkischer Tag",
-          "published": "2026-10-23T17:00:00+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "库姆巴赫：现在“Ideenreich”——法兰克日也即将结束",
-          "translation_status": "translated"
-        }
-      ],
+      "gift_signals": [],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
@@ -698,12 +670,12 @@
     "IT": {
       "news": [
         {
-          "title": "Coppa del mondo femminile 2027: l’Italia sorteggiata con Belgio, Colombia e Porto Rico - Federazione Italiana Pallavolo",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaDlhcHctSENjMWN1bGx2SnZ2M3V4ajZsd0g2Wm9DUDcyQzk1SjZ0R3Z6dGhhc2p5d0hDMWR4N01CVHI4ZnlFcGRYajBBNjJidXpJUkl6SExzRHEwR1ExVk5US0NGbm8yT1ZPM1B5aHNLRlVTWXAxUVh4YzA3WnM1U1hnekZUNlpXVHNKdnZMY2N0QWdFZG1iWndkeFk1ODkxd29wb2gyWUhEZEFvZE53?oc=5",
-          "source": "Federazione Italiana Pallavolo",
-          "published": "2026-10-26T15:39:27+00:00",
+          "title": "Uànema – Festa degli altri vivi - Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZUszQnk5dW1QQUdfb19HV09WT3FmOFV0ZWdab2JIRVBBMWRtZ0hSaWd1RF9nQ2pQTkJRS0d0b0RPajlhcHVNSVZYSVgxbHZZakJNXzFaWWdNYjhEYjVqaDg2R3pmOGtiZVBROUxDS3pzM2M?oc=5",
+          "source": "Comune di Napoli",
+          "published": "2026-10-26T18:29:20+00:00",
           "scope": "本国热点候选",
-          "title_zh": "2027 年女足世界杯：意大利与比利时、哥伦比亚和波多黎各抽签 - 意大利排球联合会",
+          "title_zh": "Uànema – 异界盛宴 - 那不勒斯市",
           "translation_status": "translated"
         },
         {
@@ -716,12 +688,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Horber (Novartis): «Investiamo ancora, ma l'Italia e l'Europa perdono terreno» - Il Sole 24 ORE",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmhncnoxZkFVZUlPRDlqc0xjMWFHRjQyZzM4cFM0a2MtNmprSTlkdFFhU2I0MkhPQ1FROWFxTldScHM1WWw2bmVSUFlPbUVoZWIwUkpHdVA1YURJZnBuQTdKcHJvWnRaaV9HM3FnaWE4S21RSHRtaXBCbXBBZks3ejZTbHo2dkxGbkNlYXhYVkdjSVIxNURXbGNKMWVTNzVNSGZwN0RXUm1MeTFxLVE?oc=5",
-          "source": "Il Sole 24 ORE",
-          "published": "2026-10-27T05:02:07+00:00",
+          "title": "Coppa del mondo femminile 2027: l’Italia sorteggiata con Belgio, Colombia e Porto Rico - Federazione Italiana Pallavolo",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaDlhcHctSENjMWN1bGx2SnZ2M3V4ajZsd0g2Wm9DUDcyQzk1SjZ0R3Z6dGhhc2p5d0hDMWR4N01CVHI4ZnlFcGRYajBBNjJidXpJUkl6SExzRHEwR1ExVk5US0NGbm8yT1ZPM1B5aHNLRlVTWXAxUVh4YzA3WnM1U1hnekZUNlpXVHNKdnZMY2N0QWdFZG1iWndkeFk1ODkxd29wb2gyWUhEZEFvZE53?oc=5",
+          "source": "Federazione Italiana Pallavolo",
+          "published": "2026-10-26T15:39:27+00:00",
           "scope": "本国热点候选",
-          "title_zh": "Horber（诺华）：“我们继续投资，但意大利和欧洲正在节节败退” - Il Sole 24 ORE",
+          "title_zh": "2027 年女足世界杯：意大利与比利时、哥伦比亚和波多黎各抽签 - 意大利排球联合会",
           "translation_status": "translated"
         }
       ],
@@ -903,12 +875,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Milano, assessore Guidesi domani a nuovo appuntamento del Distretto Unico della Manifattura del Nord - Gazzetta dell'Emilia & Dintorni",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZHBtTjhWVnYyU2RINXZWV1Zpa1lFWF9mNElfenY3OHQzWjZBRHhZckljWkt1REVCT0FuVHFmUUtPZU43V1FFUWVRVUZWWE81RDZzNlZLTXpOS29OR1dtSUNPMEZOWXBMQ3V5X2xhNlpvRVE3bzhJRThERl9fUk51UFVtWEl5NmNtcnlJcU9iZW5RUE9NdnBsS0x1dTdoMkJ0N18yOEFxVU8zck5zbktXVTN1X2ZrN054a3hBVHNaTDkwRFB3NFo3dEZxSm1wN3ljYnFyUHBQclB2eTFSSWxiWFZocEIwb0Yza01jOG5wZzEzbE1BeWRLQ1RLQUtPdEpSMjFyTlA3ei0xTFEtcm9XWFFB?oc=5",
-          "source": "Gazzetta dell'Emilia & Dintorni",
-          "published": "2026-10-23T04:15:00+00:00",
+          "title": "Dailymotion Business presenta RAY con una cena immersiva e personalizzata a Parigi - Media Key",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHZna3JSYVM1Z04tRFI1NlY4dWhmd0Y5ZVlpc2M1bE4yRmRyNzl4eVJoU3dIazdTTnRnOXNteVk1emxUa2VHUlppUG13eVpmRmVieWNZdEkyU1hDX3k5Zy11MnA0S3MyYkhHb3o1cUlPc05kdTlSRDVkTXVCR0JOSFVBcC1zT09LSkZYNkMyaEtSVkl2T2FCWWViVkdKV1RiRWt2OUU4NkVPdzdS?oc=5",
+          "source": "Media Key",
+          "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "米兰，Guidesi 议员明天将出席北方制造业单一区新会议 - Gazzetta dell'Emilia & Dintorni",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -918,21 +890,21 @@
     "NL": {
       "news": [
         {
+          "title": "Extra woningen op uw gebouw: kansen voor vve’s - Gemeente Den Haag",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNmR5b044Q0I0VHp4ZXFfRjdmaU1lNGxzZ1V4MmRvZEJVVkQteHVESEdxVmx1VHRNaWdmSHozdVEzVFRxS3ZMRlVOclpyVVhucWdxNWh1bXBLRm1yWEkxWnNtbndIcHBuUEZUVC02QUR4Vm50WEVCd1dnSzBIanRUTUgwQk0yQ21EbmVJdnRPLUZLTmhEN0FGOHEtNkxlMlVLY01EaVFXUHd1aXNiM0hNLXNPUF9PTFN2SDdna0JLdjJ3Mmx4?oc=5",
+          "source": "Gemeente Den Haag",
+          "published": "2026-10-26T20:30:10+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "您的建筑上的额外住宅：业主协会的机会 - 海牙市政府",
+          "translation_status": "translated"
+        },
+        {
           "title": "Verbindingsweg afgesloten - Rijkswaterstaat Verkeersinformatie",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UOV9xOGxlcW5VNktCODRCOFdjeGRvdVlFTXA4WVZjVWZObmVKVVVVM2ltOGlsLTA3b1dSUG8tdjJlb0dORGcxZ2hHLXBZRF9fcGl6djZQcjZsZ1N2Uzd0TmtxUEh3Vk9ncVJQRHd3WEdVbGtp?oc=5",
           "source": "Rijkswaterstaat Verkeersinformatie",
           "published": "2026-10-27T03:23:27+00:00",
           "scope": "本国热点候选",
           "title_zh": "连接道路封闭 - Rijkswaterstaat 交通信息",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Nieuwe pumptrack in Sporttuin Morgenstond - Gemeente Den Haag",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYU9iQjhsOEtEQzVDaGhFbVZCS0lPMHhwNVhQVTNjeElKLTdyTFItN3FPZHpVMkJqZVZTRmw2UVplZTFsUnlZOGd6QzZRejZPQVppWjRDZVpzenBnZmJPdkZOM2gxWmVYQVVocVJsdElMcEJTaWJCblpCQWJCMmtCMg?oc=5",
-          "source": "Gemeente Den Haag",
-          "published": "2026-10-26T16:29:27+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "Sporttuin Morgenstond 的新泵轨道 - 海牙市",
           "translation_status": "translated"
         },
         {
@@ -1096,15 +1068,6 @@
     "NO": {
       "news": [
         {
-          "title": "Norsk støtte til Ukraina og nabolandene - Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObl9JYjc1N3JqSE5NWjBNYXFKUmg5YzNMN1FhejdZSHJjal9VaFk2SWtXc1IwNE0xY1dVVjcyNXp3NlNab1JrbllTbklIMXotLXVoS2x3M0hZcm5SZm9HbjctSlREUVUyQlVYNHVFQ0tUYmhwOXNweTNLU3hiUTJvZ3NhS3k5dTBqMVV6ZWp3YmNITlUtTmFZ?oc=5",
-          "source": "Regjeringen.no",
-          "published": "2026-10-27T02:53:43+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "挪威对乌克兰及其邻国的支持 - Regjeringen.no",
-          "translation_status": "translated"
-        },
-        {
           "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
           "source": "Aftenposten",
@@ -1120,6 +1083,15 @@
           "published": "2026-10-26T22:54:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "奥斯陆市中心发生倒塌危险后起重机被拆除 - VG",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Tårnkranen: Åpnet sperringen - Nettavisen",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0Fod1FUaTFVbVFMT2pfT0NpcGlyT2NpdVN1eTRvOTRzXy03aXRtdy0wY3U2ZlZpYmJ2cnlDdHBCTGU2el9mVmZrbU5udFBXbWMycHVjUUhjS21vSmdnTGdXYVU5eHZhaTQ1d2diNm9XNXlwZTFxZEpUbFdBT3hDTnhHajhtN2NyWlVkblEtdGJweXExbjc1emczeGdEM2hVUVc4Ymx2RFJIVjRUdXhBOEhubw?oc=5",
+          "source": "Nettavisen",
+          "published": "2026-10-26T23:37:32+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "塔式起重机：打开了屏障 - Nettavisen",
           "translation_status": "translated"
         }
       ],
@@ -1323,8 +1295,8 @@
           "source": "Svenska Dagbladet",
           "published": "2026-10-27T04:36:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "",
-          "translation_status": "unavailable"
+          "title_zh": "来自瑞典的数千架私人航班：“排放量巨大” - Svenska Dagbladet",
+          "translation_status": "translated"
         },
         {
           "title": "Håkan Boström: Gör Sverige mer lagom igen - Göteborgs-Posten",
