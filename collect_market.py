@@ -7,7 +7,7 @@ from email.utils import parsedate_to_datetime
 
 ROOT=Path(__file__).resolve().parent
 COUNTRIES={'DE':('de','DE','personalisierte Geschenke'), 'FR':('fr','FR','cadeau personnalisé'), 'ES':('es','ES','regalos personalizados'), 'IT':('it','IT','regali personalizzati'), 'NL':('nl','NL','gepersonaliseerd cadeau'), 'NO':('no','NO','personlig gave'), 'SE':('sv','SE','personlig present'), 'FI':('fi','FI','personoitu lahja'), 'PL':('pl','PL','prezent personalizowany')}
-SHOPS={'DE':[('GRAVURZEILE','https://www.gravurzeile.de/collections/bestseller'),('CARDORI','https://cardori.de/collections/bestseller')], 'FR':[('Cadeaux.com','https://www.cadeaux.com/meilleures-ventes'),('YourSurprise','https://www.yoursurprise.fr/bestsellers')], 'ES':[('Wanapix','https://wanapix.es/'),('Hofmann','https://www.hofmann.es/tienda/regalos')], 'IT':[('Troppotogo','https://www.troppotogo.it/regali-personalizzati')], 'NL':[('YourSurprise','https://www.yoursurprise.nl/bestsellers')], 'NO':[('Walseng Design','https://www.walseng.no/nettbutikk/'),('PersonligGave','https://personliggave.com/')], 'SE':[('Smartphoto','https://www.smartphoto.se/fotopresenter')], 'FI':[('Puuki','https://www.puuki.fi/pages/personoitu-lahja-isalle'),('GetPersonal','https://www.getpersonal.fi/')], 'PL':[('Crazyshop','https://www.crazyshop.pl/')]}
+SHOPS={'DE':[('GRAVURZEILE','https://www.gravurzeile.de/collections/bestseller'),('CARDORI','https://cardori.de/collections/bestseller')], 'FR':[('Cadeaux.com','https://www.cadeaux.com/meilleures-ventes'),('YourSurprise','https://www.yoursurprise.fr/bestsellers')], 'ES':[('Wanapix','https://wanapix.es/'),('Hofmann','https://www.hofmann.es/tienda/regalos')], 'IT':[('Troppotogo','https://www.troppotogo.it/regali-personalizzati')], 'NL':[('YourSurprise','https://www.yoursurprise.nl/bestsellers')], 'NO':[('Walseng Design','https://www.walseng.no/nettbutikk/'),('PersonligGave','https://personliggave.com/')], 'SE':[('Smartphoto','https://www.smartphoto.se/fotopresenter/mugg')], 'FI':[('Puuki','https://www.puuki.fi/pages/personoitu-lahja-isalle'),('GetPersonal','https://www.getpersonal.fi/')], 'PL':[('Crazyshop','https://www.crazyshop.pl/kubki-termiczne%2C15164')]}
 
 def readfeed(url,limit=3):
  try:
@@ -123,7 +123,7 @@ def discover_product_links(landing, max_links=3):
    u=urllib.parse.urlparse(url)
    if u.scheme!='https' or u.hostname!=root.hostname:continue
    path=u.path.lower()
-   if not any(t in path for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/p/','/artikel/')):continue
+   if not any(t in path for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/p/','/artikel/','/prod_')):continue
    if any(t in path for t in ('/collections/','/category/','/categories/')):continue
    clean=urllib.parse.urlunparse((u.scheme,u.netloc,u.path,'','',''))
    if clean in seen:continue
@@ -195,7 +195,7 @@ def sitemap_product_links(landing,max_links=3):
   for link in urls:
    parsed=urllib.parse.urlparse(link)
    if parsed.hostname!=u.hostname or parsed.scheme!='https':continue
-   if any(t in parsed.path.lower() for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/')):
+   if any(t in parsed.path.lower() for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/prod_')):
     result.append(link)
    if len(result)>=max_links:break
   return result
@@ -204,9 +204,10 @@ def sitemap_product_links(landing,max_links=3):
 
 def discover_retailer_cards(shop_name,landing,max_items=2):
  direct=retailer_products(shop_name,landing,max_items)
+ if not any(x.get('image') for x in direct):direct=html_product_metadata(shop_name,landing)
  if len([x for x in direct if x.get('image')])>=max_items:return direct[:max_items]
  links=discover_product_links(landing,10)
- if len(links)<2:links+=sitemap_product_links(landing,3)
+ if len(links)<5:links+=sitemap_product_links(landing,8)
  verified=[x for x in direct if x.get('image')];seen={x.get('url') for x in verified}
  for link in dict.fromkeys(links[:12]):
   if len(verified)>=max_items:break
