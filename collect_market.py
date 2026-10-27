@@ -211,7 +211,10 @@ def discover_retailer_cards(shop_name,landing,max_items=2):
  verified=[x for x in direct if x.get('image')];seen={x.get('url') for x in verified}
  for link in dict.fromkeys(links[:12]):
   if len(verified)>=max_items:break
-  for item in (retailer_products(shop_name,link,1) or html_product_metadata(shop_name,link)):
+  candidates=retailer_products(shop_name,link,1)
+  if not any(x.get('image') for x in candidates):
+   candidates=html_product_metadata(shop_name,link)
+  for item in candidates:
    if item.get('image') and item.get('url') not in seen:
     verified.append(item);seen.add(item.get('url'))
  if len(verified)<max_items:
@@ -339,7 +342,10 @@ for code,(lang,geo,term) in COUNTRIES.items():
  for shop_name,landing in SHOPS.get(code,[]):
   discovered=discover_retailer_cards(shop_name,landing)
   verified=[x for x in discovered if x.get('verified_public_product') and x.get('image')]
-  if verified:products.extend(verified)
+  if verified:
+   for item in verified:
+    item['selection_basis']='官网热销/推荐栏目' if any(k in landing.lower() for k in ('bestseller','meilleures-ventes')) else '官网商品或分类页（未验证热销排名）'
+   products.extend(verified)
   else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'尚未采集到可核实的商品图片；点击查看官网。','verified_public_product':False})
  # Meta Ad Library discovery links are verified navigation, not individual ads.
  # Real ad records require Meta-approved API access or separately verified public post URLs.
