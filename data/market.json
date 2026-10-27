@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:58:09.464040+00:00",
+  "updated_at": "2026-10-27T07:02:28.166355+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -33,30 +33,30 @@
       ],
       "trending": [
         {
-          "title": "barbara becker",
+          "title": "helen kevric",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:40:00+00:00",
+          "published": "2026-10-27T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "芭芭拉·贝克尔",
+          "title_zh": "海伦·凯夫里克",
           "translation_status": "translated"
         },
         {
-          "title": "wipshausen",
+          "title": "aalen",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "维普斯豪森",
+          "title_zh": "晒",
           "translation_status": "translated"
         },
         {
-          "title": "mercedes-benz c-klasse",
+          "title": "christian gentner",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "梅赛德斯-奔驰C级",
+          "title_zh": "克里斯蒂安·根特纳",
           "translation_status": "translated"
         }
       ],
@@ -259,35 +259,7 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [
-        {
-          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-10-19T16:09:18+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
-          "source": "iphone-ticker.de",
-          "published": "2026-10-19T12:31:52+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckk0ZGd2cmlGbmZyYUhhM1VuSWJVNkFzNkZPNjFQOEJTRUp0YUJodmJkdlU3OVpRMUNoMkhsVURQNTJKeEJDNzZNQnlMVEdOdEZBbmlfV0ZfRkx3aEtaSm1qcTRTa2V0a0RORTdnUWtNeFhSNnFubHI3amRBWFMxTjY2NzY3UFRPUFdIMWNkUWlPWmZYaEgzcG9tRkp6NmFmdXlrYkV3MzVhamJXRkRJbXh1cVdJTDVpLVdBNnNB?oc=5",
-          "source": "Fränkischer Tag",
-          "published": "2026-10-23T17:00:00+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "库姆巴赫：现在“Ideenreich”——法兰克日也即将结束",
-          "translation_status": "translated"
-        }
-      ],
+      "gift_signals": [],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
@@ -303,21 +275,21 @@
           "translation_status": "translated"
         },
         {
+          "title": "Paris vs Lyon 2026-10-25 - Paris Saint-Germain",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdnY5NGZwcEZHQWVfS1J0NDhySUtfaXRLc2dmRWl3UlFuMXdTc2JYQURGS0YwWkNJVkRoSlk5eXVBUWpNVE1DaHpORjNBSENNOHVoQnJEZTRLY2xPSlNyX2NuX3I2QUxqSUFqQkk4eXpSMEZKaFFaZ203S0NQbWVzM19Law?oc=5",
+          "source": "Paris Saint-Germain",
+          "published": "2026-10-26T22:29:53+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "巴黎 vs 里昂 2026-10-25 - 巴黎圣日耳曼",
+          "translation_status": "translated"
+        },
+        {
           "title": "Marseille, Paris, Lyon, La Courneuve… des rassemblements dans toute la France après l’attentat raciste de Trappes - Libération",
           "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZjhZUHVEVzAwVlBfVnY5eVV5UjRQTGlSTmNqV3A3TFUyazNSSlJsSUhOQkd3b1JPeGlBUkROR3VWMS1wSWFYb0U4NUVTTmpESllua3ZDcXBfT1U4Tk1SeXppOXA5cnE1NUVVQmd1c0lRLWZ2TnpGdGp2bzV0TXFhcUlBRWxSVU45LXpYN05UdnN5WjZvcGFkc2RlVTdibTJOd1JKcWt2R1J6RjNWQUItcmJEeHpKZmZjQ0xoT0QzazdObW9GVHdVaEpobWdUcGxTalVRUWJSQWY5VDJkNldMcFBuZk45RXdfMDJFcVJiYmhRVERiQjRfa0VXT1RwcmhrckQ5bDg2RU9EaDg?oc=5",
           "source": "Libération",
           "published": "2026-10-26T20:26:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "马赛、巴黎、里昂、拉库尔纳夫……特拉普种族主义袭击后法国各地举行集会 - 解放",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Le PSG éteint Lyon et prend le pouvoir en Ligue 1 - Le Figaro",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYTFlTWJvUENoSVhvVDQ0UWxtdlhpem42SlBQX3hpTXR5RTJYdWdWSTkwREJvaThvQTlFS2ozaWNTSU1kTkJ0MEI1a2FqaUc3cU12cWRVbmw0S2tnRmZURU1acl81T2ZfUWFGMUdQTEFqRVFJQ3gxd2RISThFa25RcVBDcVdBUXE3ZHR1bXNRR1dsQnRwYmF1Sl85OGptU29EelRWZ09Nbw?oc=5",
-          "source": "Le Figaro",
-          "published": "2026-10-26T21:25:16+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "巴黎圣日尔曼消灭里昂并在法甲联赛中掌权 - 《费加罗报》",
           "translation_status": "translated"
         }
       ],
@@ -633,21 +605,21 @@
           "translation_status": "translated"
         },
         {
-          "title": "Se celebró la gala del Balón de Oro 2026 - Real Madrid CF | Web Oficial",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQVhpbk82Y01sTVo0T09fV0x3ZVFwMlp2c3E2eElkUk15ZWpwT2lOcFZRcWkxeEVVRkhTNF82ems1cFdKdU5SdDh4Y3MxY3lXRHE4QkM0SHg5MllUY3JTSlhWSDhoRnlVaHZIQmtadTVzZk83aW5fYU9LVkloLXV3cUsxcFVHSS1Da213UC1TVldIUWV2cFJNRWVSYVZuVEZvVW1PNy1IV1daU3NDV0tnOHlEbXdWLU10cEx0MFpMRVF2Tml1N1c2UkNnWUxyUWJucU0ydGo3cDRUUjhMUDdfbG9LT00za3NoMFlnb0tnNElMV0VkMzd5MDkxZkJOdFpIanc3bDhfZkw?oc=5",
-          "source": "Real Madrid CF | Web Oficial",
-          "published": "2026-10-26T15:56:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "2026 年金球奖盛典隆重举行 - 皇家马德里 |官方网站",
-          "translation_status": "translated"
-        },
-        {
           "title": "El Real Madrid es un relámpago: 14 segundos por posesión y 15 triples por partido - EL PAÍS",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGtMMmdZNk1BN1hLWlJnTjlJRHhYdU05QmNzTzZYOWR0RzRDWDBkSmxiR0g0ZzVPalJVbzQ4SkxBLTZpV2laekcwc1RXcUgwa1R3bHRLcGtHYXZCeGFpNnlZbkVSY25BSzZfbi0tMjJWNXZSV3BYcUdNU1ZXeWlrbmlscnRsOHhMQVkwNUVSVjhQYU5xMUI3MzZMblJYUm03NHhJVkpjQ2JDUk9IUHlQOUc5dzYzMEV4TDdRNkNLbnQxTl81eDNmeFhGN3RsMThW0gHkAUFVX3lxTE9mMzctZ0hnVGJtUllSaXBySFpLa2d5Z3JGcklTZFZZWWxjc29PUnk4dk9PRnY3R3lwbmctbEFPeTNBSE9yajgxNzg4ZTZhU2gzUDRhSzFUem1yUEpldG5QSVB6d25pMTlRZXBua09TMnhlOHFvQWtxRmpmWHZrd241NjlrbWM0V2ZWaDJXZUp5V2ZJNW03bkszTXcybnhha1Y3U2dkX1RRN25CUHhPMWg2amMydTk1NGVkSS0taUwza1h0cFN0Y1lJR1ZHdTBVUG56MTItOGNMRE1OZmI5a0d5UDFsNw?oc=5",
           "source": "EL PAÍS",
           "published": "2026-10-27T04:30:01+00:00",
           "scope": "本国热点候选",
           "title_zh": "皇马闪电般：每次控球时间 14 秒，场均 15 个三垒安打 - 西班牙国家队",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Se celebró la gala del Balón de Oro 2026 - Real Madrid CF | Web Oficial",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQVhpbk82Y01sTVo0T09fV0x3ZVFwMlp2c3E2eElkUk15ZWpwT2lOcFZRcWkxeEVVRkhTNF82ems1cFdKdU5SdDh4Y3MxY3lXRHE4QkM0SHg5MllUY3JTSlhWSDhoRnlVaHZIQmtadTVzZk83aW5fYU9LVkloLXV3cUsxcFVHSS1Da213UC1TVldIUWV2cFJNRWVSYVZuVEZvVW1PNy1IV1daU3NDV0tnOHlEbXdWLU10cEx0MFpMRVF2Tml1N1c2UkNnWUxyUWJucU0ydGo3cDRUUjhMUDdfbG9LT00za3NoMFlnb0tnNElMV0VkMzd5MDkxZkJOdFpIanc3bDhfZkw?oc=5",
+          "source": "Real Madrid CF | Web Oficial",
+          "published": "2026-10-26T15:56:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "2026 年金球奖盛典隆重举行 - 皇家马德里 |官方网站",
           "translation_status": "translated"
         }
       ],
@@ -847,23 +819,32 @@
           "translation_status": "translated"
         },
         {
-          "title": "La rivolta dei giovani delle periferie di Milano contro una città troppo cara - Internazionale",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSjc0R3pGRG9lT2s1OUE3c1RlZDFzUThPRTYtMWI0OXg0S0Jna0k1UVQ0NzFmQnl3ejIxNUNoMmN6V3RfQ3dKSXRrUkxFd2RibXpjaXZvQThkQW9sYVpuWHZ2M0gyeHRyY0pnVVZFSW91NUt6Z1pkTFU1NjFOR2psbXl1d2swR2F2VWV0TkNLNkh5cjZReTVVTWpn?oc=5",
-          "source": "Internazionale",
-          "published": "2026-10-27T06:45:50+00:00",
+          "title": "Roma-Cagliari oggi in in TV, dove vederla: orario, formazioni e canale in diretta e streaming - Fanpage",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXktbkdVZmcyNEtDZE5tRGRnelBiV2xUQ1JtSzhVX1VZNzY2UXpTNXNCR1htYVluaklNMFlHTHVPNEtPYko1NFBicGNzTVROSGx3OTJpX0h1azlSLTdQZ0lYcTRoOVhHUi1tclF2TUtnWXNnd0ktaGpwc1Bqd01lMGZ2VWZodWFXeDJQamZFQm1hTG44UW54QUxBUW9QZUx4N3Nkck9HU19pb3NKNGFZTFo0ZVUxazFMby1KdTFkOGwybGJvMXc?oc=5",
+          "source": "Fanpage",
+          "published": "2026-10-27T05:45:08+00:00",
           "scope": "本国热点候选",
-          "title_zh": "米兰郊区的年轻人对这座过于昂贵的城市的反抗 - International",
+          "title_zh": "罗马-卡利亚里今天在电视上观看，在哪里观看：时间表、阵容和频道直播和流媒体 - Fanpage",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "jazz - grizzlies",
+          "title": "kingdom",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:40:00+00:00",
+          "published": "2026-10-27T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "爵士 - 灰熊",
+          "title_zh": "王国",
+          "translation_status": "translated"
+        },
+        {
+          "title": "incendio pontedera",
+          "url": "https://trends.google.com/trending/rss?geo=IT",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "蓬泰德拉火灾",
           "translation_status": "translated"
         },
         {
@@ -873,15 +854,6 @@
           "published": "2026-10-27T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "被驱逐的",
-          "translation_status": "translated"
-        },
-        {
-          "title": "corso como",
-          "url": "https://trends.google.com/trending/rss?geo=IT",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:40:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "当然作为",
           "translation_status": "translated"
         }
       ],
@@ -1060,7 +1032,7 @@
           "source": "Media Key",
           "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Dailymotion Business 在巴黎为 RAY 提供沉浸式个性化晚宴 - Media Key",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -1099,6 +1071,15 @@
       ],
       "trending": [
         {
+          "title": "davy klaassen",
+          "url": "https://trends.google.com/trending/rss?geo=NL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "戴维·克拉森",
+          "translation_status": "translated"
+        },
+        {
           "title": "mat '64",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
@@ -1115,19 +1096,52 @@
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "燃料",
           "translation_status": "translated"
-        },
-        {
-          "title": "hogedrukgebied",
-          "url": "https://trends.google.com/trending/rss?geo=NL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "高压区",
-          "translation_status": "translated"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Smartphoto",
+          "title": "Mok met foto Wit",
+          "url": "https://www.smartphoto.nl/fotocadeaus/mok-met-foto?pvc=mugpattern",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "11.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/mugpattern/tileimage/image/mugpattern-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Gekleurde Mok Zwart",
+          "url": "https://www.smartphoto.nl/fotocadeaus/mok-met-foto?pvc=coloredmugblack",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "13.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblack/tileimage/image/coloredmugblack-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Gekleurde mok blauw",
+          "url": "https://www.smartphoto.nl/fotocadeaus/mok-met-foto?pvc=coloredmugblue",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "13.99",
+          "currency": "EUR",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblue/tileimage/image/coloredmugblue-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
       "product_source_audit": [
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.nl/fotocadeaus/mok-met-foto",
+          "verified_count": 3
+        },
         {
           "brand": "YourSurprise",
           "url": "https://www.yoursurprise.nl/bestsellers",
@@ -1140,7 +1154,16 @@
         }
       ],
       "ads": [],
-      "ad_searches": [],
+      "ad_searches": [
+        {
+          "brand": "Smartphoto",
+          "country": "NL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NL&q=Smartphoto&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        }
+      ],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "gepersonaliseerd cadeau",
       "category_signals": [
@@ -1298,8 +1321,50 @@
           "translation_status": "translated"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Smartphoto",
+          "title": "Krus Hvit",
+          "url": "https://www.smartphoto.no/fotogaver/krus?pvc=mugpattern",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "149",
+          "currency": "NOK",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/mugpattern/tileimage/image/mugpattern-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Farget krus Svart",
+          "url": "https://www.smartphoto.no/fotogaver/krus?pvc=coloredmugblack",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "149",
+          "currency": "NOK",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblack/tileimage/image/coloredmugblack-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Farget krus blå",
+          "url": "https://www.smartphoto.no/fotogaver/krus?pvc=coloredmugblue",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "149",
+          "currency": "NOK",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblue/tileimage/image/coloredmugblue-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
       "product_source_audit": [
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.no/fotogaver/krus",
+          "verified_count": 3
+        },
         {
           "brand": "Walseng Design",
           "url": "https://www.walseng.no/nettbutikk/",
@@ -1317,7 +1382,16 @@
         }
       ],
       "ads": [],
-      "ad_searches": [],
+      "ad_searches": [
+        {
+          "brand": "Smartphoto",
+          "country": "NO",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NO&q=Smartphoto&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        }
+      ],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "personlig gave",
       "category_signals": [
@@ -1911,12 +1985,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Nowa struktura Urzędu Miasta Krakowa - Magiczny Kraków",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXcyXzhTSTByVTlNTWVGaHM2cGxST2lPVTcyb2poUk1FTjkxY0ljN2llZUlFT18wVDh2VHlKT1V0dkdhbE1Qd0hfcVBTSTlvSmh5QkRYRVJUZ0Z5dXF6VVp6dURWLWpHbzlGb20za0EzVWR4dUpfSTNOOU1fT3dRZTc2MHNCQkE2bS15N2JGSW1HdDMzbWc?oc=5",
-          "source": "Magiczny Kraków",
-          "published": "2026-10-26T14:25:02+00:00",
+          "title": "Rząd zabrał się za internetowy ciucholand na Vinted i za handel na OLX. Takiej zmiany nikt się nie spodziewał - Forsal.pl",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNNnAtVnRGMGhkVmZ1S28zZWdJTzJ2Sk90dkFzVXJpMUNjelFMU2FLUTZTR3RjeDlQeHpiQTE4RVVJMHFXTlkyX1Nhb1NXaVdEaWJVc1h6aHVSaWZPQ2w3Zm9qQ29TcThyMWdrcXlHNjlzWUFPUEF3Z0tQbllfcE9uR19VcWhPSnFPNU9kLXRYazhyYk1EYVJIbG5aY21zaHp1SkE0cU5ZMVp2UFh4Si1hRktBaExoSVpfeFRxRW5sblA5SVF2OGJGQ3l4VXNqUkRaZFJvMTAtVWJaNnk3STdMLXFtdENjSUlnTUJkZ2VQUGZSSnJNbTQzT1lnLU12WHdUNHBkR1o1VVduem9jTzYweTZZQ1hZZw?oc=5",
+          "source": "Forsal.pl",
+          "published": "2026-10-27T06:09:20+00:00",
           "scope": "本国热点候选",
-          "title_zh": "克拉科夫市政厅的新结构 - Magic Krakow",
+          "title_zh": "政府在 Vinted 上开设了在线服装店，并在 OLX 上进行了交易。没有人预料到会有这样的变化 - Forsal.pl",
           "translation_status": "translated"
         },
         {
@@ -2079,8 +2153,8 @@
       "FR": 7,
       "ES": 0,
       "IT": 3,
-      "NL": 0,
-      "NO": 0,
+      "NL": 3,
+      "NO": 3,
       "SE": 3,
       "FI": 3,
       "PL": 0
@@ -2098,8 +2172,6 @@
     },
     "missing_product_countries": [
       "ES",
-      "NL",
-      "NO",
       "PL"
     ]
   }
