@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:15:28.513348+00:00",
+  "updated_at": "2026-10-27T07:19:41.451243+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -22,12 +22,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Streit um Enteignungen in Berlin: Immobilienriese stoppt Investitionen in Deutschland - BILD",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVFlUQWFRbldreFlJT0VESlFxWm5KcmljeXg2N2JEaWptRi01aWpyS3gxWXU3UjNaX2poYmVUN2o1S1FoVFJhVnNVMDJ1cE5mWHZZRERVQkZrb3NhQ21jXzBmSEplWFN0TVhxTEI5YXZqeVphYnNIa1Ixdi1QdVdXREs0RlgtcUlhWkYyTWpnTHJDQXVyc1JzRWVqQXRDellFaTR5TjFVVzJiYVZ1Mkl2WGJmNnpxVjF3c1dHd0J2T2daTTk4VGVxWjVLaHJ4TmItR1Zya1ltYnBlOWxJ?oc=5",
-          "source": "BILD",
-          "published": "2026-10-26T18:12:58+00:00",
+          "title": "Athen: Warum die griechische Hauptstadt plötzlich das hat, was Berlin verloren hat - WELT",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPd1Jsa3NVa2ItVFJ2YkJzWFFwVUx1M2JyMnpmX2hmNU9hN1pKLWFqa1ZVLTh4WFFEdGZPVExXWTJHZmg4Y3F2amV4Z2puMDl5bE5VQlZUUmhEYVdTLVZoeEZZY3VOMzBUWElVN0VNU0RkOXpWb3hDeEc4SXlOTmJpVHVoWlJISVh0Z0xaZ3JxLXpmWk8zR1RUNzBWU25HcUU0Vi10UEpBWlpvUFR6ZjJqbC1BTmcyR3otcHY5NzcyeHJvemFvNGZVMGJ4b003QjloMjN6dDhTaVJfRXhVRlE?oc=5",
+          "source": "WELT",
+          "published": "2026-10-27T04:15:44+00:00",
           "scope": "本国热点候选",
-          "title_zh": "柏林征用纠纷：房地产巨头停止在德国投资 - BILD",
+          "title_zh": "雅典：为何希腊首都突然拥有柏林失去的东西 - WELT",
           "translation_status": "translated"
         }
       ],
@@ -323,30 +323,30 @@
       ],
       "trending": [
         {
+          "title": "drogue",
+          "url": "https://trends.google.com/trending/rss?geo=FR",
+          "source": "trends.google.com",
+          "published": "2026-10-27T07:10:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "药品",
+          "translation_status": "translated"
+        },
+        {
+          "title": "pillage",
+          "url": "https://trends.google.com/trending/rss?geo=FR",
+          "source": "trends.google.com",
+          "published": "2026-10-27T07:10:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "掠夺",
+          "translation_status": "translated"
+        },
+        {
           "title": "plateforme de forage",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
           "published": "2026-10-27T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "钻井平台",
-          "translation_status": "translated"
-        },
-        {
-          "title": "forfait",
-          "url": "https://trends.google.com/trending/rss?geo=FR",
-          "source": "trends.google.com",
-          "published": "2026-10-27T07:00:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "包裹",
-          "translation_status": "translated"
-        },
-        {
-          "title": "gadi eisenkot",
-          "url": "https://trends.google.com/trending/rss?geo=FR",
-          "source": "trends.google.com",
-          "published": "2026-10-27T07:00:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "加迪艾森科特",
           "translation_status": "translated"
         }
       ],
@@ -624,21 +624,21 @@
     "ES": {
       "news": [
         {
-          "title": "La jueza de menores riñe a los padres por la violencia de sus hijos - La Vanguardia",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2VyWHhGbDRIYTF0NG92aGxkTmFQV0E2eXBxY1RGaG1vLVZ5UGtNQ0kxY3lrNGVRQlRJQ25xMDlabjB6RTc5OGhtV1UwWTE2ajJtWGZDSG1STURadnJVemRGMnNSWDlNVlQ5b1hQczFTcndFalFrZUpXY2JwWUlkWTlycmNBanZPLXlOY1pNY2g3T2JRaXROOHZyZ0tBdWtPaXRSZDhGZWxCeTRoMGfSAbMBQVVfeXFMTURUVW5RZ1BiTEh4Nkp0WFVIRW9PT0V6dFNTTTNtcjl5Zk5zRjFSRGkyYnlSZ0U2VFJvRzNDOVhmVjl2cllCUXhJZncwVW1kNC04LWJPM2xFcFhreHROQ1dpd2puc09sMDJuc1pvcEZVaDAzQXV5S0t3czVLbmFGNFBtZEdBclF3RHFqRGFVN3RNbGhnMmh6VHZPbFdycFlQd2N4eXBxQjF0aUR2WkVzS3dNcjQ?oc=5",
-          "source": "La Vanguardia",
-          "published": "2026-10-27T06:23:11+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "少年法官斥责父母对孩子施暴 - La Vanguardia",
-          "translation_status": "translated"
-        },
-        {
           "title": "El ex delegado del Gobierno en Madrid dimitió tras recibir una amenaza de demanda millonaria empresarial por \"inacción\" en Sol - El Mundo",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuT3hDc0hzT1MzZ3FFVTl3TENrczNRaFUwSEVIeEJPalBFTXdYT2c2S2hZTzRJWDBPS2ttbnFkQXhnWVYzY2dxdFl2RE9nU1l4WmYyRjlrTVVxX1BCS1ctbFRBdGhRMjVCMkp2MnY0dGJLOEgzUG5OM09R0gF6QVVfeXFMT056bzdKRVNYOHZWSlpMSkU0ZmxSZmNtV3oyTFJoZHp2SGticTdXdzR2cEc5Q1JyNzFGZzhENjUwcTR6eTN4VGNHV0pfV09TYVo4Q3VrZTAtRHE3Z2FZcEo0MXphbHlRa1NRaVZvZEJadzgtM0d0QlhtLUE?oc=5",
           "source": "El Mundo",
           "published": "2026-10-26T21:36:15+00:00",
           "scope": "本国热点候选",
           "title_zh": "马德里前政府代表因在《太阳报》“不作为”而受到百万富翁公司诉讼的威胁后辞职 - El Mundo",
+          "translation_status": "translated"
+        },
+        {
+          "title": "La jueza de menores riñe a los padres por la violencia de sus hijos - La Vanguardia",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2VyWHhGbDRIYTF0NG92aGxkTmFQV0E2eXBxY1RGaG1vLVZ5UGtNQ0kxY3lrNGVRQlRJQ25xMDlabjB6RTc5OGhtV1UwWTE2ajJtWGZDSG1STURadnJVemRGMnNSWDlNVlQ5b1hQczFTcndFalFrZUpXY2JwWUlkWTlycmNBanZPLXlOY1pNY2g3T2JRaXROOHZyZ0tBdWtPaXRSZDhGZWxCeTRoMGfSAbMBQVVfeXFMTURUVW5RZ1BiTEh4Nkp0WFVIRW9PT0V6dFNTTTNtcjl5Zk5zRjFSRGkyYnlSZ0U2VFJvRzNDOVhmVjl2cllCUXhJZncwVW1kNC04LWJPM2xFcFhreHROQ1dpd2puc09sMDJuc1pvcEZVaDAzQXV5S0t3czVLbmFGNFBtZEdBclF3RHFqRGFVN3RNbGhnMmh6VHZPbFdycFlQd2N4eXBxQjF0aUR2WkVzS3dNcjQ?oc=5",
+          "source": "La Vanguardia",
+          "published": "2026-10-27T06:23:11+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "少年法官斥责父母对孩子施暴 - La Vanguardia",
           "translation_status": "translated"
         },
         {
@@ -909,7 +909,7 @@
           "title": "Uànema – Festa degli altri vivi - Comune di Napoli",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZUszQnk5dW1QQUdfb19HV09WT3FmOFV0ZWdab2JIRVBBMWRtZ0hSaWd1RF9nQ2pQTkJRS0d0b0RPajlhcHVNSVZYSVgxbHZZakJNXzFaWWdNYjhEYjVqaDg2R3pmOGtiZVBROUxDS3pzM2M?oc=5",
           "source": "Comune di Napoli",
-          "published": "2026-10-27T06:23:12+00:00",
+          "published": "2026-10-26T18:29:20+00:00",
           "scope": "本国热点候选",
           "title_zh": "Uànema – 异界盛宴 - 那不勒斯市",
           "translation_status": "translated"
@@ -1137,7 +1137,7 @@
           "source": "Media Key",
           "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Dailymotion Business 在巴黎为 RAY 提供沉浸式个性化晚宴 - Media Key",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -1370,21 +1370,21 @@
     "NO": {
       "news": [
         {
-          "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
-          "source": "Aftenposten",
-          "published": "2026-10-26T11:30:33+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "奥斯陆市中心塔吊可能即将倒塌：-整个地基已经松动 - 晚邮报",
-          "translation_status": "translated"
-        },
-        {
           "title": "Kran demontert etter kollaps­fare i Oslo sentrum - VG",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODctaFVBQUZ2ZmZraHp2ZEtkVlR4LUZXWVA1dWxpNkpZdEF2VTdfMWx1alNUOVItald6YVplaE9aVnQ1RHBnT2xyd09BN1l6c3EwUDBOZ2xfMnhwWFVNbmlkeWE2VHpzRHkzR29IUllWREF2ZlhtX25nOHU2OVI1STBtRXBjSnNRQU9r?oc=5",
           "source": "VG",
           "published": "2026-10-26T22:54:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "奥斯陆市中心发生倒塌危险后起重机被拆除 - VG",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
+          "source": "Aftenposten",
+          "published": "2026-10-26T11:30:33+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "奥斯陆市中心塔吊可能即将倒塌：-整个地基已经松动 - 晚邮报",
           "translation_status": "translated"
         },
         {
@@ -1399,21 +1399,21 @@
       ],
       "trending": [
         {
-          "title": "tete lidbom",
-          "url": "https://trends.google.com/trending/rss?geo=NO",
-          "source": "trends.google.com",
-          "published": "2026-10-27T07:00:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "太特利德邦",
-          "translation_status": "translated"
-        },
-        {
           "title": "sonja av norge",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
           "published": "2026-10-27T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "挪威的索尼娅",
+          "translation_status": "translated"
+        },
+        {
+          "title": "tete lidbom",
+          "url": "https://trends.google.com/trending/rss?geo=NO",
+          "source": "trends.google.com",
+          "published": "2026-10-27T07:00:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "太特利德邦",
           "translation_status": "translated"
         },
         {
@@ -1635,12 +1635,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Svenskheten som glömde Sverige - Dagens Arena",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSWJ0YzdveF9EbTBGMkJ2QkFQU0VZdVRvSTYyNHQ3OUNxYVVzN2V5QnQ4eU1TZGRLM3NEcFFac3BsU3NXQVFpZmJuZkxTa3pKcndfeVM5ZkNjYU5VcHVDWXZVREY3a285LXRGcndFLVg?oc=5",
-          "source": "Dagens Arena",
-          "published": "2026-10-27T00:32:18+00:00",
+          "title": "Håkan Boström: Gör Sverige mer lagom igen - Göteborgs-Posten",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGRyMmhGYmtfbTVlQXdTVkc1eVpCckhIb0ZCaDVHR1d0aEF2SFJXVnd6cmExajVPSzNGSWtPSnZXSE1oV2xmSmEzVXlwX0F6UWFSRlJNMXcyaWRtdEcwMzczODFLR0FxMVEyd3drSk1ycjdvTFhWNVN6bnVLRWFPWWswaE9NR2RHQzVpV19ZLVpKNk1uS1hiWGFtZ3hIclRQMHZCak81dmw?oc=5",
+          "source": "Göteborgs-Posten",
+          "published": "2026-10-27T04:00:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "忘记瑞典的瑞典人 - Dagens Arena",
+          "title_zh": "Håkan Boström：让瑞典再次变得更加强大 - Göteborgs-Posten",
           "translation_status": "translated"
         }
       ],
@@ -1910,12 +1910,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "tiger woods",
+          "title": "kotihoidon tuki",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
           "published": "2026-10-27T06:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "泰格·伍兹",
+          "title_zh": "家庭护理支持",
           "translation_status": "translated"
         }
       ],
@@ -2090,21 +2090,21 @@
           "translation_status": "translated"
         },
         {
-          "title": "Nowa struktura Urzędu Miasta Krakowa - Magiczny Kraków",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXcyXzhTSTByVTlNTWVGaHM2cGxST2lPVTcyb2poUk1FTjkxY0ljN2llZUlFT18wVDh2VHlKT1V0dkdhbE1Qd0hfcVBTSTlvSmh5QkRYRVJUZ0Z5dXF6VVp6dURWLWpHbzlGb20za0EzVWR4dUpfSTNOOU1fT3dRZTc2MHNCQkE2bS15N2JGSW1HdDMzbWc?oc=5",
-          "source": "Magiczny Kraków",
-          "published": "2026-10-26T14:25:02+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "克拉科夫市政厅的新结构 - Magic Krakow",
-          "translation_status": "translated"
-        },
-        {
           "title": "Lechia Gdańsk - Jagiellonia Białystok - Canal+",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbnN0MVFWSUNPNWMzU2lDSktCZVVBcGJDZEI1c1Y4eVhZVDQtcEJ0UDQtM1BhVWsxS2syaG5YY2NscWl4dXF4SEYtajlBUnRUNkRoNUROcWJTeUZnREh5bjd5Xy1oU0JSXzZ5UUJxT2dZdUxpdWVoSnNsdFZVdFFpeVhUZW40cGY5ellGNmN6aW0?oc=5",
           "source": "Canal+",
           "published": "2026-10-27T02:03:03+00:00",
           "scope": "本国热点候选",
           "title_zh": "格但斯克莱基亚 - Jagiellonia Białystok - Canal+",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Zabójstwo Henry'ego Nowaka. Brytyjski rząd zapowiada niezależne śledztwo. 'Musimy dotrzeć do prawdy' - Gazeta",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3NfNDlPYWVrY2Y0RTVLN2N6d0JIM0xGNGJUdUFEb2FQNFVoNmZaVTNVd0RjemM4bUZ1MFBTelNPTG51cnpPaVFCblROcno4T2lnYTlYTFBkek5RdjZVa3F4VWNEbkFfempHbHdoVFhyYk9MMHFnaHhuUWFvQlkxT0luSkFHdW9ZbU1ydFE0aFdNc3p1OFlWOXc0enp5SXY4dGVjSHl1bkZfejFNX2dpdUNYZ1NWU3NRM1BjYjZCUHY?oc=5",
+          "source": "Gazeta",
+          "published": "2026-10-27T05:00:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "亨利·诺瓦克被谋杀。英国政府宣布展开独立调查。 “我们必须了解真相”——《公报》",
           "translation_status": "translated"
         }
       ],
@@ -2137,8 +2137,84 @@
           "translation_status": "translated"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Prazent",
+          "title": "Personalizowany kubek z imieniem – wyjątkowy prezent - Mug / White / 330ml",
+          "url": "https://prazent.pl/products/personalizowany-kubek-z-imieniem-wyjatkowy-prezent",
+          "source": "Prazent · 官网结构化商品数据",
+          "price": "51.99",
+          "currency": "PLN",
+          "image": "https://prazent.pl/cdn/shop/files/6ad03e09b0342.webp?v=1792032285&width=1920",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Prazent",
+          "title": "Bombka choinkowa ze zdjęciem – czerwona (8 cm) - Czerwona / Red / 8cm",
+          "url": "https://prazent.pl/products/bombka-choinkowa-ze-zdjeciem-czerwona-8-cm",
+          "source": "Prazent · 官网结构化商品数据",
+          "price": "38.99",
+          "currency": "PLN",
+          "image": "https://prazent.pl/cdn/shop/files/6ac84bf4f326d.webp?v=1791511545&width=1920",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Prazent",
+          "title": "Bombka choinkowa ze zdjęciem – złota (8 cm) - Złota / Gold / 8cm",
+          "url": "https://prazent.pl/products/bombka-choinkowa-ze-zdjeciem-zlota-8-cm",
+          "source": "Prazent · 官网结构化商品数据",
+          "price": "38.99",
+          "currency": "PLN",
+          "image": "https://prazent.pl/cdn/shop/files/6ac84c03a63b8.webp?v=1791511560&width=1920",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Tortli",
+          "title": "Kubek dla par | Prezent dla chłopaka i dziewczyny - Personalizowany #24",
+          "url": "https://tortli.pl/products/kubek-dla-par-24",
+          "source": "Tortli · 官网结构化商品数据",
+          "price": "",
+          "currency": "",
+          "image": "https://cdn.shopify.com/s/files/1/0558/6272/2752/files/656430ea1ac04.webp?v=1757537568",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "KubkiBezCenzury",
+          "title": "KUBEK Z TWOIM WŁASNYM NAPISEM",
+          "url": "https://kubkibezcenzury.pl/kubki-z-wlasnym-napisem/585-kubek-z-twoim-napisem.html",
+          "source": "KubkiBezCenzury · 官网结构化商品数据",
+          "price": "49",
+          "currency": "PLN",
+          "image": "https://kubkibezcenzury.pl/2982-home_default/kubek-z-twoim-napisem.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
       "product_source_audit": [
+        {
+          "brand": "Prazent",
+          "url": "https://prazent.pl/products/personalizowany-kubek-z-imieniem-wyjatkowy-prezent",
+          "verified_count": 3
+        },
+        {
+          "brand": "Tortli",
+          "url": "https://tortli.pl/products/kubek-dla-par-24",
+          "verified_count": 3
+        },
+        {
+          "brand": "KubkiBezCenzury",
+          "url": "https://kubkibezcenzury.pl/kubki-z-wlasnym-napisem/585-kubek-z-twoim-napisem.html",
+          "verified_count": 1
+        },
         {
           "brand": "CEWE",
           "url": "https://www.cewe.pl/fotoprezenty/kubek-ceramiczny-ze-zdjeciem.html",
@@ -2166,7 +2242,32 @@
         }
       ],
       "ads": [],
-      "ad_searches": [],
+      "ad_searches": [
+        {
+          "brand": "Prazent",
+          "country": "PL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=PL&q=Prazent&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        },
+        {
+          "brand": "Tortli",
+          "country": "PL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=PL&q=Tortli&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        },
+        {
+          "brand": "KubkiBezCenzury",
+          "country": "PL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=PL&q=KubkiBezCenzury&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        }
+      ],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "prezent personalizowany",
       "category_signals": [
@@ -2277,7 +2378,7 @@
       "NO": 3,
       "SE": 3,
       "FI": 3,
-      "PL": 0
+      "PL": 5
     },
     "ad_coverage": {
       "DE": 0,
@@ -2290,8 +2391,6 @@
       "FI": 0,
       "PL": 0
     },
-    "missing_product_countries": [
-      "PL"
-    ]
+    "missing_product_countries": []
   }
 }
