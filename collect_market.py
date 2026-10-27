@@ -184,7 +184,13 @@ for code,(lang,geo,term) in COUNTRIES.items():
   discovered=retailer_products(shop_name,landing)
   if discovered:products.extend(discovered)
   else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'该站点未返回可核实的商品结构化数据；点击查看官网。','verified_public_product':False})
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
+ # Meta Ad Library discovery links are verified navigation, not individual ads.
+ # Real ad records require Meta-approved API access or separately verified public post URLs.
+ ad_searches=[]
+ for brand,landing in SHOPS.get(code,[]):
+  query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':brand,'search_type':'keyword_unordered'})
+  ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'待获取可核实的广告记录'})
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'ad_searches':ad_searches,'ad_data_status':'Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字','gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
  print(code,'news',len(newsitems),'trends',len(trenditems),'products',sum(bool(p.get('verified_public_product')) for p in products))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
