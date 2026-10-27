@@ -14,7 +14,7 @@ ALT_SHOPS={'FR':[('Smartphoto','https://www.smartphoto.fr/')], 'ES':[('YourSurpr
 # Candidate pages are public product detail pages, not fabricated products.
 # Keep a source only after its public metadata yields an actual product image.
 PRODUCT_CANDIDATES={
- 'FR':[('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-blanc'),('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-cappuccino'),('Smartphoto','https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo')],
+ 'FR':[('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-couleurs'),('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise'),('Smartphoto','https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo')],
 }
 def readfeed(url,limit=3):
  try:
@@ -130,7 +130,7 @@ def discover_product_links(landing, max_links=3):
    u=urllib.parse.urlparse(url)
    if u.scheme!='https' or u.hostname!=root.hostname:continue
    path=u.path.lower()
-   if not any(t in path for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/p/','/artikel/','/prod_')):continue
+   if not any(t in path for t in ('/products/','/product/','/produkt/','/produit/','/producto/','/prodotti/','/p/','/artikel/','/prod_','/cadeaux-photo/')):continue
    if any(t in path for t in ('/collections/','/category/','/categories/')):continue
    clean=urllib.parse.urlunparse((u.scheme,u.netloc,u.path,'','',''))
    if clean in seen:continue
