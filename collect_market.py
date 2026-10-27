@@ -9,6 +9,8 @@ ROOT=Path(__file__).resolve().parent
 COUNTRIES={'DE':('de','DE','personalisierte Geschenke'), 'FR':('fr','FR','cadeau personnalisé'), 'ES':('es','ES','regalos personalizados'), 'IT':('it','IT','regali personalizzati'), 'NL':('nl','NL','gepersonaliseerd cadeau'), 'NO':('no','NO','personlig gave'), 'SE':('sv','SE','personlig present'), 'FI':('fi','FI','personoitu lahja'), 'PL':('pl','PL','prezent personalizowany')}
 SHOPS={'DE':[('GRAVURZEILE','https://www.gravurzeile.de/collections/bestseller'),('CARDORI','https://cardori.de/collections/bestseller')], 'FR':[('Cadeaux.com','https://www.cadeaux.com/meilleures-ventes'),('YourSurprise','https://www.yoursurprise.fr/bestsellers')], 'ES':[('Wanapix','https://wanapix.es/'),('Hofmann','https://www.hofmann.es/tienda/regalos')], 'IT':[('Troppotogo','https://www.troppotogo.it/regali-personalizzati')], 'NL':[('YourSurprise','https://www.yoursurprise.nl/bestsellers')], 'NO':[('Walseng Design','https://www.walseng.no/nettbutikk/'),('PersonligGave','https://personliggave.com/')], 'SE':[('Smartphoto','https://www.smartphoto.se/fotopresenter/mugg')], 'FI':[('Puuki','https://www.puuki.fi/pages/personoitu-lahja-isalle'),('GetPersonal','https://www.getpersonal.fi/')], 'PL':[('Crazyshop','https://www.crazyshop.pl/kubki-termiczne%2C15164')]}
 
+ALT_SHOPS={'FR':[('Smartphoto','https://www.smartphoto.fr/')], 'ES':[('YourSurprise','https://www.yoursurprise.es/')], 'NL':[('Smartphoto','https://www.smartphoto.nl/')], 'NO':[('Smartphoto','https://www.smartphoto.no/')], 'SE':[('YourSurprise','https://www.yoursurprise.se/')], 'PL':[('CEWE','https://www.cewe.pl/')]}
+
 def readfeed(url,limit=3):
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; MarketDashboard/1.0)'})
@@ -339,21 +341,27 @@ for code,(lang,geo,term) in COUNTRIES.items():
   time.sleep(0.12)
  # Do not carry old items forward silently; the dashboard should distinguish unavailable from fresh.
  products=[]
- for shop_name,landing in SHOPS.get(code,[]):
-  discovered=discover_retailer_cards(shop_name,landing)
-  verified=[x for x in discovered if x.get('verified_public_product') and x.get('image')]
-  if verified:
-   for item in verified:
-    item['selection_basis']='官网热销/推荐栏目' if any(k in landing.lower() for k in ('bestseller','meilleures-ventes')) else '官网商品或分类页（未验证热销排名）'
-   products.extend(verified)
-  else:products.append({'name':shop_name,'title':shop_name+' · 公开商品页面','url':landing,'source':'竞品官网','summary':'尚未采集到可核实的商品图片；点击查看官网。','verified_public_product':False})
+ source_audit=[]
+ selected=[]
+ candidates=SHOPS.get(code,[])+ALT_SHOPS.get(code,[])
+ for shop_name,landing in candidates:
+  if len(products)>=6:break
+  discovered=discover_retailer_cards(shop_name,landing,3)
+  verified=[x for x in discovered if x.get('verified_public_product') and x.get('image') and x.get('url')]
+  source_audit.append({'brand':shop_name,'url':landing,'verified_count':len(verified)})
+  if not verified:continue
+  selected.append((shop_name,landing))
+  for item in verified:
+   if any(x.get('url')==item.get('url') for x in products):continue
+   item['selection_basis']='官网热销/推荐栏目' if any(k in landing.lower() for k in ('bestseller','meilleures-ventes')) else '官网公开商品（未验证热销排名）'
+   products.append(item)
  # Meta Ad Library discovery links are verified navigation, not individual ads.
  # Real ad records require Meta-approved API access or separately verified public post URLs.
  ad_searches=[]
- for brand,landing in SHOPS.get(code,[]):
+ for brand,landing in selected:
   query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':brand,'search_type':'keyword_unordered'})
   ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'待获取可核实的广告记录'})
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'ads':[],'ad_searches':ad_searches,'ad_data_status':'Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字','gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'product_source_audit':source_audit,'ads':[],'ad_searches':ad_searches,'ad_data_status':'Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字','gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
  verified_count=sum(bool(p.get('verified_public_product') and p.get('image')) for p in products)
  result['quality']['product_coverage'][code]=verified_count
  result['quality']['ad_coverage'][code]=0
