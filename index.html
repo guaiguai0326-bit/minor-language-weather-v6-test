@@ -1572,7 +1572,7 @@ for(const c of countries){
  <div class="v6-market-cell"><em>📰 新闻</em><div class="v605-mini">本国综合新闻（非礼品专题）</div><strong>${safe(f[0])}</strong><p>关注本国政治、经济、社会、文化、天气及重大突发事件。真实标题、时间与中文翻译由每日采集提供。</p>${href(news,'阅读新闻')}</div>
  <div class="v6-market-cell"><em>📈 趋势</em><div class="v605-mini">本地语言关键词</div><div class="v6-category-keyword-list">${keywordHTML}</div></div>
  <div class="v6-market-cell"><em>🛍️ 竞品</em><div class="v605-mini">重点观察品类</div><strong>${safe(f[2])}</strong><p>候选来源：${safe(shops.map(x=>x[0]).join('、')||'待补充')}。榜单与价格待核验。</p>${shop?href(shop[1],'查看商品'):''}</div>
- <div class="v6-market-cell"><em>🎬 广告</em><div class="v605-mini">视觉研究方向</div><strong>${safe(f[3])}</strong><p>仅为创意研究假设，真实素材、投放时间及效果尚待核验。</p>${href(ads,'查看广告')}</div>
+ <div class="v6-market-cell"><em>🎬 广告</em><div class="v605-mini">Meta 广告研究 · 竞品检索</div><p>公开广告资料库入口；素材及互动尚未采集。</p><div class="v6-ad-static">${shops.slice(0,3).map(([brand])=>'<div class="v6-live-item"><strong>'+safe(brand)+'</strong><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country='+encodeURIComponent(geo)+'&amp;q='+encodeURIComponent(brand)+'&amp;search_type=keyword_unordered">查看公开广告 ↗</a></div>').join('')}</div></div>
  </article>`);
 }
 document.querySelector('#v6-intel .v6-note').insertAdjacentElement('afterend',overview);
@@ -1625,7 +1625,7 @@ fetch('./data/market.json?ts='+Math.floor(Date.now()/1800000),{cache:'no-store'}
 const label=adCell.querySelector('.v605-mini');if(label)label.textContent='Meta 广告研究 · 公开来源';
 const old=adCell.querySelector('strong');if(old)old.remove();
 const intro=adCell.querySelector('p');if(intro)intro.remove();
-const sourceLink=adCell.querySelector('a');if(sourceLink)sourceLink.remove();
+const staticAds=adCell.querySelector('.v6-ad-static');if(staticAds)staticAds.remove();
 const brands=(v.ad_searches||[]).length?v.ad_searches:({DE:['GRAVURZEILE','CARDORI'],FR:['Cadeaux.com','YourSurprise'],ES:['Wanapix','Hofmann'],IT:['Troppotogo'],NL:['YourSurprise'],NO:['Walseng Design','PersonligGave'],SE:['Smartphoto'],FI:['Puuki','GetPersonal'],PL:['Crazyshop']}[key]||[]).map(brand=>({brand,url:'https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country='+key+'&q='+encodeURIComponent(brand)+'&search_type=keyword_unordered'}));
 const note=document.createElement('p');note.className='v6-live-summary';note.textContent='以下是竞品广告检索入口，不是已采集广告。单条素材、起投时间、公开互动及欧盟覆盖数据待核实。';adCell.appendChild(note);
 for(const b of brands.slice(0,3)){const line=document.createElement('div');line.className='v6-live-item';const title=document.createElement('strong');title.textContent=b.brand+' · 公开广告查询';line.appendChild(title);if(b.url&&safeURL(b.url)!=='#'){const link=document.createElement('a');link.href=safeURL(b.url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='打开广告资料库 ↗';line.appendChild(link)}adCell.appendChild(line)}
