@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:12:06.617181+00:00",
+  "updated_at": "2026-10-27T07:15:28.513348+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -22,12 +22,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Athen: Warum die griechische Hauptstadt plötzlich das hat, was Berlin verloren hat - WELT",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPd1Jsa3NVa2ItVFJ2YkJzWFFwVUx1M2JyMnpmX2hmNU9hN1pKLWFqa1ZVLTh4WFFEdGZPVExXWTJHZmg4Y3F2amV4Z2puMDl5bE5VQlZUUmhEYVdTLVZoeEZZY3VOMzBUWElVN0VNU0RkOXpWb3hDeEc4SXlOTmJpVHVoWlJISVh0Z0xaZ3JxLXpmWk8zR1RUNzBWU25HcUU0Vi10UEpBWlpvUFR6ZjJqbC1BTmcyR3otcHY5NzcyeHJvemFvNGZVMGJ4b003QjloMjN6dDhTaVJfRXhVRlE?oc=5",
-          "source": "WELT",
-          "published": "2026-10-27T04:15:44+00:00",
+          "title": "Streit um Enteignungen in Berlin: Immobilienriese stoppt Investitionen in Deutschland - BILD",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVFlUQWFRbldreFlJT0VESlFxWm5KcmljeXg2N2JEaWptRi01aWpyS3gxWXU3UjNaX2poYmVUN2o1S1FoVFJhVnNVMDJ1cE5mWHZZRERVQkZrb3NhQ21jXzBmSEplWFN0TVhxTEI5YXZqeVphYnNIa1Ixdi1QdVdXREs0RlgtcUlhWkYyTWpnTHJDQXVyc1JzRWVqQXRDellFaTR5TjFVVzJiYVZ1Mkl2WGJmNnpxVjF3c1dHd0J2T2daTTk4VGVxWjVLaHJ4TmItR1Zya1ltYnBlOWxJ?oc=5",
+          "source": "BILD",
+          "published": "2026-10-26T18:12:58+00:00",
           "scope": "本国热点候选",
-          "title_zh": "雅典：为何希腊首都突然拥有柏林失去的东西 - WELT",
+          "title_zh": "柏林征用纠纷：房地产巨头停止在德国投资 - BILD",
           "translation_status": "translated"
         }
       ],
@@ -624,21 +624,21 @@
     "ES": {
       "news": [
         {
-          "title": "El ex delegado del Gobierno en Madrid dimitió tras recibir una amenaza de demanda millonaria empresarial por \"inacción\" en Sol - El Mundo",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuT3hDc0hzT1MzZ3FFVTl3TENrczNRaFUwSEVIeEJPalBFTXdYT2c2S2hZTzRJWDBPS2ttbnFkQXhnWVYzY2dxdFl2RE9nU1l4WmYyRjlrTVVxX1BCS1ctbFRBdGhRMjVCMkp2MnY0dGJLOEgzUG5OM09R0gF6QVVfeXFMT056bzdKRVNYOHZWSlpMSkU0ZmxSZmNtV3oyTFJoZHp2SGticTdXdzR2cEc5Q1JyNzFGZzhENjUwcTR6eTN4VGNHV0pfV09TYVo4Q3VrZTAtRHE3Z2FZcEo0MXphbHlRa1NRaVZvZEJadzgtM0d0QlhtLUE?oc=5",
-          "source": "El Mundo",
-          "published": "2026-10-26T21:36:15+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "马德里前政府代表因在《太阳报》“不作为”而受到百万富翁公司诉讼的威胁后辞职 - El Mundo",
-          "translation_status": "translated"
-        },
-        {
           "title": "La jueza de menores riñe a los padres por la violencia de sus hijos - La Vanguardia",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2VyWHhGbDRIYTF0NG92aGxkTmFQV0E2eXBxY1RGaG1vLVZ5UGtNQ0kxY3lrNGVRQlRJQ25xMDlabjB6RTc5OGhtV1UwWTE2ajJtWGZDSG1STURadnJVemRGMnNSWDlNVlQ5b1hQczFTcndFalFrZUpXY2JwWUlkWTlycmNBanZPLXlOY1pNY2g3T2JRaXROOHZyZ0tBdWtPaXRSZDhGZWxCeTRoMGfSAbMBQVVfeXFMTURUVW5RZ1BiTEh4Nkp0WFVIRW9PT0V6dFNTTTNtcjl5Zk5zRjFSRGkyYnlSZ0U2VFJvRzNDOVhmVjl2cllCUXhJZncwVW1kNC04LWJPM2xFcFhreHROQ1dpd2puc09sMDJuc1pvcEZVaDAzQXV5S0t3czVLbmFGNFBtZEdBclF3RHFqRGFVN3RNbGhnMmh6VHZPbFdycFlQd2N4eXBxQjF0aUR2WkVzS3dNcjQ?oc=5",
           "source": "La Vanguardia",
           "published": "2026-10-27T06:23:11+00:00",
           "scope": "本国热点候选",
           "title_zh": "少年法官斥责父母对孩子施暴 - La Vanguardia",
+          "translation_status": "translated"
+        },
+        {
+          "title": "El ex delegado del Gobierno en Madrid dimitió tras recibir una amenaza de demanda millonaria empresarial por \"inacción\" en Sol - El Mundo",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuT3hDc0hzT1MzZ3FFVTl3TENrczNRaFUwSEVIeEJPalBFTXdYT2c2S2hZTzRJWDBPS2ttbnFkQXhnWVYzY2dxdFl2RE9nU1l4WmYyRjlrTVVxX1BCS1ctbFRBdGhRMjVCMkp2MnY0dGJLOEgzUG5OM09R0gF6QVVfeXFMT056bzdKRVNYOHZWSlpMSkU0ZmxSZmNtV3oyTFJoZHp2SGticTdXdzR2cEc5Q1JyNzFGZzhENjUwcTR6eTN4VGNHV0pfV09TYVo4Q3VrZTAtRHE3Z2FZcEo0MXphbHlRa1NRaVZvZEJadzgtM0d0QlhtLUE?oc=5",
+          "source": "El Mundo",
+          "published": "2026-10-26T21:36:15+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "马德里前政府代表因在《太阳报》“不作为”而受到百万富翁公司诉讼的威胁后辞职 - El Mundo",
           "translation_status": "translated"
         },
         {
@@ -680,12 +680,59 @@
           "translation_status": "translated"
         }
       ],
-      "products": [],
+      "products": [
+        {
+          "name": "Wanapix",
+          "title": "Taza de cerámica personalizada",
+          "url": "https://wanapix.es/taza-personalizada-ceramica",
+          "source": "Wanapix · 官网结构化商品数据",
+          "price": "5.95",
+          "currency": "EUR",
+          "image": "https://r.rp-static.com/r/catalog/public/8685130066b7f46978a737626498a12665dd8c41/808/desktop.webp?lang=es",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Wanapix",
+          "title": "Taza cónica personalizada",
+          "url": "https://wanapix.es/taza-conica-personalizada",
+          "source": "Wanapix · 官网结构化商品数据",
+          "price": "9.95",
+          "currency": "EUR",
+          "image": "https://r.rp-static.com/r/catalog/public/8117062eb2ffbf75717fd8464042752ed4ee815d/808/desktop.webp?lang=es",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Wanapix",
+          "title": "Taza personalizada con asa de corazón",
+          "url": "https://wanapix.es/taza-personalizada-corazon",
+          "source": "Wanapix · 官网结构化商品数据",
+          "price": "9.95",
+          "currency": "EUR",
+          "image": "https://r.rp-static.com/r/catalog/public/245be52efdf4180db5e46545b80e341e3c82de55/808/desktop.webp?lang=es",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
       "product_source_audit": [
         {
-          "brand": "Smartphoto",
-          "url": "https://www.smartphoto.es/regalos-foto/taza-personalizada",
-          "verified_count": 0
+          "brand": "Wanapix",
+          "url": "https://wanapix.es/taza-personalizada-ceramica",
+          "verified_count": 1
+        },
+        {
+          "brand": "Wanapix",
+          "url": "https://wanapix.es/taza-conica-personalizada",
+          "verified_count": 1
+        },
+        {
+          "brand": "Wanapix",
+          "url": "https://wanapix.es/taza-personalizada-corazon",
+          "verified_count": 1
         },
         {
           "brand": "Wanapix",
@@ -704,7 +751,32 @@
         }
       ],
       "ads": [],
-      "ad_searches": [],
+      "ad_searches": [
+        {
+          "brand": "Wanapix",
+          "country": "ES",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=Wanapix&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        },
+        {
+          "brand": "Wanapix",
+          "country": "ES",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=Wanapix&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        },
+        {
+          "brand": "Wanapix",
+          "country": "ES",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=Wanapix&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "待获取可核实的广告记录"
+        }
+      ],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "regalos personalizados",
       "category_signals": [
@@ -837,7 +909,7 @@
           "title": "Uànema – Festa degli altri vivi - Comune di Napoli",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZUszQnk5dW1QQUdfb19HV09WT3FmOFV0ZWdab2JIRVBBMWRtZ0hSaWd1RF9nQ2pQTkJRS0d0b0RPajlhcHVNSVZYSVgxbHZZakJNXzFaWWdNYjhEYjVqaDg2R3pmOGtiZVBROUxDS3pzM2M?oc=5",
           "source": "Comune di Napoli",
-          "published": "2026-10-26T18:29:20+00:00",
+          "published": "2026-10-27T06:23:12+00:00",
           "scope": "本国热点候选",
           "title_zh": "Uànema – 异界盛宴 - 那不勒斯市",
           "translation_status": "translated"
@@ -1065,7 +1137,7 @@
           "source": "Media Key",
           "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 提供沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -1104,30 +1176,30 @@
       ],
       "trending": [
         {
-          "title": "davy klaassen",
+          "title": "nz vs ind",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:50:00+00:00",
+          "published": "2026-10-27T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "戴维·克拉森",
+          "title_zh": "新西兰 vs 工业",
           "translation_status": "translated"
         },
         {
-          "title": "mat '64",
+          "title": "ongeluk a12",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:40:00+00:00",
+          "published": "2026-10-27T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "哑光'64",
+          "title_zh": "事故a12",
           "translation_status": "translated"
         },
         {
-          "title": "brandstof",
+          "title": "almere",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:30:00+00:00",
+          "published": "2026-10-27T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "燃料",
+          "title_zh": "阿尔梅勒",
           "translation_status": "translated"
         }
       ],
@@ -1298,21 +1370,21 @@
     "NO": {
       "news": [
         {
-          "title": "Norsk støtte til Ukraina og nabolandene - Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObl9JYjc1N3JqSE5NWjBNYXFKUmg5YzNMN1FhejdZSHJjal9VaFk2SWtXc1IwNE0xY1dVVjcyNXp3NlNab1JrbllTbklIMXotLXVoS2x3M0hZcm5SZm9HbjctSlREUVUyQlVYNHVFQ0tUYmhwOXNweTNLU3hiUTJvZ3NhS3k5dTBqMVV6ZWp3YmNITlUtTmFZ?oc=5",
-          "source": "Regjeringen.no",
-          "published": "2026-10-27T02:53:43+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "挪威对乌克兰及其邻国的支持 - Regjeringen.no",
-          "translation_status": "translated"
-        },
-        {
           "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
           "source": "Aftenposten",
           "published": "2026-10-26T11:30:33+00:00",
           "scope": "本国热点候选",
           "title_zh": "奥斯陆市中心塔吊可能即将倒塌：-整个地基已经松动 - 晚邮报",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Kran demontert etter kollaps­fare i Oslo sentrum - VG",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODctaFVBQUZ2ZmZraHp2ZEtkVlR4LUZXWVA1dWxpNkpZdEF2VTdfMWx1alNUOVItald6YVplaE9aVnQ1RHBnT2xyd09BN1l6c3EwUDBOZ2xfMnhwWFVNbmlkeWE2VHpzRHkzR29IUllWREF2ZlhtX25nOHU2OVI1STBtRXBjSnNRQU9r?oc=5",
+          "source": "VG",
+          "published": "2026-10-26T22:54:07+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "奥斯陆市中心发生倒塌危险后起重机被拆除 - VG",
           "translation_status": "translated"
         },
         {
@@ -2027,12 +2099,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Rząd zabrał się za internetowy ciucholand na Vinted i za handel na OLX. Takiej zmiany nikt się nie spodziewał - Forsal.pl",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNNnAtVnRGMGhkVmZ1S28zZWdJTzJ2Sk90dkFzVXJpMUNjelFMU2FLUTZTR3RjeDlQeHpiQTE4RVVJMHFXTlkyX1Nhb1NXaVdEaWJVc1h6aHVSaWZPQ2w3Zm9qQ29TcThyMWdrcXlHNjlzWUFPUEF3Z0tQbllfcE9uR19VcWhPSnFPNU9kLXRYazhyYk1EYVJIbG5aY21zaHp1SkE0cU5ZMVp2UFh4Si1hRktBaExoSVpfeFRxRW5sblA5SVF2OGJGQ3l4VXNqUkRaZFJvMTAtVWJaNnk3STdMLXFtdENjSUlnTUJkZ2VQUGZSSnJNbTQzT1lnLU12WHdUNHBkR1o1VVduem9jTzYweTZZQ1hZZw?oc=5",
-          "source": "Forsal.pl",
-          "published": "2026-10-27T06:09:20+00:00",
+          "title": "Lechia Gdańsk - Jagiellonia Białystok - Canal+",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbnN0MVFWSUNPNWMzU2lDSktCZVVBcGJDZEI1c1Y4eVhZVDQtcEJ0UDQtM1BhVWsxS2syaG5YY2NscWl4dXF4SEYtajlBUnRUNkRoNUROcWJTeUZnREh5bjd5Xy1oU0JSXzZ5UUJxT2dZdUxpdWVoSnNsdFZVdFFpeVhUZW40cGY5ellGNmN6aW0?oc=5",
+          "source": "Canal+",
+          "published": "2026-10-27T02:03:03+00:00",
           "scope": "本国热点候选",
-          "title_zh": "政府在 Vinted 上开设了在线服装店，并在 OLX 上进行了交易。没有人预料到会有这样的变化 - Forsal.pl",
+          "title_zh": "格但斯克莱基亚 - Jagiellonia Białystok - Canal+",
           "translation_status": "translated"
         }
       ],
@@ -2067,6 +2139,21 @@
       ],
       "products": [],
       "product_source_audit": [
+        {
+          "brand": "CEWE",
+          "url": "https://www.cewe.pl/fotoprezenty/kubek-ceramiczny-ze-zdjeciem.html",
+          "verified_count": 0
+        },
+        {
+          "brand": "CEWE",
+          "url": "https://www.cewe.pl/fotoprezenty/kubek-z-inicjalami-i-zdjeciem.html",
+          "verified_count": 0
+        },
+        {
+          "brand": "CEWE",
+          "url": "https://www.cewe.pl/fotoprezenty/kubek-magiczny-ze-zdjeciem.html",
+          "verified_count": 0
+        },
         {
           "brand": "Crazyshop",
           "url": "https://www.crazyshop.pl/kubki-termiczne%2C15164",
@@ -2184,7 +2271,7 @@
     "product_coverage": {
       "DE": 6,
       "FR": 7,
-      "ES": 0,
+      "ES": 3,
       "IT": 3,
       "NL": 3,
       "NO": 3,
@@ -2204,7 +2291,6 @@
       "PL": 0
     },
     "missing_product_countries": [
-      "ES",
       "PL"
     ]
   }
