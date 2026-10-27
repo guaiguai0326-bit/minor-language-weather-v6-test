@@ -11,6 +11,11 @@ SHOPS={'DE':[('GRAVURZEILE','https://www.gravurzeile.de/collections/bestseller')
 
 ALT_SHOPS={'FR':[('Smartphoto','https://www.smartphoto.fr/')], 'ES':[('YourSurprise','https://www.yoursurprise.es/')], 'NL':[('Smartphoto','https://www.smartphoto.nl/')], 'NO':[('Smartphoto','https://www.smartphoto.no/')], 'SE':[('YourSurprise','https://www.yoursurprise.se/')], 'PL':[('CEWE','https://www.cewe.pl/')]}
 
+# Candidate pages are public product detail pages, not fabricated products.
+# Keep a source only after its public metadata yields an actual product image.
+PRODUCT_CANDIDATES={
+ 'FR':[('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-blanc'),('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-cappuccino'),('Smartphoto','https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo')],
+}
 def readfeed(url,limit=3):
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; MarketDashboard/1.0)'})
@@ -343,7 +348,7 @@ for code,(lang,geo,term) in COUNTRIES.items():
  products=[]
  source_audit=[]
  selected=[]
- candidates=SHOPS.get(code,[])+ALT_SHOPS.get(code,[])
+ candidates=PRODUCT_CANDIDATES.get(code,[])+SHOPS.get(code,[])+ALT_SHOPS.get(code,[])
  for shop_name,landing in candidates:
   if len(products)>=6:break
   discovered=discover_retailer_cards(shop_name,landing,3)
