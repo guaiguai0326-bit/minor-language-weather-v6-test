@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Public RSS data collector. No login, scraping or fabricated scores."""
+import os
 import json, re, time, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
@@ -292,6 +293,17 @@ def category_signals(code,lang,geo):
   signals.append({'category':category,'keyword':keyword,'signal_type':'Callie商品方向候选关键词','url':explore,'source':'Callie商品方向关键词池 / Google Trends 查询入口','catalog_url':CALLIE_CATALOG_SOURCE,'note':'关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。'})
  return signals
 
+def fetch_meta_ads(brand,country):
+ token=os.environ.get('META_AD_LIBRARY_ACCESS_TOKEN','').strip()
+ if not token:return []
+ params={'access_token':token,'ad_reached_countries':json.dumps([country]),'search_terms':brand,'ad_type':'ALL','ad_active_status':'ALL','limit':3,'fields':'id,page_name,ad_delivery_start_time,ad_snapshot_url,ad_creative_bodies,ad_creative_link_titles'}
+ try:
+  req=urllib.request.Request('https://graph.facebook.com/v22.0/ads_archive?'+urllib.parse.urlencode(params),headers={'User-Agent':'MarketResearch/1.0'})
+  with urllib.request.urlopen(req,timeout=12) as resp:payload=json.load(resp)
+  return [{'id':str(x.get('id','')),'title':x.get('page_name',brand),'brand':brand,'url':x['ad_snapshot_url'],'source':'Meta Ad Library','description':(x.get('ad_creative_bodies') or [''])[0],'started_at':x.get('ad_delivery_start_time',''),'record_type':'verified_ad','media_status':'官方快照可查看素材，媒体文件未直接获取'} for x in payload.get('data',[]) if str(x.get('ad_snapshot_url','')).startswith('https://')]
+ except Exception as exc:
+  print('Meta API unavailable:',country,brand,str(exc)[:140]);return []
+
 previous={}
 path=ROOT/'data/market.json'
 if path.exists():
@@ -370,10 +382,13 @@ for code,(lang,geo,term) in COUNTRIES.items():
  for brand,landing in selected:
   query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':brand,'search_type':'keyword_unordered'})
   ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'待获取可核实的广告记录'})
- result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'product_source_audit':source_audit,'ads':[],'ad_searches':ad_searches,'ad_data_status':'Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字','gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
+ real_ads=[]
+ if os.environ.get('META_AD_LIBRARY_ACCESS_TOKEN'):
+  for brand,_ in selected[:2]:real_ads.extend(fetch_meta_ads(brand,geo))
+ result['countries'][code]={'news':newsitems,'trending':trenditems,'products':products,'product_source_audit':source_audit,'ads':real_ads,'ad_searches':ad_searches,'ad_data_status':('已获取官方广告记录' if real_ads else '暂无可核实广告记录；官方接口需要授权'),'gift_keyword':term,'category_signals':category_signals(code,lang,geo),'gift_signals':gift_signals,'gift_signal_method':'Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量','news_method':'综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国'}
  verified_count=sum(bool(p.get('verified_public_product') and p.get('image')) for p in products)
  result['quality']['product_coverage'][code]=verified_count
- result['quality']['ad_coverage'][code]=0
+ result['quality']['ad_coverage'][code]=len(real_ads)
  if not verified_count:result['quality']['missing_product_countries'].append(code)
  print(code,'news',len(newsitems),'trends',len(trenditems),'verified_products',verified_count,'ad_records',0)
 path.parent.mkdir(exist_ok=True)
