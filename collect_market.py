@@ -15,6 +15,7 @@ ALT_SHOPS={'FR':[('Smartphoto','https://www.smartphoto.fr/')], 'ES':[('YourSurpr
 # Keep a source only after its public metadata yields an actual product image.
 PRODUCT_CANDIDATES={
  'FR':[('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-couleurs'),('YourSurprise','https://www.yoursurprise.fr/vases-a-boire/mug-personnalise'),('Smartphoto','https://www.smartphoto.fr/cadeaux-photo/mug-personnalise-photo')],
+ 'ES':[('Smartphoto','https://www.smartphoto.es/regalos-foto/taza-personalizada')],
  'NL':[('Smartphoto','https://www.smartphoto.nl/fotocadeaus/mok-met-foto')],
  'NO':[('Smartphoto','https://www.smartphoto.no/fotogaver/krus')],
 }
