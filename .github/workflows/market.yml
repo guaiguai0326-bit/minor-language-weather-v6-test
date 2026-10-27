@@ -23,6 +23,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Collect market feeds and translations
+        env:
+          META_AD_LIBRARY_ACCESS_TOKEN: ${{ secrets.META_AD_LIBRARY_ACCESS_TOKEN }}
         run: python collect_market.py
       - name: Commit fresh data if changed
         run: |
