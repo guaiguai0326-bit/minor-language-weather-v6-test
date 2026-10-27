@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:38:36.548003+00:00",
+  "updated_at": "2026-10-27T06:44:18.715708+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -33,30 +33,30 @@
       ],
       "trending": [
         {
+          "title": "wipshausen",
+          "url": "https://trends.google.com/trending/rss?geo=DE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "维普斯豪森",
+          "translation_status": "translated"
+        },
+        {
+          "title": "mercedes-benz c-klasse",
+          "url": "https://trends.google.com/trending/rss?geo=DE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "梅赛德斯-奔驰C级",
+          "translation_status": "translated"
+        },
+        {
           "title": "nz vs ind",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
           "published": "2026-10-27T06:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "新西兰 vs 工业",
-          "translation_status": "translated"
-        },
-        {
-          "title": "bvg",
-          "url": "https://trends.google.com/trending/rss?geo=DE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:10:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "der farang",
-          "url": "https://trends.google.com/trending/rss?geo=DE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:10:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "外国人",
           "translation_status": "translated"
         }
       ],
@@ -86,6 +86,18 @@
           "selection_basis": "官网热销/推荐栏目"
         },
         {
+          "name": "GRAVURZEILE",
+          "title": "Emaille Tasse für Kinder - Personalisiert mit Namen & 8 liebevollen Motiven",
+          "url": "https://www.gravurzeile.de/products/emaille-tasse-fur-kinder-personalisiert-mit-namen-8-liebevollen-motiven",
+          "source": "GRAVURZEILE · 官网结构化商品数据",
+          "price": "12.9",
+          "currency": "EUR",
+          "image": "https://www.gravurzeile.de/cdn/shop/files/01_Emaille_Tasse_Einhorn.jpg?v=1742054029&width=1200",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网热销/推荐栏目"
+        },
+        {
           "name": "CARDORI",
           "title": "Personalisierter Armreif mit Gravur - Silber / Normal / 4mm",
           "url": "https://cardori.de/products/personalisierter-armreif-mit-gravur-1",
@@ -108,6 +120,30 @@
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网热销/推荐栏目"
+        },
+        {
+          "name": "CARDORI",
+          "title": "ID Armband Big mit Gravur - Silber",
+          "url": "https://cardori.de/products/id-armband-big-mit-gravur",
+          "source": "CARDORI · 官网结构化商品数据",
+          "price": "19.90",
+          "currency": "EUR",
+          "image": "https://cardori.de/cdn/shop/files/FRE_16.png?v=1789153637&width=1920",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网热销/推荐栏目"
+        }
+      ],
+      "product_source_audit": [
+        {
+          "brand": "GRAVURZEILE",
+          "url": "https://www.gravurzeile.de/collections/bestseller",
+          "verified_count": 3
+        },
+        {
+          "brand": "CARDORI",
+          "url": "https://cardori.de/collections/bestseller",
+          "verified_count": 3
         }
       ],
       "ads": [],
@@ -223,35 +259,7 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [
-        {
-          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-10-19T16:09:18+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
-          "source": "iphone-ticker.de",
-          "published": "2026-10-19T12:31:52+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Kulmbach: Jetzt schließt auch das \"Ideenreich\" - Fränkischer Tag",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckk0ZGd2cmlGbmZyYUhhM1VuSWJVNkFzNkZPNjFQOEJTRUp0YUJodmJkdlU3OVpRMUNoMkhsVURQNTJKeEJDNzZNQnlMVEdOdEZBbmlfV0ZfRkx3aEtaSm1qcTRTa2V0a0RORTdnUWtNeFhSNnFubHI3amRBWFMxTjY2NzY3UFRPUFdIMWNkUWlPWmZYaEgzcG9tRkp6NmFmdXlrYkV3MzVhamJXRkRJbXh1cVdJTDVpLVdBNnNB?oc=5",
-          "source": "Fränkischer Tag",
-          "published": "2026-10-23T17:00:00+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "库姆巴赫：现在“Ideenreich”——法兰克日也即将结束",
-          "translation_status": "translated"
-        }
-      ],
+      "gift_signals": [],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
@@ -287,6 +295,24 @@
       ],
       "trending": [
         {
+          "title": "aukus",
+          "url": "https://trends.google.com/trending/rss?geo=FR",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "奥库斯",
+          "translation_status": "translated"
+        },
+        {
+          "title": "israel",
+          "url": "https://trends.google.com/trending/rss?geo=FR",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "以色列",
+          "translation_status": "translated"
+        },
+        {
           "title": "nice-matin",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
@@ -294,63 +320,28 @@
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "早上好",
           "translation_status": "translated"
-        },
-        {
-          "title": "mulhouse",
-          "url": "https://trends.google.com/trending/rss?geo=FR",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "米卢斯",
-          "translation_status": "translated"
-        },
-        {
-          "title": "meilleur entraineur ballon d or",
-          "url": "https://trends.google.com/trending/rss?geo=FR",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "最佳金球教练",
-          "translation_status": "translated"
         }
       ],
-      "products": [
-        {
-          "name": "Cadeaux.com",
-          "title": "Cadeaux.com · 公开商品页面",
-          "url": "https://www.cadeaux.com/meilleures-ventes",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
-        },
-        {
-          "name": "YourSurprise",
-          "title": "YourSurprise · 公开商品页面",
-          "url": "https://www.yoursurprise.fr/bestsellers",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
-        }
-      ],
-      "ads": [],
-      "ad_searches": [
+      "products": [],
+      "product_source_audit": [
         {
           "brand": "Cadeaux.com",
-          "country": "FR",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=Cadeaux.com&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
+          "url": "https://www.cadeaux.com/meilleures-ventes",
+          "verified_count": 0
         },
         {
           "brand": "YourSurprise",
-          "country": "FR",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=YourSurprise&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
+          "url": "https://www.yoursurprise.fr/bestsellers",
+          "verified_count": 0
+        },
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.fr/",
+          "verified_count": 0
         }
       ],
+      "ads": [],
+      "ad_searches": [],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "cadeau personnalisé",
       "category_signals": [
@@ -489,21 +480,21 @@
           "translation_status": "translated"
         },
         {
-          "title": "Feijóo hace de los disturbios de Barcelona uno de los ejes de su campaña contra Sánchez - EL PAÍS",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbWM4Q0ZSWnN3azNDZDRTeTZhTFpidVVzbF9DN0t0MDQ0NVA0NVpwMVFMWnBpSGU1cnU4MkhBa0R4R190dG9HUzFaaGJVdklZNmdDd1dlZFVWY0xjcWRpUzdrU3pOR3V4Nndaak0zZDRNYUs4Yko3SlNOZU5fd3lYVjNaWWhnamRGc1lQZl96LXhJV1VWcFRVblBhYU5xVG1UVzZrMkR1Z0ZNUUZKcTRLNmFzZWtINHFxVDdWaGtPRWpseXlXNEFnMVI0R1o2T0JibW5YWHVDb3NxcVNlQUk1NTNxbVfSAfgBQVVfeXFMT0ZMb3M2WmFxUFJLOFEyZGVBTUc1czhOX3RHb0c1bzBlcFBTaGZZQXBHLTZONlMzRENQaTJ0VjREd2tFM1dOSFRKVEF0MGRYRDJZMWc4Si04X1FjX0p6MlZMMzlkdkhIcE5lWnpJR1NuOG91UmdFUkJka3NZNFVySFY3UVpZRmhQMnFnVEJrd2w1eGRsZUl0eVE0UGlvMzdBVU0xeFBQSDJOOHJKM0JZRUgtOE5McWNGSEpiVXBRdFhVWEtiRlZCenlyMmVzYlBVZDFIVEVFVm9TalNsSXFXMkRUN3dxbll1T0pUanBpR3A2bDc0Z3hWNEY?oc=5",
+          "title": "El Real Madrid es un relámpago: 14 segundos por posesión y 15 triples por partido - EL PAÍS",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGtMMmdZNk1BN1hLWlJnTjlJRHhYdU05QmNzTzZYOWR0RzRDWDBkSmxiR0g0ZzVPalJVbzQ4SkxBLTZpV2laekcwc1RXcUgwa1R3bHRLcGtHYXZCeGFpNnlZbkVSY25BSzZfbi0tMjJWNXZSV3BYcUdNU1ZXeWlrbmlscnRsOHhMQVkwNUVSVjhQYU5xMUI3MzZMblJYUm03NHhJVkpjQ2JDUk9IUHlQOUc5dzYzMEV4TDdRNkNLbnQxTl81eDNmeFhGN3RsMThW0gHkAUFVX3lxTE9mMzctZ0hnVGJtUllSaXBySFpLa2d5Z3JGcklTZFZZWWxjc29PUnk4dk9PRnY3R3lwbmctbEFPeTNBSE9yajgxNzg4ZTZhU2gzUDRhSzFUem1yUEpldG5QSVB6d25pMTlRZXBua09TMnhlOHFvQWtxRmpmWHZrd241NjlrbWM0V2ZWaDJXZUp5V2ZJNW03bkszTXcybnhha1Y3U2dkX1RRN25CUHhPMWg2amMydTk1NGVkSS0taUwza1h0cFN0Y1lJR1ZHdTBVUG56MTItOGNMRE1OZmI5a0d5UDFsNw?oc=5",
           "source": "EL PAÍS",
           "published": "2026-10-27T04:30:01+00:00",
           "scope": "本国热点候选",
-          "title_zh": "费乔将巴塞罗那骚乱作为他反对桑切斯的轴心之一 - 国家报",
+          "title_zh": "皇马闪电般：每次控球时间 14 秒，场均 15 个三垒安打 - 西班牙国家队",
           "translation_status": "translated"
         },
         {
-          "title": "Los ocho años de Colau en Barcelona: cronología de una promesa de vivienda que chocó con la realidad - Idealista",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQR3hnQTJNOFJUU3Y4X3pUdm0wTEZkRzhDanRudmhhTGN6Yml2b1NwS0ZUQ0dyMThCU1JES3o2V2dTbGVMdlFmcEJsM1lYZVFWM2hJbU1jd0E5N29rOGdhLWVLb1poWVE3THBnd1RBNWIyRThCU2hxT2dybUxSU3pMRE13ZTRyeWw1bGNpbVVRRWZFQVMtZFFySmJaYXB1NHhyWlBpQ1dlOUdXNFVVR0dGcUloMFVxLUsyY0VTS09rZmNZWldaT3o4dFJBeEd1SlZrUndRbUxBOGtyeEJZRFVuYWNOTnk3S0VrZXfSAe8BQVVfeXFMTksyMk1Bay00UHpZLXdlRXpFMDFhQ0hCdGhraWFSRHRPZGp3M09SX3UxWk5ZMEtKVmFBczhNZ2drTkd5a3FhS3lCWml0QkxUZmtvTDBIRXNlTGFHbnJsaXAzaXM0dzEzenpSVDlJbklzUHY4RnV0N1ZXLUNUNF9XUkJnMmFGTHVUVTlkMkVqSmMzMllYd1BSRjFOa2Y0aE9YZF9hZTF2d3FJU05QazZSb2ppYjN0ZE9DSVdNR0tOZDZoN2VNS25TZ2xUbTBTLTZZendqMDM2d1RNTjNTMWExb3dzUVZaVEZXV0kwcWJzSlk?oc=5",
-          "source": "Idealista",
-          "published": "2026-10-27T05:00:01+00:00",
+          "title": "De las redes a la calle: qué es Blocus y cómo se alientan los disturbios en Barcelona y el resto de Europa - RTVE.es",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUlOaHk5T2xGOUtaREozV2NwWUcxSjRDZ3NCSENTVmRBRlhYdnlvX0VQcHZibWFGa1l0d0VMX2tfbG1UTkhKSkdQYWY2emdUR1MxOXNWZy13cndEWWFtNXRxR0xBM3hhZ2p4cmU5REhoXzhKY3RxXzgzQVpCV2tORjZHV29uR2tjYy1oYmMwTGI2Y1FfbU9Rc3V5MWpmVGIwNTBZTkkyM2RRVVBYU2NNRFlWeE1icHdVNWlWdUlqUzVwUQ?oc=5",
+          "source": "RTVE.es",
+          "published": "2026-10-26T17:45:26+00:00",
           "scope": "本国热点候选",
-          "title_zh": "科劳在巴塞罗那的八年：住房承诺与现实相冲突的年表 - Idealista",
+          "title_zh": "从网络到街头：Blocus 是什么以及如何在巴塞罗那和欧洲其他地区鼓励骚乱 - RTVE.es",
           "translation_status": "translated"
         }
       ],
@@ -536,43 +527,26 @@
           "translation_status": "translated"
         }
       ],
-      "products": [
-        {
-          "name": "Wanapix",
-          "title": "Wanapix · 公开商品页面",
-          "url": "https://wanapix.es/",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
-        },
-        {
-          "name": "Hofmann",
-          "title": "Hofmann · 公开商品页面",
-          "url": "https://www.hofmann.es/tienda/regalos",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
-        }
-      ],
-      "ads": [],
-      "ad_searches": [
+      "products": [],
+      "product_source_audit": [
         {
           "brand": "Wanapix",
-          "country": "ES",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=Wanapix&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
+          "url": "https://wanapix.es/",
+          "verified_count": 0
         },
         {
           "brand": "Hofmann",
-          "country": "ES",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=Hofmann&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
+          "url": "https://www.hofmann.es/tienda/regalos",
+          "verified_count": 0
+        },
+        {
+          "brand": "YourSurprise",
+          "url": "https://www.yoursurprise.es/",
+          "verified_count": 0
         }
       ],
+      "ads": [],
+      "ad_searches": [],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "regalos personalizados",
       "category_signals": [
@@ -702,6 +676,15 @@
     "IT": {
       "news": [
         {
+          "title": "Uànema – Festa degli altri vivi - Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZUszQnk5dW1QQUdfb19HV09WT3FmOFV0ZWdab2JIRVBBMWRtZ0hSaWd1RF9nQ2pQTkJRS0d0b0RPajlhcHVNSVZYSVgxbHZZakJNXzFaWWdNYjhEYjVqaDg2R3pmOGtiZVBROUxDS3pzM2M?oc=5",
+          "source": "Comune di Napoli",
+          "published": "2026-10-26T18:29:20+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "Uànema – 异界盛宴 - 那不勒斯市",
+          "translation_status": "translated"
+        },
+        {
           "title": "Palazzo Salerno- Lancellotti a Casalnuovo di Napoli - Il portale delle Prefetture",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVlJKbGxmTXM2QW0tajhtejNfMldOOUhSbmMxT1JuV2tERE5TT01vZ2ZIdlB6M0c3b3p1d194d3hpTV9yZEV5S3dhdC1WN21ldFJmX1dOd09RcjNqWk51R1Q3SVhTbkoyMkJvN2tBSTNfSlk5Z0dJUE1XS29HZng1clRfZUtDaUprTnBzYmotYzBmYUl3M0JjU2xteDdkanNLRmxqRzVIUE1yZ2Vn?oc=5",
           "source": "Il portale delle Prefetture",
@@ -718,25 +701,25 @@
           "scope": "本国热点候选",
           "title_zh": "明天12点的部长会议将推出“2027演习”文本。桌面上有哪些措施 - Sky TG24",
           "translation_status": "translated"
-        },
-        {
-          "title": "I favoriti, i partiti arabi e ultraortodossi, il governo di unità nazionale: domande e risposte sul voto in Israele - Avvenire",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5WmxxXzlERDZvYjd2Z2Z1dEVGV0gtNzJNN2R4V2ozNGd2Y1BGSjBia3A4VVAzNC1lRDA1ZWpLSkUtNzM2cWJ2ek1tRHFudHh6ZXRNVXpuMUs0R3FCSy1TU1NnQklBNS0xV044U2c4bnBENWJNdGc?oc=5",
-          "source": "Avvenire",
-          "published": "2026-10-27T06:00:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "最受青睐的阿拉伯和极端正统政党、民族团结政府：关于以色列投票的问答 - Avvenire",
-          "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "sciopero aerei 30 ottobre 2026",
+          "title": "rockets - hawks",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
+          "published": "2026-10-27T06:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "2026 年 10 月 30 日空袭",
+          "title_zh": "火箭 - 老鹰",
+          "translation_status": "translated"
+        },
+        {
+          "title": "sassuolo lazio",
+          "url": "https://trends.google.com/trending/rss?geo=IT",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "萨索洛 拉齐奥",
           "translation_status": "translated"
         },
         {
@@ -746,15 +729,6 @@
           "published": "2026-10-27T06:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "新西兰 vs 工业",
-          "translation_status": "translated"
-        },
-        {
-          "title": "venezia football club",
-          "url": "https://trends.google.com/trending/rss?geo=IT",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "威尼斯足球俱乐部",
           "translation_status": "translated"
         }
       ],
@@ -769,7 +743,7 @@
           "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/p/e/personalisierbarer-bierkrug-mit-logo-und-gesicht-foto-vorher-nachher-stefan-01_de_v2.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
-          "selection_basis": "官网商品或分类页（未验证热销排名）"
+          "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Troppotogo",
@@ -781,7 +755,26 @@
           "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/f/d/fdfaxt_new.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
-          "selection_basis": "官网商品或分类页（未验证热销排名）"
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Troppotogo",
+          "title": "Boccale da Birra Personalizzato con Logo e 4 Volti",
+          "url": "https://www.troppotogo.it/boccale-da-birra-personalizzato-con-logo-e-4-volti",
+          "source": "Troppotogo · 官网结构化商品数据",
+          "price": "24.99",
+          "currency": "EUR",
+          "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/i/c/ichnusa_1200x1200px_v3_1.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
+      "product_source_audit": [
+        {
+          "brand": "Troppotogo",
+          "url": "https://www.troppotogo.it/regali-personalizzati",
+          "verified_count": 3
         }
       ],
       "ads": [],
@@ -909,12 +902,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Milano, assessore Guidesi domani a nuovo appuntamento del Distretto Unico della Manifattura del Nord - Gazzetta dell'Emilia & Dintorni",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZHBtTjhWVnYyU2RINXZWV1Zpa1lFWF9mNElfenY3OHQzWjZBRHhZckljWkt1REVCT0FuVHFmUUtPZU43V1FFUWVRVUZWWE81RDZzNlZLTXpOS29OR1dtSUNPMEZOWXBMQ3V5X2xhNlpvRVE3bzhJRThERl9fUk51UFVtWEl5NmNtcnlJcU9iZW5RUE9NdnBsS0x1dTdoMkJ0N18yOEFxVU8zck5zbktXVTN1X2ZrN054a3hBVHNaTDkwRFB3NFo3dEZxSm1wN3ljYnFyUHBQclB2eTFSSWxiWFZocEIwb0Yza01jOG5wZzEzbE1BeWRLQ1RLQUtPdEpSMjFyTlA3ei0xTFEtcm9XWFFB?oc=5",
-          "source": "Gazzetta dell'Emilia & Dintorni",
-          "published": "2026-10-23T04:15:00+00:00",
+          "title": "Dailymotion Business presenta RAY con una cena immersiva e personalizzata a Parigi - Media Key",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHZna3JSYVM1Z04tRFI1NlY4dWhmd0Y5ZVlpc2M1bE4yRmRyNzl4eVJoU3dIazdTTnRnOXNteVk1emxUa2VHUlppUG13eVpmRmVieWNZdEkyU1hDX3k5Zy11MnA0S3MyYkhHb3o1cUlPc05kdTlSRDVkTXVCR0JOSFVBcC1zT09LSkZYNkMyaEtSVkl2T2FCWWViVkdKV1RiRWt2OUU4NkVPdzdS?oc=5",
+          "source": "Media Key",
+          "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "米兰，Guidesi 议员明天将出席北方制造业单一区新会议 - Gazzetta dell'Emilia & Dintorni",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 举办一场沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -942,16 +935,34 @@
           "translation_status": "translated"
         },
         {
-          "title": "Grote tak valt op twee geparkeerde voertuigen in Den Haag - Rodi.nl",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSTAyZEV6bF9aay0yeU9XYlpIUERISldEZWpxOWtZXzBBN0gxSWpabnRkLU95MVdONzRLMk0ycjI4NEc3Z21lQWlsOUhIT09qN2tOT1Zwak5vZi1fTnRWNTZYZUx1cnp2Q2t2THdkR3NMZGdPMUFxYnRvaGo4UnN3Z3FBcTJtakdSOU9qaGVrR1Q4WXViLVFzcmxNSWZ0b2FTSE9WWG53?oc=5",
-          "source": "Rodi.nl",
-          "published": "2026-10-27T06:17:54+00:00",
+          "title": "Jonge boeren dreigen stikstofoverleg te verlaten: waarschuwingsschot richting kabinet - De Telegraaf",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMF9mVUFfb0hmLXFjMzA1UWhyQ3d4cW1DbVZidXRwRVQxUjNWanVOS0NrZ1VtemhyQm93dzRCRTZQUmt1VXI2NmRmNlNyS1dDSW53aDBoNzRZVTZVWjNVQU5MOE44LVp3aERhUjRGWEN0SGh5OWdLUzh0REhBdmdib2xKSDlBZU1JaTdBQU13RF9MNjIyRFp1VFRHdVZMYWp4TXVQM0ZLdGtHSEthZUMzU0dMOEpjX0g2NkpQNEZwNFZhRVM3WU5OUm9VWm9RUQ?oc=5",
+          "source": "De Telegraaf",
+          "published": "2026-10-27T02:00:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "海牙的两辆停放的车辆上掉下一根大树枝 - Rodi.nl",
+          "title_zh": "年轻农民威胁退出氮咨询：向内阁发出警告 - De Telegraaf",
           "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "brandstof",
+          "url": "https://trends.google.com/trending/rss?geo=NL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "燃料",
+          "translation_status": "translated"
+        },
+        {
+          "title": "hogedrukgebied",
+          "url": "https://trends.google.com/trending/rss?geo=NL",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:30:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "高压区",
+          "translation_status": "translated"
+        },
         {
           "title": "bitcoin koers",
           "url": "https://trends.google.com/trending/rss?geo=NL",
@@ -960,47 +971,23 @@
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "比特币汇率",
           "translation_status": "translated"
-        },
-        {
-          "title": "quote 500 lijst 2026",
-          "url": "https://trends.google.com/trending/rss?geo=NL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:00:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "2026 年报价 500 强名单",
-          "translation_status": "translated"
-        },
-        {
-          "title": "dierenverzorger",
-          "url": "https://trends.google.com/trending/rss?geo=NL",
-          "source": "trends.google.com",
-          "published": "2026-10-27T06:00:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "动物园管理员",
-          "translation_status": "translated"
         }
       ],
-      "products": [
+      "products": [],
+      "product_source_audit": [
         {
-          "name": "YourSurprise",
-          "title": "YourSurprise · 公开商品页面",
+          "brand": "YourSurprise",
           "url": "https://www.yoursurprise.nl/bestsellers",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
+          "verified_count": 0
+        },
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.nl/",
+          "verified_count": 0
         }
       ],
       "ads": [],
-      "ad_searches": [
-        {
-          "brand": "YourSurprise",
-          "country": "NL",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NL&q=YourSurprise&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
-        }
-      ],
+      "ad_searches": [],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "gepersonaliseerd cadeau",
       "category_signals": [
@@ -1102,21 +1089,21 @@
     "NO": {
       "news": [
         {
-          "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
-          "source": "Aftenposten",
-          "published": "2026-10-26T11:30:33+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "奥斯陆市中心塔吊可能即将倒塌：-整个地基已经松动 - 晚邮报",
-          "translation_status": "translated"
-        },
-        {
           "title": "Kran demontert etter kollaps­fare i Oslo sentrum - VG",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODctaFVBQUZ2ZmZraHp2ZEtkVlR4LUZXWVA1dWxpNkpZdEF2VTdfMWx1alNUOVItald6YVplaE9aVnQ1RHBnT2xyd09BN1l6c3EwUDBOZ2xfMnhwWFVNbmlkeWE2VHpzRHkzR29IUllWREF2ZlhtX25nOHU2OVI1STBtRXBjSnNRQU9r?oc=5",
           "source": "VG",
           "published": "2026-10-26T22:54:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "奥斯陆市中心发生倒塌危险后起重机被拆除 - VG",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Tårnkran kan være i ferd med å kollapse i Oslo sentrum: – Hele fundamentet har løsnet - Aftenposten",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFNUR21BaHVKLVl3eHdvSjEwRXZNZTJXaUFNdk8yUHIxcjFrWnpJTEhyWTdaRTl3dXBrVE80d2dqaUM2OGtSQjNLQVVuTTVYRFhXWDhVU04wWUdyNUdqbTViVGNUTkMxalpsazVPZWNYUGJESzdvQzVBa3JBR3pldXp3SE9yN1ZWcl9fdEhIZFFJVERiYmlBRFMwNlpzaUZhVEtJTlJpSmdzRlJXN1FndE5ocjlUOFdLZ2VvLUFzcXJOZjJoWkE?oc=5",
+          "source": "Aftenposten",
+          "published": "2026-10-26T11:30:33+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "奥斯陆市中心塔吊可能即将倒塌：-整个地基已经松动 - 晚邮报",
           "translation_status": "translated"
         },
         {
@@ -1158,43 +1145,26 @@
           "translation_status": "translated"
         }
       ],
-      "products": [
-        {
-          "name": "Walseng Design",
-          "title": "Walseng Design · 公开商品页面",
-          "url": "https://www.walseng.no/nettbutikk/",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
-        },
-        {
-          "name": "PersonligGave",
-          "title": "PersonligGave · 公开商品页面",
-          "url": "https://personliggave.com/",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
-        }
-      ],
-      "ads": [],
-      "ad_searches": [
+      "products": [],
+      "product_source_audit": [
         {
           "brand": "Walseng Design",
-          "country": "NO",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NO&q=Walseng+Design&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
+          "url": "https://www.walseng.no/nettbutikk/",
+          "verified_count": 0
         },
         {
           "brand": "PersonligGave",
-          "country": "NO",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NO&q=PersonligGave&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
+          "url": "https://personliggave.com/",
+          "verified_count": 0
+        },
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.no/",
+          "verified_count": 0
         }
       ],
+      "ads": [],
+      "ad_searches": [],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "personlig gave",
       "category_signals": [
@@ -1344,6 +1314,15 @@
       ],
       "trending": [
         {
+          "title": "när är black friday",
+          "url": "https://trends.google.com/trending/rss?geo=SE",
+          "source": "trends.google.com",
+          "published": "2026-10-27T06:20:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "黑色星期五是什么时候",
+          "translation_status": "translated"
+        },
+        {
           "title": "läkare",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
@@ -1360,15 +1339,6 @@
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "2026 年黑色星期五",
           "translation_status": "translated"
-        },
-        {
-          "title": "ebola",
-          "url": "https://trends.google.com/trending/rss?geo=SE",
-          "source": "trends.google.com",
-          "published": "2026-10-27T05:10:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "埃博拉",
-          "translation_status": "translated"
         }
       ],
       "products": [
@@ -1382,7 +1352,7 @@
           "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/mugpattern/tileimage/image/mugpattern-recommendation.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
-          "selection_basis": "官网商品或分类页（未验证热销排名）"
+          "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Smartphoto",
@@ -1394,7 +1364,31 @@
           "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblack/tileimage/image/coloredmugblack-recommendation.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
-          "selection_basis": "官网商品或分类页（未验证热销排名）"
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Smartphoto",
+          "title": "Mugg med färg Blå",
+          "url": "https://www.smartphoto.se/fotopresenter/mugg?pvc=coloredmugblue",
+          "source": "Smartphoto · 官网结构化商品数据",
+          "price": "129",
+          "currency": "SEK",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/coloredmugblue/tileimage/image/coloredmugblue-recommendation.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
+      "product_source_audit": [
+        {
+          "brand": "Smartphoto",
+          "url": "https://www.smartphoto.se/fotopresenter/mugg",
+          "verified_count": 3
+        },
+        {
+          "brand": "YourSurprise",
+          "url": "https://www.yoursurprise.se/",
+          "verified_count": 0
         }
       ],
       "ads": [],
@@ -1522,12 +1516,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Bästa berlocker och hängen 2026 – test, recension & trender - testix.se",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9leUxIbllET3pqQjJnMTVwTjJSSHBURWoyZEVjX2VWNmRLZDgzdS11bk00LWNpdHVERVZ1RkRVREdaU0pwT05MZjFsMm1tNXl1SmlUbkhn?oc=5",
+          "title": "Muggburk bäst i test 2026 – jämför muggburkar för köket - testix.se",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1NaVVUZGtRV1U2ZE4yY1pMZEt0dEVnOHUxMkk1ZjF1SkZHWE9PbzkxcmR4NmlhNWlLRVphM1gwTlBPNTl0SFE?oc=5",
           "source": "testix.se",
-          "published": "2026-10-16T12:49:06+00:00",
+          "published": "2026-10-16T07:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "2026 年最佳吊坠和吊坠 - 测试、回顾和趋势 - testix.se",
+          "title_zh": "2026 年测试中最佳马克杯 - 比较厨房马克杯 - testix.se",
           "translation_status": "translated"
         }
       ],
@@ -1604,7 +1598,7 @@
           "image": "https://www.puuki.fi/cdn/shop/files/IMG_2429-scaled.jpg?v=1750577901&width=1920",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
-          "selection_basis": "官网商品或分类页（未验证热销排名）"
+          "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Puuki",
@@ -1616,15 +1610,31 @@
           "image": "https://www.puuki.fi/cdn/shop/files/Mittaedesta.png?v=1759060640&width=1920",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
-          "selection_basis": "官网商品或分类页（未验证热销排名）"
+          "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
-          "name": "GetPersonal",
-          "title": "GetPersonal · 公开商品页面",
+          "name": "Puuki",
+          "title": "Olet rakas -kortti",
+          "url": "https://www.puuki.fi/products/olet-rakas-kortti",
+          "source": "Puuki · 官网结构化商品数据",
+          "price": "8.00",
+          "currency": "EUR",
+          "image": "https://www.puuki.fi/cdn/shop/files/IMG_2728-scaled.jpg?v=1750578058&width=1920",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        }
+      ],
+      "product_source_audit": [
+        {
+          "brand": "Puuki",
+          "url": "https://www.puuki.fi/pages/personoitu-lahja-isalle",
+          "verified_count": 3
+        },
+        {
+          "brand": "GetPersonal",
           "url": "https://www.getpersonal.fi/",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
+          "verified_count": 0
         }
       ],
       "ads": [],
@@ -1633,14 +1643,6 @@
           "brand": "Puuki",
           "country": "FI",
           "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FI&q=Puuki&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
-        },
-        {
-          "brand": "GetPersonal",
-          "country": "FI",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FI&q=GetPersonal&search_type=keyword_unordered",
           "source": "Meta Ad Library",
           "record_type": "search_link",
           "status": "待获取可核实的广告记录"
@@ -1756,12 +1758,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Nowa struktura Urzędu Miasta Krakowa - Magiczny Kraków",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXcyXzhTSTByVTlNTWVGaHM2cGxST2lPVTcyb2poUk1FTjkxY0ljN2llZUlFT18wVDh2VHlKT1V0dkdhbE1Qd0hfcVBTSTlvSmh5QkRYRVJUZ0Z5dXF6VVp6dURWLWpHbzlGb20za0EzVWR4dUpfSTNOOU1fT3dRZTc2MHNCQkE2bS15N2JGSW1HdDMzbWc?oc=5",
-          "source": "Magiczny Kraków",
-          "published": "2026-10-26T14:25:02+00:00",
+          "title": "Rząd zabrał się za internetowy ciucholand na Vinted i za handel na OLX. Takiej zmiany nikt się nie spodziewał - Forsal.pl",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNNnAtVnRGMGhkVmZ1S28zZWdJTzJ2Sk90dkFzVXJpMUNjelFMU2FLUTZTR3RjeDlQeHpiQTE4RVVJMHFXTlkyX1Nhb1NXaVdEaWJVc1h6aHVSaWZPQ2w3Zm9qQ29TcThyMWdrcXlHNjlzWUFPUEF3Z0tQbllfcE9uR19VcWhPSnFPNU9kLXRYazhyYk1EYVJIbG5aY21zaHp1SkE0cU5ZMVp2UFh4Si1hRktBaExoSVpfeFRxRW5sblA5SVF2OGJGQ3l4VXNqUkRaZFJvMTAtVWJaNnk3STdMLXFtdENjSUlnTUJkZ2VQUGZSSnJNbTQzT1lnLU12WHdUNHBkR1o1VVduem9jTzYweTZZQ1hZZw?oc=5",
+          "source": "Forsal.pl",
+          "published": "2026-10-27T06:09:20+00:00",
           "scope": "本国热点候选",
-          "title_zh": "克拉科夫市政厅的新结构 - Magic Krakow",
+          "title_zh": "政府在 Vinted 上开设了在线服装店，并在 OLX 上进行了交易。没有人预料到会有这样的变化 - Forsal.pl",
           "translation_status": "translated"
         },
         {
@@ -1803,27 +1805,21 @@
           "translation_status": "translated"
         }
       ],
-      "products": [
+      "products": [],
+      "product_source_audit": [
         {
-          "name": "Crazyshop",
-          "title": "Crazyshop · 公开商品页面",
+          "brand": "Crazyshop",
           "url": "https://www.crazyshop.pl/kubki-termiczne%2C15164",
-          "source": "竞品官网",
-          "summary": "尚未采集到可核实的商品图片；点击查看官网。",
-          "verified_public_product": false
+          "verified_count": 0
+        },
+        {
+          "brand": "CEWE",
+          "url": "https://www.cewe.pl/",
+          "verified_count": 0
         }
       ],
       "ads": [],
-      "ad_searches": [
-        {
-          "brand": "Crazyshop",
-          "country": "PL",
-          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=PL&q=Crazyshop&search_type=keyword_unordered",
-          "source": "Meta Ad Library",
-          "record_type": "search_link",
-          "status": "待获取可核实的广告记录"
-        }
-      ],
+      "ad_searches": [],
       "ad_data_status": "Meta官方广告资料库API尚未授权；没有单条广告记录或互动数字",
       "gift_keyword": "prezent personalizowany",
       "category_signals": [
@@ -1926,14 +1922,14 @@
   "quality": {
     "country_count": 9,
     "product_coverage": {
-      "DE": 4,
+      "DE": 6,
       "FR": 0,
       "ES": 0,
-      "IT": 2,
+      "IT": 3,
       "NL": 0,
       "NO": 0,
-      "SE": 2,
-      "FI": 2,
+      "SE": 3,
+      "FI": 3,
       "PL": 0
     },
     "ad_coverage": {
