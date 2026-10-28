@@ -1621,16 +1621,34 @@ fetch('./data/market.json?ts='+Math.floor(Date.now()/1800000),{cache:'no-store'}
  show(cells[0],'本国热点优先 · 当地媒体补充',v.news,data.updated_at);
  if((v.category_signals||[]).length){const cell=cells[1];const label=cell.querySelector('.v605-mini');if(label)label.textContent='Callie商品方向 · 当地关键词（非热度排名）';const old=cell.querySelector('strong');if(old)old.remove();const oldP=cell.querySelector('p');if(oldP)oldP.remove();const prior=cell.querySelector('.v6-category-keyword-list');if(prior)prior.remove();const wrap=document.createElement('div');wrap.className='v6-category-keyword-list';for(const s of v.category_signals.slice(0,10)){const el=document.createElement('div');el.className='v6-category-chip';const title=document.createElement('strong');title.textContent=s.category+' · '+s.keyword;el.appendChild(title);const note=document.createElement('small');note.textContent='Callie商品方向候选 · 未获取搜索指数';el.appendChild(note);if(s.url&&safeURL(s.url)!=='#'){const link=document.createElement('a');link.href=safeURL(s.url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='查看当地趋势 ↗';el.appendChild(link)}wrap.appendChild(el)}cell.appendChild(wrap)}else{const label=cells[1].querySelector('.v605-mini');if(label)label.textContent='Callie商品关键词 · 查看当地趋势';}
  show(cells[2],'竞品公开商品线索',(v.products||[]).filter(x=>x.verified_public_product&&x.image).length?(v.products||[]).filter(x=>x.verified_public_product&&x.image):v.products,data.updated_at);
- const adCell=cells[3];if((v.ads||[]).length){show(adCell,'公开广告素材 · 已核实记录',v.ads,data.updated_at)}else{
-const label=adCell.querySelector('.v605-mini');if(label)label.textContent='Meta 广告研究 · 公开来源';
-const old=adCell.querySelector('strong');if(old)old.remove();
-const intro=adCell.querySelector('p');if(intro)intro.remove();
-const staticAds=adCell.querySelector('.v6-ad-static');if(staticAds)staticAds.remove();
-const brands=(v.ad_searches||[]).length?v.ad_searches:({DE:['GRAVURZEILE','CARDORI'],FR:['Cadeaux.com','YourSurprise'],ES:['Wanapix','Hofmann'],IT:['Troppotogo'],NL:['YourSurprise'],NO:['Walseng Design','PersonligGave'],SE:['Smartphoto'],FI:['Puuki','GetPersonal'],PL:['Crazyshop']}[key]||[]).map(brand=>({brand,url:'https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country='+key+'&q='+encodeURIComponent(brand)+'&search_type=keyword_unordered'}));
-const note=document.createElement('p');note.className='v6-live-summary';note.textContent='按 Callie 商品品类及竞品品牌查找 Facebook / Instagram 曾投放的广告；仅提供公开检索入口，不将普通商品图冒充广告素材。';adCell.appendChild(note);
-for(const b of [...brands.filter(x=>x.category==='Callie同类商品'),...brands.filter(x=>x.category!=='Callie同类商品')].slice(0,6)){const line=document.createElement('div');line.className='v6-live-item';const title=document.createElement('strong');title.textContent=(b.category==='Callie同类商品'?'品类 · ':'竞品 · ')+b.brand+' · 公开广告查询';line.appendChild(title);if(b.url&&safeURL(b.url)!=='#'){const link=document.createElement('a');link.href=safeURL(b.url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='打开广告资料库 ↗';line.appendChild(link)}adCell.appendChild(line)}
-const info=document.createElement('small');info.textContent='互动口径：仅公开帖子可验证时记录点赞、评论、分享；欧盟广告覆盖为估计值。无证据不显示数字。';adCell.appendChild(info);
-}
+ const adCell=cells[3];
+ const ads=(v.ads||[]).filter(x=>x.record_type==='verified_ad'&&x.url&&safeURL(x.url)!=='#');
+ const label=adCell.querySelector('.v605-mini');if(label)label.textContent=ads.length?'Meta 广告 · 已核实记录与公开查询':'Meta 广告 · 公开查询';
+ const oldTitle=adCell.querySelector('strong');if(oldTitle)oldTitle.remove();
+ const intro=adCell.querySelector('p');if(intro)intro.remove();
+ const staticAds=adCell.querySelector('.v6-ad-static');if(staticAds)staticAds.remove();
+ const note=document.createElement('p');note.className='v6-live-summary';
+ note.textContent=ads.length?'已取得 '+ads.length+' 条官方广告记录；媒体无法直接获取时可打开原始广告快照。下方同时保留品类和品牌查询入口。':'暂未取得可核实的广告素材；保留各品类及品牌的 Meta 广告资料库入口，不使用商品图片冒充广告。';
+ adCell.appendChild(note);
+ for(const ad of ads.slice(0,6)){
+  const item=document.createElement('div');item.className='v6-live-item';
+  const title=document.createElement('strong');title.textContent='已核实广告 · '+(ad.brand||ad.title||'Meta 广告');item.appendChild(title);
+  if(ad.image&&safeURL(ad.image)!=='#'){
+   const img=document.createElement('img');img.src=safeURL(ad.image);img.alt='公开广告素材';img.loading='lazy';img.style.cssText='max-width:100%;max-height:170px;object-fit:contain;display:block;margin:6px 0';img.onerror=()=>img.remove();item.appendChild(img)
+  }
+  if(ad.video&&safeURL(ad.video)!=='#'){
+   const video=document.createElement('video');video.src=safeURL(ad.video);video.controls=true;video.preload='none';video.style.cssText='max-width:100%;max-height:200px;display:block;margin:6px 0';item.appendChild(video)
+  }
+  const detail=document.createElement('small');detail.textContent=[ad.started_at?'开始投放 '+ad.started_at:'',ad.media_status||''].filter(Boolean).join(' · ');item.appendChild(detail);
+  const link=document.createElement('a');link.href=safeURL(ad.url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='查看原始广告 ↗';item.appendChild(link);adCell.appendChild(item)
+ }
+ const brands=(v.ad_searches||[]).length?v.ad_searches:({DE:['GRAVURZEILE','CARDORI'],FR:['Cadeaux.com','YourSurprise'],ES:['Wanapix','Hofmann'],IT:['Troppotogo'],NL:['YourSurprise'],NO:['Walseng Design','PersonligGave'],SE:['Smartphoto'],FI:['Puuki','GetPersonal'],PL:['Crazyshop']}[key]||[]).map(brand=>({brand,url:'https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country='+key+'&q='+encodeURIComponent(brand)+'&search_type=keyword_unordered'}));
+ for(const b of [...brands.filter(x=>x.category==='Callie同类商品'),...brands.filter(x=>x.category!=='Callie同类商品')].slice(0,6)){
+  const line=document.createElement('div');line.className='v6-live-item';const title=document.createElement('strong');
+  title.textContent=(b.category==='Callie同类商品'?'品类 · ':'竞品 · ')+b.brand+' · 公开广告查询';line.appendChild(title);
+  if(b.url&&safeURL(b.url)!=='#'){const link=document.createElement('a');link.href=safeURL(b.url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='打开广告资料库 ↗';line.appendChild(link)}adCell.appendChild(line)
+ }
+ const info=document.createElement('small');info.textContent='仅展示已核实广告及公开查询链接；没有可验证的数据不显示效果数字。';adCell.appendChild(info);
  });
  }).catch(err=>{status.textContent='○ 暂未读取到最新情报 · 当前展示的是静态说明，并非当日新闻；请检查数据连接';console.warn('V6 market feed unavailable:',err.message)})
 })();</script><style id="v6-gift-signal-style">
