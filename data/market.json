@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T01:59:56.936230+00:00",
+  "updated_at": "2026-10-28T02:07:04.857574+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -167,6 +167,26 @@
           "category": "竞品品牌"
         },
         {
+          "brand": "首饰",
+          "keyword": "personalisierter Schmuck",
+          "country": "DE",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=DE&q=personalisierter+Schmuck&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "personalisierter Schal",
+          "country": "DE",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=DE&q=personalisierter+Schal&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
           "brand": "照片礼品",
           "keyword": "Fotogeschenke",
           "country": "DE",
@@ -273,21 +293,30 @@
       ],
       "gift_signals": [
         {
+          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-19T16:09:18+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
+          "source": "iphone-ticker.de",
+          "published": "2026-10-19T12:31:52+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
+          "translation_status": "translated"
+        },
+        {
           "title": "Le Nom Paris: In diesem Geschäft im Marais werden Taschen mit dem Pinsel personalisiert. - Sortir à Paris",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdzRXTWxrUUJUa1R1TkF0Y2YtbFo3VzZwY3BYMFRReG5uTWFIVVg1cUlVTjh3dGw5VWpjMVlhRmxWa0dGWGl3SUtqYXhRYWo4XzdBNTNoUlJEejFmalBYQlNUSEgtM291NzY5NDFQNGotaXp4bjVJb2txSHMzd3RDWlBRMk5PRmV4dHR1RG8yekJVMFM3ZndnZzM1X1pCM1YxYnlGY29tcnFISTIwNGZ6WUQzTkRQYVE0V0JrbXozYTRFNENHanJOOUJIZ3lnTXgzYnVCMmlTX1laMFJx?oc=5",
           "source": "Sortir à Paris",
           "published": "2026-10-27T15:58:06+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "Le Nom Paris：这家位于玛黑区的商店用刷子对包袋进行个性化处理。 - 排序至巴黎",
-          "translation_status": "translated"
-        },
-        {
-          "title": "La Galcante Paris: Diese außergewöhnliche Buchhandlung verkauft echte Zeitungen, die an Ihrem Geburtstag erschienen sind. - Sortir à Paris",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQR2g2azRrZjU1Y1ZleGhXSGpVbEZMc090RkVMeVVwbXFYMWN1YXdzRU9BVEdJSFl4VmYwYnhzT2FLbHpOc2stUkdQYkhyVl80MWtnV1Rrc010NHY0WDIwLWRIXzhSLWVFTnBUeFRUVS1YZ1RFb2tzZWlzdkFVSVVHM1JscXlSZmxYaHpVV21OY3IweGpRTjN5UUVyVW5xNXdleVJUMURXeDR2dThCcVJtOERldWU5WXVOQklfdllFQ2lFVExYMmNXWGFRWFMzb0JDQzQ1V2l0S1l0RFc0SFMwaU1xQVlJeG10RGxqcE5uUEVVNnM2aE5ubEp5ZnVzcUF5UDhwRnU0bUhUTXhJVWc2Zk9qeEVQdExGM3djZS1LZTdkdGVxM2c?oc=5",
-          "source": "Sortir à Paris",
-          "published": "2026-10-27T22:28:57+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "La Galcante Paris：这家不寻常的书店出售在您生日当天出版的真正报纸。 - 排序至巴黎",
           "translation_status": "translated"
         }
       ],
@@ -296,6 +325,15 @@
     },
     "FR": {
       "news": [
+        {
+          "title": "Notre-Dame de Paris : le brumisateur anti-incendie s’active par erreur et entraîne une inondation, les pompiers mobilisés - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQS1hOVE9MaHRibVJncmRxRUlyMzBMbUtGWU1TbjZXLTJ1OERwUlR4Nm1UaDE3VU01T1F0bS1lVHA3VEhkcFlCRFIyWGRhQUZZd2h5Q3Y0dnp5c0FDdUNuejYwWVJvYnNidjV1RzhzYVl3bmlZZXd5NnFwR2NRX0dHWU11eHJvLUtzMXJqNHZ4Mk15RWRHRzhfZFJVaXhTTDhuS1R2LWN4QmdYdnR4b3Frb05EcXdPYnNPZUpScy1DazVwZTA5R1d4dWRhNjN1c0tWazBiY281aDlRXzg5TU1paU9FTHBGSndGYmxwd2g4dXN0VmxoTkY5bnhDMEtKaEM4WE1xNjVDRkNuT2hRY1RobUt4OVg1ZlhldkNNLUk3QQ?oc=5",
+          "source": "Le Parisien",
+          "published": "2026-10-27T20:37:35+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "巴黎圣母院：误启动消防喷雾器引发洪水，消防人员出动 - Le Parisien",
+          "translation_status": "translated"
+        },
         {
           "title": "La compagne d’une victime édulcore son témoignage au procès du triple assassinat - 20 Minutes",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWFJVWmMtcEFCZi1lZVpITkJIaTA0TXotLWJZc25XSl94eGFQbUxLSDhIX0FxczJWZWU1MGg3Q3VMNEpxa0ZuNVlkcFZZT1ZxbXloc2ZMT09zV24wMW9EZVplVFhmbXZ3ZElNVTFSMzhxWVp6VDZwc2tocmIwaWlNS1lCbTRGNEtYMVJwS2pOYmNudUFyOUdnQUtoR052aFBQYTRZYk1YTjUtSmxMWEhjd2tYZG8xbmpjbjVHcXRLVFZWbzB2azVnbFVybWNSUQ?oc=5",
@@ -312,15 +350,6 @@
           "published": "2026-10-27T19:00:57+00:00",
           "scope": "本国热点候选",
           "title_zh": "2026 年 10 月 27 日星期二重播版 - 新闻下午 1:00 - 法国电视台",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Coupe de France : heure, chaîne, groupes, petit poucet... tout savoir sur le tirage du 7e tour - La Voix du Nord",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOWlkNEE1RXJWRHJiZ3RhUVphZU51TE5sTEpWdkwtU1Bxc2Q0bkR5S1g2OXNLTW5qTFNGazl6dVF5OWJhbW4zdVE4TFFYY1IzYnV1Vm9oMWlRZjBYLTZWTmZfemhKaGQxN01ETnhQdGFmcVJSRG1xRjJjZ0VkWU02REp1bHBna0FGeUIyalFmRjNLbHZLMHNQbm1NMFVUc2s5S1VPVDVlbnNxT3pfU1JFVkd4bldGSHVDN3h4cDBHVVZoR3hrd2lpZWpxY0pEQQ?oc=5",
-          "source": "La Voix du Nord",
-          "published": "2026-10-27T18:52:04+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "法国杯：时间、频道、分组、大拇指……关于第七轮抽签你需要知道的一切 - La Voix du Nord",
           "translation_status": "translated"
         }
       ],
@@ -501,6 +530,26 @@
           "category": "竞品品牌"
         },
         {
+          "brand": "首饰",
+          "keyword": "bijoux personnalisés",
+          "country": "FR",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=bijoux+personnalis%C3%A9s&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "écharpe personnalisée",
+          "country": "FR",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FR&q=%C3%A9charpe+personnalis%C3%A9e&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
           "brand": "照片礼品",
           "keyword": "cadeau photo personnalisé",
           "country": "FR",
@@ -649,21 +698,21 @@
           "translation_status": "translated"
         },
         {
-          "title": "El Gobierno destina 201 millones de euros a seguir ampliando el parque público de vivienda asequible - La Moncloa. Gobierno de España",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanc3V29UY1BpeGdqVXdZOG95X0I2OUJWS2dQeng2dlBZbTRYYTE0NzF6NWhNbkVYSS12bHNkamNJcW1yN25UdUNIc3U3M3BudU5kT1hKdmNWRUREaEtLNzhBR3c0eUE1ZFVrV2poTU9jQ3cyR1QyQmplTXpDTU0yZjhJbE1QX1pQVkxhSk5FVDNabmhadlR3YnVpczNmNXBDejBKQ2lfeFo?oc=5",
-          "source": "La Moncloa. Gobierno de España",
-          "published": "2026-10-27T16:54:27+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "政府拨款 2.01 亿欧元继续扩大公共经济适用住房存量 - La Moncloa。西班牙政府",
-          "translation_status": "translated"
-        },
-        {
           "title": "La Policía investiga un robo con fuerza en un despacho de abogados ligado al PP de Madrid - EL PAÍS",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNEptb3dnSlg4WHFqdkVMcWYtRHAwYVZjMHNvZm0tY2d0UHFpNjVLWTNCNDFRekJuSEF1eHNPNTBWTDRocmQ3TER0MHdxU1p2MVBFbWdUSUhKYk12bWQtTDVqU0hVX2d2RHJXc25VMGw5bXp6UUZqUUoyeTZZdzNxQ3B0d3d6Skt5RTRLeXpNeGVjVjl3ZU1zTkNyckk1eFNSd3JVT0NQdFltUUFDQmp1Q2NsZzN0Mi03enp2eGtHTVFtdWdzWDR1dThORUFBdUpVTHRpY9IB6AFBVV95cUxPWFNYUUY2MlU0YnliUnVaZDFoQ2s2aW1mSjRZN3Qxek9RQmJOTFIyLTBTb0hXdF9tMXB4d1ptalJMRTNCUExVMUdwM2V5SVd4Wm5MMGlsQXhuWUZia2V4WTZuNzNILWViNVFJRUlia19xbDVVSHc3d050dWstalNnTGhjc3hCc3hTOVAxOVI3Zl90d0Z5QWRvMDFuSmVfLW5tQl81a1o1ZjY5cVBrOHdrdzhnSnNrX25vcTh3UHFhOWJ6dE1ZS2Z0emxkeVY1d3Q0NURjcHFqTzVUT2ZLQU9GUUpLeU9mUy0w?oc=5",
           "source": "EL PAÍS",
           "published": "2026-10-27T20:58:08+00:00",
           "scope": "本国热点候选",
           "title_zh": "马德里警方对一家与人民党有关联的律师事务所发生的抢劫案进行武力调查 - 西班牙国家报",
+          "translation_status": "translated"
+        },
+        {
+          "title": "El Gobierno destina 201 millones de euros a seguir ampliando el parque público de vivienda asequible - La Moncloa. Gobierno de España",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanc3V29UY1BpeGdqVXdZOG95X0I2OUJWS2dQeng2dlBZbTRYYTE0NzF6NWhNbkVYSS12bHNkamNJcW1yN25UdUNIc3U3M3BudU5kT1hKdmNWRUREaEtLNzhBR3c0eUE1ZFVrV2poTU9jQ3cyR1QyQmplTXpDTU0yZjhJbE1QX1pQVkxhSk5FVDNabmhadlR3YnVpczNmNXBDejBKQ2lfeFo?oc=5",
+          "source": "La Moncloa. Gobierno de España",
+          "published": "2026-10-27T16:54:27+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "政府拨款 2.01 亿欧元继续扩大公共经济适用住房存量 - La Moncloa。西班牙政府",
           "translation_status": "translated"
         }
       ],
@@ -794,6 +843,26 @@
           "record_type": "search_link",
           "status": "广告资料库实时检索（非单条已核实广告）",
           "category": "竞品品牌"
+        },
+        {
+          "brand": "首饰",
+          "keyword": "joyas personalizadas",
+          "country": "ES",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=joyas+personalizadas&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "bufanda personalizada",
+          "country": "ES",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ES&q=bufanda+personalizada&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
         },
         {
           "brand": "照片礼品",
@@ -973,21 +1042,21 @@
           "translation_status": "translated"
         },
         {
+          "title": "ansa",
+          "url": "https://trends.google.com/trending/rss?geo=IT",
+          "source": "trends.google.com",
+          "published": "2026-10-27T23:40:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "处理",
+          "translation_status": "translated"
+        },
+        {
           "title": "gta 6 ps5",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
           "published": "2026-10-27T23:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "侠盗猎车手 6 PS5",
-          "translation_status": "translated"
-        },
-        {
-          "title": "classifica marcatori serie a",
-          "url": "https://trends.google.com/trending/rss?geo=IT",
-          "source": "trends.google.com",
-          "published": "2026-10-27T22:20:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "意甲射手榜",
           "translation_status": "translated"
         }
       ],
@@ -1046,6 +1115,26 @@
           "record_type": "search_link",
           "status": "广告资料库实时检索（非单条已核实广告）",
           "category": "竞品品牌"
+        },
+        {
+          "brand": "首饰",
+          "keyword": "gioielli personalizzati",
+          "country": "IT",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=IT&q=gioielli+personalizzati&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "sciarpa personalizzata",
+          "country": "IT",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=IT&q=sciarpa+personalizzata&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
         },
         {
           "brand": "照片礼品",
@@ -1310,6 +1399,26 @@
           "category": "竞品品牌"
         },
         {
+          "brand": "首饰",
+          "keyword": "gepersonaliseerde sieraden",
+          "country": "NL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NL&q=gepersonaliseerde+sieraden&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "gepersonaliseerde sjaal",
+          "country": "NL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NL&q=gepersonaliseerde+sjaal&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
           "brand": "照片礼品",
           "keyword": "fotocadeau",
           "country": "NL",
@@ -1547,6 +1656,26 @@
           "record_type": "search_link",
           "status": "广告资料库实时检索（非单条已核实广告）",
           "category": "竞品品牌"
+        },
+        {
+          "brand": "首饰",
+          "keyword": "personlige smykker",
+          "country": "NO",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NO&q=personlige+smykker&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "personlig skjerf",
+          "country": "NO",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=NO&q=personlig+skjerf&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
         },
         {
           "brand": "照片礼品",
@@ -1797,6 +1926,26 @@
           "category": "竞品品牌"
         },
         {
+          "brand": "首饰",
+          "keyword": "personliga smycken",
+          "country": "SE",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=SE&q=personliga+smycken&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "personlig halsduk",
+          "country": "SE",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=SE&q=personlig+halsduk&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
           "brand": "照片礼品",
           "keyword": "fotopresenter",
           "country": "SE",
@@ -1954,12 +2103,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "YK:n kriminaalipolitiikkaa edistettiin Abu Dhabissa - Suomi ulkomailla",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaUZsUWEwdnlMOHhSM0VLZEFSakdlSFFXbVZ1ZzRSNnlKWWxJcXpBUDhMaUdVbGZxdmh1VmI3ZVJGMmJmTWd5WjlIYkZScTVuWWdrZUYtdE5mWkFEel95UE9sbVRPNy1VbHV2ek1rNFhKTGxiUXlzT3BjaFdySE9mdFpxX04yNG44OFVDUFpsTGtHUmRQNlZmN05CejV3bDJtOWw1Y0ZhSmpFYkVDQ24tZ0NCUV9qbUJhR001ZDk1WWV2bmhPdWhuekRUbkx4OWZ2b3hOQ0JnYllwQzR5?oc=5",
-          "source": "Suomi ulkomailla",
-          "published": "2026-10-27T15:15:22+00:00",
+          "title": "Tampere myy Pohjoismaiden suurimman sisävesivarustamon – ostajan tiedot pidetään toistaiseksi salassa - Yle",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5mN3luVDJMRHFtX0R5ZG4zYlZ4eGdLVUlIdjJNdU96RElrSlZBVEhiZ3VvRlVXOGVpb2puMVgxR1dPQQ?oc=5",
+          "source": "Yle",
+          "published": "2026-10-27T12:47:43+00:00",
           "scope": "本国热点候选",
-          "title_zh": "联合国刑事政策在阿布扎比推广 - 芬兰在国外",
+          "title_zh": "坦佩雷出售北欧最大内河航运公司——买家信息暂时保密 - Yle",
           "translation_status": "translated"
         }
       ],
@@ -2052,6 +2201,26 @@
           "record_type": "search_link",
           "status": "广告资料库实时检索（非单条已核实广告）",
           "category": "竞品品牌"
+        },
+        {
+          "brand": "首饰",
+          "keyword": "personoidut korut",
+          "country": "FI",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FI&q=personoidut+korut&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "personoitu huivi",
+          "country": "FI",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=FI&q=personoitu+huivi&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
         },
         {
           "brand": "照片礼品",
@@ -2165,12 +2334,12 @@
     "PL": {
       "news": [
         {
-          "title": "Rząd zabrał się za internetowy ciucholand na Vinted i za handel na OLX. Takiej zmiany nikt się nie spodziewał - Forsal.pl",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNNnAtVnRGMGhkVmZ1S28zZWdJTzJ2Sk90dkFzVXJpMUNjelFMU2FLUTZTR3RjeDlQeHpiQTE4RVVJMHFXTlkyX1Nhb1NXaVdEaWJVc1h6aHVSaWZPQ2w3Zm9qQ29TcThyMWdrcXlHNjlzWUFPUEF3Z0tQbllfcE9uR19VcWhPSnFPNU9kLXRYazhyYk1EYVJIbG5aY21zaHp1SkE0cU5ZMVp2UFh4Si1hRktBaExoSVpfeFRxRW5sblA5SVF2OGJGQ3l4VXNqUkRaZFJvMTAtVWJaNnk3STdMLXFtdENjSUlnTUJkZ2VQUGZSSnJNbTQzT1lnLU12WHdUNHBkR1o1VVduem9jTzYweTZZQ1hZZw?oc=5",
-          "source": "Forsal.pl",
-          "published": "2026-10-27T22:24:41+00:00",
+          "title": "Lech Poznań - Wisła Kraków - Canal+",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWWdqYmV0cFRlVlpGUE9mTmxTNncwUEVhWFNickxDcnBTa3ZxaGpXdzNlUXFrWWh5eDhzZWd6Z1Vyc1VZQ3VPSXNndHdSM3ZWR2FTVldjOFJZOHNwczJyZlVvME1Yb1pOb2pIdGw0bTlSRkVjckhmMzJTY0FYbXc4Qnh3?oc=5",
+          "source": "Canal+",
+          "published": "2026-10-28T02:07:22+00:00",
           "scope": "本国热点候选",
-          "title_zh": "政府在 Vinted 上开设了在线服装店，并在 OLX 上进行了交易。没有人预料到会有这样的变化 - Forsal.pl",
+          "title_zh": "莱赫波兹南 - 维斯瓦克拉科夫 - Canal+",
           "translation_status": "translated"
         },
         {
@@ -2183,12 +2352,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Makabryczne odkrycie w Warszawie, w Wiśle odnaleziono ciało. Akcja służb - Interia Wydarzenia",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZU92d1ZUc1NqU21ZN2J6cHlXbTJqQjJrczhKcnpCU1FsQVFfMGNFZHJVUHNQQnFybHpkYV9KYlM0emVHY1hyeFB0QXRWUGY1dkxCRG8xT0hVbUdoRHBacGszakxhdHRTSEJrYlpXVUwwQkNFMFg3WG1KZlJvc0J4aFFJRU4tdG9LYXRoeVdNMHdkYnFSVlJLc3dxdzVmbFkzLTlFUWMtdzkxNTZzZTZXTFlMbmtPejZCaEFF?oc=5",
-          "source": "Interia Wydarzenia",
-          "published": "2026-10-27T13:09:37+00:00",
+          "title": "Spotkanie minister Jędrzak z przedstawicielami Stowarzyszenia „Wspólnota Polska” - Oficjalna strona Prezydenta Rzeczypospolitej Polskiej",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbGxfQkI2ZFp3UFljaVhGdTdrU2I0QW5YeGtWTzVfU3hRNDRxaGl3MkFUTjVhQ1VrZDNWdXBLOVBlUHFRa293RXdaSXVCVkFWTDVESUdzR0pIQm9aVW9kYjBtZEJ1RWZUamZWbUlTWTRRd3dBWVloTF8zbUJIazJPS0RXYm1WYzN6NUxvZ0JEaXlIcTJ0U2tBX2ZHYzMzWG1leFd4NUMyd2FyMFd6YzlQbk5DUzhOdVVHbkhjYW9iLTAyc3FlaVZnRnVIVERrMnIwck5LSDhqZHo?oc=5",
+          "source": "Oficjalna strona Prezydenta Rzeczypospolitej Polskiej",
+          "published": "2026-10-27T18:49:10+00:00",
           "scope": "本国热点候选",
-          "title_zh": "华沙的一个令人毛骨悚然的发现，在维斯瓦河中发现了一具尸体。服务的行动 - Interia Events",
+          "title_zh": "延德尔扎克部长会见“Wspólnota Polska”协会代表 - 波兰共和国总统官方网站",
           "translation_status": "translated"
         }
       ],
@@ -2353,6 +2522,26 @@
           "record_type": "search_link",
           "status": "广告资料库实时检索（非单条已核实广告）",
           "category": "竞品品牌"
+        },
+        {
+          "brand": "首饰",
+          "keyword": "biżuteria personalizowana",
+          "country": "PL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=PL&q=bi%C5%BCuteria+personalizowana&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
+        },
+        {
+          "brand": "围巾",
+          "keyword": "szalik personalizowany",
+          "country": "PL",
+          "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=PL&q=szalik+personalizowany&search_type=keyword_unordered",
+          "source": "Meta Ad Library",
+          "record_type": "search_link",
+          "status": "按Callie品类检索公开广告",
+          "category": "Callie同类商品"
         },
         {
           "brand": "照片礼品",
