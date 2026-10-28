@@ -27,11 +27,34 @@ jobs:
           META_AD_LIBRARY_ACCESS_TOKEN: ${{ secrets.META_AD_LIBRARY_ACCESS_TOKEN }}
         run: python collect_market.py
       - name: Commit fresh data if changed
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/market.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Refresh 9-country market intelligence"
-            git push
+          if git diff --cached --quiet; then
+            echo "No market data changes."
+            exit 0
           fi
+          git commit -m "Refresh 9-country market intelligence"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Market data pushed successfully."
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::Could not push after 3 attempts."
+              exit 1
+            fi
+            echo "Remote changed during collection; refreshing on latest main (attempt $attempt)."
+            git fetch origin main
+            git reset --hard origin/main
+            python collect_market.py
+            git add data/market.json
+            if git diff --cached --quiet; then
+              echo "Latest remote already has the same data."
+              exit 0
+            fi
+            git commit -m "Refresh 9-country market intelligence"
+          done
