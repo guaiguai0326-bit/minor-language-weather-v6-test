@@ -770,6 +770,54 @@ html{scroll-behavior:smooth}
 #v6-intel .v605-section-title{margin-top:35px!important}
 @media(min-width:1180px) and (max-width:1470px){#v6-intel #v6-overview .v6-overview-row{gap:12px!important;padding:16px!important}#v6-intel #v6-overview .v6-market-cell{padding:14px!important}}
 @media(max-width:800px){#v6-intel #v6-overview .v6-overview-row{grid-template-columns:minmax(0,1fr)!important;padding:14px!important}#v6-intel #v6-overview .v6-market-cell{min-height:0!important;padding:16px!important}#v6-intel .v6-gift-grid{grid-template-columns:minmax(0,1fr)!important}}
+</style><style id="v6-four-column-alignment">
+/* Restore side-by-side reading: country | news | trends | products | ads. */
+@media(min-width:1080px){
+#v6-intel #v6-overview .v6-overview-row{
+display:grid!important;grid-template-columns:112px repeat(4,minmax(0,1fr))!important;
+gap:0!important;align-items:stretch!important;background:#fff!important;
+padding:0!important;margin:0 0 14px!important;border:1px solid #e3eaf3!important;
+border-radius:14px!important;box-shadow:0 3px 14px rgba(25,51,81,.035)!important;overflow:hidden!important}
+#v6-intel #v6-overview .v6-market-name{
+grid-column:auto!important;display:flex!important;flex-direction:column!important;
+align-items:flex-start!important;justify-content:flex-start!important;gap:8px!important;
+margin:0!important;padding:22px 12px!important;border:0!important;
+background:#f4f8fd!important;border-right:1px solid #e3eaf3!important}
+#v6-intel #v6-overview .v6-market-name b{font-size:17px!important;white-space:normal!important}
+#v6-intel #v6-overview .v6-market-name small{font-size:11px!important}
+#v6-intel #v6-overview .v6-market-cell{
+min-height:0!important;margin:0!important;padding:16px 14px!important;
+border:0!important;border-right:1px solid #e8edf4!important;border-radius:0!important;
+background:#fff!important;box-shadow:none!important;display:flex!important;flex-direction:column!important;
+align-items:stretch!important;gap:8px!important}
+#v6-intel #v6-overview .v6-market-cell:last-child{border-right:0!important}
+#v6-intel #v6-overview .v6-market-cell .v605-mini{min-height:36px!important;display:flex!important;align-items:center!important;margin:0!important;padding:0 0 10px!important;font-size:12px!important;border-bottom:1px solid #e9eef5!important}
+#v6-intel #v6-overview .v6-market-cell strong{font-size:12px!important;line-height:1.55!important}
+#v6-intel #v6-overview .v6-market-cell p{font-size:11px!important;line-height:1.6!important}
+#v6-intel #v6-overview .v6-market-cell .v6-live-item{padding:10px 0!important;line-height:1.5!important}
+#v6-intel #v6-overview .v6-market-cell .v6-live-item strong{font-size:12px!important}
+#v6-intel #v6-overview .v6-market-cell .v6-live-item img{max-height:100px!important}
+#v6-intel #v6-overview .v6-market-cell .v6-live-item:nth-of-type(n+4){display:none!important}
+#v6-intel #v6-overview .v6-market-cell .v6-category-keyword-list{max-width:100%!important}
+#v6-intel #v6-overview .v6-market-cell .v6-category-chip{padding:8px 0!important;margin:0!important}
+}
+@media(min-width:1080px) and (max-width:1400px){
+body>.wrap{margin-left:185px!important;width:calc(100% - 185px)!important;padding:20px 15px 40px!important}
+body>.wrap>.quick-read{width:158px!important;left:12px!important}
+#v6-intel #v6-overview .v6-overview-row{grid-template-columns:88px repeat(4,minmax(0,1fr))!important}
+#v6-intel #v6-overview .v6-market-cell{padding:13px 9px!important}
+#v6-intel #v6-overview .v6-market-name{padding:16px 8px!important}
+}
+@media(min-width:1080px) and (max-width:1179px){
+body>.wrap{margin:0!important;width:100%!important;max-width:none!important}
+body>.wrap>.quick-read{position:static!important;width:auto!important;display:flex!important;flex-direction:row!important;flex-wrap:wrap!important}
+}
+@media(max-width:1079px){
+#v6-intel #v6-overview .v6-overview-row{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;padding:12px!important}
+#v6-intel #v6-overview .v6-market-name{grid-column:1/-1!important}
+#v6-intel #v6-overview .v6-market-cell{padding:12px!important;min-height:0!important}
+}
+@media(max-width:620px){#v6-intel #v6-overview .v6-overview-row{grid-template-columns:1fr!important}}
 </style></head><body><div class="wrap"><div class="top"><div class="title"><h1>🌍 小语种市场天气看板</h1><p>天气事实 → 中国体感 → 当地生活行动 → 素材机会 → 未来7天</p></div><div class="pill" id="updated">正在更新天气…</div></div>
 <nav class="quick-read" aria-label="页面模块快速导航"><span class="quick-read-label">快速阅读</span><a href="#section-clock">当地时间</a><a href="#section-weather">天气日历</a><a href="#section-map">体感地图</a><a href="#section-compare">九国对标</a><a href="#section-culture">生活文化</a><a href="#v6-intel">市场情报</a><a href="#v6-overview">九国速览</a><a href="#v6-gift-signals-section">礼品线索</a></nav>
 <section class="v5-panel" id="section-clock">
