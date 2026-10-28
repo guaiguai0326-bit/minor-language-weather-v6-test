@@ -685,8 +685,29 @@ const cityGeo={"德国": [["柏林", "Berlin", 13.405, 52.52], ["汉堡", "Hambu
 </style>
 <style id="v6-style">
 #v6-intel{max-width:1500px;margin:28px auto;padding:0 18px 36px;color:#1b2940;font-family:inherit}#v6-intel *{box-sizing:border-box}#v6-intel .v6-top{padding:23px 25px;background:linear-gradient(110deg,#162b4c,#2f5e8f);color:white;border-radius:20px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}#v6-intel .v6-top h2{margin:5px 0;font-size:25px}#v6-intel .v6-top p{margin:0;color:#d8e5f6;font-size:13px}#v6-intel .v6-status{background:#ffffff25;padding:7px 12px;border-radius:40px;font-size:12px}#v6-intel .v6-tabs,#v6-intel .v6-countries{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}#v6-intel button{cursor:pointer;font-family:inherit}#v6-intel .v6-tab,#v6-intel .v6-country{border:1px solid #dce5f1;background:white;border-radius:30px;padding:9px 15px;color:#43536b;font-size:13px}#v6-intel .v6-tab.on,#v6-intel .v6-country.on{background:#2b5b8e;border-color:#2b5b8e;color:white}#v6-intel .v6-note{background:#fff7e7;border:1px solid #f5dfb6;border-radius:12px;padding:12px 16px;font-size:13px;line-height:1.7;color:#806027;margin:12px 0}#v6-intel .v6-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}#v6-intel .v6-card{background:white;border:1px solid #e3eaf3;border-radius:16px;padding:17px;box-shadow:0 5px 18px #15284409;min-height:175px}#v6-intel .v6-card h3{font-size:16px;margin:5px 0 10px}#v6-intel .v6-card p{font-size:13px;line-height:1.75;color:#59677d;margin:6px 0}#v6-intel .v6-card .v6-label{font-size:11px;letter-spacing:.4px;color:#5277a4;font-weight:700}#v6-intel .v6-card a{font-size:13px;color:#2361a2;word-break:break-all}#v6-intel .v6-chip{display:inline-block;font-size:11px;padding:4px 8px;border-radius:12px;background:#edf3f9;color:#55718e;margin:3px 5px 3px 0}#v6-intel .v6-empty{padding:24px;border:1px dashed #d2ddec;border-radius:15px;background:#f9fbfe;color:#61718a;line-height:1.8}#v6-intel .v6-tabs,#v6-intel .v6-countries{display:none!important}#v6-intel .v6-panel{display:block;margin:24px 0 34px}#v6-intel .v6-section-heading{font-size:21px;color:#19395e;margin:0 0 14px;padding:0 0 12px;border-bottom:2px solid #dce7f4}#v6-intel .v6-country-block{margin:16px 0 25px;padding:17px;background:#f8fbff;border:1px solid #dce7f4;border-radius:16px}#v6-intel .v6-country-heading{font-size:17px;margin:0 0 10px;color:#204c7a}#v6-intel .v6-country-block .v6-card{min-height:135px}#v6-intel .v6-sub{font-size:13px;color:#68788c;margin:12px 0}#v6-intel .v6-source{font-size:12px;color:#8a96a7;margin-top:10px}#v6-intel .v6-card ul{font-size:13px;color:#59677d;line-height:1.9;padding-left:18px}@media(max-width:850px){#v6-intel .v6-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){#v6-intel .v6-grid{grid-template-columns:1fr}#v6-intel .v6-top h2{font-size:20px}}
+</style><style id="v6-layout-polish">
+html{scroll-behavior:smooth}
+.quick-read{display:flex;align-items:center;flex-wrap:wrap;gap:9px 10px;margin:0 0 20px;padding:14px 16px;border:1px solid #e0e8f2;border-radius:16px;background:#fff;box-shadow:0 3px 12px rgba(22,48,82,.04);position:static!important}
+.quick-read-label{font-size:13px;font-weight:800;color:#344e6d;margin-right:4px}
+.quick-read a{display:inline-flex;align-items:center;justify-content:center;padding:9px 13px;border:1px solid #dfe7f2;border-radius:9px;background:#f6f9fd;color:#315679;font-size:13px;font-weight:700;text-decoration:none;transition:background .15s,border-color .15s}
+.quick-read a:hover,.quick-read a:focus-visible{background:#e8f1ff;border-color:#9ebeea;color:#194f8e}
+#section-weather,#section-map,#section-compare,#section-culture,#v6-intel,#v6-overview,#v6-gift-signals-section{scroll-margin-top:20px}
+#v6-intel .v6-overview-row,#v6-intel .v6-overview-header{grid-template-columns:minmax(100px,0.72fr) repeat(4,minmax(0,1fr));gap:12px;align-items:start}
+#v6-intel .v6-overview-row{padding:17px 14px;overflow:visible}
+#v6-intel .v6-market-cell{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+#v6-intel .v6-market-cell strong{overflow-wrap:anywhere;line-height:1.45}
+#v6-intel .v6-market-cell img{max-width:100%;height:auto;object-fit:contain}
+#v6-intel .v6-live-item{min-width:0;overflow-wrap:anywhere;line-height:1.55;padding:10px 0;border-bottom:1px dashed #e3eaf3}
+#v6-intel .v6-live-item strong{display:block;margin-bottom:5px;line-height:1.5}
+#v6-intel .v6-live-item a{max-width:100%;overflow-wrap:anywhere}
+#v6-intel .v6-live-item:last-child{border-bottom:0}
+#v6-intel .v6-market-cell{gap:7px}
+#v6-intel .v6-overview-row+.v6-overview-row{margin-top:12px}
+@media(max-width:1100px){#v6-intel .v6-overview-header{display:none}#v6-intel .v6-overview-row{grid-template-columns:repeat(2,minmax(0,1fr))}#v6-intel .v6-market-name{grid-column:1/-1}#v6-intel .v6-market-cell{padding:12px;border:1px solid #e9eef5;border-radius:10px;background:#fafcff}}
+@media(max-width:640px){.quick-read{padding:12px;gap:8px}.quick-read-label{width:100%}.quick-read a{font-size:12px;padding:8px 10px}#v6-intel .v6-overview-row{grid-template-columns:1fr}#v6-intel .v6-market-cell{border-left:1px solid #e9eef5}#v6-intel .v6-overview-row{padding:12px}}
 </style></head><body><div class="wrap"><div class="top"><div class="title"><h1>🌍 小语种市场天气看板</h1><p>天气事实 → 中国体感 → 当地生活行动 → 素材机会 → 未来7天</p></div><div class="pill" id="updated">正在更新天气…</div></div>
-<section class="v5-panel">
+<nav class="quick-read" aria-label="页面模块快速导航"><span class="quick-read-label">快速阅读</span><a href="#section-clock">当地时间</a><a href="#section-weather">天气日历</a><a href="#section-map">体感地图</a><a href="#section-compare">九国对标</a><a href="#section-culture">生活文化</a><a href="#v6-intel">市场情报</a><a href="#v6-overview">九国速览</a><a href="#v6-gift-signals-section">礼品线索</a></nav>
+<section class="v5-panel" id="section-clock">
 <h2>🕘 9国当地时间｜模拟钟表实时走动</h2>
 <div class="v5-clocks"><div class="v5-clock-card" data-tz="Europe/Berlin"><div class="v5-clock-title"><b>德国</b><span class="v5flag de"></span></div>
 <div class="v5-clock"><span class="v5tick" style="--i:1"></span><span class="v5tick" style="--i:2"></span><span class="v5tick" style="--i:4"></span><span class="v5tick" style="--i:5"></span><span class="v5tick" style="--i:7"></span><span class="v5tick" style="--i:8"></span><span class="v5tick" style="--i:10"></span><span class="v5tick" style="--i:11"></span><i class="v5n v5n12">12</i><i class="v5n v5n3">3</i><i class="v5n v5n6">6</i><i class="v5n v5n9">9</i>
@@ -709,7 +730,7 @@ const cityGeo={"德国": [["柏林", "Berlin", 13.405, 52.52], ["汉堡", "Hambu
 <span class="v5hand v5hour"></span><span class="v5hand v5minute"></span><span class="v5hand v5second"></span><b class="v5pin"></b></div></div></div>
 </section>
 <section class="v5-panel">
-<h2>🌍 9国今日天气 × 自然月日历｜一屏总览</h2>
+<h2 id="section-weather">🌍 9国今日天气 × 自然月日历｜一屏总览</h2>
 <div class="v5-cal-grid"><div class="v5-cal-card" data-country="德国" data-code="DE" data-lat="52.52" data-lon="13.405" data-tz="Europe/Berlin">
 <div class="v5-cal-head"><strong>德国</strong><span class="v5-month"></span><span class="v5-season"></span><span class="v5-today">天气加载中…</span></div>
 <div class="v5-week"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
@@ -741,13 +762,13 @@ const cityGeo={"德国": [["柏林", "Berlin", 13.405, 52.52], ["汉堡", "Hambu
 </section>
 
 <div class="grid v5-hidden-overview" id="overview"></div>
-<div class="section card"><h2>🗺️ 欧洲天气 × 中国体感地图</h2>
+<div class="section card"><h2 id="section-map">🗺️ 欧洲天气 × 中国体感地图</h2>
 <div class="realmap-wrap">
   <div id="chinaMap" class="realmap"><div class="china-map-loading">中国体感地图加载中…</div></div>
   <div class="map-note">按当天实时温度、降雨、风感与昼夜温差动态映射中国相近体感区域；天气变化后，国家标签与高亮区域会自动移动。</div>
 </div></div>
-<div class="section card"><h2>📊 9国完整对标表</h2><div class="tablewrap"><table class="tbl"><thead><tr><th>区域/国家</th><th>今日天气</th><th>🇨🇳 中国体感对标</th><th>🧥 穿衣/素材参考</th><th>📈 未来7天</th></tr></thead><tbody id="tbody"></tbody></table></div></div>
-<div class="section"><h2>☕ 当地生活行动 × 文化场景</h2><div class="detail" id="details"></div></div><div class="foot">天气数据：Open-Meteo；文化场景为设计参考，不代表所有当地居民。中国体感对标是用于视觉决策的近似类比。</div></div>
+<div class="section card"><h2 id="section-compare">📊 9国完整对标表</h2><div class="tablewrap"><table class="tbl"><thead><tr><th>区域/国家</th><th>今日天气</th><th>🇨🇳 中国体感对标</th><th>🧥 穿衣/素材参考</th><th>📈 未来7天</th></tr></thead><tbody id="tbody"></tbody></table></div></div>
+<div class="section"><h2 id="section-culture">☕ 当地生活行动 × 文化场景</h2><div class="detail" id="details"></div></div><div class="foot">天气数据：Open-Meteo；文化场景为设计参考，不代表所有当地居民。中国体感对标是用于视觉决策的近似类比。</div></div>
 <script>
 const places=[
 {r:'北欧',c:'挪威',f:'🇳🇴',lat:59.9139,lon:10.7522,tz:'Europe/Oslo',culture:'秋季常见徒步、桑拿、城市文化活动；风雨天气更强调防风防水与分层穿搭。',scene:'木屋暖光、热饮、羊毛针织、户外徒步、桑拿/冷水体验'},
