@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T01:37:25.451712+00:00",
+  "updated_at": "2026-10-28T01:59:56.936230+00:00",
   "countries": {
     "DE": {
       "news": [
@@ -13,21 +13,21 @@
           "translation_status": "translated"
         },
         {
+          "title": "Berlin: Bundesgesetz gegen Vergesellschaftungen? Linke sieht „juristisches Himmelfahrtskommando“ - WELT",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPXzhueFdXcTA2NGxLZVZSSUJPTHFtZEdtbzRpaDY0cWh3eU9lRTBydDZhOXNLUkhOVGJ5ejV6RnB4X3NWTHE4Z3hqVjlMQnVkMTk0b2JQUjJPVG0tZDRkMzctSWFtQUFFUDRMNF9tQWJIQ0FOdDZaNWxtdWFNNjFhS1dTNWk3UG55WGJJLWlwaElDcDVxQ051SUZRNUM0clo3SkJ2TFQ1UmtjU0Z0Z3liUVdkS0Z1UC02ekdlc3BBekpSMktfT3NHUU5yNXZtenYwTElOU3FqbmVuUUhBUF9QS3NNeGdHdUdlNmhVM1FQOHNlVW45VkphNGdnZTZQdw?oc=5",
+          "source": "WELT",
+          "published": "2026-10-28T00:14:10+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "柏林：反对社会化的联邦法律？左派看到“合法的自杀使命” - WELT",
+          "translation_status": "translated"
+        },
+        {
           "title": "Bombenfund bei Bauarbeiten: Zugverkehr zwischen Hamburg und Berlin zeitweise unterbrochen - DIE ZEIT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdUlUb3c0ZXdhQUpmM2tDOThva01UWEI5R3pKUFVLQzZYTk4zcDNKLVJkcHgzZE1yYk1JdF9pZW0wd2h0S2VYLU5pNUdPbFVBb1JEemotQjlFcmMtemlHSGNCRVhGZGJCR1JTSjBGVy05Y3UtQUxLUnBhanlWRmNwbkxOYlpFTnFtMUhuX05VTFQ5ZGlybWc?oc=5",
           "source": "DIE ZEIT",
           "published": "2026-10-27T10:48:59+00:00",
           "scope": "本国热点候选",
           "title_zh": "建筑工程中发现炸弹：汉堡和柏林之间的火车交通暂时中断 - DIE ZEIT",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Nach Munitionsfund bei Müssen: Wichtige ICE-Strecke wieder frei, Evakuierung beendet - NDR.de",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWnpTd3RkVmVhZ1J2YWNfLWVVSHNDc1lfNDF3Q2hQNVNwdkNSb2tjLUV2WkM4SjNEU3YyVHFyQkpFOG5EOThHelBnLXNxSEZRVTV2bkc3eURhWmFOLTgyUXFOYlNfM1duaUNEbUVsNk9Bcnlac3ZGaDMyWnhoVi1GeFRTbUhGcUtZUHoteFN5eGZRWTdhSEo2U21nM0hJSnBlaVhJMnB3X09leTZBU3Z1TF92dDFHZVpHWHJaWjAzYVA1NFVEem9RdHdtZXI2NW43UkZ3S190VkRzVVZyaDFRSGp4aVhBMElwdGtFUFlUckxGVUV3TTdoSGY3dUxEbEZaUE9WeXZGbFE?oc=5",
-          "source": "NDR.de",
-          "published": "2026-10-27T13:06:21+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "在穆森附近发现弹药后：重要的 ICE 路线再次开放，疏散结束 - NDR.de",
           "translation_status": "translated"
         }
       ],
@@ -273,30 +273,21 @@
       ],
       "gift_signals": [
         {
-          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-10-19T16:09:18+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
-          "source": "iphone-ticker.de",
-          "published": "2026-10-19T12:31:52+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
-          "translation_status": "translated"
-        },
-        {
           "title": "Le Nom Paris: In diesem Geschäft im Marais werden Taschen mit dem Pinsel personalisiert. - Sortir à Paris",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdzRXTWxrUUJUa1R1TkF0Y2YtbFo3VzZwY3BYMFRReG5uTWFIVVg1cUlVTjh3dGw5VWpjMVlhRmxWa0dGWGl3SUtqYXhRYWo4XzdBNTNoUlJEejFmalBYQlNUSEgtM291NzY5NDFQNGotaXp4bjVJb2txSHMzd3RDWlBRMk5PRmV4dHR1RG8yekJVMFM3ZndnZzM1X1pCM1YxYnlGY29tcnFISTIwNGZ6WUQzTkRQYVE0V0JrbXozYTRFNENHanJOOUJIZ3lnTXgzYnVCMmlTX1laMFJx?oc=5",
           "source": "Sortir à Paris",
           "published": "2026-10-27T15:58:06+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Le Nom Paris：这家位于玛莱区的商店用刷子对包袋进行个性化处理。 - 排序至巴黎",
+          "title_zh": "Le Nom Paris：这家位于玛黑区的商店用刷子对包袋进行个性化处理。 - 排序至巴黎",
+          "translation_status": "translated"
+        },
+        {
+          "title": "La Galcante Paris: Diese außergewöhnliche Buchhandlung verkauft echte Zeitungen, die an Ihrem Geburtstag erschienen sind. - Sortir à Paris",
+          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQR2g2azRrZjU1Y1ZleGhXSGpVbEZMc090RkVMeVVwbXFYMWN1YXdzRU9BVEdJSFl4VmYwYnhzT2FLbHpOc2stUkdQYkhyVl80MWtnV1Rrc010NHY0WDIwLWRIXzhSLWVFTnBUeFRUVS1YZ1RFb2tzZWlzdkFVSVVHM1JscXlSZmxYaHpVV21OY3IweGpRTjN5UUVyVW5xNXdleVJUMURXeDR2dThCcVJtOERldWU5WXVOQklfdllFQ2lFVExYMmNXWGFRWFMzb0JDQzQ1V2l0S1l0RFc0SFMwaU1xQVlJeG10RGxqcE5uUEVVNnM2aE5ubEp5ZnVzcUF5UDhwRnU0bUhUTXhJVWc2Zk9qeEVQdExGM3djZS1LZTdkdGVxM2c?oc=5",
+          "source": "Sortir à Paris",
+          "published": "2026-10-27T22:28:57+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "La Galcante Paris：这家不寻常的书店出售在您生日当天出版的真正报纸。 - 排序至巴黎",
           "translation_status": "translated"
         }
       ],
@@ -306,21 +297,21 @@
     "FR": {
       "news": [
         {
-          "title": "Édition du mardi 27 octobre 2026 en replay - Journal 13h00 - France TV",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbEhxZnladDZBUXlKenZRa0lrUWR3X21nbWVxRWh6N1JHamtIMU1LTjR5VlVrbS00LS1PVjEwWHFsOHJaSDV0YVR0SzNVVndDelZ2cWFpa08zQU9rSHJIN0Z3QUhvOXJSb2YxcjJnd3Y4UGlqZGxSY1puT1hCQkRXRHdCZVB4QUlQNzQwTVpqSDFBNGpJ?oc=5",
-          "source": "France TV",
-          "published": "2026-10-27T19:00:57+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "2026 年 10 月 27 日星期二重播版 - 新闻下午 1:00 - 法国电视台",
-          "translation_status": "translated"
-        },
-        {
           "title": "La compagne d’une victime édulcore son témoignage au procès du triple assassinat - 20 Minutes",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWFJVWmMtcEFCZi1lZVpITkJIaTA0TXotLWJZc25XSl94eGFQbUxLSDhIX0FxczJWZWU1MGg3Q3VMNEpxa0ZuNVlkcFZZT1ZxbXloc2ZMT09zV24wMW9EZVplVFhmbXZ3ZElNVTFSMzhxWVp6VDZwc2tocmIwaWlNS1lCbTRGNEtYMVJwS2pOYmNudUFyOUdnQUtoR052aFBQYTRZYk1YTjUtSmxMWEhjd2tYZG8xbmpjbjVHcXRLVFZWbzB2azVnbFVybWNSUQ?oc=5",
           "source": "20 Minutes",
           "published": "2026-10-27T17:30:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "一名受害者的同伴淡化了她在三重谋杀案审判中的证词 - 20 分钟",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Édition du mardi 27 octobre 2026 en replay - Journal 13h00 - France TV",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbEhxZnladDZBUXlKenZRa0lrUWR3X21nbWVxRWh6N1JHamtIMU1LTjR5VlVrbS00LS1PVjEwWHFsOHJaSDV0YVR0SzNVVndDelZ2cWFpa08zQU9rSHJIN0Z3QUhvOXJSb2YxcjJnd3Y4UGlqZGxSY1puT1hCQkRXRHdCZVB4QUlQNzQwTVpqSDFBNGpJ?oc=5",
+          "source": "France TV",
+          "published": "2026-10-27T19:00:57+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "2026 年 10 月 27 日星期二重播版 - 新闻下午 1:00 - 法国电视台",
           "translation_status": "translated"
         },
         {
@@ -658,15 +649,6 @@
           "translation_status": "translated"
         },
         {
-          "title": "La Policía investiga un robo con fuerza en un despacho de abogados ligado al PP de Madrid - EL PAÍS",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNEptb3dnSlg4WHFqdkVMcWYtRHAwYVZjMHNvZm0tY2d0UHFpNjVLWTNCNDFRekJuSEF1eHNPNTBWTDRocmQ3TER0MHdxU1p2MVBFbWdUSUhKYk12bWQtTDVqU0hVX2d2RHJXc25VMGw5bXp6UUZqUUoyeTZZdzNxQ3B0d3d6Skt5RTRLeXpNeGVjVjl3ZU1zTkNyckk1eFNSd3JVT0NQdFltUUFDQmp1Q2NsZzN0Mi03enp2eGtHTVFtdWdzWDR1dThORUFBdUpVTHRpY9IB6AFBVV95cUxPWFNYUUY2MlU0YnliUnVaZDFoQ2s2aW1mSjRZN3Qxek9RQmJOTFIyLTBTb0hXdF9tMXB4d1ptalJMRTNCUExVMUdwM2V5SVd4Wm5MMGlsQXhuWUZia2V4WTZuNzNILWViNVFJRUlia19xbDVVSHc3d050dWstalNnTGhjc3hCc3hTOVAxOVI3Zl90d0Z5QWRvMDFuSmVfLW5tQl81a1o1ZjY5cVBrOHdrdzhnSnNrX25vcTh3UHFhOWJ6dE1ZS2Z0emxkeVY1d3Q0NURjcHFqTzVUT2ZLQU9GUUpLeU9mUy0w?oc=5",
-          "source": "EL PAÍS",
-          "published": "2026-10-27T20:58:08+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "马德里警方对一家与人民党有关联的律师事务所发生的抢劫案进行武力调查 - 西班牙国家报",
-          "translation_status": "translated"
-        },
-        {
           "title": "El Gobierno destina 201 millones de euros a seguir ampliando el parque público de vivienda asequible - La Moncloa. Gobierno de España",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanc3V29UY1BpeGdqVXdZOG95X0I2OUJWS2dQeng2dlBZbTRYYTE0NzF6NWhNbkVYSS12bHNkamNJcW1yN25UdUNIc3U3M3BudU5kT1hKdmNWRUREaEtLNzhBR3c0eUE1ZFVrV2poTU9jQ3cyR1QyQmplTXpDTU0yZjhJbE1QX1pQVkxhSk5FVDNabmhadlR3YnVpczNmNXBDejBKQ2lfeFo?oc=5",
           "source": "La Moncloa. Gobierno de España",
@@ -674,9 +656,27 @@
           "scope": "本国热点候选",
           "title_zh": "政府拨款 2.01 亿欧元继续扩大公共经济适用住房存量 - La Moncloa。西班牙政府",
           "translation_status": "translated"
+        },
+        {
+          "title": "La Policía investiga un robo con fuerza en un despacho de abogados ligado al PP de Madrid - EL PAÍS",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNEptb3dnSlg4WHFqdkVMcWYtRHAwYVZjMHNvZm0tY2d0UHFpNjVLWTNCNDFRekJuSEF1eHNPNTBWTDRocmQ3TER0MHdxU1p2MVBFbWdUSUhKYk12bWQtTDVqU0hVX2d2RHJXc25VMGw5bXp6UUZqUUoyeTZZdzNxQ3B0d3d6Skt5RTRLeXpNeGVjVjl3ZU1zTkNyckk1eFNSd3JVT0NQdFltUUFDQmp1Q2NsZzN0Mi03enp2eGtHTVFtdWdzWDR1dThORUFBdUpVTHRpY9IB6AFBVV95cUxPWFNYUUY2MlU0YnliUnVaZDFoQ2s2aW1mSjRZN3Qxek9RQmJOTFIyLTBTb0hXdF9tMXB4d1ptalJMRTNCUExVMUdwM2V5SVd4Wm5MMGlsQXhuWUZia2V4WTZuNzNILWViNVFJRUlia19xbDVVSHc3d050dWstalNnTGhjc3hCc3hTOVAxOVI3Zl90d0Z5QWRvMDFuSmVfLW5tQl81a1o1ZjY5cVBrOHdrdzhnSnNrX25vcTh3UHFhOWJ6dE1ZS2Z0emxkeVY1d3Q0NURjcHFqTzVUT2ZLQU9GUUpLeU9mUy0w?oc=5",
+          "source": "EL PAÍS",
+          "published": "2026-10-27T20:58:08+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "马德里警方对一家与人民党有关联的律师事务所发生的抢劫案进行武力调查 - 西班牙国家报",
+          "translation_status": "translated"
         }
       ],
       "trending": [
+        {
+          "title": "laura bozzo",
+          "url": "https://trends.google.com/trending/rss?geo=ES",
+          "source": "trends.google.com",
+          "published": "2026-10-28T01:50:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "劳拉·博佐",
+          "translation_status": "translated"
+        },
         {
           "title": "hacienda",
           "url": "https://trends.google.com/trending/rss?geo=ES",
@@ -693,15 +693,6 @@
           "published": "2026-10-28T00:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "马刺 - 国王",
-          "translation_status": "translated"
-        },
-        {
-          "title": "knicks - pistons",
-          "url": "https://trends.google.com/trending/rss?geo=ES",
-          "source": "trends.google.com",
-          "published": "2026-10-28T00:40:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "尼克斯队 - 活塞队",
           "translation_status": "translated"
         }
       ],
@@ -982,21 +973,21 @@
           "translation_status": "translated"
         },
         {
-          "title": "ansa",
-          "url": "https://trends.google.com/trending/rss?geo=IT",
-          "source": "trends.google.com",
-          "published": "2026-10-27T23:40:00+00:00",
-          "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "处理",
-          "translation_status": "translated"
-        },
-        {
           "title": "gta 6 ps5",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
           "published": "2026-10-27T23:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "侠盗猎车手 6 PS5",
+          "translation_status": "translated"
+        },
+        {
+          "title": "classifica marcatori serie a",
+          "url": "https://trends.google.com/trending/rss?geo=IT",
+          "source": "trends.google.com",
+          "published": "2026-10-27T22:20:00+00:00",
+          "scope": "当地综合热搜（非礼品需求）",
+          "title_zh": "意甲射手榜",
           "translation_status": "translated"
         }
       ],
@@ -1243,12 +1234,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "stand torino fc - como 1907",
+          "title": "willem alexander & máxima",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T22:20:00+00:00",
+          "published": "2026-10-27T22:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "比分都灵 - 科莫 1907",
+          "title_zh": "威廉·亚历山大和马克西玛",
           "translation_status": "translated"
         }
       ],
@@ -1430,12 +1421,12 @@
     "NO": {
       "news": [
         {
-          "title": "President Stubb og statsminister Støre i telefonsamtale med president Putin - Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVQ0bXN0U0FGaEUwMExFOW9IS2U0WXBrY2xhbk1mNnZzTEdfdUl3bkROOUhUanVBVnRPVlZhSFhzU1B3amlkNUJuRWdZcnNFZ0VpREpoeFA5cE9RdWZCQ3FGV1cyYTlVTjhTZlhQVl9pbi1IYVdBdzNBV0dxSjNETWRMd3dQX3gyMlpnSFRSY1FuTEhjd1UtVjk1Mm54dlpVZ2RuZ003aDhpb09fYU1Ha0NIMWxkbGNXOFpLLWFZZ0VDdw?oc=5",
+          "title": "Norge og Ukraina styrker energisamarbeidet - Regjeringen.no",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU2RkdU83dW1VZGZ2Wld3Z0EtSTIxRkhzVHo5cFJCaDR6QjRwS0dPR28wdUN2M3VOX2h0OWgyalRoUWtFTHZueS1hOVdCME1Nb18wM1JYTmlDYjdOWEFKWVFUZ0pBR01FNHhBWGV2M2lXdXQ0MUx2Q1ZvcmhjOEV4R091VV96VVlscUl3VlFhb0VPOFJOeUE?oc=5",
           "source": "Regjeringen.no",
-          "published": "2026-10-27T09:30:03+00:00",
+          "published": "2026-10-27T14:54:37+00:00",
           "scope": "本国热点候选",
-          "title_zh": "斯塔布总统和斯托雷总理与普京总统通电话 - Regjeringen.no",
+          "title_zh": "挪威和乌克兰加强能源合作 - Regjeringen.no",
           "translation_status": "translated"
         },
         {
@@ -1706,12 +1697,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Rammstein-sångaren kommer till Sverige - Expressen",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzZ0Mml6Nmlzbk4tOFo1SUtONlZzU3NsTU9FR3hHajNZc3NkZk5pUmgtWFkwbWZHemlWYnRmOURCQ1d5bVRHWFg1S1NOME9MWkdvN2FaU00xUW50NGg2VWlUVHdNWGxoQldWOC0yMDhhTlo4c1hnMnpaNnkxNGtXSQ?oc=5",
-          "source": "Expressen",
-          "published": "2026-10-27T21:33:33+00:00",
+          "title": "Principer för en övergångsbudget - Regeringen.se",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZGMyZGJHazFQU1drVi1pV0kyTHRjSURXNnBpNlUwM0FEeDFPelZjc3V1TV8zM1Back9xTE1FU3FkNndQa1FmZ1FWUWpLR1E4YnRiaU41RXhNMTJ6NGxuYlp1Q1c5ZkVsTEt3ZVpsYzgzMlUyYnFaY3hHR1hfUnJjdUR0ay1jZzluenlFVA?oc=5",
+          "source": "Regeringen.se",
+          "published": "2026-10-27T10:12:51+00:00",
           "scope": "本国热点候选",
-          "title_zh": "德国拉姆斯坦歌手即将来到瑞典 - Expressen",
+          "title_zh": "过渡预算的原则 - Regeringen.se",
           "translation_status": "translated"
         }
       ],
@@ -1945,15 +1936,6 @@
     "FI": {
       "news": [
         {
-          "title": "Remppa vai muutto Suomi: Suunnittelija luulee, ettei asukkaita harmita lopputulos – On väärässä - Iltalehti",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWXc4T0tvWmE1QmhsSDNhZGhUY2xpZmk2dkR6NHV4YnRFMmFmU05uUGFhSGpqYWRLZ0hxa1hib2lFTHg5UUYwelRQbHB2V3NEcDFLUzM1UWRBbUpYSjh4Q2h3dFhlcDUxSklYTGZxRHJTUk9oZmg0Smlrbm1nV3ZpM2pn?oc=5",
-          "source": "Iltalehti",
-          "published": "2026-10-27T22:54:12+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "伦帕或搬迁芬兰：规划者认为居民不会对最终结果感到不安 - 他错了 - Iltalehti",
-          "translation_status": "translated"
-        },
-        {
           "title": "Lapsi sai päiväkotipaikan yli 5 km:n päästä – perheenisä järkyttyi ja otti laskimen käteen: ”Noin 2 tuntia suuntaansa” - Ilta-Sanomat",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVnRFbnE0aHRMbV9CQ0NUNnByMjVOZWQ5eWJXQ2ltOVFvQzdpMTJIaVh1MktVbWM0d3A1NTZLNDVZT2pUS1l1bXNwSmg5eGlOUGloVVZ6aFlLaWs2?oc=5",
           "source": "Ilta-Sanomat",
@@ -1969,6 +1951,15 @@
           "published": "2026-10-27T18:02:57+00:00",
           "scope": "本国热点候选",
           "title_zh": "监护人推迟开学的愿望将于明年秋天实现 - 坦佩雷市",
+          "translation_status": "translated"
+        },
+        {
+          "title": "YK:n kriminaalipolitiikkaa edistettiin Abu Dhabissa - Suomi ulkomailla",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaUZsUWEwdnlMOHhSM0VLZEFSakdlSFFXbVZ1ZzRSNnlKWWxJcXpBUDhMaUdVbGZxdmh1VmI3ZVJGMmJmTWd5WjlIYkZScTVuWWdrZUYtdE5mWkFEel95UE9sbVRPNy1VbHV2ek1rNFhKTGxiUXlzT3BjaFdySE9mdFpxX04yNG44OFVDUFpsTGtHUmRQNlZmN05CejV3bDJtOWw1Y0ZhSmpFYkVDQ24tZ0NCUV9qbUJhR001ZDk1WWV2bmhPdWhuekRUbkx4OWZ2b3hOQ0JnYllwQzR5?oc=5",
+          "source": "Suomi ulkomailla",
+          "published": "2026-10-27T15:15:22+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "联合国刑事政策在阿布扎比推广 - 芬兰在国外",
           "translation_status": "translated"
         }
       ],
