@@ -382,7 +382,7 @@ for code,(lang,geo,term) in COUNTRIES.items():
  for brand,landing in selected:
   query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':brand,'search_type':'keyword_unordered'})
   ad_searches.append({'brand':brand,'country':code,'url':'https://www.facebook.com/ads/library/?'+query,'source':'Meta Ad Library','record_type':'search_link','status':'广告资料库实时检索（非单条已核实广告）','category':'竞品品牌'})
- for category in ('定制首饰','刺绣礼品','照片礼品'):
+ for category in ('首饰','围巾','照片礼品'):
   keyword=CALLIE_FAMILIES.get(category,{}).get(code)
   if not keyword:continue
   query=urllib.parse.urlencode({'active_status':'all','ad_type':'all','country':geo,'q':keyword,'search_type':'keyword_unordered'})
@@ -395,6 +395,6 @@ for code,(lang,geo,term) in COUNTRIES.items():
  result['quality']['product_coverage'][code]=verified_count
  result['quality']['ad_coverage'][code]=len(real_ads)
  if not verified_count:result['quality']['missing_product_countries'].append(code)
- print(code,'news',len(newsitems),'trends',len(trenditems),'verified_products',verified_count,'ad_records',0)
+ print(code,'news',len(newsitems),'trends',len(trenditems),'verified_products',verified_count,'ad_records',len(real_ads))
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
