@@ -1,78 +1,66 @@
 {
-  "updated_at": "2026-10-28T02:07:04.857574+00:00",
+  "updated_at": "2026-10-29T02:00:44.110126+00:00",
   "countries": {
     "DE": {
       "news": [
         {
-          "title": "Ein starker 1. FC Köln gewinnt deutlich gegen Union Berlin - sportschau.de",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQTJXWE9YUFhBMGstSzRabFB0Ni1vTjEwcGNtMVhOY29BQlB5MHZkSDFSQ0ttUDU4TlozU1BIczBKdWd2TWIySTM3WngxVVBEQXplTWt5d2dfNm1kQXhBa0F4MnVDbTBNaEZnZnBlS0hnLWt4UWV0ZmdtWlhsR0YzaFZpNmk1djF5c2YwQlZSUzdCdldRODZTVEVqZ203UkxKX19IN0R6SnF2aFZRYVRHOHpnVzNDM3VaM3N4UGo3TDg1bFY4Ylgzb3lPVWRGWFJp?oc=5",
+          "title": "Bayern München gegen Magdeburg auch ohne Harry Kane gnadenlos - sportschau.de",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPODVUbW5UcFpwY252ci02VG0tLWd4TTN3bVJRVjVKaGl0ZkxKZmJyZGQ2alVUQ3lORmYydXFoV0FQVk1wNkxGaUhZYXo0Q01xdHV3MGh3VldzYnl0OWpVbE1kdWdQZVp1UUN4X3phdnlXSHVRS24tcngwalBSaUxsakxIUkxCdlYxQldaTk56SXl0TjFMejByTXlrdW1SY1ptX2NmRHl0Q0lCRTkyandlNkt0SF9DMTZ0YXlCeFRYNlpHNllrWEVVNGRaNldiS2h5YU9ZZTVKWUlxeWVMcU9EWVFhU1ZhemNY?oc=5",
           "source": "sportschau.de",
-          "published": "2026-10-27T21:36:00+00:00",
+          "published": "2026-10-28T22:19:54+00:00",
           "scope": "本国热点候选",
-          "title_zh": "实力强劲 1. 科隆队明显击败柏林联合队 - sportschau.de",
+          "title_zh": "即使没有哈里·凯恩，拜仁慕尼黑对马格德堡也毫不留情 - sportschau.de",
           "translation_status": "translated"
         },
         {
-          "title": "Berlin: Bundesgesetz gegen Vergesellschaftungen? Linke sieht „juristisches Himmelfahrtskommando“ - WELT",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPXzhueFdXcTA2NGxLZVZSSUJPTHFtZEdtbzRpaDY0cWh3eU9lRTBydDZhOXNLUkhOVGJ5ejV6RnB4X3NWTHE4Z3hqVjlMQnVkMTk0b2JQUjJPVG0tZDRkMzctSWFtQUFFUDRMNF9tQWJIQ0FOdDZaNWxtdWFNNjFhS1dTNWk3UG55WGJJLWlwaElDcDVxQ051SUZRNUM0clo3SkJ2TFQ1UmtjU0Z0Z3liUVdkS0Z1UC02ekdlc3BBekpSMktfT3NHUU5yNXZtenYwTElOU3FqbmVuUUhBUF9QS3NNeGdHdUdlNmhVM1FQOHNlVW45VkphNGdnZTZQdw?oc=5",
-          "source": "WELT",
-          "published": "2026-10-28T00:14:10+00:00",
+          "title": "\"Gen-Z-regelt\"-Proteste: Doch keine eigene Demo in Hamburg - NDR.de",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWm52aFJIQnRUeXI4eG5nZE0ybWpPN0ItRjlpcVNHUVhUZnBSVmJLX0o2M2JaQmhWTDYxS1BVVFMtSFVSaTVIRWlhWWxyeGFPejJiTUlEYWZBaFp3V29aSXpScy1ablJWNVhqaVhVZzQ5N2tZWmNmdkkwN1ZEUFBBVDZITEtRUmMxOXZZTFVGd1ZzQjRKRHl6OVpXdnI3SXVrM09idzBkME5KRnJj?oc=5",
+          "source": "NDR.de",
+          "published": "2026-10-28T18:53:48+00:00",
           "scope": "本国热点候选",
-          "title_zh": "柏林：反对社会化的联邦法律？左派看到“合法的自杀使命” - WELT",
+          "title_zh": "“Z 世代监管”抗议活动：但汉堡没有自己的演示 - NDR.de",
           "translation_status": "translated"
         },
         {
-          "title": "Bombenfund bei Bauarbeiten: Zugverkehr zwischen Hamburg und Berlin zeitweise unterbrochen - DIE ZEIT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdUlUb3c0ZXdhQUpmM2tDOThva01UWEI5R3pKUFVLQzZYTk4zcDNKLVJkcHgzZE1yYk1JdF9pZW0wd2h0S2VYLU5pNUdPbFVBb1JEemotQjlFcmMtemlHSGNCRVhGZGJCR1JTSjBGVy05Y3UtQUxLUnBhanlWRmNwbkxOYlpFTnFtMUhuX05VTFQ5ZGlybWc?oc=5",
+          "title": "Bildungsproteste: Studierende blockieren Hochschulgebäude in Berlin und Hamburg - DIE ZEIT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZVk4QjlESmp3Z0RES3JLQm1mYldOdWs4eEhyMC04RDY5ZWs4NzczeWNCRWh5WTd5RUtqVTQwNjJMX0hGSW5ITEtpMk00TThGMlBxRWFzLW9OM1hfRmZGdllMRTFReG1rVUhNTzA3NWw2TUx1a0MyeUZZUTFUblRDeG1zTWYxVWdZZHBkZUJLYVVWakl1ZTkwZ1BCNnhWMU5VZWwzQVZEMWJEZw?oc=5",
           "source": "DIE ZEIT",
-          "published": "2026-10-27T10:48:59+00:00",
+          "published": "2026-10-28T13:22:38+00:00",
           "scope": "本国热点候选",
-          "title_zh": "建筑工程中发现炸弹：汉堡和柏林之间的火车交通暂时中断 - DIE ZEIT",
+          "title_zh": "教育抗议：学生封锁柏林和汉堡的大学建筑 - DIE ZEIT",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "h&m",
+          "title": "oilers – flames",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:40:00+00:00",
+          "published": "2026-10-29T01:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "嗯",
+          "title_zh": "加油工 – 火焰",
           "translation_status": "translated"
         },
         {
-          "title": "celtics – nets",
+          "title": "timberwolves – warriors",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:30:00+00:00",
+          "published": "2026-10-29T00:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "凯尔特人队 – 篮网",
+          "title_zh": "森林狼——勇士",
           "translation_status": "translated"
         },
         {
-          "title": "hm",
+          "title": "otto",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:20:00+00:00",
+          "published": "2026-10-29T00:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "嗯",
+          "title_zh": "奥托",
           "translation_status": "translated"
         }
       ],
       "products": [
-        {
-          "name": "GRAVURZEILE",
-          "title": "Stölzle Lausitz Weingläser mit Gravur im \"Wedding Love\" Design als Set",
-          "url": "https://www.gravurzeile.de/products/stoelzle-lausitz-glaser-mit-gravur-im-wedding-love-design-als-set",
-          "source": "GRAVURZEILE · 官网结构化商品数据",
-          "price": "27.9",
-          "currency": "EUR",
-          "image": "https://www.gravurzeile.de/cdn/shop/files/03_Daily_Weinglas_Standard_WeddingLove.jpg?v=1788333082&width=1200",
-          "summary": "官网公开商品信息；不代表销量或热卖排名。",
-          "verified_public_product": true,
-          "selection_basis": "官网热销/推荐栏目"
-        },
         {
           "name": "GRAVURZEILE",
           "title": "Graviertes Edelstahl Türschild",
@@ -81,6 +69,18 @@
           "price": "9.9",
           "currency": "EUR",
           "image": "https://www.gravurzeile.de/cdn/shop/files/01_Tuerschild_Edelstahl_ver_Motive.jpg?v=1748248670&width=1200",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网热销/推荐栏目"
+        },
+        {
+          "name": "GRAVURZEILE",
+          "title": "Stölzle Lausitz Weingläser mit Gravur im \"Wedding Love\" Design als Set",
+          "url": "https://www.gravurzeile.de/products/stoelzle-lausitz-glaser-mit-gravur-im-wedding-love-design-als-set",
+          "source": "GRAVURZEILE · 官网结构化商品数据",
+          "price": "27.9",
+          "currency": "EUR",
+          "image": "https://www.gravurzeile.de/cdn/shop/files/03_Daily_Weinglas_Standard_WeddingLove.jpg?v=1788333082&width=1200",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网热销/推荐栏目"
@@ -293,30 +293,12 @@
       ],
       "gift_signals": [
         {
-          "title": "Geschenkideen zum 20. Oktober: Wenn die Geste wertvoller ist als das Geschenk selbst. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM00wZDJZQWwtTEZLYVphWW5lenhGWTJLUDl2S0F4S3UyM1o4VjB6d3hNb0pUUW5sNXlXZGVhZ1VSZzFoaTJadTFvZDBuVmVJUV9LZFRXcU9NNEZKOVVoNE8xUnJVZmN5N1RmY04wY3RJUEVRSkVWVl8xc0VKajFZbEMzTXNCSHM?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-10-19T16:09:18+00:00",
+          "title": "Shopping am Gartenzaun: Waldenburgerin eröffnet Verkaufs-Schrank für Handgemachtes - Freie Presse",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOb3JBcHpHZXl0OTlGeWpYRXhoQXVPTWtTamJCZVJKc2RzTUFlemd3RkgweWkxT0lWX3c2RG5TcFVMVmt4TVdTUXBmSmdKQ05ySlFob09vNFNpbjZOdDZQUElERjN6NGx5M2tmWXhBbmlNOEFnZzhiZHNFb05pMTM0ZUlfN2NDOHVJcG5RZVRvYzhEUFRnOUliTXNBOXNTa2FwaGduVERSLVZGVzJsSS02VFgxeHBvRWRnYzNvOUNYUU1TNk5sak95TWs4RFlEUXFLSzJZLWMxRVdBcEU?oc=5",
+          "source": "Freie Presse",
+          "published": "2026-10-28T15:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "10 月 20 日的礼物创意：当这种姿态比礼物本身更有价值时。 - 越南.vn",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Lisen Autoladegerät: 136 Watt für 25 Euro - iphone-ticker.de",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzVRVnVVMHVVdFFvRmdhQWdOX0ZQRTFBT3VuR19nQ0l3WGNBUlh1VVBmMUthdHhKSmRUcUpwbHRQeEs4MkxlWWROOG9nYXB6RXdMbFU1NEM1Q1lOaUM1RkZrNE4tT3NYbDZ2SE5RMmtJNE9rSmt2M3lsNUFRT3VmNVJVYUhMdw?oc=5",
-          "source": "iphone-ticker.de",
-          "published": "2026-10-19T12:31:52+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Lisen 车载充电器：136 瓦，25 欧元 - iphone-ticker.de",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Le Nom Paris: In diesem Geschäft im Marais werden Taschen mit dem Pinsel personalisiert. - Sortir à Paris",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdzRXTWxrUUJUa1R1TkF0Y2YtbFo3VzZwY3BYMFRReG5uTWFIVVg1cUlVTjh3dGw5VWpjMVlhRmxWa0dGWGl3SUtqYXhRYWo4XzdBNTNoUlJEejFmalBYQlNUSEgtM291NzY5NDFQNGotaXp4bjVJb2txSHMzd3RDWlBRMk5PRmV4dHR1RG8yekJVMFM3ZndnZzM1X1pCM1YxYnlGY29tcnFISTIwNGZ6WUQzTkRQYVE0V0JrbXozYTRFNENHanJOOUJIZ3lnTXgzYnVCMmlTX1laMFJx?oc=5",
-          "source": "Sortir à Paris",
-          "published": "2026-10-27T15:58:06+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Le Nom Paris：这家位于玛黑区的商店用刷子对包袋进行个性化处理。 - 排序至巴黎",
+          "title_zh": "在花园围栏购物：瓦尔登堡妇女打开手工制品销售柜 - 自由新闻社",
           "translation_status": "translated"
         }
       ],
@@ -326,59 +308,59 @@
     "FR": {
       "news": [
         {
-          "title": "Notre-Dame de Paris : le brumisateur anti-incendie s’active par erreur et entraîne une inondation, les pompiers mobilisés - Le Parisien",
-          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQS1hOVE9MaHRibVJncmRxRUlyMzBMbUtGWU1TbjZXLTJ1OERwUlR4Nm1UaDE3VU01T1F0bS1lVHA3VEhkcFlCRFIyWGRhQUZZd2h5Q3Y0dnp5c0FDdUNuejYwWVJvYnNidjV1RzhzYVl3bmlZZXd5NnFwR2NRX0dHWU11eHJvLUtzMXJqNHZ4Mk15RWRHRzhfZFJVaXhTTDhuS1R2LWN4QmdYdnR4b3Frb05EcXdPYnNPZUpScy1DazVwZTA5R1d4dWRhNjN1c0tWazBiY281aDlRXzg5TU1paU9FTHBGSndGYmxwd2g4dXN0VmxoTkY5bnhDMEtKaEM4WE1xNjVDRkNuT2hRY1RobUt4OVg1ZlhldkNNLUk3QQ?oc=5",
-          "source": "Le Parisien",
-          "published": "2026-10-27T20:37:35+00:00",
+          "title": "France : Des experts de l’ONU consternés par la répression des manifestations étudiantes - ohchr",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDhoTjRXY0dTbGZ6aG40WTNZNVdLcEhZTkR5bXpZMFZxN3FqcHFUUE12TmtreHppclZRbllCZEo4b1BkNk14bndCYnM0Nkh4QWs0Uk5IVUNMWTNRQWVmZDl2UW5xRmwzZDVndnJ6cFRfMzIwQlZ4MWJwb0VLWUNmR2RwZktoZnhzR0lrNVBtajJtYkNxZVFuNWljQUNISmEtVXRN?oc=5",
+          "source": "ohchr",
+          "published": "2026-10-28T19:51:05+00:00",
           "scope": "本国热点候选",
-          "title_zh": "巴黎圣母院：误启动消防喷雾器引发洪水，消防人员出动 - Le Parisien",
+          "title_zh": "法国：联合国专家对镇压学生抗议感到失望 - 人权高专办",
           "translation_status": "translated"
         },
         {
-          "title": "La compagne d’une victime édulcore son témoignage au procès du triple assassinat - 20 Minutes",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWFJVWmMtcEFCZi1lZVpITkJIaTA0TXotLWJZc25XSl94eGFQbUxLSDhIX0FxczJWZWU1MGg3Q3VMNEpxa0ZuNVlkcFZZT1ZxbXloc2ZMT09zV24wMW9EZVplVFhmbXZ3ZElNVTFSMzhxWVp6VDZwc2tocmIwaWlNS1lCbTRGNEtYMVJwS2pOYmNudUFyOUdnQUtoR052aFBQYTRZYk1YTjUtSmxMWEhjd2tYZG8xbmpjbjVHcXRLVFZWbzB2azVnbFVybWNSUQ?oc=5",
-          "source": "20 Minutes",
-          "published": "2026-10-27T17:30:00+00:00",
+          "title": "Les affiches des 7e et 8e tours de Coupe de France ! - LAuRAFoot",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNkg4VG4yQjJTNXZCT2x0M2xMUjFzLWNNQ1BCdzQ0LXkyNk1fX2RURFFIZUw3c0dyYzlVbXJabTFjQ0lhOWFILW1jSWRaVEtoWWtCQ1Q1UElKdGZWMkY4aXhfSVRzcm4xMDF5cHZIcUpkaGI4Zlp1Q29fZ2hJZkxVVDVsNWQ0YmJIRkxFNHJHZ2FHUQ?oc=5",
+          "source": "LAuRAFoot",
+          "published": "2026-10-28T19:57:21+00:00",
           "scope": "本国热点候选",
-          "title_zh": "一名受害者的同伴淡化了她在三重谋杀案审判中的证词 - 20 分钟",
+          "title_zh": "法国杯第7轮和第8轮海报！ - 劳拉脚",
           "translation_status": "translated"
         },
         {
-          "title": "Édition du mardi 27 octobre 2026 en replay - Journal 13h00 - France TV",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbEhxZnladDZBUXlKenZRa0lrUWR3X21nbWVxRWh6N1JHamtIMU1LTjR5VlVrbS00LS1PVjEwWHFsOHJaSDV0YVR0SzNVVndDelZ2cWFpa08zQU9rSHJIN0Z3QUhvOXJSb2YxcjJnd3Y4UGlqZGxSY1puT1hCQkRXRHdCZVB4QUlQNzQwTVpqSDFBNGpJ?oc=5",
+          "title": "France 2 en direct - France TV",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uSG0tSUZIRDlxYWhrRDJzeWxaNTJOSFhwZUNKNDJrY1pTRkF4VXVvVFpxZnJ4cGI2cjYtRVdxcVZGaEZjcFl5dm1pMmZ2UEdydTZQWQ?oc=5",
           "source": "France TV",
-          "published": "2026-10-27T19:00:57+00:00",
+          "published": "2026-10-28T22:47:52+00:00",
           "scope": "本国热点候选",
-          "title_zh": "2026 年 10 月 27 日星期二重播版 - 新闻下午 1:00 - 法国电视台",
+          "title_zh": "法国 2 直播 - 法国电视台",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "snap",
+          "title": "inter miami",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-28T01:00:00+00:00",
+          "published": "2026-10-29T01:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "折断",
+          "title_zh": "国际迈阿密",
           "translation_status": "translated"
         },
         {
-          "title": "h&m",
+          "title": "manette ps5 prism",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-28T01:00:00+00:00",
+          "published": "2026-10-29T01:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "",
-          "translation_status": "unavailable"
+          "title_zh": "PS5棱镜控制器",
+          "translation_status": "translated"
         },
         {
-          "title": "disneyland paris",
+          "title": "boat cristiano ronaldo",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-10-28T01:00:00+00:00",
+          "published": "2026-10-29T01:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "巴黎迪士尼乐园",
+          "title_zh": "克里斯蒂亚诺·罗纳尔多船",
           "translation_status": "translated"
         }
       ],
@@ -674,12 +656,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "10 cadeaux locaux et originaux pour un papa - Femmes d'Aujourd'hui",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcmZjRnBHandwUTBQMUQxd3pWTEt6VlZDZGhjbW95SllDNGR6SzB4RWxNb1FtWVAyUF90RUk1dmFzaVNnSERZY1hNT25RYTktUFJtbTdxZzg0Q0MtVnpNWGFOMS10WXNQYWlwSlVkRmhBdDJEVG1CQzVnT2FsQVdaN0hJQVJOM2sw?oc=5",
-          "source": "Femmes d'Aujourd'hui",
-          "published": "2026-10-20T09:44:05+00:00",
+          "title": "SORTIR (du 21 au 31 octobre) - lecourrier.vn",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCSVdkYUZ0NjBTTms1aDFpM0dXTDVHY2I1X2RscFU0dlZTVVBhU01SOHdXLVNoNnBWOXB5OU0wV0U0bjVWOXc3cElIbGtCckkwUlB6UlEtbE5MUHN4MXRKUHY0cXB3TTlwLVZ3UDBR?oc=5",
+          "source": "lecourrier.vn",
+          "published": "2026-10-17T00:30:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "送给父亲的 10 件本地原创礼物 - Femmes d'Aujourd'hui",
+          "title_zh": "GO OUT（10 月 21 日至 31 日）- lecourrier.vn",
           "translation_status": "translated"
         }
       ],
@@ -689,59 +671,59 @@
     "ES": {
       "news": [
         {
-          "title": "Miles de agricultores y 500 tractores amenazan con paralizar Madrid este miércoles - RTVE.es",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWWFSSmVLNVpFRXk5dUhRdVVCRlhYNTZ1WjJvUzhRMkZBOWNxZDk1T29qQ2FSaDRORXkwN0VtRjcxbVRpdmhjM2tfdm5mZm1XUjIxdDNZdTVUOWk4UDZQQzhuUG96QTNxZFNQRGNJYUdOUHVkWllUVmVqZVR2ZmEwSGVCTklVRWItbU4zSEQ0U3V1cEVwOEJxOXdoRHp4UDB4MEtiNVl4OEZ6RXprRk9YME1YZ19ZMzlrZkZTRW9DdW12TnhV?oc=5",
-          "source": "RTVE.es",
-          "published": "2026-10-27T20:36:22+00:00",
+          "title": "El Real Madrid empata en Múnich - Real Madrid CF | Web Oficial",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUHFKSWdwM1RuM3VURkhBNGRzN1ZtbVdYRHRreWRMc3BkTElFWTQxVnlZUkdaeWljWi1yY3RscHUtM2ZHOGRoVnEyNFFESG02Y2RQSnFaTTJBeHBqTzFxSE5rUDRkWVZLNDBqanJkR2pScEVtYXZDVENhbGd2aC01WU9XUUZOSmN4c2tQaFgxWUNVRkVUZXNHSlFGbXJVT0t2SEhwYkcwRVlvMFp3alFBYlhwbzZKMnV4NDVTVFZNXzM3WEtBSFFVekR5LTVBY2NX?oc=5",
+          "source": "Real Madrid CF | Web Oficial",
+          "published": "2026-10-28T19:45:54+00:00",
           "scope": "本国热点候选",
-          "title_zh": "数千农民和 500 辆拖拉机威胁本周三马德里瘫痪 - RTVE.es",
+          "title_zh": "皇家马德里队在慕尼黑战平 - 皇家马德里队 | 皇家马德里队官方网站",
           "translation_status": "translated"
         },
         {
-          "title": "La Policía investiga un robo con fuerza en un despacho de abogados ligado al PP de Madrid - EL PAÍS",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNEptb3dnSlg4WHFqdkVMcWYtRHAwYVZjMHNvZm0tY2d0UHFpNjVLWTNCNDFRekJuSEF1eHNPNTBWTDRocmQ3TER0MHdxU1p2MVBFbWdUSUhKYk12bWQtTDVqU0hVX2d2RHJXc25VMGw5bXp6UUZqUUoyeTZZdzNxQ3B0d3d6Skt5RTRLeXpNeGVjVjl3ZU1zTkNyckk1eFNSd3JVT0NQdFltUUFDQmp1Q2NsZzN0Mi03enp2eGtHTVFtdWdzWDR1dThORUFBdUpVTHRpY9IB6AFBVV95cUxPWFNYUUY2MlU0YnliUnVaZDFoQ2s2aW1mSjRZN3Qxek9RQmJOTFIyLTBTb0hXdF9tMXB4d1ptalJMRTNCUExVMUdwM2V5SVd4Wm5MMGlsQXhuWUZia2V4WTZuNzNILWViNVFJRUlia19xbDVVSHc3d050dWstalNnTGhjc3hCc3hTOVAxOVI3Zl90d0Z5QWRvMDFuSmVfLW5tQl81a1o1ZjY5cVBrOHdrdzhnSnNrX25vcTh3UHFhOWJ6dE1ZS2Z0emxkeVY1d3Q0NURjcHFqTzVUT2ZLQU9GUUpLeU9mUy0w?oc=5",
-          "source": "EL PAÍS",
-          "published": "2026-10-27T20:58:08+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "马德里警方对一家与人民党有关联的律师事务所发生的抢劫案进行武力调查 - 西班牙国家报",
-          "translation_status": "translated"
-        },
-        {
-          "title": "El Gobierno destina 201 millones de euros a seguir ampliando el parque público de vivienda asequible - La Moncloa. Gobierno de España",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanc3V29UY1BpeGdqVXdZOG95X0I2OUJWS2dQeng2dlBZbTRYYTE0NzF6NWhNbkVYSS12bHNkamNJcW1yN25UdUNIc3U3M3BudU5kT1hKdmNWRUREaEtLNzhBR3c0eUE1ZFVrV2poTU9jQ3cyR1QyQmplTXpDTU0yZjhJbE1QX1pQVkxhSk5FVDNabmhadlR3YnVpczNmNXBDejBKQ2lfeFo?oc=5",
+          "title": "El presidente del Gobierno anuncia tres días de luto oficial por el accidente de Urda - La Moncloa. Gobierno de España",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUduSXBTTTRmRnUxOWhRUXM0NTBEZ1JpNHVHZ2RBMzV1VFItVDFWbC1sRDNDTFAwaU53Tm1XSDJKVklQWnRON245aUpTNEZZWE9ON3ZaWGJzUW56RE1rZlVmNmpBZzZXUDlMSTZhbW1rM0F4eVZkQ0w4dWNZR1h4Vk1YbjB1c1E3OU1SOGxvN1A5cW9zb2pPR0VGNEM3dmZyT2NRYXhkemV5QQ?oc=5",
           "source": "La Moncloa. Gobierno de España",
-          "published": "2026-10-27T16:54:27+00:00",
+          "published": "2026-10-28T17:44:19+00:00",
           "scope": "本国热点候选",
-          "title_zh": "政府拨款 2.01 亿欧元继续扩大公共经济适用住房存量 - La Moncloa。西班牙政府",
+          "title_zh": "政府总统宣布对乌尔达-拉蒙克洛亚事故进行为期三天的正式哀悼。西班牙政府",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Qué se sabe del choque de dos trenes de alta velocidad en España que dejó decenas de muertos - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kQ2VQd1BQMzZSYVJsTXZxVnByV1locnFBaXNZX3BhSDZ1WGJOT25xc0tTWWluSFNjcFhjSTZWeUpLNzZRNHducldIeVZGMVRTMlFpX1pQdW5LLV9D0gFiQVVfeXFMTU1JSlNYNHd1VTZfZ3h0X1dRRmxTNFZjbzB2SVBfUzdEdS1hZDRQYl81QXFhbHF2U0JoQ2tkQ3o0VUJoRXAtY21zUlUxR05uU3lSSkJiUC1Uck9nM1d5VTdOS3c?oc=5",
+          "source": "BBC",
+          "published": "2026-10-28T22:19:51+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "西班牙两列高速列车相撞导致数十人死亡的已知信息 - BBC",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "laura bozzo",
+          "title": "nba hoy",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-28T01:50:00+00:00",
+          "published": "2026-10-29T01:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "劳拉·博佐",
+          "title_zh": "今日NBA",
           "translation_status": "translated"
         },
         {
-          "title": "hacienda",
+          "title": "ramon espinar",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-28T01:10:00+00:00",
+          "published": "2026-10-29T00:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "税务机关",
+          "title_zh": "拉蒙·埃斯皮纳尔",
           "translation_status": "translated"
         },
         {
-          "title": "spurs - kings",
+          "title": "timberwolves - warriors",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:40:00+00:00",
+          "published": "2026-10-28T23:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "马刺 - 国王",
+          "title_zh": "森林狼 - 勇士",
           "translation_status": "translated"
         }
       ],
@@ -989,12 +971,12 @@
           "translation_status": "translated"
         },
         {
-          "title": "Regalos corporativos premium: cómo refuerzan la marca y el employer branding - PR Noticias",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHE0Q0owLTZxWDhKZWtubWE3cmFJMkRfdDU1bjBiOVVvUUN0Njh6d3NnN3VmM1ZqMUNoM1BIei1uV01PdTF0dHlrTE9ycmwyeWNRX29rREh4REl0cVRqMzNYMVdPX2lJMWdPSzJ3cWc1aUtHWjFlMm1KbnNkSFNxV1BWRGZ4R0x3UmRxRkZPWGhaUnp4eEFPQWpyYU9La0FuaUZzMDJjdlMxWHpHSEtv0gGvAUFVX3lxTFBkcTRDSjAtNnFYOEpla25tYTdyYUkyRF90NTVuMGI5VW9RQ3Q2OHp3c2c3dWYzVmoxQ2gzUEh6LW5XTU91MXR0eWtMT3JybDJ5Y1Ffb2tESHhESXRxVGozM1gxV09faUkxZ09LMndxZzVpS0daMWUybUpuc2RIU3FXUFZEZnhHTHdSZHFGRk9YaFpSenh4QU9BanJhT0trQW5pRnMwMmN2UzFYekdIS28?oc=5",
-          "source": "PR Noticias",
-          "published": "2026-10-20T10:09:02+00:00",
+          "title": "“Ya no tengo que preocuparme por los regalos de cumpleaños”: ha encontrado el invento para que cada uno sea único - Xataka Smart Home",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdWJiOXhGYWlRSXlJTXR1ckxPLUlkLXNtMHQxOHJaY0g3eDJkemNScDJSSnJEYXlJcEtHbU1BcTIyS1c2Z0c4RktxLTBCOTR1dW9qN1FMSm9ZbFNRemtBTmR2QW5FOHczcjlfZFZVZWNDMHN4MDNvdEdnVDFiVVZ0QVZnb2tfcVBUVXE0Qk1VQXREUTRldzZUenFOOGlORDJiSU0zRnJfMVBVM1VGaXVLZFdVeFZlN2tzbkdESEZhX2Z1UdIBxwFBVV95cUxOTFljMGxFYWdZXzhGTDM3MWl5M1ZnWG45XzdIbGRsY3B2a29xSlZ6ZHVRem1MaTVZblZfcl9GMlpRYlc1dWMtRXV4alNHMENFTTRKVjVIamVDTGMtSFhtOFZ4T1VRZm93dTZxTUt4MTBHbTVOSTR5YnM5WFp5UEw2VnBSTTR1MHh0Z0FWb2J4WFV2LW52TnRoZ2h3b1AwZzF0ZHBwUWN3cXRMdHRtZ2lqWWdWY2J1U1hKWElxYkswQndYaEppWUg0?oc=5",
+          "source": "Xataka Smart Home",
+          "published": "2026-10-28T11:01:28+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "优质企业礼品：如何强化品牌和雇主品牌 - 美通新闻",
+          "title_zh": "“我再也不用担心生日礼物了”：他找到了让每件礼物都独一无二的发明 - Xataka Smart Home",
           "translation_status": "translated"
         }
       ],
@@ -1004,59 +986,59 @@
     "IT": {
       "news": [
         {
-          "title": "Serie A 2026/27 - Roma - Cagliari 4-2 - Video - RaiPlay",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZS1GQjJiWUVFQTdncUVZb2g1S09SSW9wRTM3T3NoaXN3ZUZ3aE85SlN6NVpUdTB1bGY1TG9ObWlzd2hxXzNidWdVeHY1TlVDYVNrb2FxTXBPTmNuWlNCaHFQUDJNRS10YUhMbHAwQTBZTm15ZkNGenR2WlJZZnNFbTJ4dVZpcnpmVzk3TTlQcGdMRU5lOXJJcVhzc1pabEg4aGZ1emJxN3JpS2RDWjZINzdkNmFyTmhoVjZuRHhMcUNLRXM?oc=5",
-          "source": "RaiPlay",
-          "published": "2026-10-27T23:23:51+00:00",
+          "title": "Sito Istituzionale | Rinviato sciopero 30 ottobre, servizio regolare su intera rete - Roma Capitale",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSW9iM1VCUFVhbmNJWWtlVXB5b0h4UmJwTmNwNlljczVXWXphVHVQNXRMWno4bU0xS0VtNmRiSEswWVNvcW0wN2ZCa1FPWWxyVi05VUNLZWp3OHZ4aDJSdGl1OXlfV1J1WXhnQWxVOE10MnF2QldmYmJYbHlMUm42b2xuaExtbEE2bld1Q2tkbjhrNlZBY0tjWA?oc=5",
+          "source": "Roma Capitale",
+          "published": "2026-10-28T19:20:52+00:00",
           "scope": "本国热点候选",
-          "title_zh": "意甲 2026/27 - 罗马 - 卡利亚里 4-2 - 视频 - RaiPlay",
+          "title_zh": "机构网站 | 10月30日罢工推迟，全网正常服务 - 罗马资本",
           "translation_status": "translated"
         },
         {
-          "title": "Ex Ilva di Taranto, incontro Governo-sindacati a Palazzo Chigi - Governo.it",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObV9TZ1RSb056bVNBa2pnNy1DN3ZwLVhHMjhjalQxdG5GcmxTd2xreFVrZ3VUNzRQMlh4STFTd3ViTEIwNFFxUXBiUUh0azV1U2JkOFk1SXBRcUtYNURBNTE3WDBOeDRVUC15dXVkQnR4T05iMkJGRVI1Skh0NGlhYWJlV3Y1dGxSQWdPWG1MLTB5ald4dkVtVnVQQ2xJdw?oc=5",
-          "source": "Governo.it",
-          "published": "2026-10-27T18:24:04+00:00",
+          "title": "Monza-Napoli 1-4, pagelle: Politano show (7,5), Hojlund si sblocca (7), ma che pasticcio Mangas (4.5) - Virgilio",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNTNLM3dISTZuUU1WTXlYM0VUajlKdVI2R2pFQ3FkekVDQV9FTUFmbzRPb1V4ZXVUbzNFd0s2dHFiM2l0eThsRzJvMW1VbWcxNkdMYks0bTBzN0Jyb0U2Vk5Lei1LTVBlckFjYzNUNlk1Uy1aSFMzZlY3TzJib0V6N0JzcElfcEVveHVNbWRxaDU1X0hHSUI1MmRYUDFRUHQ4?oc=5",
+          "source": "Virgilio",
+          "published": "2026-10-28T21:42:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "塔兰托前伊尔瓦政府工会在基吉宫举行会议 - Governo.it",
+          "title_zh": "蒙扎-那不勒斯 1-4，成绩单：波利塔诺表演（7.5），霍伊隆德解封自己（7），但曼加斯真是一团糟（4.5） - Virgilio",
           "translation_status": "translated"
         },
         {
-          "title": "Video - Lega Serie A",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QOFZ1YVMzREJSR0tpRy1wc3A1U3V1a3pONXo2VlppMURXX2FQSF9LVm1kZGlYbXlVdjJQQU1QMmlTZEw0bl9pRG5tSHFhS2dhQjA3ZmROVm1xZ2VVenNISE5rY3pJRS03N2NYRklTNVYyUQ?oc=5",
+          "title": "Monza vs Napoli | Serie A Enilive - Lega Serie A",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONE1tSHNWOWhtRHpMdUJDMUFJLWlZT0Nwbl9laThkeHNsTWZhMTlBU0ktVkN4eE9XLW43R1FDNy1PUkgzdHBydE9hUURjSEw2OXpyMG9rZ29ETmxQVmQxTlMzQVY1a1V6X3RPU0RCdDB5eWNhVmgwOWpvMVBEUTZNazBpZi11TFQxUG9MWDd4cWtHQQ?oc=5",
           "source": "Lega Serie A",
-          "published": "2026-10-27T22:45:26+00:00",
+          "published": "2026-10-28T23:10:43+00:00",
           "scope": "本国热点候选",
-          "title_zh": "视频 - 意甲联赛",
+          "title_zh": "蒙扎 vs 那不勒斯 |意甲 Enilive - 意甲联赛",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "disney plus",
+          "title": "bolla ai cina",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:40:00+00:00",
+          "published": "2026-10-29T00:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "迪士尼加",
+          "title_zh": "中国泡沫",
           "translation_status": "translated"
         },
         {
-          "title": "ansa",
+          "title": "timberwolves - warriors",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T23:40:00+00:00",
+          "published": "2026-10-29T00:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "处理",
+          "title_zh": "森林狼 - 勇士",
           "translation_status": "translated"
         },
         {
-          "title": "gta 6 ps5",
+          "title": "hawks - heat",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-10-27T23:00:00+00:00",
+          "published": "2026-10-29T00:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "侠盗猎车手 6 PS5",
+          "title_zh": "鹰 - 热火",
           "translation_status": "translated"
         }
       ],
@@ -1248,25 +1230,25 @@
           "source": "Sortir à Paris",
           "published": "2026-10-27T15:38:57+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Bag-all：玛黑区精品店，手拿包上印有您名字的首字母 - Sortir à Paris",
+          "title_zh": "Bag-all：玛莱区精品店，手拿包上印有您名字的首字母 - Sortir à Paris",
           "translation_status": "translated"
         },
         {
-          "title": "TG news del 22 ottobre 2026 - Borse, Europa in rosso e spread fino a 128 punti … (Video) - Gazzetta dell'Emilia & Dintorni",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQX0xfbDJqZWNPQm85aEdoTGxqNGJReDFwUVh3eTk3c25XZ1N3WXhJMWNlT0otX1hfd3B0T2ZxMUkyMHBBQklqak81U2s2cVF6V0dVWGRCNF9qU3k1V0dCZmw0b2szUGxFYmE2Nk1qOEM4U2s1QTUtakNQU0FmYXJGaXJ0c3ZlMmdsSU1neVZhMkJ6YXVBYVpVeFBLM1lTaU5KcUpzX0Y1WVNQN3ZVS1BuVG9pekd3QkJjS3VsNENaMDAwb2E0aEliZzl4Rk5KQzNqRVF1UlRGZEwtMGRMcExEa3p0RHlERUE0QzZmWEFtOUQ1cmtoTmZkTXBB?oc=5",
+          "title": "9.000 km da Modena a Capo Nord su un'Ape: il viaggio di Francesco Furlani che ha conquistato 800mila follower - Gazzetta dell'Emilia & Dintorni",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOWDlDNnNQY2FXcWtyNmFldkk3dGd3UXk1cHZ2a3lxSHB3NFNtYVp3aHRkaTEtR1VsYzJmZGR5bFNHVnpWSzUwU3BwYmttVmJ0ZXBLVHVEeWRYZDBMQXJJYmVtM2w5Wk9wRkgwSzhkV18yU1VLZkJmbkszWFNMbENvMTFOb2dlRndta0tOb0k1WEg0NnpsVGVvNXIxTHlNZ1JCZ3VqS0ZVV3RtSlpDX2t0R0RjYTk2RDlTc1VkUnMyaFlsU2tRYTJvelFFSHNwZzdua0praWtHYTZ3ZHBwT29ETHpDRlJTT21uOXJZc0Fpb0NMZGxzbDd4VFNsZXk3STZrZHFWSVRQSFpuZmZKLXkxVjY1Q1MxSVdpYXBUbw?oc=5",
           "source": "Gazzetta dell'Emilia & Dintorni",
-          "published": "2026-10-23T07:43:00+00:00",
+          "published": "2026-10-15T07:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "2026 年 10 月 22 日 TG 新闻 - 欧洲股市出现亏损，利差高达 128 点......（视频） - Gazzetta dell'Emilia & Dintorni",
+          "title_zh": "骑着猿猴从摩德纳到北角 9,000 公里：Francesco Furlani 的旅程赢得了超过 80 万粉丝 - Gazzetta dell'Emilia & Dintorni",
           "translation_status": "translated"
         },
         {
-          "title": "Idee regalo per il 20 ottobre: ​​quando la premura è più preziosa del regalo stesso. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWXBubWM4dWFBUnJsejhhMW5TMG1lVEZ6VUgzVks0VjVvMEQtVkZVdEJzbDdiZUEybkRBSzJ5SHFCdnVqaXcyQUZQOVJTcnROc2pIVEE0QVY5REFEUVpHTUdjUUJEaGNfc1Z2NkdIUEVjNVplR1BldU5Eb3Q3a1E4N19LbVg5N3c?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-10-19T16:19:08+00:00",
+          "title": "Dailymotion Business presenta RAY con una cena immersiva e personalizzata a Parigi - Media Key",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHZna3JSYVM1Z04tRFI1NlY4dWhmd0Y5ZVlpc2M1bE4yRmRyNzl4eVJoU3dIazdTTnRnOXNteVk1emxUa2VHUlppUG13eVpmRmVieWNZdEkyU1hDX3k5Zy11MnA0S3MyYkhHb3o1cUlPc05kdTlSRDVkTXVCR0JOSFVBcC1zT09LSkZYNkMyaEtSVkl2T2FCWWViVkdKV1RiRWt2OUU4NkVPdzdS?oc=5",
+          "source": "Media Key",
+          "published": "2026-10-22T10:46:27+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "10 月 20 日的礼物创意：当体贴比礼物本身更珍贵时。 - 越南.vn",
+          "title_zh": "Dailymotion Business 在巴黎为 RAY 提供沉浸式个性化晚宴 - Media Key",
           "translation_status": "translated"
         }
       ],
@@ -1276,59 +1258,59 @@
     "NL": {
       "news": [
         {
-          "title": "Wedstrijdverslag - ADO Den Haag vliegt na penaltyserie uit bekertoernooi - ADO Den Haag",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdjdaS3RERlpsOE42TW1aeGU1US1sbms5UkxoTHR2a2tqam93RUxKOWlmX2g1eERtSTlwZWp0dzA1eVJOZWNPM3BkT2NLR1ZqTUtOVXNZdkZudkNkRk0tSklhbmZqZXVzRE5jQmlpSkl5YzVkYlVTdktobGJnRU5WemMyd2NyUEo4YVE?oc=5",
-          "source": "ADO Den Haag",
-          "published": "2026-10-27T20:52:06+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "比赛报告 - ADO Den Haag 在点球系列赛后退出杯赛 - ADO Den Haag",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Samenvatting Excelsior '31 - ADO Den Haag - ESPN.nl",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVHdRS0doMVdCQXF5UHVBOVRqOUk0dzFGZGRJdkVKYVgtakpqeEN2dmMxcVUtdXQ0SDFtSEl4VC05dEZrdVotSDgxYWdsa29uekZ5bmZNdUo1d0NMT0RrWUJJNVF0b3FQbmh5U3otbmJIRGFqS0lKQVRyMlcycF9zRFV0T1dmMDVDNHdV?oc=5",
-          "source": "ESPN.nl",
-          "published": "2026-10-27T21:02:08+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "摘要 Excelsior '31 - ADO 海牙 - ESPN.nl",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Opnieuw inrichten Nieuwe Duinweg, Roosje Piersonplein en omgeving - Gemeente Den Haag",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUUE5SjdOMjRNTXNzaHlFQ1NMTFUyWVQ2MXJON3ZsckpLSnprSU1yLTlRd25UdHFQWXdZVS1DNUsxUl9LazU5dU5KTkt0dXoxTk42MlMwTFNxbzFYMlZhcFNSNDFldUFJRkNxdklvZnlyZVFoVlZFQnozSjFfall6OUE2QWs5bG8zbHpHa3UzQkxGWlhwVmZKdHEwY2ZuSkU1U2JpMERmVHdpZmQ2X2d6dGpoWQ?oc=5",
+          "title": "Nieuwe Duinweg en Roosje Piersonplein: resultaten meedenken - Gemeente Den Haag",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaWZ6NnZoeGlYdERpaTIwTU94N2djdldUeE1TVjZiay1VUFF4N2tDQkhIOWtqUXd2MGNIMTFkOXBCNThEX2tDaFNsd2JhSVpwaGtlbWtvZnlsNXZDNVJHZzJnQWxJRFRKeTdkaGRmRnhjNzdHRDk4TUp2OGlTeVBrekR2QzVCME9XSnV6MFJEaXZ6WjhsQW9rQm9LV1RxTXU2d210TC16Rk5FaWFJd2c?oc=5",
           "source": "Gemeente Den Haag",
-          "published": "2026-10-27T21:52:09+00:00",
+          "published": "2026-10-29T00:05:25+00:00",
           "scope": "本国热点候选",
-          "title_zh": "重新设计 Nieuwe Duinweg、Roosje Piersonplein 及周边地区 - 海牙市",
+          "title_zh": "Nieuwe Duinweg 和 Roosje Piersonplein：思考结果 - 海牙市政府",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Eerste Marathon The Hague in Den Haag en Westland: welke routes en afsluitingen zijn er? - Omroep West",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMXFQOGk2LVdWX09VcnAwVHVwXzM5V0o4d0tzZmI5OXlBT1gyU0c4eC16QTg2eTdqSnozQVptV2puQW96MXRDQ3FSR3hpOXpIWXowTnNpY1dSaU41NnhxSndHUF9ZZXdnWjZLWDB3Wlc1STBwN1pXWksyNFJ0dVhtQkJtYVVVSWFCMURRazJtamRWNkxmTTVVY19XaDVhUXRrVVN3OW5Xb2lHYXRjaDdqX3FqMS1qa25EU2JiSUdRWjB6LVB5?oc=5",
+          "source": "Omroep West",
+          "published": "2026-10-28T09:02:24+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "海牙和韦斯特兰的第一届海牙马拉松：有哪些路线和封闭路段？ - 奥姆罗普·韦斯特",
+          "translation_status": "translated"
+        },
+        {
+          "title": "President Zelensky vandaag in Den Haag, bezoekt Jetten en de koning - NOS",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYWNwMWVrMF9Yd0xFNmx5SGdSQjF1WGVDNHdUcmhVQmlxaVhac3ZZd2N0Wk1oY3h3U1RJQkN0MG1fdHRLU1VucFRmdmd1MUtZNnhsRkw0cy1kczBRZWVjQWE3bjZ5OFhsNzl6a1ptYjkydzlKS1VBR1o3cGV4dUVMTFNwbjZlLTMzSUNPMVRVZzlnSDZ3bGdoRzNvUHNaUQ?oc=5",
+          "source": "NOS",
+          "published": "2026-10-28T08:38:33+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "泽伦斯基总统今天在海牙访问杰顿和国王 - NOS",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "bet 365",
+          "title": "dries roelvink",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T23:50:00+00:00",
+          "published": "2026-10-28T23:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "投注 365",
+          "title_zh": "德赖斯·罗尔温克",
           "translation_status": "translated"
         },
         {
-          "title": "ontslag",
+          "title": "ismael saibari",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T23:30:00+00:00",
+          "published": "2026-10-28T22:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "解雇",
+          "title_zh": "伊斯梅尔·赛巴里",
           "translation_status": "translated"
         },
         {
-          "title": "willem alexander & máxima",
+          "title": "belegging",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-10-27T22:30:00+00:00",
+          "published": "2026-10-28T22:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "威廉·亚历山大和马克西玛",
+          "title_zh": "投资",
           "translation_status": "translated"
         }
       ],
@@ -1530,59 +1512,59 @@
     "NO": {
       "news": [
         {
-          "title": "Norge og Ukraina styrker energisamarbeidet - Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU2RkdU83dW1VZGZ2Wld3Z0EtSTIxRkhzVHo5cFJCaDR6QjRwS0dPR28wdUN2M3VOX2h0OWgyalRoUWtFTHZueS1hOVdCME1Nb18wM1JYTmlDYjdOWEFKWVFUZ0pBR01FNHhBWGV2M2lXdXQ0MUx2Q1ZvcmhjOEV4R091VV96VVlscUl3VlFhb0VPOFJOeUE?oc=5",
-          "source": "Regjeringen.no",
-          "published": "2026-10-27T14:54:37+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "挪威和乌克兰加强能源合作 - Regjeringen.no",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Kunst i Bergen: Fredelige konger kan også lage bråk - Bergen kommune",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2RxbmVpX2cxODFnR0tuTVd6NmJEVHdJV3R1M1I3NWFWQjV5eUd4b19hRUdDU1lad2ZuOHJHY1Y4UEF4bEhNZWtJRVBPV3o5RG5ldjlLcVNrY2ZyaFJ6YjVQdDBTTm5tazFSS3plazZrUTFTalUwbndnU3BZajEwc2hRUDhqYmtWajZBQ2RsYVNFMW1qWHNWZkd1MVV2QVplSmRuY1NBTDhJdw?oc=5",
-          "source": "Bergen kommune",
-          "published": "2026-10-27T16:27:05+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "卑尔根的艺术：和平的国王也可以制造噪音 - 卑尔根市政府",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Kran, Oslo | Krandramaet i Oslo er over: – Vi ser svært alvorlig på hendelsen - Nettavisen",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR2JjN2NDY0pPbFNBdzU1N3dDYzNtWUJRakptdmh1MXhrYUE4c1I1RWhKYWlHNWNlaHBXcDZmTVFzeFBuR1BVeTBnMFZFWUZ5SUJPanc2OXlQLVNxUjdYSUpjQUlvMkZpRVNONGltamN0ajR6Y2NBQlNkalh4OENVODloa01OS284WGxzc0ppQXNTVzU4N3kzNld0RmFTYWRON2ZoaUlCNFFsM3R3YzI0?oc=5",
+          "title": "Russland, Darja Neprjajeva | Russer forbauset over mottakelsen hun fikk i Norge - Nettavisen",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY2pSV1ZLZ3JGdEd4NS1pZVIzM0F6NnI3MTV6bF9QSlN4ajFfNWgwN2VXalJzT216UVZnS3RxMUxFZkwzb012Wm9lQWNBXzFOb2p1ai1LMFB4VlR6ek90dWJETWIybHI5VEI5R0dGZGduRnJNN3g5bkJ3QTFVVzFqazh0ZTZmcndnYm41b3FoeGNaVDNMZE5IX09aelVjQQ?oc=5",
           "source": "Nettavisen",
-          "published": "2026-10-27T21:46:21+00:00",
+          "published": "2026-10-28T20:01:19+00:00",
           "scope": "本国热点候选",
-          "title_zh": "水龙头，奥​​斯陆|奥斯陆丑闻已经结束： - 我们非常严肃地对待这一事件 - Nettavisen",
+          "title_zh": "俄罗斯，Darya Nepriaeva |俄罗斯人对她在挪威受到的接待感到惊讶 - Nettavisen",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Trump kalte Norge et «shithouse country». Visit Norway svarer med toalettbilder. - Aftenposten",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSXp1Zm5YN2tYTERVU1ZSNXhJQlNJakZOTFZfWGhFblhoWFA4ZHYtVHREVHFxYWFDSUIzcTVITmtTcXowYVEwMDJMSFUwS2pvSkxQT05vODgyTGg5a0o1MTdCUjBiM3RjMmxxaEozdGxPS0FLMm16a2lETF9WdWFzb3FYbWVnUXd3R1VFSnlLMURlWWJpbWRsN3huY3lMRDdiUmlLMTVTQzl2SGtaUVZOeEpzdUwwSk5lRkE?oc=5",
+          "source": "Aftenposten",
+          "published": "2026-10-28T22:09:41+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "特朗普称挪威为“狗屎国家”。挪威旅游局以厕所照片作为回应。 - 晚邮报",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Deep Purple i Oslo Spektrum: Forsteinet, på en litt fin måte - Dagsavisen",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ3F0M0NZRG84WXR1VGk0V3hDdC1GSE1UWHdFeWxHU2s0VEpBdDFFMGRaMzk5RW1odVVDWldNV3R1Z3VZcHNlSm9Uc2pueHVsckt0SkZWZHg3b0w3d3BvV1lJRnJvejEzeWg0ZXhOb0lLaVZSaTNiWEFUMHVjclZ0cXN6Q3ZqMDBoRGsyeXoxRmpGLS11alhNOEpKRWhpeTFIcEE?oc=5",
+          "source": "Dagsavisen",
+          "published": "2026-10-28T23:06:28+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "奥斯陆 Spektrum 的深紫色：石化，以一种相当好的方式 - Dagsavisen",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "hm",
+          "title": "bensin",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:50:00+00:00",
+          "published": "2026-10-28T23:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "唔",
+          "title_zh": "汽油",
           "translation_status": "translated"
         },
         {
-          "title": "susan saint james",
+          "title": "ole gunnar solskjær",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-27T22:50:00+00:00",
+          "published": "2026-10-28T22:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "苏珊·圣詹姆斯",
+          "title_zh": "索尔斯克亚",
           "translation_status": "translated"
         },
         {
-          "title": "extra",
+          "title": "tv 2 nyheter",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-10-27T22:20:00+00:00",
+          "published": "2026-10-28T20:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "额外的",
+          "title_zh": "电视2台新闻",
           "translation_status": "translated"
         }
       ],
@@ -1808,59 +1790,59 @@
     "SE": {
       "news": [
         {
-          "title": "Överkörda av Malmö: ”Tänker inte alls” - Aftonbladet",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORmFUbDVKMUJvdHcxT3hJVXhtdTNzdkF0RE9Sa2RkMkZhdEZYdVp2TFBzdE1pN044bV82U0toVmNjVDFNYTJwTXQ3NmV2cy1QcEFmeFY5UGZ6UGtZMU9TWC1wUFFQQTBPZkVvN2FMbEZDNFZubWlYeXZ1MWwyREROQktvT3ZpczZjTkc4MVRJX1BETzE5aEZBLUFKQk5DOWVlUFFLaTdR?oc=5",
-          "source": "Aftonbladet",
-          "published": "2026-10-27T18:50:18+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "被马尔默占领：“根本没有思考” - Aftonbladet",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Curling: Sverige vann EM-premiären – trots svårspelad is: ”Som en feberdröm” - SVT Nyheter",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOFJheDFGeS1Ja0RDU0ZLd1FIRnNTTWFfUFBVS0t0cjNiMDBRRTh3UVFGTS1qTEg1YlVTWnJoclZrcWdhc1VBYnFiZEhIalUwaE9tVXVOQUVWOGNHeUExZ21UOFd2WktZbWlLRDk1bS0tdTBnVjY3T1JHSm92SVdPcU5uN2RUM2paS0ZUYUE5cDBOT0FPTU9iLXBsSQ?oc=5",
+          "title": "I sorgens skugga: Sverige utklassade Spanien i curling-EM - SVT Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMDRQTzkzWm5FLVRlTW5WNzR1aWJjTVFhcmQ1RzFaVHZObmdXTDFLQVlDRERKTUhlaDdfTEx2cE9LM1JKcVBZYktsMGVlWi1SbTlpLW1ILVIzek9LSzc2ZmRlTVQ5ZVd5Qlc0a3plVVZCLTJ1ZGJSS2E2SFY3ZC1EMnBWN0wxc3Z4R1hSS2VHbmM3elU?oc=5",
           "source": "SVT Nyheter",
-          "published": "2026-10-27T20:20:07+00:00",
+          "published": "2026-10-28T19:51:13+00:00",
           "scope": "本国热点候选",
-          "title_zh": "冰壶：瑞典赢得 EC 首映 - 尽管冰上困难：“就像发烧的梦想” - SVT News",
+          "title_zh": "在悲伤的阴影下：瑞典在冰壶比赛中击败西班牙 - SVT Nyheter",
           "translation_status": "translated"
         },
         {
-          "title": "Principer för en övergångsbudget - Regeringen.se",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZGMyZGJHazFQU1drVi1pV0kyTHRjSURXNnBpNlUwM0FEeDFPelZjc3V1TV8zM1Back9xTE1FU3FkNndQa1FmZ1FWUWpLR1E4YnRiaU41RXhNMTJ6NGxuYlp1Q1c5ZkVsTEt3ZVpsYzgzMlUyYnFaY3hHR1hfUnJjdUR0ay1jZzluenlFVA?oc=5",
-          "source": "Regeringen.se",
-          "published": "2026-10-27T10:12:51+00:00",
+          "title": "Halmstads BK - Malmö FF",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1paUl3T3h2S1kwUVBwOTNybndoVmJmYkJMcjByeklnQnRCVUo4SEt4cXNxeDVaN1FDbFVwd2VqZGhOVDRaZ3Z6bjExQ3UwYWlJSVFZOURfdEExRVZoSjB2ZWZFUmg3ejRDMk1UOExWZUg4S2NGRFlr?oc=5",
+          "source": "Malmö FF",
+          "published": "2026-10-28T19:00:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "过渡预算的原则 - Regeringen.se",
+          "title_zh": "哈尔姆斯塔德 BK - 马尔默 FF",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Drömstart för Sverige i VM-genrepet - Hockeysverige",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMlJEMjItUGFWcmVwOFpZb3BIdGhwYU4wd0hyMXpVcE9UdWhGX2tWSFpvc3dra3hhNW9sdm5HSEoxUmRKajhhaEZzbEpnazFmV2ZPTUhmdF90LTIxWFBWUDI2YzhKNUVjbWYtZU82bVFjeEpqaDFibmVhaFNndWM1cUlKSnBYRTI1TWNEUFQ5dzVITnRwNkNKU1N0M05SeVNqVGRxYnozM25OT1Np?oc=5",
+          "source": "Hockeysverige",
+          "published": "2026-10-28T19:34:29+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "瑞典队在世界杯上的梦幻开局 - HockeySverige",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "hm",
+          "title": "djurplågeri",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:30:00+00:00",
+          "published": "2026-10-28T22:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "唔",
+          "title_zh": "虐待动物",
           "translation_status": "translated"
         },
         {
-          "title": "twitch",
+          "title": "pluto",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:20:00+00:00",
+          "published": "2026-10-28T21:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "抽搐",
+          "title_zh": "冥王星",
           "translation_status": "translated"
         },
         {
-          "title": "chat gpt",
+          "title": "bedragare",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-10-28T00:20:00+00:00",
+          "published": "2026-10-28T21:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "聊天",
+          "title_zh": "骗子",
           "translation_status": "translated"
         }
       ],
@@ -2052,15 +2034,6 @@
       ],
       "gift_signals": [
         {
-          "title": "Älskade H&M Home på Drottninggatan öppnar igen – i helt ny skepnad! - Metro Mode",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEFhZ0dKZTgwOVVjX1FnVVZPelhIWkhPUVJUZENlbVdUajhNVmJvZEM2R3BsOWV0VDBoN0ZtUlpWeDUzZEwxa2lQZFJtZzF6bHBicndROWVyb3g5N29VdC1KeVBMTXJvdmhzMEZvS1JneDJ6SmFzV1hJT3VXMk41UTIyNThFT0hoWmZKU3NuMG1yWUltMXdicA?oc=5",
-          "source": "Metro Mode",
-          "published": "2026-10-14T07:00:00+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "位于 Drottninggatan 的心爱 H&M Home 以全新面貌再次开业！ - 都市时尚",
-          "translation_status": "translated"
-        },
-        {
           "title": "Bästa hand- och fotavtryck för barn 2026 – test av minnessaker - testix.se",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IckpDdjFXLVc4WVItZDM5LURpWmlQYTRtZTkwS2ZHdHdhYTQ2OVoyajhSdU8taEV3R1BVcDB6YlpzWWdpY1pfOEdjNjZpWVJ0RHg3cHN3VmZhMmlxdnRzNw?oc=5",
           "source": "testix.se",
@@ -2077,6 +2050,15 @@
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "2026 年测试中最佳马克杯 - 比较厨房马克杯 - testix.se",
           "translation_status": "translated"
+        },
+        {
+          "title": "Bästa berlocker och hängen 2026 – test, recension & trender - testix.se",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9leUxIbllET3pqQjJnMTVwTjJSSHBURWoyZEVjX2VWNmRLZDgzdS11bk00LWNpdHVERVZ1RkRVREdaU0pwT05MZjFsMm1tNXl1SmlUbkhn?oc=5",
+          "source": "testix.se",
+          "published": "2026-10-16T12:49:06+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "2026 年最佳吊坠和吊坠 - 测试、回顾和趋势 - testix.se",
+          "translation_status": "translated"
         }
       ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
@@ -2085,59 +2067,59 @@
     "FI": {
       "news": [
         {
-          "title": "Lapsi sai päiväkotipaikan yli 5 km:n päästä – perheenisä järkyttyi ja otti laskimen käteen: ”Noin 2 tuntia suuntaansa” - Ilta-Sanomat",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVnRFbnE0aHRMbV9CQ0NUNnByMjVOZWQ5eWJXQ2ltOVFvQzdpMTJIaVh1MktVbWM0d3A1NTZLNDVZT2pUS1l1bXNwSmg5eGlOUGloVVZ6aFlLaWs2?oc=5",
-          "source": "Ilta-Sanomat",
-          "published": "2026-10-27T17:45:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "孩子到了5公里多外的幼儿园——一家人的父亲震惊了，拿起计算器：“每个方向大约2小时”——Ilta-Sanomat",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Huol­ta­jien toive kou­lu­jen myö­hem­mäs­tä aloi­tuk­ses­ta to­teu­tuu ensi syk­sy­nä - Tampereen kaupunki",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjdReXNfTndmWVVNZ19ZSW1PRVhmdzBNNk5VN1JZNXRYRGdjQnJqVzF0SE1MRXFtWnNndUpiY3FRODV6b1FoY3luNDhOMjhSaUs2SUxnYTZyY21PaEdLbERma25lQ2RGeDRxVjlJbGxLc0dmQmZ5Y3ZONHhvMjRscENqTjFJb2JWTklTV0ZGdEotTnBPaFFtQXFVaGEwTFdNdmU2aDNrbUVoQVNkMG1VbWFn?oc=5",
-          "source": "Tampereen kaupunki",
-          "published": "2026-10-27T18:02:57+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "监护人推迟开学的愿望将于明年秋天实现 - 坦佩雷市",
-          "translation_status": "translated"
-        },
-        {
-          "title": "Tampere myy Pohjoismaiden suurimman sisävesivarustamon – ostajan tiedot pidetään toistaiseksi salassa - Yle",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5mN3luVDJMRHFtX0R5ZG4zYlZ4eGdLVUlIdjJNdU96RElrSlZBVEhiZ3VvRlVXOGVpb2puMVgxR1dPQQ?oc=5",
+          "title": "Missä on tiskikaapin koti? Suomi–USA-visa paljastaa yllättäviä faktoja - Yle",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBXWGlDbHdvYVZJX1Y3d2pOVUl5UDlkaFJNako4ZFNzRDNsQll0SnBLZEdDQUEtYUlyWXYyQ1FUVlAwUQ?oc=5",
           "source": "Yle",
-          "published": "2026-10-27T12:47:43+00:00",
+          "published": "2026-10-28T16:34:04+00:00",
           "scope": "本国热点候选",
-          "title_zh": "坦佩雷出售北欧最大内河航运公司——买家信息暂时保密 - Yle",
+          "title_zh": "厨柜的家在哪里？芬兰与美国的测验揭示了令人惊讶的事实 - Yle",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Tam­pe­re ottaa käyt­töön uuden rek­ry­toin­ti­tuen pit­kä­ai­kais­työt­tö­mien työl­lis­tä­mi­sek­si - Tampereen kaupunki",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN1c0MTF1bm9kVG5SeGVGX0FKemwtRnk2S2x3RzE2c1dxd0kxREdldlBYckNITkJrWTFTVmVtdGxKVDR1N04tYkFIbXYwU0xRZGFpamZPcVk4dzlpNUxqMDNtQlBfdFVMa1Y5Q3JRVWpXSm82eHBTa2NkQlB5enpNY1FTbWlPcGFwN01JUHNBektfLWp2X0RoYVJaOVQ2ci0wMzROMEswZTg5QkdMSF84T3pJb0c?oc=5",
+          "source": "Tampereen kaupunki",
+          "published": "2026-10-28T16:40:07+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "坦佩雷推出新的招聘支持以雇用长期失业者 - City of Tampere",
+          "translation_status": "translated"
+        },
+        {
+          "title": "Uusi tuki: Tampere varaa miljoona euroa työllistääkseen 200 pitkäaikaistyötöntä - Aamulehti",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzcEYyYmlQdWh0dWpSYlY1ODBnRVhraUR1NV8xT3RJWnYwY2JKLUF4aVZ4dTF6bkdaVUN5MkczX2Y5Y2RKekNRc1RVMW80OTNrRy1xWnZ3VmNjWktLTk9UWmFjN2tQZw?oc=5",
+          "source": "Aamulehti",
+          "published": "2026-10-28T18:54:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "新支持：坦佩雷拨款 100 万欧元雇用 200 名长期失业者 - Aamulehti",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "max verstappen",
+          "title": "benjamin ingrosso",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-27T21:00:00+00:00",
+          "published": "2026-10-28T21:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "马克斯·维斯塔潘",
+          "title_zh": "本杰明批发",
           "translation_status": "translated"
         },
         {
-          "title": "ted bundy",
+          "title": "dna",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-27T20:50:00+00:00",
+          "published": "2026-10-28T21:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "特德·邦迪",
+          "title_zh": "脱氧核糖核酸",
           "translation_status": "translated"
         },
         {
-          "title": "israel elections",
+          "title": "bayern münchen – magdeburg",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-10-27T20:50:00+00:00",
+          "published": "2026-10-28T19:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "以色列选举",
+          "title_zh": "拜仁慕尼黑 - 马格德堡",
           "translation_status": "translated"
         }
       ],
@@ -2334,59 +2316,59 @@
     "PL": {
       "news": [
         {
-          "title": "Lech Poznań - Wisła Kraków - Canal+",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWWdqYmV0cFRlVlpGUE9mTmxTNncwUEVhWFNickxDcnBTa3ZxaGpXdzNlUXFrWWh5eDhzZWd6Z1Vyc1VZQ3VPSXNndHdSM3ZWR2FTVldjOFJZOHNwczJyZlVvME1Yb1pOb2pIdGw0bTlSRkVjckhmMzJTY0FYbXc4Qnh3?oc=5",
-          "source": "Canal+",
-          "published": "2026-10-28T02:07:22+00:00",
+          "title": "Nowa struktura Urzędu Miasta Krakowa - Magiczny Kraków",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXcyXzhTSTByVTlNTWVGaHM2cGxST2lPVTcyb2poUk1FTjkxY0ljN2llZUlFT18wVDh2VHlKT1V0dkdhbE1Qd0hfcVBTSTlvSmh5QkRYRVJUZ0Z5dXF6VVp6dURWLWpHbzlGb20za0EzVWR4dUpfSTNOOU1fT3dRZTc2MHNCQkE2bS15N2JGSW1HdDMzbWc?oc=5",
+          "source": "Magiczny Kraków",
+          "published": "2026-10-28T16:53:45+00:00",
           "scope": "本国热点候选",
-          "title_zh": "莱赫波兹南 - 维斯瓦克拉科夫 - Canal+",
+          "title_zh": "克拉科夫市政厅的新结构 - Magic Krakow",
           "translation_status": "translated"
         },
         {
-          "title": "Zerwał sieć trakcyjną, sparaliżował ruch tramwajowy. Nagranie - TVN24",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOEVHWXNuUzdvVFNXdU1CNWhHRTdyWm80N1lhVWtlZVVpQ3hkcFgtTEhSekNmZ2VUYzUzVmNoSzFBZzdEbnhmQmRZaU1xNnQ1dUJScXlFV29FYUpCcFZla29YMzB1WXVjS1B1ZnBMdUM3aWpjN1E3NUk4blJ6RzByVVFxSGtqclNwZUZadWxzbGQxRFkxZzQwemFsU1lXeGVyVGJiT3Bua1NybWRYVzU4S3UtVGxFVlRoZXRBQldEeE41M0pUQmJxMg?oc=5",
-          "source": "TVN24",
-          "published": "2026-10-27T19:45:57+00:00",
+          "title": "Lechia Gdańsk – Jagiellonia Białystok: oglądaj mecz STS Pucharu Polski! - sport.tvp.pl",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXRhRmViUzRIUGtXbFBaaERjQVN4QmJGWmlVcVd2V3Q5dGxuRktFd19TWmxCWTh1SjlwQXR4S0dTeG5XX3JVNTRKcHFIX0I1VGJPeGRudF9HcHQxX0FWVWxoYVB4Zm42VXZFeFI4cmttNVdqb3hpSFZHZXRzc2hwSmo2MEctY3ZSdmhVVFVZMnRuaUJ0WTdJMjBEZHNJdzJ4SVFIZG8waVpHUTlPTnphb1hKN0dLT1pUVU1vYXQwdk1HbU1UaEhSME9aUWdiNFV0Y2k3OW8xMzhQS3lPcGtSTQ?oc=5",
+          "source": "sport.tvp.pl",
+          "published": "2026-10-28T21:29:16+00:00",
           "scope": "本国热点候选",
-          "title_zh": "它破坏了牵引网络并使有轨电车交通瘫痪。录音 - TVN24",
+          "title_zh": "Lechia Gdańsk – Jagiellonia Białystok：观看 STS 波兰杯比赛！ - 体育.tvp.pl",
           "translation_status": "translated"
         },
         {
-          "title": "Spotkanie minister Jędrzak z przedstawicielami Stowarzyszenia „Wspólnota Polska” - Oficjalna strona Prezydenta Rzeczypospolitej Polskiej",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbGxfQkI2ZFp3UFljaVhGdTdrU2I0QW5YeGtWTzVfU3hRNDRxaGl3MkFUTjVhQ1VrZDNWdXBLOVBlUHFRa293RXdaSXVCVkFWTDVESUdzR0pIQm9aVW9kYjBtZEJ1RWZUamZWbUlTWTRRd3dBWVloTF8zbUJIazJPS0RXYm1WYzN6NUxvZ0JEaXlIcTJ0U2tBX2ZHYzMzWG1leFd4NUMyd2FyMFd6YzlQbk5DUzhOdVVHbkhjYW9iLTAyc3FlaVZnRnVIVERrMnIwck5LSDhqZHo?oc=5",
-          "source": "Oficjalna strona Prezydenta Rzeczypospolitej Polskiej",
-          "published": "2026-10-27T18:49:10+00:00",
+          "title": "Lechia Gdańsk - Jagiellonia Białystok 0:6. Najwyższa przegrana od 30 lat - Trojmiasto.pl",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVpVZko3VVhLTEJ3LURjNzRmbFdFMldzeUlBY2RzVVdnVm9TR3ozR2w1aEdQYmVTeUxsbjlaV19BWXdsbFNSUmJYeHAxdzJZRGFOR2xuWExxellOSFdDRk9JckZGLWRkNDhIS0hhT0pvdzBocmhkanV0NEdsXzBtX3RhMzhzaEtDT1pXQW5TUnBnemxxYnlJY20zQ0tuTV8tTDVOMFo1R2FDV0RXX1ViY2NRM3k?oc=5",
+          "source": "Trojmiasto.pl",
+          "published": "2026-10-28T21:20:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "延德尔扎克部长会见“Wspólnota Polska”协会代表 - 波兰共和国总统官方网站",
+          "title_zh": "格但斯克莱基亚 - 雅盖洛尼亚比亚韦斯托克 0:6。 30年来最大损失 - Trojmiasto.pl",
           "translation_status": "translated"
         }
       ],
       "trending": [
         {
-          "title": "hm",
+          "title": "worlds 2026",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-28T01:30:00+00:00",
+          "published": "2026-10-29T00:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "唔",
+          "title_zh": "2026 年世界锦标赛",
           "translation_status": "translated"
         },
         {
-          "title": "susan saint james",
+          "title": "fire – orlando city",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-27T22:20:00+00:00",
+          "published": "2026-10-28T23:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "苏珊·圣·詹姆斯",
+          "title_zh": "火灾——奥兰多市",
           "translation_status": "translated"
         },
         {
-          "title": "rankingi torino fc – como 1907",
+          "title": "inter miami – cincinnati",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-10-27T22:20:00+00:00",
+          "published": "2026-10-28T23:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "都灵足球俱乐部 – 科莫 1907 排名",
+          "title_zh": "国际迈阿密-辛辛那提",
           "translation_status": "translated"
         }
       ],
