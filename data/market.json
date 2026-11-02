@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-11-01T07:30:25.550658+00:00",
+  "updated_at": "2026-11-02T07:40:14.906243+00:00",
   "countries": {
     "DE": {
       "news": [
         {
-          "title": "Schülerproteste in Berlin: Radikale Gruppen übernehmen, Lage eskaliert - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUW5ZT1Rhc25ua2pjUXNUbXFVbTBXLXQ0QVRndHJMQURaS3M2YVF2VV9kRHpOM2NQcGVaU2xJSEttcldrNWZLX2ktcG9UdWhaQmFTbmNDY1RhRDU2XzZjUmlSeDM1U3hXRzVmc2RrRFljTE4xNGFId1h3WVhYWU9kTmprc2g4dVJ1VUxxci0wSE9lSFR4eUpfRE9DU2Y1UEV6UU90akdn?oc=5",
-          "source": "Euronews.com",
-          "published": "2026-11-01T06:47:19+00:00",
+          "title": "Nach Krawallen bei \"Gen Z regelt\"-Demo: Hamburger Politik fordert Aufarbeitung - NDR.de",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNGllN1pRUFpzZkdDeWZGM0ZhdV8xbkVrZklid0JJV3JHMTRCdTVxSjdLSzE2X3RlOHU2RDJpR3h6cWZLUXY1RkJfTzlIOXNsNGV2Q25fNFpWc2dPWGlsYkR6b0RqR0ZaRkRJNVFtUUxFVDJUbFY2bXJ0N1dVR09xZFZ5aXlJQ3d2N0h3bEJVWmo3Z1F4SUhhZ1g2TUZOeVI2TUNXZWc2b3UzVHl5OUNyTHU3QlUzcTJnYkE?oc=5",
+          "source": "NDR.de",
+          "published": "2026-11-02T05:05:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Ausschreitungen in Deutschland: CDU-Politiker kündigen nach Krawallnacht Konsequenzen an - DIE ZEIT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0dnM1pNeU8yc2d0ZER6UlhKRzRqRXZrVktrV0xBbFJseTFIbVVBb0o4am5BcTB1ZjA1by0tZEFNNmtfUW1VZ0ZkdFBTMUhyczNZOFdfZXRkbWFMa2FXWFZXSWFqZHJzckwweDg4LXd3MU9lQnpxWFNlWmRJUFhTUDN2MWdicHdwMkUwNmhGM3EyTkw5SThFUHNOT2FOSE5YSmJKRUM3NmVTOWtYQ0laRHR6QmlpczNNTE9DUGVfSncyNUE?oc=5",
+          "title": "Studentenproteste: Demonstranten blockieren Uni-Eingänge in Hamburg - DIE ZEIT",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVnRJMFFybFJFaEF3S3RmTDhBaUh4WkxIOExrY3M1SGFweVNaWmZtbGcxRDZfeWl4YTZFWTRJV05IM0JQZEt2Y1l0UXNEdm1wQlhPQ1YxRnI5WUpOWWVLSzA5el83TlNNdWQyN1lSRGNIeWxLNno4NUpOM0NDemZMUmJ6MW1ZcF9aMTVLVkZB?oc=5",
           "source": "DIE ZEIT",
-          "published": "2026-11-01T03:14:12+00:00",
+          "published": "2026-11-02T06:09:54+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Gen-Z-Proteste nicht überall friedlich – in Frankfurt kommt es zu Krawallen - Politik - SZ.de - SZ.de",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTZjRnlfa1RTMHo2UTRZYlBvQ2ZkN3I2LXlVZF9hcjVPd1FiNVdEQU8tYjVsWjFTRlFsT0hsM3NmQmhxOXJQbkYtOXpYX3ZaYlFvSFdLQmZSNTM5RkRHRVlHd3Z6VktpQXc5YUpraHZoaUQ1NkN3eDhaS3dwZGd5ZDBOa09uZjRrOFhmSllsUElRQQ?oc=5",
-          "source": "SZ.de",
-          "published": "2026-11-01T06:01:00+00:00",
+          "title": "Digitalgipfel in Berlin - tagesschau.de",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uZ084SGlJRzRwWGd1QjhQdEdGTDFnQVB1c25ZVXc5QmFQLWNLZTVFV215SXh0RGR2dElsTTlmM0NETGIzblpYZ3JjblBhcGRNZDN2ZjJLTWRzZ25PS25j?oc=5",
+          "source": "tagesschau.de",
+          "published": "2026-11-02T06:14:15+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -33,28 +33,28 @@
       ],
       "trending": [
         {
-          "title": "rentenreform",
+          "title": "catherine, prinzessin von wales",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "sie haben namen",
+          "title": "iris katzenberger",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "midterms 2026 wann",
+          "title": "commerzbank unicredit",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:00:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -317,28 +317,28 @@
     "FR": {
       "news": [
         {
-          "title": "Une rave-party en plein centre-ville de Lyon depuis plus de 24 heures : la situation hors de contrôle - Lyon Mag",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdzcwM05Sa1VCVmZHOGZTcHRxMm1IZWk3QWlfaWs4Qzl4NGtjYjROQnd1Q21adzJFSWNoQWQ2dGR6Qm1tclNsY1FsdEpFeGhoRC10RXNZd2lzd0Y3cU5zMUljRXB5RmhZSUVLeGcybl9ONzNaM1QtYm90N19kMzJ1MzR2R19YTkhLM2hYSEZiMlFJeHpqVEVsZE1VSEhGOXhZZ3VYRk5EN3h6TTNQSjBxYng1c200MVBJRHhfckVwOUJjNGNWU3ZpczRnb09qbThJOGd0WQ?oc=5",
-          "source": "Lyon Mag",
-          "published": "2026-11-01T06:30:58+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Marseille: une nuit de tensions après une manifestation calme - BFM",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQU1DajloMWtZcnNlbTVJN1pUdUtqaUE2UjZaVGJaZjVOaGtRUDBuQVQzRTZtNUVkYVBLclVpYjZkZWFqMlZBNWxWWDNYb0JlUnp6UEdtOTR5VHY5WkhrcHdJUHRBbkpDbHFtZGx1ZmJvQ2FJSHNaeHVPX1o2SGlmSlRZbGliSmE3MVRvemZLc2NUNGRueEFWY2l4QnM5SDVyOEp0bGxJN0h6QXB2c2hoRkxDU3FTb0lSNUtsSXhpUDFMQQ?oc=5",
+          "title": "Tir d'arme à feu, Raid mobilisé... Ce que l'on sait sur le sapeur-pompier grièvement blessé lors d'une intervention près de Marseille - BFM",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOTVdMX0R3Tk01WXVvNHdOYjBfb0F3Vnc0cmJFYjlnZVlXTURHVHBheDNXUmY4MXc2eVVndGJfeF9xdFZGeHQ1c2p1a2JvcUU4S3dDNjU2dTFIVG81dG5GUnRhWEwxTTU5Y2RMNDYzeDB3Q21yY1h1ZlpIRE1HS2ctVGM0bDdUYl85LU9YWVZxVTRWRHFKS2JTTGFFTWJSY2tPazlPdEJRQmE0R0hnQWNhWXl4dXBQZGJ4TmdoUndRWVdYbmtUUld6ZUc5QkQzOHBneDlGaTdNcVl2aU9KajVyZ1RPcF8xaUtSWFdydmY3WGtoSXVCczE0cmVyOWFSQUZvRmxTSmhlSWZPUnFmYjg4?oc=5",
           "source": "BFM",
-          "published": "2026-11-01T05:36:13+00:00",
+          "published": "2026-11-02T06:43:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Croissance économique : la France décroche - Le Grand Continent",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb2FXUnExbEhKazVORVYzRjFYOGt2anNyUW5aYno4UXp2OEJfWmhxalo3Z0tVenJrNWhTU0tSZlNXX2JONHl3b19iUXdCNUJSMWRyRVpRYklKZkhKVWFQV2VSUmg3bVJ2R0t0dWJwQ1ZZdE5HclVJeUl4TTZUSXlSOWc1WFZPUE1lVHJR?oc=5",
-          "source": "Le Grand Continent",
-          "published": "2026-11-01T05:30:00+00:00",
+          "title": "Mobilisation lycéenne : un blocus en cours au lycée Ampère à Lyon - Radio SCOOP",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZmhYLVRrSU9hemE4X3paRlNxOE0zQld2cXdfM1Q3YXpuOGRZa092N3JvSC1Dc1ZJVUR6MkkyX3RkZlNUcEY5b1M5bnZFZmJzRXltUWxOcWhwU1JXSlpoQkpnWjd6THRrSDFuY2d2aEszR05WSXlCeTdNMUtSSTN3bU5qRDQ1Tmd3ekQzQ1dVQ2hZOW00aWpZbkRVVXo2U29nWThpN2ZR?oc=5",
+          "source": "Radio SCOOP",
+          "published": "2026-11-02T06:39:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "VIDEO. Tennis - Rolex Paris Masters : Arthur Fils, ambition assumée - Stade 2 - France TV",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTlQVVBncUFfYVRJdHlIMW85SC1hOG42azcwYUN2S3dJWGRxeDRvWFpkYU1mOGZfem1fSEFMeklTQ25mWGJseU8zSnZnR2lmaGcwTndvVkk3WmNIZEZFczc2TlFsSG5tQ05FazM3LXhWRzU2SjZsR0JHeGtrbFNaWTZiQW0zTG5HNHFEOVFfLUV6aVFvSGhtQ25TYlFaSEZDQ0ljbkthbnAwY2c?oc=5",
+          "source": "France TV",
+          "published": "2026-11-01T19:00:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -346,28 +346,28 @@
       ],
       "trending": [
         {
-          "title": "aus vs afg",
+          "title": "sophie adenot",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T07:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "midterms 2026",
+          "title": "jerome guedj",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T07:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "depart route du rhum 2026",
+          "title": "président de la fifa",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -379,7 +379,7 @@
           "title": "Mug personnalisé - Noir",
           "url": "https://www.yoursurprise.fr/vases-a-boire/mug-personnalise/mug-couleurs",
           "source": "YourSurprise · 官网结构化商品数据",
-          "price": "12.34",
+          "price": "12.99",
           "currency": "EUR",
           "image": "https://static.yoursurprise.com/galleryimage/f3/f302868f36056c18660255b9571d4bf8/mug-personnalise-noir.png?width=900&amp;crop=1%3A1&amp;bg-color=F5ECE6&amp;format=jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
@@ -424,36 +424,36 @@
         },
         {
           "name": "Smartphoto",
-          "title": "Plaid polaire blanc 150x200",
-          "url": "https://www.smartphoto.fr/cadeaux-photo/plaid-polaire?pvc=blanketfleecesheepwhite150x200",
+          "title": "Mon Magazine",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/creer-un-magazine?pvc=booklpsoftpersmagazineai",
           "source": "Smartphoto · 官网结构化商品数据",
-          "price": "74.99",
+          "price": "26.99",
           "currency": "EUR",
-          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/blanketfleecesheepwhite150x200/tileimage/image/recommendations-150x200.jpg",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productcategory/fun_ideas/book_magazineai/topimages/0002/image/magazine-ai-carrousel1.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Smartphoto",
-          "title": "Pot de fleurs Small",
-          "url": "https://www.smartphoto.fr/cadeaux-photo/pot-fleurs?pvc=flowerpot",
+          "title": "Chaussettes lignes noires taille 27-31",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/chaussettes-personnalisees?pvc=sportsocksblack_27-31",
           "source": "Smartphoto · 官网结构化商品数据",
           "price": "15.99",
           "currency": "EUR",
-          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/flowerpot/tileimage/image/flowerpot.jpg",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productcategory/fun_ideas/socks/tileimage/image/sportsocks-tileimage-1x1-default.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Smartphoto",
-          "title": "Coussin satiné carré M imprimé sur 1 côté",
-          "url": "https://www.smartphoto.fr/cadeaux-photo/coussin-personnalise-photo-texte/deco-interieur?pvc=pillowpattern",
+          "title": "Chaussette de Noël Rouge",
+          "url": "https://www.smartphoto.fr/cadeaux-photo/chaussette-de-noel-personnalisee?pvc=christmassock",
           "source": "Smartphoto · 官网结构化商品数据",
-          "price": "23.99",
+          "price": "16.99",
           "currency": "EUR",
-          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/pillowpattern/tileimage/image/pillowpattern.jpg",
+          "image": "https://c-static.smartphoto.com/structured/repositoryimage/productvariantimages/christmassock/tileimage/image/recommendations-christmassock.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
@@ -680,28 +680,28 @@
     "ES": {
       "news": [
         {
-          "title": "Alineación posible del Real Madrid hoy contra el Racing en LaLiga EA Sports - Diario AS",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdktrUGhsczJic2ZIV3N5dFZjZDBYZmV4MXhZQ2VCenpJSUFkMzNpVkJiNGVXcS1VUndSTnRJaHAtNDY4YU9Va0VNNG5JVnBoYmZXenNjSHZhd1g5eGw1SGhzbV9kcG0tdUJHTkdxdnhZcWZuX2t5RzBuWGJFX2hIRUl2dHB2dW9pQ3FMd3RHbGpXQnBLa2kyWkJMQ2l5WEtZZ19IWjVkSGFCZFl5NlhJNFhB0gHGAUFVX3lxTE15YnE2aUoyOXAxejhnZUtjMEZoY2lyRDE0V2FFYTlOcTJscFdfelhMLThCWUtMb0htN1RZelloRnJDeFZOcExMVEkybmduSkZOVjFCeEVCMlZ2dXg3QUNXVW9JNFJ4Y281X01iRkRmcHVxTGZvVlE3ZnJLckZTdS01RDRCS244MXBISEVuWm5RZmk3U0dFUk9MaTJtbmhpd3gtNktnWEN4c2ZmSGNVcjNnTnIwdnNZejBCLUNnWHNaQ0hNUTduZw?oc=5",
-          "source": "Diario AS",
-          "published": "2026-11-01T07:04:20+00:00",
+          "title": "CRÓNICA | Victoria del Valencia CF ante el Elche CF (0-1) - Valencia CF",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQT3JuMU9QSGcybkM0TXQ4cWZBLTNMRVJFUzd2ZjFaVzBWeklHMG5UQXNaWVRFakRDSW9yektkMFZaaG1VN0VkOWsyeVk3dVBaMFRRRXNKUVhHMnZtNmtMSWhINjFBQ3kwWGVrSkJOTkl0NFNhWjB0NERYOC0zdWIyZnVXRXF0dHc?oc=5",
+          "source": "Valencia CF",
+          "published": "2026-11-01T19:34:54+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Racing-Real Madrid: a por la victoria en el regreso a Santander - Real Madrid CF | Web Oficial",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbDNrVWJhdW1oNWJkVlB4ZWdvcno0WGFVYk9hVEVMeXhNS2kwYWlCWjg4OFVLVF9GcXg0R214RlhHQmV0SG0wTGlpZnNkWEdWZW5DV1F3a3EzeGhCY0VCWjhHbzl1bWw4LXROWl9LNXU5ckpmVDI5c0pweFRRUURfRlo1X1hlUW5jOTZWMGloeDJfcnhUaFByeUZhWVRpd1RVOGFWaWxVcWFtaVNaNmNIQ0dmSmtrRDh1bjgzNGhUb1MxcW5oM0lsdjFOajJURWRpclE?oc=5",
+          "title": "Onces iniciales del Real Madrid y del Racing - Real Madrid CF | Web Oficial",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWVTRkUtM3BaU3NEdWhTNHlNaFpPa0h1RzBZb0dxTndTaTNXamRyWUM4eHRRYzZKdDZXSERyb2ptcnBwUGYtcWY2TlhIZ0JpdGtleW9DUXh1YVIxUWk3OHBjOXA4NlVtaDAzUmtlRk9LNnhEaldFSlp1WVZkUEtmRTczbVhXM1M3UzVSeE9rYnZYUlcwdmtSTXZaeDRuUTJ4dFNBVFdFU2J4STJHbTVrR2dJdnl2OFQ4Znh3MlkyWG5NU2FZX3lLdHNR?oc=5",
           "source": "Real Madrid CF | Web Oficial",
-          "published": "2026-11-01T05:32:10+00:00",
+          "published": "2026-11-01T14:00:47+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Halloween en Barcelona se blindó contra un fantasma: el cerrojazo policial frena el pulso de Blocus - El Confidencial",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZkZET0lJQWhBR1VVdXBZOG96U3pyUTRWS2FwdFp5cjBpUDlCbDdZbzExbHhoYzQ5X244V3hDYTBCVkt6cWtjZVg2UzZLTnZ3NVlTbTFkSlIwOThWYXcxQXlGeS1rWVE2MEl6UmZ5M0lwcUhPUUhkaTZZd3dHYktWNUVXUmVrTlp5aDhTN2pndTRhWVYxU2dLQ1dtVzJoVUd3R2paNzh4cnBlc0dnYkk0WTVnS1Z4S0xydU9uS3M0RlJUVzhzMjNF?oc=5",
-          "source": "El Confidencial",
-          "published": "2026-11-01T04:00:00+00:00",
+          "title": "Suspender dos años el AVE entre Madrid y Barcelona abocaría a un colapso en las comunicaciones - ABC",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUWNFbVZyN1A2UC13NWdfVUhaTC1RT2hnbkVzWFRWU1ZzMjc0VC1uZkVwamdfT0JmaC05eGdDNWkta0hfMVY0bXEwTXcwYnF6eURlRHFDVWpiSnNoazlTUWV1LUJ0bnIyVUw3eGN5akRGMUpnczhOTmdPbkRaQk1oalNKZ29Ia0JqbW5VZTJkb0JKbWcxb0JwS2podE95XzZV0gGmAUFVX3lxTE5CUlkxTTNOTEdieHdjRmpCR1RxRTVXYm54VVdqY01FUUZpUjl1dmxuRVRKUEtVUXFjWi1zYVFZamJ0eDVtRFNSVmswekNGT2xqS0dwMF81UThNWW0ta3QzMnlKVlpnaUdYc0NramNUZDRPX0Z6cUJkRnNhSndHUVJYNzEzTmNZV1RnMDNock5yaURUYVpLX0h1X2JvVU1rMzl2c3hsWXc?oc=5",
+          "source": "ABC",
+          "published": "2026-11-02T00:43:54+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -709,28 +709,28 @@
       ],
       "trending": [
         {
-          "title": "novela",
+          "title": "francisco igea",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T07:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "sandra golpe",
+          "title": "fragata",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:50:00+00:00",
+          "published": "2026-11-02T07:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "puente de vallecas",
+          "title": "resintonizar canales tv 2026",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:50:00+00:00",
+          "published": "2026-11-02T07:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -971,19 +971,19 @@
           "translation_status": "unavailable"
         },
         {
-          "title": "“Ya no tengo que preocuparme por los regalos de cumpleaños”: ha encontrado el invento para que cada uno sea único - Xataka Smart Home",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdWJiOXhGYWlRSXlJTXR1ckxPLUlkLXNtMHQxOHJaY0g3eDJkemNScDJSSnJEYXlJcEtHbU1BcTIyS1c2Z0c4RktxLTBCOTR1dW9qN1FMSm9ZbFNRemtBTmR2QW5FOHczcjlfZFZVZWNDMHN4MDNvdEdnVDFiVVZ0QVZnb2tfcVBUVXE0Qk1VQXREUTRldzZUenFOOGlORDJiSU0zRnJfMVBVM1VGaXVLZFdVeFZlN2tzbkdESEZhX2Z1UdIBxwFBVV95cUxOTFljMGxFYWdZXzhGTDM3MWl5M1ZnWG45XzdIbGRsY3B2a29xSlZ6ZHVRem1MaTVZblZfcl9GMlpRYlc1dWMtRXV4alNHMENFTTRKVjVIamVDTGMtSFhtOFZ4T1VRZm93dTZxTUt4MTBHbTVOSTR5YnM5WFp5UEw2VnBSTTR1MHh0Z0FWb2J4WFV2LW52TnRoZ2h3b1AwZzF0ZHBwUWN3cXRMdHRtZ2lqWWdWY2J1U1hKWElxYkswQndYaEppWUg0?oc=5",
-          "source": "Xataka Smart Home",
-          "published": "2026-10-28T11:01:28+00:00",
+          "title": "Dos vestidos, regalos personalizados y cantando 'Física o química': así ha sido la boda de Andrea Duro - Semana",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTi0zWWJCWXJyc0VGbVIyQTJGeDBYcHFEM0dyZkVlbW0wWHRKMWVMRnE1eHFFcmpjUVpDQUgwLXo5ejdQRHdwbm9BMDZFTFZZMV9kSzdReDNhMGhmZGhKNzh3aW9ENk5GSy1YMzZybzQxOEZtemlHRldWMWd3TTVvNFllS1FQMkIzd2d4dmJQVzhfai1obDNiV0JMdmt6am9mdk9nd0pSYU5vbHNMR0RPQVFDR2R5bDNZTlFYWmE0azRXRnNlUldEVlJn?oc=5",
+          "source": "Semana",
+          "published": "2026-11-01T21:49:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Merchandising publicitario para empresas en Navidad: cómo acertar con los regalos corporativos - Madridiario",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMEdYR2xvTWVzNFRUYVpxTGY0Q0hsOFQ3SThZS29oeWp4Yk1UMzRIY1NQbk4yY1dCbEwzLVhzTmpycW5hU1p3bEVjdnpxUGpVVy1naVUtUHFJY0hIR1JXaGZ6NVdjN2s5STBjN3RnLVNEQ1c1TlZHcFc0dGNCeUlOX3g0Y2dLemZvY29STXVyY092LTJWdVZGVU4ydnBaWkJCT01BX3lXb1FUYXBQa0hTV25iZTdkZ1ZYT3NJcg?oc=5",
-          "source": "Madridiario",
-          "published": "2026-10-29T11:58:00+00:00",
+          "title": "“Ya no tengo que preocuparme por los regalos de cumpleaños”: ha encontrado el invento para que cada uno sea único - Xataka Smart Home",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdWJiOXhGYWlRSXlJTXR1ckxPLUlkLXNtMHQxOHJaY0g3eDJkemNScDJSSnJEYXlJcEtHbU1BcTIyS1c2Z0c4RktxLTBCOTR1dW9qN1FMSm9ZbFNRemtBTmR2QW5FOHczcjlfZFZVZWNDMHN4MDNvdEdnVDFiVVZ0QVZnb2tfcVBUVXE0Qk1VQXREUTRldzZUenFOOGlORDJiSU0zRnJfMVBVM1VGaXVLZFdVeFZlN2tzbkdESEZhX2Z1UdIBxwFBVV95cUxOTFljMGxFYWdZXzhGTDM3MWl5M1ZnWG45XzdIbGRsY3B2a29xSlZ6ZHVRem1MaTVZblZfcl9GMlpRYlc1dWMtRXV4alNHMENFTTRKVjVIamVDTGMtSFhtOFZ4T1VRZm93dTZxTUt4MTBHbTVOSTR5YnM5WFp5UEw2VnBSTTR1MHh0Z0FWb2J4WFV2LW52TnRoZ2h3b1AwZzF0ZHBwUWN3cXRMdHRtZ2lqWWdWY2J1U1hKWElxYkswQndYaEppWUg0?oc=5",
+          "source": "Xataka Smart Home",
+          "published": "2026-10-28T11:01:28+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -995,28 +995,28 @@
     "IT": {
       "news": [
         {
-          "title": "Fascia verde Roma: la Regione conferma le regole, cosa cambia dal 1° novembre per i diesel - RomaToday",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTzFvcG8xbnR1akk2UFowUndkWWdSaHV5RVdudkpVOG81eUFwT3A4VlZ5aGhmbDBwMUxueVJXQ2RQYUVnQ2hrMVBUWHluWE41STVWYXhiRjYxZmVlel9QV0JvNG13RVAtbUVCcFBMRElZcEFVaDRoVmhraDdJalBuc09PSzhsZw?oc=5",
+          "title": "Juventus-Napoli 2-0, riscatto dei bianconeri con due tiri da fuori - Lega Serie A",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0wwb2owbU93Snk4Y2xoRGEwWXhyeUgtc20zUmk5MGxlRTBlTHBWRnhSclo0ZGg4TWF1dmRHVXJ5ZVU3b2I0c2dQb1UwMXNaNmRuNVcwbk0wZ0NDa0ptbHhmeUZnNEJDLUY0MVdmcjNzRnFnQU1WdE5TanRqVUkwa0sxNnJmal9HUFhfOVBabWxZSjhX?oc=5",
+          "source": "Lega Serie A",
+          "published": "2026-11-01T21:50:07+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Serie A | Juventus-Napoli | La partita - Juventus.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWjZoWUxUeng2WGdiQXU3eWZESVk1MEJwRlkyM0I0UHBYdUNwNU85TDVjWks2T0RYQ21XcEY4OTNLbmZCMGZOOFRzT01XRll4bVA5SjdFRGstOFVNbTB3SlRwNmRGeFZxN0x6QVpaZ180b3I0R0FfZ0IzVm9kLWdYdy1R?oc=5",
+          "source": "Juventus.com",
+          "published": "2026-11-01T21:49:35+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Weekend a Roma: gli eventi da non perdere sabato 31 ottobre e domenica 1 novembre - RomaToday",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdFdfV1p2c0V2dUN2YndSRkFkbXNPN3dzdWZnblVPb1FyOXptWEh6VGdzR3pmcXRZamltT3FNM1d6V21jYkJ1dVpyWXlhSzhzSURyOGJHLW5QVkhjZjBWVXpDbV9OUDc3eEN1aXhac3Z2dXJSRUdvQ1Yxd3NVS2FydmVTVXpBNFB1YUE4eUozbw?oc=5",
           "source": "RomaToday",
-          "published": "2026-11-01T06:03:08+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Juve-Napoli, gli eroi che non ti aspetti: da Dátolo a Gatti, sette protagonisti a sorpresa - DAZN",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTDJtdXRVQkFHWmgtY3hXRTJBUnB5NnRHaTI2LWpQYWRlUUhWWWkybXg1VlI5YlZZdHUtSUR2WldxbnRrZ0Y3WnBOYXRoVDVqQm9YNWtFSXVnNmkydThjT1JHVjJ6UC1SWThJd1BCQWJfVEpUY3B0X2ZCSTBjVFdTQy1zU1JHaG8tTFEtdnJIZmhCSlNHSFZDOXFQalh4aUdoZmdfbHNpUkVUekl1ZzFtcG1ENS1fMkRvQVdIVTVLblpZaHo3OEtJNkpaVmU0YTllOWlnX3dhNnFMaV93TVA3QzVLbw?oc=5",
-          "source": "DAZN",
-          "published": "2026-11-01T06:16:43+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Le parole di Gasperini dopo Udinese-Roma - AS Roma",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0dYMVU1Ui10M0x4NjRJY2E2ZXQ5TkJvUnRmMGJvTGxuc2VyZi1WbGpQV2hKVjl2akJlT3Rja3kyZ0pFekRoTXhTcmxfaWwwTlowNWFGbXhaVzgzOE5LOXlOREJ5OUdBdFdEMmFDSE5zNlFLaXFBdWNHSmYwOVNjQ2JWdFRyUlE?oc=5",
-          "source": "AS Roma",
-          "published": "2026-10-31T19:41:57+00:00",
+          "published": "2026-11-02T01:53:02+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1024,28 +1024,28 @@
       ],
       "trending": [
         {
-          "title": "giacca",
+          "title": "verona porta nuova",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "davide lippi",
+          "title": "gazzetta dello sport prima pagina",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "messa",
+          "title": "landini",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T06:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1234,6 +1234,15 @@
       ],
       "gift_signals": [
         {
+          "title": "Bag-all: la boutique del Marais dove le pochette si personalizzano con le proprie iniziali - Sortir à Paris",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNHVZUFNPU1R2TE5xYWxrcXdiUFZscHBTam5Db1Q0NF9GMjJ0SkdvZGFBWkpMOTBMTXBvYWpNbk9qUVgtODV6YU9fRlpGelFWQmU1S0ptRHBGTFJBdG1wRzRxdUNnZDJlaktnTkdnOU55VUxfcVNjcEtzckpWNDhjdVVDZGROa1ozeUxWamxPSUtYaUVlN0RCb3lOYXNyUjJIYlFRNGN5WDZPNW54aTFTc2hjZ0N3Ty16MVFRVkFRbGk3WU9lUzdxbmkwbHRtcWl6bG9DMWdVTzBtS0ZxTTZ2a1dGeGNkbThvaUVjWDNjOUpnNDliSWhKcWRwZFY?oc=5",
+          "source": "Sortir à Paris",
+          "published": "2026-10-27T15:38:57+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
           "title": "Idee regalo per il 20 ottobre: ​​quando la premura è più preziosa del regalo stesso. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWXBubWM4dWFBUnJsejhhMW5TMG1lVEZ6VUgzVks0VjVvMEQtVkZVdEJzbDdiZUEybkRBSzJ5SHFCdnVqaXcyQUZQOVJTcnROc2pIVEE0QVY5REFEUVpHTUdjUUJEaGNfc1Z2NkdIUEVjNVplR1BldU5Eb3Q3a1E4N19LbVg5N3c?oc=5",
           "source": "Vietnam.vn",
@@ -1250,15 +1259,6 @@
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "",
           "translation_status": "unavailable"
-        },
-        {
-          "title": "Dailymotion Business presenta RAY con una cena immersiva e personalizzata a Parigi - Media Key",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHZna3JSYVM1Z04tRFI1NlY4dWhmd0Y5ZVlpc2M1bE4yRmRyNzl4eVJoU3dIazdTTnRnOXNteVk1emxUa2VHUlppUG13eVpmRmVieWNZdEkyU1hDX3k5Zy11MnA0S3MyYkhHb3o1cUlPc05kdTlSRDVkTXVCR0JOSFVBcC1zT09LSkZYNkMyaEtSVkl2T2FCWWViVkdKV1RiRWt2OUU4NkVPdzdS?oc=5",
-          "source": "Media Key",
-          "published": "2026-10-22T10:46:27+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "",
-          "translation_status": "unavailable"
         }
       ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
@@ -1267,28 +1267,28 @@
     "NL": {
       "news": [
         {
-          "title": "Den Haag debuteert als marathonstad in tijd van groeiende hardloopgekte - NOS",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDY0ZVVlN0RhRWcyVVpsbWxCUDRiTWw5WjhUM1hGLUE5c0JxNmpadVNNOFZNWnlBSXVtRmszUkk2Slh3alI0bG5tc203ei0wa1FBSnpTNzNHZnd3ZWpRcVZhMHZFTWFjbDgtOEZJalFrWjVhUGRqVGNRdlAwQTVvM0pPUDRpWXFYLUVPVHhZdWdZV0FVZldHZkRpTFlEX25hOTRJSg?oc=5",
-          "source": "NOS",
-          "published": "2026-11-01T05:59:49+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Tientallen aanhoudingen verricht bij onrust in Den Haag, merendeel minderjarig - NU",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnJIV0FqeXNyZEVrdkJFY2VvMlhZa3VBUUZjMkxpVnprdHVuN19kVG13QlhoX2Q3aXR0d3NqUWxiUUxENlRZbC1Ma1RWRUFNV29VTkhsdWtZZm5CTVpfcW50aWZtT21YT2k1ckM4SU56UVFCek92WmR3Q1hKdXZUWW92REVNMmFzUUdvR1hzQU9EY0RPRGNVQ2d3SWtvaDE5Z3gwVUV6WkJySkh2a281UU9LR0R5Y3R1UFh3?oc=5",
+          "title": "Zo zag de eerste editie van de marathon van Den Haag eruit - NU",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSXdNejMyblZQRXVlcVZIYnRjd2JzVndsU19ad2RsTHdwR3lCS3NSRmh6cGtPRmlkWGxIbDB4N3NsaDFnV0RDbk9jRXJfUUh4T2dHN2JrUTdmcWY0YWUtM3lxMkdzX0dMZkgwd0ZNSzNUNUtQMGNmd0pCdURfNjV5SEhId1pkcVpGNVJXM1psa1NUYkFvUzZWcG5maDlfYjBtOXc?oc=5",
           "source": "NU",
-          "published": "2026-10-31T20:13:00+00:00",
+          "published": "2026-11-01T14:08:17+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Tientallen aanhoudingen na onrust in Den Haag, winkeliers vrezen duizenden euro's schade - Omroep West",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV3BzaHR4eFVOY3kzNXpWeHlvTDBheXZXZ055OU9obkFWV19VT2ZJNmVLVThqeGdqZmpBdGlxWllRR2t2UWI3WEJhT1NJVm52cVhMSWV2RHlTNGZOeEZNc1Q0LUYyRUJIdFA1RjdZcGRmMzBmYTFpNmRYMDJ3RzFyUnBPTFB3elFkQS0wOU9ZZWV4STZIdGlqcnFxUENDcDZfbzdseUo0QVkwaHVlWnM5RnJqdmh0WDR6OVQwdkI3dk1WZw?oc=5",
-          "source": "Omroep West",
-          "published": "2026-10-31T20:15:59+00:00",
+          "title": "Deze BN’ers bereikten afgemat de finish van de marathon van Den Haag: ‘Ik ben zo misselijk’ - AD.nl",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV3ZkLTFpUXpVNjRGWS15R0UwZFlaUmV0RGJhYTYtRWdqWFNNMmROaFBhWnhfVnRqc1dUZjE2SVl0c1pjMGtlck10NnpkSjloT0ZqUXE1STFBbjFGT1RyNnhFZXZOQWIxVFRsakt1a0hKek1qMHV2ZWxXRGhpb3FFb3hUUHN5and4eVlFQTdmOVJXR3pkZlQ0c0NoeTJ2dlJkRXg5OEw4S0RFRjdTeGozSHJLTHktS0ViMjlYMg?oc=5",
+          "source": "AD.nl",
+          "published": "2026-11-01T15:48:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "ADO Den Haag 0-1 Feyenoord (1 nov., 2026) Uitslag - ESPN.nl",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQZUVkcTdxNlZROWhhZXhXTUZPaEliVzFuUHVpSVJEMW5xWHdXWlFuN1VMTms1aGhsb1BOVXQ2WlBzZnVPMnFQZWVmS3B1b0VxdV9FS19NX2RiZzdxNndWeUt6dlNJSnFicGVRRjNn?oc=5",
+          "source": "ESPN.nl",
+          "published": "2026-11-01T15:59:51+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1296,28 +1296,28 @@
       ],
       "trending": [
         {
-          "title": "dirk kuijt",
+          "title": "stille oceaan",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "wielerploeg",
+          "title": "oude singel",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:00:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "johan cruijff",
+          "title": "antoinette de jong",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:50:00+00:00",
+          "published": "2026-11-02T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1521,28 +1521,28 @@
     "NO": {
       "news": [
         {
-          "title": "Mann døde på treningssenter: –⁠ Tragisk hendelse - VG",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYzRSZTNGczBPRFNmdW1vc3lfZG5pRjFEbEI1Ty16Z2JoUTVMYjhIM3lITElXNVRndUowQUpwS2RUZ2kySWpoZ3FXMVVubHVjekZYR0NVTTlESVI5TU5HZ2REeWhQbklWNEdGT0NfdHA3X0QzYlZvajJWcEk0SWRBMGdqMVRYTHQt?oc=5",
-          "source": "VG",
-          "published": "2026-10-31T17:54:26+00:00",
+          "title": "Oslo Børs-eier bekrefter: Nytt gjennombrudd for nordisk superbørs - Finansavisen",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdHdUeWNDSloyZmUzYUZyOHNGQXB4RTBfd1Y1c0x6QXdIcVFPRHRQei1QMGw3YkZ5ZFU0bGFDQW1Xd0RJUW9jNUdMTUJZTnVQa2I2aFJfRmpXcnVOWG9wN1NHdm56SS12TnBEb09MOEtQSkR2TGlmQnRqeVprSEdTVjlDSUpTRFdKT3RVbWl6M3MtdFkzNVlNVkVodzgtSFZlaHY2M3kxTEU5TThsLUw4QVI3blRjemgxQnc?oc=5",
+          "source": "Finansavisen",
+          "published": "2026-11-02T06:31:07+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Person døde på treningssenter: – Tragisk hendelse - Avisa Oslo",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM1lfMEZXUGdvdDVJYVlUOVJ2WVZIMVFaZTNOWXNsQUZWWWRLbE45dWF2WW5mV3hPbkItV0F0NGhRU20zdFlYb2tOSm5CT2NhVGxlWDhiV3dnQ0FXbmdmYmkzb1hDUHhSRURod05TLWM1MlBQM1UyUWhTSjQwMklTVnlsZ01LQQ?oc=5",
-          "source": "Avisa Oslo",
-          "published": "2026-10-31T17:35:35+00:00",
+          "title": "Presset på regjeringen om posten øker: – Fornuften vil seire - Frifagbevegelse",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2cxRlNMVUZIOHQ2MndUUFR1akJialZvaEswMnJzSURhbHhGSGc5b2RfRXJRZkliWlg4RUVGaUpvTUVXbDM4M0FnTmt3emI3WjdKMkFLV2xiMkx2UVQzOFlRZm5fbjAyaTdGR3RSTHN6RTcwV0pqY1lZRFF0UVppY0tPQVRnUzRBck5CWDJhUDU1OTYtQVB6RkV1aG1FenlrYkRZbmNVaw?oc=5",
+          "source": "Frifagbevegelse",
+          "published": "2026-11-02T07:07:33+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Bergen: To menn til legevakt etter fallulykke – Siste nytt - NRK",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWlRlTjVvdHVhbGhWdlRMbVNDbXp2aDBBckFYcVVCYVN5d1R6MWgtcUxJWGN2b2dsbFdEVHBialZtSXMyTUV4WklncFdzQXVLM1IzZGJxU002dTZjb2V4TTFScjQwM2wwTzdqbjVwanBQcnlPdnkyWVhaYldRVE1WN2JWTW5DRnlvZHJr?oc=5",
+          "title": "Regjeringen vil gjøre det enklere for PST å ta spioner i Norge - NRK",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOThoQ0IyMFJIOFJ3NUY5cnBIRzRGMFBKaDhsd3RRcDU0Y2dFUkMyY0ZBU3RfN3ZhbzE1MC16aEdUTE1zZmFScUM4SlVSSV9nbDByRlFNNHBhdGVJWGhCd0pkMHNBVTJIQTFtcFd1c0JEMDdVb3I1Y045ZDBnSklfRXJkWWJoaFF4aDhnVWZZTQ?oc=5",
           "source": "NRK",
-          "published": "2026-11-01T02:43:56+00:00",
+          "published": "2026-11-02T05:00:17+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1550,28 +1550,28 @@
       ],
       "trending": [
         {
-          "title": "adresseavisen",
+          "title": "hpv vaksine",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:30:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "norsk tipping",
+          "title": "marius borg høiby",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:10:00+00:00",
+          "published": "2026-11-02T06:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "new york marathon 2026",
+          "title": "yr no",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:00:00+00:00",
+          "published": "2026-11-02T05:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1790,28 +1790,28 @@
     "SE": {
       "news": [
         {
-          "title": "Ishockey: Euro hockey tour, damer – Sverige-Finland - SVT Play",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0NTdEJxRE1Ha2ZwWG1od1BLMXpnaHJoNGd5WklNMDZnZUs5d3VzYlN3VnU5akN5RUktd0toSnZ5Z3FxNG9YWmY5bjVwWXhaVkkwZzN2dXo0WExaeXcwWFVJUTNJeTNWWU1pbE1OaE1pTkxERHk3dzJNUXBMNTNzTV9NRl9wdjBrMVV4VlBHYw?oc=5",
-          "source": "SVT Play",
-          "published": "2026-10-31T21:11:41+00:00",
+          "title": "Larm om hög smäll i Göteborg - TV4 Nyheterna",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNblFJcDIxYWY2WEFQeWpkSUlnSEhGQTNKZ2ROTjFwNVctb1RXN01DN2FRbGx2dlkxdGw4aVJHU2JGT0Qta3M4SGpiaDJkSzd5d3BXTEZQaHBvaGlzSW9kdWpra2M0YnFpc2hsUTNtdGl4NUFsa0x1ckFUY3RXNExkbWpUYw?oc=5",
+          "source": "TV4 Nyheterna",
+          "published": "2026-11-02T04:59:37+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Ishockey: Malmö – HV71 0 – 0 – Senaste nytt från SHL - SVT Nyheter",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeUNraXJTR21GNVdfOTZMRm91X3hZTlZpTHVEVFBqbTQyTmdvNV9mVEFBSnBYM1EySXRqLURpMENMMkJqOU9HVnlUckZvN3R3anFGbmxKdUg5SGQ2X2J5MEttWGRwTmJURTRWRlY3SVJBWGtENVJzYW1xVDlrdTNtVTgwRDBHWHdxdEpIckhtbzQ?oc=5",
+          "title": "Fotboll: IFK Göteborg föll i derbyt – matchen fick brytas efter stök på läktare - SVT Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzQ4YkZwYnl4ZUhrSnFTM0xvZjR0UlFjYXBoMnhlMjZ1Z2tFVEowSDdDTzJ3NmZUNEU1bXBLS2VKWjJzVjUyZlVHb0J2YkRIVEdsUk01Z1ZIRU1lcV9zcW5JUVAzYUtZZzdsMlhrQ25DT2k4ZVRyemRhMlBKQlBaRDRjMXJuRU1fai1OLXJlQndrZWhrTWdaSjJRbG43SEYtc2Nv?oc=5",
           "source": "SVT Nyheter",
-          "published": "2026-10-31T17:31:29+00:00",
+          "published": "2026-11-01T18:06:52+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "HV71 tappade segern med 17 sekunder kvar - Aftonbladet",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaElKMmRIcHVfbW8tZkVfc3g5Y2lEMmtwT2I2MUpvZV8xX2FiOC1FMzFCQW9DQ2U3Umw3SUtFOEJSaXhVQ3NUXzZvZlFLLWduLVk1VG1sMEQtcEdpTlZ5WWhyaURYTHh3U0FJcVh0MUZRSElOTmxLVkJWVXpsRVpsQXk3d0lram9B?oc=5",
-          "source": "Aftonbladet",
-          "published": "2026-10-31T19:28:32+00:00",
+          "title": "Även Sverige exponerat för växande neobubbla - Svenska Dagbladet",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2ZOQV9qOW1vYUl1dll3WW9xcWItc0hBajQxSFhpbUxCbURxR2g4cUd1YmI5VjhBR0RibVFoaW5pTEhiTHhFZmlOeE5nUmFqcURPdWxOQlZtZlRsZmRST1NSemJ1bmhnUXlvY3NMdmYzVnNkRGxnYVVzaDZZMjQ5WEdOQnc?oc=5",
+          "source": "Svenska Dagbladet",
+          "published": "2026-11-02T04:54:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1819,28 +1819,28 @@
       ],
       "trending": [
         {
-          "title": "längdskidor",
+          "title": "spårvagn",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:10:00+00:00",
+          "published": "2026-11-02T07:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "gävletravet",
+          "title": "connor mcdavid",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:00:00+00:00",
+          "published": "2026-11-02T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "black friday",
+          "title": "arbetstid",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:30:00+00:00",
+          "published": "2026-11-02T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2049,28 +2049,28 @@
     "FI": {
       "news": [
         {
+          "title": "Suomi ja Yhdysvallat sopivat vaihto- ja yhteysupseeritoiminnasta - Valtioneuvosto",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNFRFYmFWOUtjbEw4Vmx4U21YNDI0TDN1X2JHSlEwNF9HNUpxc3ZSWHdCRGtXMldMVVdOZEUwTnFadXFCakdrVmtBaHQ2RnhhZDMtVlloQVlMSEhlQkhzRnEzenlPby1yeUlMc3lzczlzbFZYYkx4ZHRjcUNTY1Y3a01kNkU5TGF0eGVYbjhhVllIckdRcGdqRWZtQWZnNHd0MFg4?oc=5",
+          "source": "Valtioneuvosto",
+          "published": "2026-11-02T06:48:00+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
           "title": "Tampere Jazz Happening 2026 | Osta lippu helposti - Tiketti",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTXVNN184ZmRqMWc0ZVhIcHRiLTA5ZnljRi1YVWRwQ2pwRXFINUEyVG8xbklZY2FQTGYxenZpVDFaTTJhRkpaelFxTWNRTVBmSGVuSGMyS1pTM2J4XzlQM3ltRkhLbzhZQ2tGMEdaaWxTdjNMU0QyUVY2R2FXemJkeENlMXlPZERvVFVCSml2a2NOaUR1cmtpeA?oc=5",
           "source": "Tiketti",
-          "published": "2026-11-01T04:21:30+00:00",
+          "published": "2026-11-01T20:52:12+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Näkökulma | Tällainen voi olla Suomen seuraava hallitus – kolme puoluetta nousee esiin - Aamulehti",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qMldRX3pVa21YR0FuVkFNYXZDLW1wdGVnZU51NFlFelJZUUd3U2VYRHpiQXlGVHp1X2FVXzJZb3RyYktDeFk3NEZnUFpMb2xQN2VYbjE1LU5jUjJnSFRnQmk5Y1V4Zw?oc=5",
-          "source": "Aamulehti",
-          "published": "2026-11-01T03:30:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Lukijalta | Itke tai mukaudu, on nyt – Suomi ei selviä pelkällä talouden kasvulla | Pääkirjoitus & mielipide - Etelä-Suomen Sanomat",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MbWl6OFhxbEw2RDB4UDlURjh1QVh1TnVjd0FBRHRrQUgwQjdKVm5QVXNiZlFGWEFucUdFSmVwRk9SV09pc203YnZ3d0c0ZGlBRkVjdWttWnpJbHYtbEE?oc=5",
-          "source": "Etelä-Suomen Sanomat",
-          "published": "2026-11-01T06:00:00+00:00",
+          "title": "Tam­pe­re ra­ken­taa yh­te­näi­sen di­gi­tai­to­jen opin­po­lun var­hais­kas­va­tuk­ses­ta toi­sel­le as­teel­le - Tampereen kaupunki",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZmhTajQ5eG5iLTd0V1BHY2ZTYUVUS3JMZVdTR0ttWm5HVFo4OUh3c04yek9HWmptY1RFZ09uMXlrcjlrM2hKZDRNMHZlTEdObTdoam9xcGFhbkNMUnIxWWViSUVZWHRmbS05cmU5ZElzNjRISEttQjVRWXdqNHd1MmN5TXZxOHNhTmNrclZpYUR5b29zNmV1eG9yOHl4WEE?oc=5",
+          "source": "Tampereen kaupunki",
+          "published": "2026-11-02T06:22:31+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2078,28 +2078,28 @@
       ],
       "trending": [
         {
-          "title": "black friday 2026",
+          "title": "jared leto",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:00:00+00:00",
+          "published": "2026-11-02T07:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "hs.fi",
+          "title": "lääke",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:00:00+00:00",
+          "published": "2026-11-02T07:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "arttu hyry",
+          "title": "helsingin pörssi",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-11-01T06:50:00+00:00",
+          "published": "2026-11-02T06:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2108,36 +2108,36 @@
       "products": [
         {
           "name": "Puuki",
-          "title": "Kirjanmerkki",
-          "url": "https://www.puuki.fi/products/kirjanmerkki",
+          "title": "Kakkukoriste omalla tekstillä - 1 rivi / Luonnonvaalea koivu / Tavalliset pisteet",
+          "url": "https://www.puuki.fi/products/personoitu-kakkukoriste",
           "source": "Puuki · 官网结构化商品数据",
-          "price": "9.00",
+          "price": "17.90",
           "currency": "EUR",
-          "image": "https://www.puuki.fi/cdn/shop/files/IMG_2429-scaled.jpg?v=1750577901&width=1920",
+          "image": "https://www.puuki.fi/cdn/shop/files/IMG_5785-2-scaled.jpg?v=1750577793&width=1920",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Puuki",
-          "title": "Rullamitta 3M omalla tekstillä",
-          "url": "https://www.puuki.fi/products/rullamitta-3m-omalla-tekstilla",
+          "title": "Vieraskirja (A4)",
+          "url": "https://www.puuki.fi/products/vieraskirja-a4-omalla-tekstilla",
           "source": "Puuki · 官网结构化商品数据",
-          "price": "24.90",
+          "price": "49.90",
           "currency": "EUR",
-          "image": "https://www.puuki.fi/cdn/shop/files/Mittaedesta.png?v=1759060640&width=1920",
+          "image": "https://www.puuki.fi/cdn/shop/files/IMG_6263-scaled.jpg?v=1750577835&width=1920",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
         },
         {
           "name": "Puuki",
-          "title": "Olet rakas -kortti",
-          "url": "https://www.puuki.fi/products/olet-rakas-kortti",
+          "title": "Pyyhenipsu",
+          "url": "https://www.puuki.fi/products/pyyhenipsu-omalla-tekstilla",
           "source": "Puuki · 官网结构化商品数据",
-          "price": "8.00",
+          "price": "7.90",
           "currency": "EUR",
-          "image": "https://www.puuki.fi/cdn/shop/files/IMG_2728-scaled.jpg?v=1750578058&width=1920",
+          "image": "https://www.puuki.fi/cdn/shop/files/IMG_2071-scaled.jpg?v=1750775459&width=1920",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
@@ -2298,28 +2298,28 @@
     "PL": {
       "news": [
         {
-          "title": "Newralgiczny sektor w dramatycznym stanie. Ministerstwo ma pomysł - Interia Wydarzenia",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWF9hdEVSaEctbUMwdkwwLURMYlNRdmNNeUE1RWlEamFkc2pxNnYxa2luSy1pRGxMeEVaR3M3U19SamoxQzJ5SGc2TTFMbVNWdmVvT2JFTEpudHc1WXVuLXV3QTRWU2w0b0o2ZFpKNGdHVHdZckdaLVRMWlpaQUhDemIwR1lJTTJzUl9VQ1BrZ3hTZ3F4TE5GRUpDWkJXalBqNW1nYmpzaG1ZWGpEWGNoMENoVQ?oc=5",
-          "source": "Interia Wydarzenia",
-          "published": "2026-11-01T07:00:05+00:00",
+          "title": "Nowa struktura Urzędu Miasta Krakowa - Magiczny Kraków",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXcyXzhTSTByVTlNTWVGaHM2cGxST2lPVTcyb2poUk1FTjkxY0ljN2llZUlFT18wVDh2VHlKT1V0dkdhbE1Qd0hfcVBTSTlvSmh5QkRYRVJUZ0Z5dXF6VVp6dURWLWpHbzlGb20za0EzVWR4dUpfSTNOOU1fT3dRZTc2MHNCQkE2bS15N2JGSW1HdDMzbWc?oc=5",
+          "source": "Magiczny Kraków",
+          "published": "2026-11-01T23:11:08+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Kraków - sprawdź prognozę pogody w dniu 01.11.2026 - Wiadomości Onet",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdF80YV81TEJ2U3B5anBGZGtVVGhoNzd2NEZvU0lmamRqRHpnUjRTQlFlZ3JlQ2Z6VGg2OGFqYTNBX1VUbExBaldJVVk4UnBEU2Y5aXNwTHMzMzlCYVY4MlBHbFpzdnpTRnhiUlJkeFZDUmZvV0ZsUjFjVjlqcmdUSzlQZ1ZGZlE?oc=5",
-          "source": "Wiadomości Onet",
-          "published": "2026-11-01T04:05:03+00:00",
+          "title": "Polska chce do G20, ale polityczna wojna trwa. Kapitał boi się niepewności - Business Insider Polska",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMXlJLUJNcWg2NWtNLThyMS1EZDhCMXlmMnYtLUFaSVo4RDRNeGcwRVk2V0pZS1hleWJsV1pGYU56TGJSc04xTmRHTVdTTDV4bzhHZjBYUEdHN0trSFBuNFQzTy03MW02QnVLaWI5OEE2aTNCRkl5S3hCZVBLUVhnejQ2N0pGaEthVklMZkNXclpVaW5UM1pBZ3JJVVhIVE16bmZSaGtzVVdiQUdyUzFGRGFzTXdJQ0x3aXFn?oc=5",
+          "source": "Business Insider Polska",
+          "published": "2026-11-02T05:15:48+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "[SKRÓT] Lech Poznań 3:1 Wisła Kraków: „Piątka” Kolejorza - Ekstraklasa",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUmZEYS0ybi1TX3hwd1d5ZzVEdlFVM3pReVpSRmRpbUFwQzB3OHo2dEtTV0RQcFY3cDFGYUQ1aVJfYTdPX0NUSk14WGhHWkJRbVBudEhyeTg3YVJWcG9UNjZDZ19FNi1MTmJNY3VuZkpvRUQwU2RtQzR0dVlSem1PTWtncW5HczFXR0tuWGVNbHk?oc=5",
-          "source": "Ekstraklasa",
-          "published": "2026-10-31T18:55:07+00:00",
+          "title": "Kraków czci wielkość, ale wybiera miernotę. Duda-Gracz punktuje - Newsweek",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQczF6MUI0dUZXWlRFaUx1VmJHelJQbjZNTTI4Rjc5VThVLURQaFdWeE9CbHF3NVRYbFYza0xldFN2VXFfaXo4NHZFblY2WmZOTUN5UDVWTEVkVVBGRFhGVzkwamZnN0Rlck5heTFFczVnd1Z0NDJRM0RDMTVXU21oNVBXVmJJcjRtSDNidlZYYklEM1liZDVZWFVn?oc=5",
+          "source": "Newsweek",
+          "published": "2026-11-02T05:50:53+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2327,28 +2327,28 @@
       ],
       "trending": [
         {
-          "title": "bozena dykiel",
+          "title": "radio eska",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "jan frycz",
+          "title": "wybory usa",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T06:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "intel",
+          "title": "radio rmf",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-11-01T07:20:00+00:00",
+          "published": "2026-11-02T06:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
