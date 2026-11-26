@@ -1,63 +1,63 @@
 {
-  "updated_at": "2026-11-25T09:50:13.666212+00:00",
+  "updated_at": "2026-11-26T09:30:36.415208+00:00",
   "countries": {
     "DE": {
       "news": [
         {
-          "title": "Züge zwischen Hamburg und Hannover: Umleitungen, Ersatzbusse und Ausfälle übers Wochenende - NDR.de",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZEY0UkY1MWFzLWlaeGtPQzdQeGpyNlBLUmY5d2lhNzFCOERmWWloNF8tclNUZWZfRy1SS1IxY2RaeXEzckgyc1dQRFFwQlNIaEhRalQ4S1p6dmhSWUpMZUVlUE1QZ3JFTXdqX0lyZGI3d05uRTNiNGdwNk1jN2NIY1FqSmc2bVZ6OFpERHdhcWl3TzZYc3R2cXZocThWMkl4ZGE2MFJwZDJNWVNWc3ZsNk9HbEs0MkhWOVAxZzJNbE14cGJtWW5oVUUzZnc?oc=5",
+          "title": "Hamburgs Hochschulen protestieren gemeinsam: Tausende zu Sternmarsch in Hamburgs Innenstadt erwartet - NDR.de",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNWNSWDN5cWk2SXJIRFMzdGkxM091WUZ6NDZvcW1DUnZCMmpUYm0yNjFUTUYyZXdyd0dRM3BxTnJNUV9pclc5MVU5N2c2d0N1VkdtNGxwQ2JYSjdXSUNtejNodVdtNTBCX2lGVDU4dHFGY28zNEZ0QVBkbnRYWjlad3lmbmIxeVI5ekl5bUQyUnU5MnZXazc1ZjRrOXc4NjE4MzJzejNXSmlodHljY25zbWtuWWEzb2U4cXdZTWdB?oc=5",
           "source": "NDR.de",
-          "published": "2026-11-25T05:43:18+00:00",
+          "published": "2026-11-26T06:14:45+00:00",
           "scope": "本国热点候选",
-          "title_zh": "汉堡和汉诺威之间的火车：周末改道、替换巴士和取消 - NDR.de",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "Deutlich steigende Netzentgelte und Beschaffungskosten führen zu höheren Strompreisen in Hamburg - Vattenfall",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcEZPd3hXcFhILWw2X3JzbFBRcU56TEJ4ckxYbE5ORHhHMUZLWVBkeXB4Q3JhYTh4VWFZaXNpNDBUQjlZRHVsUk54cFdRanJoQ0JWcE5EWjFjSmctb3ZWaTNnRUFLQlJYZzd4d2dkQnhVQ3ZnWkFNOW5TSnd6U1BYREtxZlhTdG5oU0ctcTkzVU5YVjg3UkY3TUpLMlZ6M2dYOThLc0IzMjM4SktwU0tYVFQxYVlGRGV2RzU5dTNiS3FuUFFabUMxaTBRRkVHTGV2WVZ5ZmNULUFtcFBaTGZ3cF83Y1dqMEZfZE1HS1NzU0pmLTQ?oc=5",
-          "source": "Vattenfall",
-          "published": "2026-11-25T08:50:00+00:00",
+          "title": "Mehr Geld, neue Wohnungen – Bundesregierung will Rückkehr von Syrern vorantreiben - WELT",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTlMxWGlXeDg0MVBxZlBrc3ppUEdnSEVod0RzSHdsVm9JNWtoMlhRVUxKZzhPWlZGYkl2RmdDbVpNdnIxSmg1dWVkR1JrbEFFZFdZTHhFaWI2QjM1ZkFoXzFPbXB4SFNvaXFOYWg3dHZWNWxjMFJLOW1EclNqSktEM3BJanE3cTdlU2JJNVlrV2hNSzg1SGVMcm16dEN3NDU1R2Z0SE5MWFJJazEyM0w5TlJ1d2d1VElDeUo4V2wwNF9iWUJiWFJlUzBSbkcwek9UUm9FREl2Y1pyZkRfZGNjT0tkclpxUnJJSU5ZMw?oc=5",
+          "source": "WELT",
+          "published": "2026-11-26T08:06:46+00:00",
           "scope": "本国热点候选",
-          "title_zh": "大幅增加的网络费用和采购成本导致汉堡电价上涨 - Vattenfall",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "Generaldebatte im Bundestag: Opposition wirft Bundesregierung Tricks beim Haushalt vor - DIE ZEIT",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRDVnVHJsX25PMGVIeTc4cEs0cGZaUkFlQUp0MENSYWFfOG5VSkgyLUpySFdJWDZyTnBvV0VKb3BDQmZLbFpyMVh3bkdlWnlNa2dKa1dPdHRrazUzQXA0U3NYMW41aUtadS1mWWpZT0dCWWU5VjdpaFhOb2pOM2gycElUZjk0UWpnZi1jV01NOG9HWXQzb3F0b1lBaHpLRzdTZW9oZGxGVjNRV3U0b01CbHQ2REtHM1Z4V1dF?oc=5",
-          "source": "DIE ZEIT",
-          "published": "2026-11-25T07:48:14+00:00",
+          "title": "Leitfrage: Was hält uns zusammen - Erzbistum Hamburg",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zb05PSjhLVVZVNnh2eTBGcVpnSHo0UU5LTkdweE1vcWFyc0FIYllGN1UwOVdPS0VVNnhuZGhfbzRZb3VNcUdIM1d4eUY3OHNydGQ3WHRmM3RXcnRGcVhfOEJIbzNxY1Y3NWpDWmZoSnl3MDlK?oc=5",
+          "source": "Erzbistum Hamburg",
+          "published": "2026-11-26T08:26:09+00:00",
           "scope": "本国热点候选",
-          "title_zh": "联邦议院一般性辩论：反对派指责联邦政府在预算中耍花招 - 时代周报",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "trending": [
         {
-          "title": "dating",
+          "title": "auseinandersetzungen um die 35-stunden-woche",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:10:00+00:00",
+          "published": "2026-11-26T09:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "约会",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "fc bayern news",
+          "title": "taunusstein",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:00:00+00:00",
+          "published": "2026-11-26T09:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "拜仁足球俱乐部新闻",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "spiegel",
+          "title": "arbeiter",
           "url": "https://trends.google.com/trending/rss?geo=DE",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:00:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "镜子",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "products": [
@@ -296,10 +296,10 @@
           "title": "xTool M2 im Test: Laser-Gerät für personalisierte Geschenke - Business Insider Deutschland",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZDF1MVVOazhvNXF0enRZbWlveFVRTXhMbFU0T25VZ3M0SE9hd1pzVGhPdk5ZZHE5Y2NBWjJsblRhaTMwXzNNNVp1ZlFqU3J0R0xqdS1yUk1KMHo5OEVRaFRBQWEzMVV3WGtSNEsyUWV5Y0RlakpTRDNwZUUzUHBWWDM3YzQxeE1uMjF1SjNYR1duVjh3QkpCSDVXVXA4LUVTTUdQcHIwRUJGVWYwRUplcldNcHgzeWt2NWtiUG5IQnczUmxrS1hiSXVn?oc=5",
           "source": "Business Insider Deutschland",
-          "published": "2026-11-16T08:33:53+00:00",
+          "published": "2026-11-16T08:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "xTool M2 正在测试中：用于个性化礼品的激光设备 - 德国商业内幕",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
           "title": "Zwischenzeit: Kreative Geschenkideen aus der Region - Die Augsburger Zeitung |",
@@ -307,8 +307,8 @@
           "source": "Die Augsburger Zeitung |",
           "published": "2026-11-20T23:04:03+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "与此同时：来自该地区的创意礼物 - 奥格斯堡报 |",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
           "title": "Nordstil: Moin, starke Marken! - Gabot.de",
@@ -316,8 +316,8 @@
           "source": "Gabot.de",
           "published": "2026-11-23T08:18:03+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Nordstil：您好，强势品牌！ - Gabot.de",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
@@ -326,60 +326,60 @@
     "FR": {
       "news": [
         {
-          "title": "Intensification des pluies en novembre 2026 : des niveaux de sécheresse différents selon les régions - METEO France",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZHhqUTlKQm0tc2dMY2VkalRIeWlMcU1sdWZlTFA5ZmJsTXo4d1hPcTZYYUZJX2hRUXpOWnVCczFlSmtDbWdJVFMyMWJ6ZmtPdTJsbndlQnlxdWxPdEtmM3F5SDA1WGF3azAyRzVBaXNKd09PUDZEc3RmeTFMNHRxWGFYVG5OQ1FhcUp3V3lVaXBpWVJCN1BDYng5ajhTR1dfRzl2aTBzVGV2UHNJQnh1Z0MtWUlXQQ?oc=5",
-          "source": "METEO France",
-          "published": "2026-11-25T07:46:44+00:00",
+          "title": "Les Millionnaires patriotes, ces riches qui veulent payer des impôts, se lancent en France - Le Monde.fr",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTXgyVmwydkhfVGc1bUFXWHY2ZG9NZ1VsZHpNdXJNaE1ZVi1scU9ackhIaTUzYUVFSTNFOGwzMk1xSlhxMEFTeW56QUlBNEFDdkNaNVJhLVN6SG5jaTRuSEY3aExjWEpxbm0yekRCQnZUakRCMzFSZUZOSjEwZEk0YU1jQk9yZzc0V0lRMDZZbFE4WHQ2V3Fac0JMMW1fbV80NTdTSk9LdmhVTUktQjN5eG1JT3hBX1phUi1qNXdtcXFYRVM0a2k1VmhVSW92MmVMeEpYLTRCV0IzOVd6VUM1UVp4dnVaZzFqaEZSTVp3?oc=5",
+          "source": "Le Monde.fr",
+          "published": "2026-11-26T08:59:46+00:00",
           "scope": "本国热点候选",
-          "title_zh": "2026 年 11 月降雨加剧：各地区干旱程度不同 - METEO France",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "Présence d'un procureur au siège du RN : Gérald Darmanin annonce avoir saisi l'Inspection générale de la justice - franceinfo",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNRXdzbDlTNkY3NnlJT0dCUmZrSnJPTXdxTG5kT1BjZ1RVWTY4WlZ4ZWUxX2VBMXlCSkhQVzZZVWVPTk84UEZiSGIzaFkxU2FiZG5KUmlGMDBWdW9YX2xvZElNdENYeGNVQl9TLWhFSkpwTEEwZ0M1MzJuWG1xRDBRRGRKVkVBMkZTRDJtVFVaZDVnUVhSZ3E1cUF1UklJRkpIUEtFOUs2RUU2N2RYVlNlQUhqWjBHZ3Z2VUcxYjJEN0RGd0JoSFlnZzBJRVlpMW9EaWhWajZXRGZPbUVpWEVYQnJxczc0UGsxVk5DUjFyVXp3VlNnVFN5LUotOXQybnRrb05Fag?oc=5",
-          "source": "franceinfo",
-          "published": "2026-11-25T07:37:35+00:00",
+          "title": "Lyon : le \"Merci Marie\" de Fourvière va s'illuminer ce jeudi avec un feu d'artifice - Lyon Mag",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQUlRNG9tcDc1U29BUFBaQUd4YjQ5UTdZcU43UTRDbXBxelZHMzFHYkQ3cHZyeEk2VEpSdXBfWGRaS2Nsa1d4cWpoMWVrdzl2LW00ajFNTzQwX3JKamFSRUVRTlBYLTk2MTQtTUN6Z2FMSHRudWRnSkdqNUhVQVdNS0lRMWFnQkVDTVMxZG9LaEdEbXFKY090TmtndWN4NGlfZ2RFdGR6RVRFTXlqVnA1RGFsYUhIQWxzTnc?oc=5",
+          "source": "Lyon Mag",
+          "published": "2026-11-26T08:24:03+00:00",
           "scope": "本国热点候选",
-          "title_zh": "一名检察官出现在皇家海军总部：杰拉尔德·达尔马宁宣布他已联系司法总督察 - franceinfo",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "Émission du mercredi 25 novembre 2026 en replay - Télématin, la suite - France TV",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWZLaTBfNmM0bzZDWkVyaUlYUWRiQnA4c19RTndTdTBTVmFSVjllc2dwNHRzeFRtNktmeGdsS1dOd0gwVUJQeUIxazdUaVNHZlJ4V3o0S2I1a2xKWnFnM0lRdWtpSVltWXBXZU5pU0Q5WmhZaEh6U0xCQUlwQ0U5c0puMWpTajdvY0JpRmM2NnZCQWxfc0FRckVuUGE5ZWZKQ0E?oc=5",
+          "title": "Émission du jeudi 26 novembre 2026 en replay - Télématin - France TV",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRHIyRVNXWWJ4aHI4YUZ5a3Y3eGpEU1RaNkZzcDloZlIyM05xdlJsRy02RmRnZmg4Mm8wS2xpOG5Kd19QQ2ZBRUFoRTY1SWVPYlk0M3c3RHRkc0tlT0VDMkotNFdxMHRyMXFBMHRNSlA0VjNHSHlGbFItM21pU2VBVkNrTFR2NGlDc3NTMERSNGVoZw?oc=5",
           "source": "France TV",
-          "published": "2026-11-25T09:26:42+00:00",
+          "published": "2026-11-26T07:05:52+00:00",
           "scope": "本国热点候选",
-          "title_zh": "2026 年 11 月 25 日星期三重播节目 - Télématin，续集 - 法国电视台",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "trending": [
         {
-          "title": "chien",
+          "title": "psg mercato",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T09:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "狗",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "agression",
+          "title": "fusillade audincourt",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "突击",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "courrier picard",
+          "title": "ptz natalité",
           "url": "https://trends.google.com/trending/rss?geo=FR",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "皮卡德邮件",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "products": [
@@ -661,8 +661,8 @@
           "source": "Toutes les Box",
           "published": "2026-11-17T08:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "60 岁男人的礼物：我们按个人资料和预算列出的最佳创意 - 所有盒子",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
           "title": "Les Uber Gift Cards sont désormais disponibles en Suisse - Uber",
@@ -670,17 +670,17 @@
           "source": "Uber",
           "published": "2026-11-25T06:07:14+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "优步礼品卡现已在瑞士推出 - Uber",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "Cadeau de Noël pour son copain : 12 idées selon sa personnalité - Byothe.fr",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56Q1VlZzBoanFaZklWMTRreHFGZVpranY1MC1Pc2JZc2dzVG1NMVJrODdrUHlhd0VXV25UbWhOMmtGLWVxUl9NOVJSWTlmd3ozaURpMF9QUG9lMXdvMTJDTncyMUw4em9TS0d2dnBFaEtaRlZzcTBybFNDOA?oc=5",
-          "source": "Byothe.fr",
-          "published": "2026-11-24T13:58:47+00:00",
+          "title": "Belge et fière de l’être: 10 cadeaux locaux pour une amie - Femmes d'Aujourd'hui",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QVEY3Y0JRdXBpaHhwdExsMThuYl9JTGlzV1NER2FyRWZkRzNGZ3J0d09LdDladlp6RFhfaFJhVWpMM2NodVAyUnBWWXRSc2MzZndHUllpUmxFZnFObFJ3U1QwTVhUZHJldEZkNGREcWFTNE50cGc?oc=5",
+          "source": "Femmes d'Aujourd'hui",
+          "published": "2026-11-17T08:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "给男朋友的圣诞礼物：根据他的性格提供 12 个创意 - Byothe.fr",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
@@ -689,57 +689,57 @@
     "ES": {
       "news": [
         {
-          "title": "El Madrid golea en una segunda parte espectacular - Real Madrid CF | Web Oficial",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEcxY3ptYWs2UzN2NS1Xb2JJa0Q0WUpVcWh4ci0yRnY2RHh1bHg0T3VHUU5CNU5wV2FBOUs4VDFBb0ZOTzZOTUpQcGFKYU5KUGZaTEVPSTB3WDdCaW83OG1qYXFCdzd3RFBiLXdOTjI5c011RnlPY0lZWGFzOHIyd2RoSmlJd2pOWHdIbDl3SURESDNUbFRpc05SNGFRNGdDTThlcFd5UGZFMGxJUUV5blBTdk43QmVQbmczSXZ3WjRnRHF2?oc=5",
+          "title": "España vuelve a las urnas el 29N: migración, vivienda y un país partido en dos definen las elecciones - DW.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeEFLWFZId21UVWRKb2ROdURQTDVCaUpZTWNWOU5VeFFKWGotUmo5ZzdsdGtpUDFPT2NpZ3BFeGRWS09yYS1RS2x1aGRTbFZla1VISmF3cF85VWtPaDVrQlB0RzAzbHdVSzZma2FWTzdYTm5fSXRNODBmcW5VT3lKNGRicEduQ0xvTGFEdUtoN3Q0b0k3cU9oMXFiVUpVaUpuMkpqS2pVOWdGWGtnQS04NmlpX2JfNHotcHJQVtIBvAFBVV95cUxQX2YwWi1UQnZoVGRLcUZ3WW45SnVxQlRudUZpT2ExSVpmaTJlYXFOaXdYbUt4TDFTZDNCOG1JVWFPZjltanRvWkVaMHVxcUdtZHpSaTNyNlUtY1NuaVh2WjVCM1RGTm1xamotU1dfdmU1TDVVcXNoMEtrbGRQZWRNLXNRLWRGZmpNT3JyS3BGYjBsNGhiUVdXenc3T2I3eXlTNmZ2SGpLdnIzSFlmUDJMNlJjbW5FbTE5OGZZdA?oc=5",
+          "source": "DW.com",
+          "published": "2026-11-26T05:34:27+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Champions League 2026/27: calendario, fechas, horarios y resultados de los partidos de la fase liga - UEFA.com",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVXQxU2Vway04a3ByajdmTU5EOFpCUVkyR1N1aS01U21wODM0aGJEOEZ2bFBnVjFENEpfaHJzSjh4bFVicDhxNTVmMlFhYTJnTDUyY19fb3pRZlZ2SFBzaVdYR2EzME1aWGpjVHJLQzFlNDNZN0FidDczVTZvS1Bwelh2bk1wam5nV3diTWtOS0NrNnQ5SzRMQXItR1NFZmR0bkdpM1B4dGtkblA4MHlpTE1LQ1FabWFSSmVISFBwdG1yYThuWktvdU1XZUtxaHV4dkpmaURn?oc=5",
+          "source": "UEFA.com",
+          "published": "2026-11-26T08:24:08+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "BMW España entrega los vehículos oficiales al primer equipo de fútbol - Real Madrid CF | Web Oficial",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd3NHWGVpa1V5R3RsZ3JKZDd0amR6dnhnZXhSeHljTWZZa2pxUlBPUXVWMV9nYjdsRlNraDFyNFpweUFLbVR3ZU03RUM3UDI3VHIzWVozR0F4bmlrU2l5RkF3M2VzT01ENXA2Ym9QWGRGTVVqT25uRTZ4Y2p2MG1FWkJWV1hObDRFMnN3cHBIbjlMSU8yQl9jaDU2eno?oc=5",
           "source": "Real Madrid CF | Web Oficial",
-          "published": "2026-11-24T22:00:36+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "本国热点候选",
-          "title_zh": "马德里队在下半场取得了精彩的进球 - 皇家马德里足球俱乐部 |官方网站",
-          "translation_status": "translated"
-        },
-        {
-          "title": "El Gobierno amplía los permisos por nacimiento y fallecimiento y facilita la atención a familiares en cuidados paliativos - La Moncloa. Gobierno de España",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWVwYTNZbDVCX09yeWtScXhaMURKZDFpSGFJY0Q0S0hueVZqaHkyU1FSQnJUOHpGQTZjak1JWmJQYlk2d0lsQkI5VWtkUHhiNTQ4WmFwTXllYkItQVAzcVc2ZS1wX2pJd0ZIMnpISGFHU3liRkdYeHE0T1cwQmJYNy1vdkQ5RzkwLXMzRmtkUS1qeU1sdFhMcXE2V0ZkTVBXblpTeF9zWjg?oc=5",
-          "source": "La Moncloa. Gobierno de España",
-          "published": "2026-11-24T21:19:04+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "政府扩大了出生和死亡许可范围，并为接受姑息治疗的家庭成员提供便利——拉蒙克洛亚。西班牙政府",
-          "translation_status": "translated"
-        },
-        {
-          "title": "El feminismo vuelve a las calles de Barcelona por el 25-N: horarios y recorrido de las dos manifestaciones - La Vanguardia",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRVFIQWtrR0gwTjF2WS00UHZ0MDlhRFlpRFdlLWZ3QVBNZ1FjbDlrdS1TMW9kaC1xalBRODBNQTk0OE1sVS1yQ3NvSVlMYTVQUkJ3ZkMzZXUxMUxlZUFGT0E4Mk4zMUR1aE9XUXZvSzY5ZDhsZDlMU1Nuam05VC1mWjdxemhQMEhZRWc4Y2xsNjhqNXM4dVNIc1M5MmtJdmozcS1oRDd3RDhUNk9IMUJneE4yQ2p4cXhOQVZVVElwZmJHZWhIeC1hQ1JxUXAxenlIdHJpTnBrREZWQ2s2YmfSAeMBQVVfeXFMT0ZZMVRoX0RUdlFpbFpYTWpreF9VMUdxU2xxRDZCdHpOR2VPTU5iMS1Cd3FNMXJKeDlzRzYwQlpiSG1LMXZ4TUNmZ211Vy1QMy1VcEVFNWx1enFjcVBfX2hpU2daanU3VzZ2N25uMjYxT0R3UWpmQ3BFQkdKTGtpMndEZWl6VnZ3ZVpFSklGTS1CRmViZEpoeG1qQlFHQ1NxMXA0d1JPS1dFZ3JmWjRiRHg1MFU5V213cGhTMk5kTTB2VG1fa1pDWTNVWEF0ekd2anBmQy15N2twSXlJa1oyYkFiZG8?oc=5",
-          "source": "La Vanguardia",
-          "published": "2026-11-25T08:45:29+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "女权主义于 25-N 重返巴塞罗那街头：两次示威的时间表和路线 - La Vanguardia",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "trending": [
         {
-          "title": "varsavsky",
+          "title": "gh vip belen esteban concursantes",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:40:00+00:00",
+          "published": "2026-11-26T09:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "瓦尔萨夫斯基",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "rècord mundial",
+          "title": "mette-marit de noruega",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:10:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "世界纪录",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "ap-9",
+          "title": "mercado navideño",
           "url": "https://trends.google.com/trending/rss?geo=ES",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:10:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -976,17 +976,17 @@
           "source": "TeleElx",
           "published": "2026-11-25T09:01:43+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Regalalia 个性化 3D 礼物的主角埃尔切女士和坎托女士 - TeleElx",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "Freixenet vuelve a la T1 de Barcelona-El Prat con regalos personalizados para viajeros - Vinetur",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVA3SVB2bVZMOVNxV0ptaHJoSjB1V2U5TGJacVBYbnhpREN1VFFwaG81U1R0bUcxRVBqNE53VGZWN3dUSzFsVzRHaXlQcV9uT0FRbFBpV2tuZEdZaWJLY1oxdUZjZTZBWFhHVm0wUVRCMlBUU1FWRG5rYUxSMWxmZXB6djQwMlNBMGZ5OEdtS3hpOTI4LVlOZlFINmtBd2tWcHl3dXJkelh6RE9FN1A4dE9oRnh0eVBSZm1HdDJvdFNPUXJZZ29lNkZYVjdNUdIB0wFBVV95cUxQQk05elFYSmI1Ullwb00zNFN0blk4bXMyYTFNdHF2U0FXZlJXNTM1RVExNlVMS3UzdG9ZOHZGOVo2Nnk1eG0xdDgwTVF0NTQ1NlhkbW5ob0VhWm1qRjdVeEpiVFo2RzhwNmZqYkZQaVU3YkNpRzlyaEVLcHlGeGFFallhSkk1c0RrZ1VhVUNDSk9TWHZlS1VacXhQZ3R0NktJN29vdTNCOFdkazZsX3lGTjVxZXpsOUR3bkRJVzVVUkZ5X0hPcW03eW5hd0ppTHV6TGRj?oc=5",
-          "source": "Vinetur",
-          "published": "2026-11-24T10:52:46+00:00",
+          "title": "Floristería Rey Ardid: regalos y decoración de Navidad con impacto social en Zaragoza - El Periódico de Aragón",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNHWWdZaDBwWjZVUzU0N0V0aXB6NmQzVTN1NnQ4SUY5Z1QtbTRlX0doMXRuR0EwOHNKdFpZNHpWc2ZtU0hnUmhFMzF2NVoxVXUycXlvZHBhN1BHTWZVemZDNFZBclQ3WFdJeTdzdUtKZENvNXhTaVJSMkNIRUJReFR1T2t3T3l2ak9vb3lkc25Ma2F6LTlWMXJKVXo5bHBHOFZ5bHJ4cFgtSnVaWUHSAbMBQVVfeXFMTkdYSjc1bUlGYkV6ZWV0YVVLN2hiakk4dk12QUl4a3cyajM3dzFmQi1Ka2o4cDVwemtwcVhxUHpkcWdicWJWR3JFWTQzMHhFQ1hKMy04ckQ0QzFGWW96R3ZtdWplMDkyMy1GMjVwdk5MUDRVM2lsY2t6NkdXOTZsTEFwdjdocUd5UE1wVEduTExBYUlhaUctMkh4Mm5YeEtCWHQ1cXBnRW1GVk1nZlVpaktTazA?oc=5",
+          "source": "El Periódico de Aragón",
+          "published": "2026-11-25T04:30:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "Freixenet 重返巴塞罗那埃尔普拉特 T1 航站楼，为旅客提供个性化礼物 - Vinetur",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
           "title": "La familia española que genera millones haciendo regalos - OkDiario",
@@ -994,8 +994,8 @@
           "source": "OkDiario",
           "published": "2026-11-17T08:00:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "通过赠送礼物赚取数百万美元的西班牙家庭 - OkDiario",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
@@ -1004,60 +1004,60 @@
     "IT": {
       "news": [
         {
-          "title": "Dove vedere Psg-Roma in tv? Prime Video o Sky, orario - Corriere dello Sport",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRWdySjh2b3EzdjZKRFhxa2ZvUFdYM19oMU1WME15R1lpajdtSHZ1ZTg5eFA4YXptMG5KQWZXOHpXWHZwanE3ZGtQSFg4RU03THA3ZXUxc3k0eUgzenhaUngtaVQ5RjdoZ1IzV1h6bHBtMXNEZ1BFU1NZYTRkQkNCS2NMUE1lZGkteGVKWi1jV1VhQWtBZmVZRUVXbjdocWhrdXZaWU5fR3ZONE9lZHlCSTZZOWp1NEhrUUk2cTVIS1NTdVk1Y0VRTFE1djBUZUZR?oc=5",
-          "source": "Corriere dello Sport",
-          "published": "2026-11-25T08:29:00+00:00",
-          "scope": "本国热点候选",
-          "title_zh": "在哪里可以在电视上观看巴黎圣日耳曼对阵罗马的比赛？ Prime Video 或 Sky、时间 - 《罗马体育报》",
-          "translation_status": "translated"
-        },
-        {
-          "title": "1mattina News 2026/27 - Il Napoli ferma il City, il Como continua a sognare - 25/11/2026 - Video - RaiPlay",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPc2dhSXNqb2UwdFBXMVlzWDFLOTdhVnJmMkFNekotdk10bXM3M2ZlY0xTQUkyMmRqdjVZdlF6elNzTDlyMTJsRThvbFhBcktjOE1GX1Z4WHhPOS1BeDUtQnVjc2ZEakxSdTlwQ2tpZmFySzB2MDdJODhfanJQZzB3LXpZUC1xX24zWEd1ZUZlb0hVdXctb0huZndxSC1sUmNsekdLd3hGbkU0amtKUHN6cm9admItRERYTC1IbU1BMjhGN3kyOFJTOWozck5XUVZlazlRZ3NuY1kxVzdZNTVTdEI0VjQyZjIwUkE?oc=5",
-          "source": "RaiPlay",
-          "published": "2026-11-25T08:17:56+00:00",
+          "title": "WebTv Comune di Napoli – Parità di genere e autonomia femminile: a Napoli un convegno internazionale - Comune di Napoli",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcmZvMGtiQ04yWGpMOXpWODRFX1haU1lVM2VSLXM1emxJUHBRSmZ4SFFsOHhvNE1FblhFdUxHMXNWa0lSNHp1R0lIcGcwY1JDYmpoeFNMZTF2SWRxSDZmYkNvXzZNZ0lmQ3Z4Qko4TWNYNlg1Y1Zsc09CTWZpbkFDbDBFQjhIZHhtaUNCY3BnUGpGM1RkREQ4TGxweVZDcTlkTWVseXhhdFRIamdXOUdDYmpHS0hqUWZUdEEzUFFmbHFuWWZ2SlU0blpvSTd5dXM?oc=5",
+          "source": "Comune di Napoli",
+          "published": "2026-11-26T09:28:36+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Giornata internazionale per l’eliminazione della violenza sulle donne - Il portale delle Prefetture",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSTROUDdueXJvUTVTMHlUVXF3QU4yeVc3TDRGdDhrZm53NUo2dXZIaUFFTkhIa0wzODZVYUJZa1RQeS1EMjZnZURWbk9tdjRWYmpSbWQxNVVaMWhHa1I0OVBMdUg4R3BsNmdlZnlmTXk0SnBTY1VCU0ZzYXF5YlBORExYeUNWQ2RLM0pOdGhoNUxWZVpFX29aYmZMMXlZMTk2dERiZWhKX3l5SjFCVVdNRkRKZ0U3ZGU1THRkelZ0Zw?oc=5",
-          "source": "Il portale delle Prefetture",
-          "published": "2026-11-25T09:08:52+00:00",
+          "title": "Napoli vs Club Brugge: tutte le info per i biglietti della sfida al Maradona - SSC Napoli",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNS03QXF5X1lYS3pSSHE4QUxiMm50dGtzNU10bndFSmItZTA5M25BUU1WTUFBVEZKaF9VbFhjbGJtU0g0cmdHQVRhMGQ1d1NENGVsMG9ETnNLZUNoREpzMU0tVG5ZNGlPNHhzYlFzUDJCU1lMc0FZOWhpWFNlVjd6YWhBeFl1MDJuYVRGRmFkWng5QlBfdXJNNHhzWmhEd2VQamQw?oc=5",
+          "source": "SSC Napoli",
+          "published": "2026-11-26T09:03:31+00:00",
           "scope": "本国热点候选",
-          "title_zh": "国际消除对妇女的暴力行为日 - 都道府县门户网站",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Violenza sulle donne, ok del governo alla mozione di Vannacci. Le opposizioni: \"Schiaffo alle vittime di femminicidio\" - Il Fatto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb3NhTlZqemRLNTB5S0puT2xXN0Ywem1KbGIxYVYzMWN4YWNobFRidEFseFh3Nkp0aEpsMEhCUUtZanN5VDFSa01CWUx4c3pqX0U0NG1FWkkxQk5USVBVekVwbDN4cGU4ZU45MllxWFI0ZmxSMzY0NzZaemg3TnhiVVc1bDhDTzIxN1hyeUFQb3RDTHRxYWo4UndLY1p5NDA?oc=5",
+          "source": "Il Fatto Quotidiano",
+          "published": "2026-11-26T08:21:22+00:00",
+          "scope": "本国热点候选",
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "trending": [
         {
-          "title": "salario",
+          "title": "guerra russia ucraina",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T09:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "薪水",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "esorcismo",
+          "title": "de luca procuratore caltanissetta",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "驱魔",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         },
         {
-          "title": "estrazione del superenalotto del 24 novembre 2026",
+          "title": "colin farrell",
           "url": "https://trends.google.com/trending/rss?geo=IT",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
-          "title_zh": "2026 年 11 月 24 日超级乐透抽奖",
-          "translation_status": "translated"
+          "title_zh": "",
+          "translation_status": "unavailable"
         }
       ],
       "products": [
@@ -1066,21 +1066,9 @@
           "title": "Boccale Birra Personalizzato con Foto e Nome",
           "url": "https://www.troppotogo.it/boccale-birra-personalizzato-con-foto-e-nome",
           "source": "Troppotogo · 官网结构化商品数据",
-          "price": "24.99",
+          "price": "19.99",
           "currency": "EUR",
           "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/p/e/personalisierbarer-bierkrug-comic-portraet-birra-di-franco-01_all_v2.jpg",
-          "summary": "官网公开商品信息；不代表销量或热卖排名。",
-          "verified_public_product": true,
-          "selection_basis": "官网公开商品（未验证热销排名）"
-        },
-        {
-          "name": "Troppotogo",
-          "title": "Boccale da Birra Personalizzato con Logo e Faccia",
-          "url": "https://www.troppotogo.it/boccale-da-birra-personalizzato-con-logo-e-faccia",
-          "source": "Troppotogo · 官网结构化商品数据",
-          "price": "24.99",
-          "currency": "EUR",
-          "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/p/e/personalisierbarer-bierkrug-mit-logo-und-gesicht-foto-birra-di-franco-01.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
@@ -1090,9 +1078,21 @@
           "title": "Lampada LED Personalizzata con Nome",
           "url": "https://www.troppotogo.it/lampada-led-personalizzata-con-nome",
           "source": "Troppotogo · 官网结构化商品数据",
-          "price": "34.99",
+          "price": "27.99",
           "currency": "EUR",
           "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/l/a/lampada-led-personalizzata-con-nome-chiara-cameretta-01_it_v1.jpg",
+          "summary": "官网公开商品信息；不代表销量或热卖排名。",
+          "verified_public_product": true,
+          "selection_basis": "官网公开商品（未验证热销排名）"
+        },
+        {
+          "name": "Troppotogo",
+          "title": "Boccale da Birra Personalizzato con Logo e Faccia",
+          "url": "https://www.troppotogo.it/boccale-da-birra-personalizzato-con-logo-e-faccia",
+          "source": "Troppotogo · 官网结构化商品数据",
+          "price": "19.99",
+          "currency": "EUR",
+          "image": "https://www.troppotogo.it/media/catalog/product/cache/8f4fd5ee38363f25178cd013b461924c/p/e/personalisierbarer-bierkrug-mit-logo-und-gesicht-foto-birra-di-franco-01.jpg",
           "summary": "官网公开商品信息；不代表销量或热卖排名。",
           "verified_public_product": true,
           "selection_basis": "官网公开商品（未验证热销排名）"
@@ -1252,19 +1252,19 @@
           "translation_status": "unavailable"
         },
         {
-          "title": "\"Creative Mani Factory\", design, arte e creatività al Motel di Manifattura Tabacchi a Firenze - Portale Giovani Comune di Firenze",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYmpEWXpPTzBRYTN6cE83QUM4eTdhZnp3dUd1X0JScGZ2bVhZM1FyYjZyYXRJMWJzZGRiZjZtNkxEYnliM3RrQ2RsTHFybDAzeWRveG1ldFJXMjVrZjJSbTc5aGhqMUJuaW0xTDBjQllNMWpvQm41Wm1QZ3NMbFJDalVIZjE1S2l3YmVsSExjcDBqVTlfOXc?oc=5",
-          "source": "Portale Giovani Comune di Firenze",
-          "published": "2026-11-24T15:16:01+00:00",
+          "title": "Black Friday e regali di Natale: cosa conviene comprare subito e quali acquisti è meglio rimandare - Agendaonline",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRGhnWXZGQ0hrWnFCdGQ0R0NTS2lNZnFTcUM1OEFkaUZZT05qWlJlR3ZWZHl0UDBmcHJCR0tGLXJMdTYyZS1oRnQzZXp2Q2dTYVhvR1RHUmJwbnFqZzdMRE5qcV8yeG85b3h6V19wN3o4bkpWaXhXWk5zM01Tc0Z0OUhuLXdjbHJBRlo0RWxNTHpaYUxqb011U3V1UlZIMm9jc2RWZWZuU1Etc0YxbkpCUG1kVURVc25uRkg1QXBxeU0taGRn?oc=5",
+          "source": "Agendaonline",
+          "published": "2026-11-19T13:22:16+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Black Friday e regali di Natale: cosa conviene comprare subito e quali acquisti è meglio rimandare - Agendaonline",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRGhnWXZGQ0hrWnFCdGQ0R0NTS2lNZnFTcUM1OEFkaUZZT05qWlJlR3ZWZHl0UDBmcHJCR0tGLXJMdTYyZS1oRnQzZXp2Q2dTYVhvR1RHUmJwbnFqZzdMRE5qcV8yeG85b3h6V19wN3o4bkpWaXhXWk5zM01Tc0Z0OUhuLXdjbHJBRlo0RWxNTHpaYUxqb011U3V1UlZIMm9jc2RWZWZuU1Etc0YxbkpCUG1kVURVc25uRkg1QXBxeU0taGRn?oc=5",
-          "source": "Agendaonline",
-          "published": "2026-11-19T13:22:16+00:00",
+          "title": "Alla Manifattura Tabacchi torna il Creative Mani Factory per il ponte dell'Immacolata - FirenzeToday",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWElLdnNhNm5OS1BpaC1qbVJUb0F0THNobHQyNUZDYXJuX2RzVXhZR2VBZ19MakI5VkxfN3QyU280SDhQTnhVTEQ4dkRpdU9DYUp2ZEFreG5Rc1VfU1NIV0ctQ2RxamZISndVNS1xTXQwVUdxSmgyOTYyQ25MYW9lbzBQU1hDMTFhekxRN29TR0RjVEFNYVh3TUtXaEhPMlV4VFN2UWIyd2NWMFJ4?oc=5",
+          "source": "FirenzeToday",
+          "published": "2026-11-25T16:10:00+00:00",
           "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1276,28 +1276,28 @@
     "NL": {
       "news": [
         {
-          "title": "Geparkeerde werkbus uitgebrand in Den Haag - Omroep West",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSUJLT0loRlJyY1djamIxWjlPWnFNejhwRXF3dURqNEdpQnM4RlBaR01NcDFCWU11a2paSEFuVXJOVHp0bzloZDE5MF9IMlItZVpCb3BJZ3lpZjRHQnNGU01Icnd3aXJXbHk3bDc4VDFpYmg5UXlPYTBMTXQ3V3lzeUhUcVVydTQ?oc=5",
-          "source": "Omroep West",
-          "published": "2026-11-25T05:37:43+00:00",
+          "title": "A44 weekend dicht: vanuit Den Haag richting Amsterdam? Houd rekening met extra reistijd - indebuurt.nl",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOV0ZLV2t1QlR4alNiMVVnQTFpcUZjWV9QdDVERFFTQU1Kd3M5VHBvLXh0c1Y2VV96UElVazNLNnl2UENSdjRISElyRUFDQzVodXRFYm5udXlUTWczVkw4bl9QSGJ2T1JjRkdIZ1BUUUU5UzlROTVMV3BWQTQwaXNjaW5tc0VtbXNGNTkydV9tb0Y2dU9XaXZOVzN3eVFmcjZrbFdOYUdMc3MtWUJ5Tm9VU1hBekM0bjVraVZMd1F4Z3p3dkM1bWVYaEpXY3o?oc=5",
+          "source": "indebuurt.nl",
+          "published": "2026-11-26T08:35:02+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Tot levenslang geëist voor dodelijke explosie op Tarwekamp in Den Haag - NU",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNzRTUmQ0SVJDQzNJQWJUVkhWRUoxbU9vb3FZaHJLTkRDc1diSTJCczRVa0lZX2dIVmVPWGs1ZVBITGZsd0JZZHVYTGE4Q1NFSmR2VUR1VVlVakFncGdEYzlMd0VGYzd2QzZmVDFSZzNKZlJrMldFbU1saWkzSWdlNHB5QVpvb1pSbDhvRUlTdWE2TkR0MGV2Q3hmS1AwOElta2xrd1hsQ1BZX0RIZXFpazBB?oc=5",
-          "source": "NU",
-          "published": "2026-11-24T17:30:59+00:00",
+          "title": "Wittebrug neemt Zeekr op in Den Haag - Automotive Online",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRFFkaU0tUkRoZmxqOHVzTlpJNHNoelg1WHotUVdwRWNRbnhQa19kWXlWaHRGdHZ2UFZMLVFDSVlXOGVpMTBaQVZWS0pEUy02N1hYaExTbkh6b0duQXY3Y3ozbkVlMHktNlFUY3NtTW1WMUN1WHEwME9CS3drWDZybDlpZ2gxWlVLa19ER2FFQXVFWk5ESmNN?oc=5",
+          "source": "Automotive Online",
+          "published": "2026-11-26T08:00:28+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Stilstaand verkeer op de A4 (Den Haag → Amsterdam) Tussen knooppunt Hofvliet en Leiden-Oost (6A). - Rijkswaterstaat Verkeersinformatie",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkTlUzNVJySW5wOEx0blltREU5VThEaHVscFpwaXRCU1dxcGtXLVAxdWFsVl9RQzQ0VlZjMWhkYlFmcWtWRm9MTlFGLXc2NE9iNGN2eDBIT1dXNDFOcF9rUUpUMHVCM3ptUkxud21wRHp3RmdlMHJr?oc=5",
-          "source": "Rijkswaterstaat Verkeersinformatie",
-          "published": "2026-11-25T05:41:06+00:00",
+          "title": "Wittebrug opent Zeekr-showroom in Den Haag - Bart Kuijpers Automotive Nieuws",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15YmZKekp5ZURJMTdzV3c0Y2Z6M2VPTnJ1a0p4UnVid3Z2eWsyWFFZTDktTWg1TXkzZ3VIQVdtcEN0cTRXeU5QWGllTU5sd3RpYVpJdDZ6U0dPMHRYalhYS3VpYzBBQ0E2NFh4a2VmUmU?oc=5",
+          "source": "Bart Kuijpers Automotive Nieuws",
+          "published": "2026-11-26T08:09:58+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1305,28 +1305,28 @@
       ],
       "trending": [
         {
-          "title": "pharming nieuws",
+          "title": "een miljoen",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T09:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "lance broadway",
+          "title": "marokko",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "helsing",
+          "title": "airbus a330",
           "url": "https://trends.google.com/trending/rss?geo=NL",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1523,54 +1523,35 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [
-        {
-          "title": "Cadeaus kopen in Maassluis: zo houd je december gezellig én betaalbaar - Maassluis24",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU2RaMmZpS0x6eVNqaWJyMTFuLVg0c1Q3NXFHendkbmFHb0tYd0Y1WjdaVmJGYVpzS2tSQ0Z5cGpEVGxLTDI4Ml9wbjNfZVBKNlZYTl9DeGwxZ2Q2alVGVkw2b1J5c19ZQkRDRWdOWERsd2QydkxuZ3AyX1dCeWZyZlhMelAyMTN4bnRsWlJsMHVrRjloSHVnRGdHYkd2djY4VVE?oc=5",
-          "source": "Maassluis24",
-          "published": "2026-11-17T13:12:22+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "在 Maassluis 购买礼物：让 12 月保持舒适且实惠 - Maassluis24",
-          "translation_status": "translated"
-        },
-        {
-          "title": "20 jaar geleden kocht hij deze Pagani in plaats van een Ferrari F40… vandaag zou hij 9,5 miljoen euro waard zijn - ItalPassion",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWEZmVENqWlI4VUpKUmhSTUVRWS1kYnRwbHExaS1abk94UVdqRk03M2ZvdHhVN2VDdzFCR0tWaUtOdTFLUklkdW9GbEVNRUFFWUhvVFRRRXlEV0tQc0VfcGxEZThhMXZXbVF3ZUE2MVhTMnV5OWtrNGJYeElHejRycGU5Tjg3akZoYzdHYzllOGQ0X2dLMDZiRFJOeGpxMVd0cmZ4aldVTmRyV19LaEZVQ28wRUhDUzBMOGNfSm5odHk4Wnd1R0o1dUVDeFY4dkxwTEpVbVYzaDFZOFVjLTZKTjVud3hYLV9s?oc=5",
-          "source": "ItalPassion",
-          "published": "2026-11-16T16:17:56+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        }
-      ],
+      "gift_signals": [],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "NO": {
       "news": [
         {
-          "title": "18-åring døde på beryktet strekning: – Et livsfarlig kryss - adressa.no",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM3VFV25XcXdhbC04bWVNS3hYVUNtZ1d1NVRTZjkxZ3UtQTdjMkdxNFcwU0RrOERaT1I1TG04VTZvenlIVWhWSGFWT191VjlZN28wYnpIYkhxVE4yX3VjRV9nd3lUanZpd0lab1FnQWtDWUUtNDRsZThQR1oyRHc5eTVnVHIwY1JUMjN2TW5jek5raUVtWE9LNGJfNUJreExXRnc?oc=5",
-          "source": "adressa.no",
-          "published": "2026-11-25T07:45:11+00:00",
+          "title": "Regjeringen klare med grep etter medlemskaos i trossamfunn - Vårt Land",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUG1fTXZBb0k5Q0ZPRWFMaTM1WnBGMzRSXy00c0g5WVowMHN5emsxekxyTTlxNWhpUGhEWUFObVRGRmpGZWhDYWZ3YXE5WmFyTEFFLVVXaHM3UGxSUkI3OTQzLXdwQllVNTA1NmlCQzE0dExGT1p2YTJQN011dDZicDdNMWNFRzY3T3JmWnR3Z25pU2pLS29UOA?oc=5",
+          "source": "Vårt Land",
+          "published": "2026-11-25T14:53:32+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Fylkesnytt fra Troms og Finnmark 2/2026 - Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUFQ0SDdWdzlyUGdWalBUMnNFd2J4LWtqWmJtNDdDVl9NdVZnNTdhZHVNOGw4Vk1TU2JjTU5MbmsyOV8zM0VrcDNxT2R4YkY3X2k5eTJ6TFZnZ0hkNjVHUXV0ZzZsek5FQlplYUtXM2VZV2dDd0RwdHh5aElKZkdPaFZDeVVRSU5YT19zTWVyQTU?oc=5",
-          "source": "Regjeringen.no",
-          "published": "2026-11-25T09:00:00+00:00",
+          "title": "118 selskaper i Norge er eid fra Russland, Kina og Iran - NRK",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONi1FQzBGQ0VhOXlCcVhpbVpMMnR1bjNONUJFS3lhMVZqVU5NR3MtbjFsMXg3S29yYmwtbVdIVjFzRGIyUjBtQ2xqSlJvTDVNVTV0TDU4RG9GTDhPY0FPNFVLWjg5WWtQS1gwZWQ2eVBIQnJmMnFQVnlfUkZfTlFlWTdURnFuSVNmZWQydDg0ZGV4azRTamJuUjJKRDViUkE5aVpJ?oc=5",
+          "source": "NRK",
+          "published": "2026-11-26T05:36:41+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Nedgang på Oslo Børs – rederi faller kraftig - E24",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sbWhCajhSckVYNU42V1hFMVNad3I4Y3ByV1RGRWtRdEJReXpxUUo3b05ma1BfYnRWeHVabDdDU1ZoLV95ZUtVNEx0X0M3Sm9vOVRKaTExOFQ1UnRJQ3VpQ2JfRXF2ZThjOVMwYjVnUQ?oc=5",
-          "source": "E24",
-          "published": "2026-11-25T08:01:55+00:00",
+          "title": "Opus 111 - Festspillene i Bergen",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMnpmQkk4OGtyTDRYaC1HTzZrYUxTTmxzX1FiTkRxU1kzSGxXMHlSYXRsU0haVG9jdTJ5ejdiY3lpc3R3WVJCUXJ5dWVQNVZxZ2tTdThobzZvdXppZHE4cHdBZmNBQUFXczdNY3RvX25RYzZXWHNXV3ZXSk5wZ2tIOWdTdHJNTGM?oc=5",
+          "source": "Festspillene i Bergen",
+          "published": "2026-11-26T09:14:53+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1578,28 +1559,28 @@
       ],
       "trending": [
         {
-          "title": "personbil",
+          "title": "trondheim lufthavn, værnes",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "miljøpartiet de grønne",
+          "title": "arne torp",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-11-25T08:50:00+00:00",
+          "published": "2026-11-26T08:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "fædrelandsvennen",
+          "title": "forlis",
           "url": "https://trends.google.com/trending/rss?geo=NO",
           "source": "trends.google.com",
-          "published": "2026-11-25T08:50:00+00:00",
+          "published": "2026-11-26T08:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1801,63 +1782,35 @@
           "note": "关键词是Callie商品方向候选，具体在售SKU尚未逐项核实；此处没有搜索指数。"
         }
       ],
-      "gift_signals": [
-        {
-          "title": "Shoppingtips, Annonse | Julegaver til henne: Hvilken diamant vil hun ha? Ta testen - Nettavisen",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZjhYclNLQnBqSDlIMFhjcnFZeW9BdVRkRXhWN3BTZ01vSXVxR2RqT2s1Z21LS1pHcjJIRC0wSk5iOWVEY3V3N0laYzRNV3g4NW5JR0RCTlg5S2lrSndfall2Njg1RThuZWMxT0RKMm9zWlJyZzZDaHVNYnM3Y3JIQVNHSmdZczRRRHNTeEpETmtmeVA3bzFxWWw4YmprLWZtdUVOVXh2ZU0xYWFnRzlF?oc=5",
-          "source": "Nettavisen",
-          "published": "2026-11-22T10:01:16+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Atomizer best i test 2026: kompakte reiseflasker - testix.no",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Qb1ZiTDdkaFFSM1Npa0UwSms5cEFWdXRITTMzX1dwUGZaWDl1UDUzeEhsYlQ3VGpVemxsT0Roa3FkT3FIeFE?oc=5",
-          "source": "testix.no",
-          "published": "2026-11-16T02:44:48+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        },
-        {
-          "title": "Røkelse best i test 2026 for ro og aromaterapi - testix.no",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1WbTZ1Q0lRWndxSmp6cTI0SnFpNDIxNXFwaFo3OVR0ZHdhcENMZWVmSnZBVDUyaWV5cWNDZC1VN1ZfMFMw?oc=5",
-          "source": "testix.no",
-          "published": "2026-11-16T08:00:00+00:00",
-          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
-          "title_zh": "",
-          "translation_status": "unavailable"
-        }
-      ],
+      "gift_signals": [],
       "gift_signal_method": "Google News 公开搜索匹配，仅作行业线索，不是 Google Trends 指数或销量",
       "news_method": "综合新闻：本国地名与国家关键词优先，国家版新闻补充；不限定礼品行业，搜索匹配不保证事件发生在本国"
     },
     "SE": {
       "news": [
         {
-          "title": "Ishockey: Malmö slog Luleå efter straffdrama - SVT Nyheter",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16VmpwcEx1Q0M2YWt2dGJXOGRoUEZvc2dlZHphTGFabHd3WDNwanFQZHozellMX1dCalU1QVpILUU3ckN3SGJEQ2s0XzBsSkx6bHN3cU5yVWZZRGFwbFNWUUVHM19saXQ1THh1N1JLMmxIYjZ2RnRF?oc=5",
-          "source": "SVT Nyheter",
-          "published": "2026-11-24T20:26:03+00:00",
+          "title": "Grovt rån i Stockholm – väcktes av man med järnrör - Aftonbladet",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd3h6b0d0YU9BT1o4Z0tsS0w4MnhmbllWMFFfQWltdWdjbnVnYTRKRjBVRXpMcENGeWNxVjdhQVN6THRrck5uNVZXeGlBZGVLdGFpdk9QN1RCOU5oWF9zb1VHalY1RTFGdTZMRVNkYkV3ZnlWR040Qno3UXRoN0xHZ0EtcWtmVTMt?oc=5",
+          "source": "Aftonbladet",
+          "published": "2026-11-26T08:41:49+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Person i permobil påkörd på Ringvägen i Stockholm - Sveriges Radio",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObXBDa0xSUkJ0U0RoN3lQem1jUXB1d291QXkxSlloeEVHVkNid3dVaFNTZ3BzZGhJOGljNkM3UVpYOUlxZUgyTUZtYkNGeEF5NTZRbF9faEFRR2NYOEJNMDEtYjZ3d2VqSGN1MHZMQVNQWXg3NjFCak1odWxKb2dPM21pRFhDQ2RlWFE?oc=5",
-          "source": "Sveriges Radio",
-          "published": "2026-11-25T09:06:35+00:00",
+          "title": "Matchguide: Sverige–Island - Handbollslandslaget",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWZ25pU3lyLUtFaS1aeWVkUHVDend5aWVDazc5VENLRXlZZFA2X2RFei12MUFkWE53MlpqMFgzWDVWLVYzUW1adDFLbTR3eWx1dkFMOHB2NlJKbGRndXhVblBrYWh6ZmpHS3U2WktQOXc?oc=5",
+          "source": "Handbollslandslaget",
+          "published": "2026-11-26T05:32:39+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Efter framgångarna i övriga Europa – Butternut Box tar färsklagad hundmat till Sverige - Via TT",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcXlsQTBNdHdTWjJTZjFDWklwRGlsZzZ6YWFNcTZvRXNTTlVWMjNEMEtreDliNkppWlJma21nUEUzQzB4MzF2ekJNQlFwS2c4a2tPZUo3MmY2aXJvSGVfdFJFcHE1NG50SHNSLWlOcWtIb0pMNlNKLU5oVWptX0Z5bmMwWV9oLUdKNU80MW42RktpSXpULUtZYUhJTjJzTHNUZWpMRmdWeXFVeXhwQ01JWnpJSWM3b3N2Y3o1M2ZBa2VKYjlLRF9rMS1SM0VFNzM4S3pTODlXam16RzZVd2k0ek56a0llNXNibWc?oc=5",
-          "source": "Via TT",
-          "published": "2026-11-25T07:30:00+00:00",
+          "title": "Siffrorna som skakar om – MFF slår rekord: ”Kan bli förhandlingar” - Sydsvenskan",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONkZseEN0NDFKaGNmNTc1enZ6TVVwUEpHUndHWEN6WDlYY2pqMkhLQ21ncFlQeXp6ZGkyWUswRlVDLVlXTFVxUUV0ZDI4Y1luVFhSZlZ3aUlmcnhYZE1leUM1czd6XzEtM3hpZEFBWDdLVVFKdlZkVVNHMjRDcTBTbmw5OUZpVzlwZS02M0kzZ3NYZG9ZRElXeGF4UQ?oc=5",
+          "source": "Sydsvenskan",
+          "published": "2026-11-26T05:00:00+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -1865,28 +1818,28 @@
       ],
       "trending": [
         {
-          "title": "prinsessan madeleine",
+          "title": "cancer",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "isk-skatt 2026",
+          "title": "wehunt",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T08:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "kif örebro",
+          "title": "26 november",
           "url": "https://trends.google.com/trending/rss?geo=SE",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:20:00+00:00",
+          "published": "2026-11-26T08:30:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2080,6 +2033,15 @@
       ],
       "gift_signals": [
         {
+          "title": "Perfekta gå bort-presenter i december – 23 fina tips och godsaker du gör själv - Metro Mode",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVDZDWGZINHRfd3BQQ3RwcGhDZHJ5Qmx0VllMUlJsWGE4TlcwOW5NUXQyV0xPMWpmM3FJV3ktYk5Vc0w5dVBXZm1zREk0X2VUR3NvQU05dXVFMTZFNEJGdVF3QXhtNnlza3Zqa3BhRF9KLXRBdTVjR0dGM29kVWNwcW1WLWRuQ2YzSVRLSjBDYlBSOFVzbWp5OG1UMkZxRi1tT0w0WUh3?oc=5",
+          "source": "Metro Mode",
+          "published": "2026-11-25T20:26:26+00:00",
+          "scope": "礼品行业相关新闻（搜索匹配，非销量或搜索指数）",
+          "title_zh": "",
+          "translation_status": "unavailable"
+        },
+        {
           "title": "Bästa hand- och fotavtryck för barn 2026 – test av minnessaker - testix.se",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IckpDdjFXLVc4WVItZDM5LURpWmlQYTRtZTkwS2ZHdHdhYTQ2OVoyajhSdU8taEV3R1BVcDB6YlpzWWdpY1pfOEdjNjZpWVJ0RHg3cHN3VmZhMmlxdnRzNw?oc=5",
           "source": "testix.se",
@@ -2104,28 +2066,28 @@
     "FI": {
       "news": [
         {
-          "title": "Huijarit hyödyntävät Suomi.fi-uudistusta – liikkeellä myös Kanta- ja Microsoft-huijauksia - STT Info",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQnY0V0hMcUNuSWJRTUhEVlFVSFVOQS1heUItUlo3WEt6X0Y2ZmhRcENtazQ0S1VOLUhlZk83MFhMamUyVlUwNDRUWk9XNHVZVVJkaklHSmJfQmdCNno0dzBVNzlpc04zejBFdWFxQ3lMc1JpMVh0X1RPcU9ZVEZ0X3FDWU0yNjRTYjlmWF83bkUzZ2ZqQU1STTdSLW1PZERGUE1hY040ZnpNV2UwdEJCVVIxejY1dy1qaGgxZ1FQeEJNenZQNF9lQjVwRGZ6VWdyS3JkT1ZCSW84SmJ2cUU5cnNhaWRfenVZX2c?oc=5",
-          "source": "STT Info",
-          "published": "2026-11-25T05:30:00+00:00",
+          "title": "Riihimäki–Tampere-radan kehittämisen suunnittelu käynnistyy Toijalan ja Tampereen välillä – Osuudelle kaavaillaan lisäraiteita sekä asemien ja ratapihojen parannuksia - Akaan Seutu",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQUUNpNzJuY0laLUdaazhVb3N6ei1XRTJGQndnUVRWcVkweXRxTlhTWTlDZG8wUEpLSmJ5TEswdWpza09uSWg0cGJsYTVZQ0R6bWRpZXV1c2ZxYllPR210Y3RvVXA3RDk2ZFBsSjJZbDJXRUNNMjRDdkNCYmoyblplNU0wclcyWENKNHQ4VmVKYUZvVWNXQ0tkMVJJWERkMnViNzhLdGpuTVpnNGlKSThDdkdTYWdnZW16WVN1bllRLXE3ck83MnhST1NIVEhyV0dNWnZXTXdOd0JsbVdQMVNkRFBhdDNxUnNoRTBMbVhfNld5cXBSV1VVTVhpaTlGRERsV2lyWk1uMXRITmZqd1Z4YWlKb2pUVXdUUlIxSXNaNURIamsycUdr?oc=5",
+          "source": "Akaan Seutu",
+          "published": "2026-11-26T08:04:41+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Se on siinä – Suomi etenee EM-kisoihin! - Palloliitto.fi",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb3RWUEdPbmVjWHdDd1NBUmFFdUlJTEFsZ1VSX0xlVEtneEdaSHJZNU1TRDF6ck1mWDdfU3dRVnB4UUlRTHJ6aVpkcEFHQk9NbTNCemJ4cDh3QWlOdVRkQVJIOE5FbUZKVmxCdkdzVVpqdndWZVBuMjRvendCYzNfbmV2QQ?oc=5",
-          "source": "Palloliitto.fi",
-          "published": "2026-11-24T18:30:59+00:00",
+          "title": "Orpon tilaama tekoälyraportti: Suomi panostaa supertietokoneisiin, mutta palveluiden uudistamiseen jää vain rippeitä - Yle",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15TVh0VTE1MDNQYWhhX255b1FmREJpYnBwbmJCbWxubGY2ZlMwbzE0TEw1RGxVTThWeUM4Y1VHNklDZw?oc=5",
+          "source": "Yle",
+          "published": "2026-11-26T08:30:25+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Suosittu Miten Suomi voi? -tutkimusaineisto nyt kaikkien saatavilla Työelämätieto-palvelussa - Työterveyslaitos",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ01LRjZRcGVjOXNhb0tBYk9OMWYxa2NkZGpiUlAzWlJyWUk5UVNaOTRkV21PTlN5MGxiV3cxbjJxd0hPRU12UnZOZXB3YUZkaDJiaVN0cWNCTW0wN0owZW5nbkh1TC1xbnNrQWpUeGVFUjZKSUtoSmEzUjVNZXVvNVJQNUFNTjZOd1BXaV8tN0tqeWcwUmI2YWJCdUJiQkJnQWQ2b2VwRUo4UHFwRjZZRldESGdBZG1ZVzUwMlYzc2gwMzRpYVhveXI1Zw?oc=5",
-          "source": "Työterveyslaitos",
-          "published": "2026-11-25T04:01:00+00:00",
+          "title": "Valon polku tuo valotaidetta ja elämyksiä keskusta-alueelle 3.–6.12. - Turku.fi",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOWxLWjZvU043eGtnZHpxS2tseV9xX1NYWXJqV0d3eTRPbVhOVmdWem9STXVxdzllekQ2cGNoSy1Jb3JocHVlYndJNXpiSmtMVjNkcDBVbVJ3NnBTaFpkS1l1N3pPQ3c2R1FpWkxDUjlwcERNZ2s0V1gyR0pCRU9kYzJwNTZuRXdoRVhlZmNGXzJaZnRGNmR1Und6bktFRlQxN3c?oc=5",
+          "source": "Turku.fi",
+          "published": "2026-11-26T07:19:27+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2133,28 +2095,28 @@
       ],
       "trending": [
         {
-          "title": "michael saylor",
+          "title": "tommi miettinen",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-11-25T08:30:00+00:00",
+          "published": "2026-11-26T09:00:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "simo silmu",
+          "title": "nordea kieltää etätyöt",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-11-25T08:10:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "olkiluoto 3",
+          "title": "mikael granlund",
           "url": "https://trends.google.com/trending/rss?geo=FI",
           "source": "trends.google.com",
-          "published": "2026-11-25T07:50:00+00:00",
+          "published": "2026-11-26T08:50:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2353,28 +2315,28 @@
     "PL": {
       "news": [
         {
-          "title": "Warszawa. Brak zasilania sieci na Centralnym. Opóźnione pociągi w Warszawie i okolicach | TVN Warszawa - TVN24",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXBzVzZSU3JXY3BnVFV0VEpOb2l5bVV1NVB3c0dCbzBXdnVlZTB6VmlON0RpeDNqRVBHTTQ5VXBZVkVfU3dtVEx2emQ5ZHV3VWNFM1dWcF9Ddk1oRGVqRktTZnN1Z2FuZVpIWF9maFRCbENEMUtzb3ZVMVBzc2h1MGhKUjN5ZWpIcnE3bU40aVMyNUxXakU4eXNRaDZFaGtpZENBcXJVSGUxY29zZEwwQ0Y3ZGl4QzN6MDJYRFltWWh5a3AxcEZJSC1JczQ5RDMwc0E?oc=5",
+          "title": "Samolot z Teneryfy awaryjnie lądował na Lotnisku Chopina. \"Zgłosił usterkę\" - TVN24",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNm5odi0tUDNucGtKdDluNXdpOXdVTWh4X1BQbHRDWlljcHNHOXpBWF9OV0dHX0xELVMyUDNYeWdFRV95OXFHYzZIZ2lYZGhETklsNDJwVGwzNjVPRndQNDJ2dDFfSXdmbWlYY3k5ZGFkcWNNSUc1RlFGTDE5NU5raEtKcERxYUZJYmdSNnNPb1RYZ1J0QlRWRXdZSnJNRktMUXVNV1QteVNtZWtqWkE?oc=5",
           "source": "TVN24",
-          "published": "2026-11-25T08:39:52+00:00",
+          "published": "2026-11-26T07:23:47+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Poważna awaria na stacji Warszawa Centralna. Rozlewają się opóźnienia, jest komunikat - PolsatNews.pl",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORi03cUUzT191b21CdVVPdGpmT2R0MmpjNUdOakZZdnRuMTYycFRPc2xHRExsTVBHR29WcWJUdHVzR0Z0WDlOeVgyOVBVd0hXaVhwNHFuQ0tnb1ZBNVhxdkV3OGZkZFpqRnJHeXRjaXc0bHE3QkVEdE54dDBCVVlQc01qUTY1ck1oclJmeEotRkdyMjdBVDlBUGE2emlTcllpRTNnb3pXZ2ltUGlCbE1XSmJULVFZOTBT?oc=5",
-          "source": "PolsatNews.pl",
-          "published": "2026-11-25T08:48:00+00:00",
+          "title": "Olga Tokarczuk mówiła, że pisanie długich powieści się nie opłaca. Jej 688-stronicowa książka podbija księgarnie [Aktualizacja] - MyCompanyPolska.pl",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWHdfeFk3aTBMTWRhRmJ5UFZIRHBpLVh0TlVORk5tajNDT2JJRUNkM3lfSm4xbG9QM09GVEJLUzZLbzdwXzdwQ1ZNSEM0dnVSMVYtVC1FNjMyNlQyNHF1TS00WW1kc3lmT2JfQTloNWZjTllhQjZ4MzlhYWI2ZmNGb05JLW1vdS1hMk94ZDBRS29Za1lyRXUxS3ltMUlFblF3Q0tsUEpHcS15ek4tTHg3N21SWHd6eDJDM2NiaDFtYWVIMk1TMXZYSzQ2ZkpRZ1NBTFQxUzhsWVFaY2VkUk1ralY3Y0s5RlNSanhv?oc=5",
+          "source": "MyCompanyPolska.pl",
+          "published": "2026-11-26T08:43:56+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "Awaria zasilania na Dworcu Centralnym. Opóźnienia pociągów w Warszawie - Wiadomości Onet",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHdCT1I2X0x1UjE1UDNmY1YtNzNBUTdqZ29QYlVrY1ZlLWJDc2doS25iU1kxRE9CNnFoVnk0MEo3c2tkenRVZ2dkOTY3RGtjdlQtbkZmTFlmajZubzNxTTA3UHM0Sk1iSk5meXJpbG1VeXoyTG5tcFlaRjJDR1psMXF0bkNtY0dnZ3hRZHRGLUVTWGxDV0d5MU5rMzFPdkhGLXFYaWhubWY0WVdHVGFkSTBxMA?oc=5",
+          "title": "Awantura w UE o budżet. Niemcy kontra Polska. \"Sztuczki księgowe\" - Wiadomości Onet",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEpSTGdGNnVNRlhzQkNWVWtXVy1oWGIxZXgwS2ZFbEJmLVltS0tfSk9lcXFmdTJZcjRHMVk2bnk0VDJjMW9OV1RlVE5JUkN3YXdseDRWd0tPMkJ6dC1iQ2RGTVpTclF0UEU5Qi1fTGdMYTJFZmV6MWZxRUVIZ0hBcHpyZTM2MWM5X0ZPRFUzYk9DNHRWNTh4UUdPUDd1eHhkaGpncUtLQkc4U0E1SWQ0aw?oc=5",
           "source": "Wiadomości Onet",
-          "published": "2026-11-25T08:59:29+00:00",
+          "published": "2026-11-26T09:13:51+00:00",
           "scope": "本国热点候选",
           "title_zh": "",
           "translation_status": "unavailable"
@@ -2382,28 +2344,28 @@
       ],
       "trending": [
         {
-          "title": "prezydent ukrainy",
+          "title": "służba cywilna",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:40:00+00:00",
+          "published": "2026-11-26T09:20:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "grudzień",
+          "title": "refundacja",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T09:10:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
         },
         {
-          "title": "ticketmaster",
+          "title": "grzywna",
           "url": "https://trends.google.com/trending/rss?geo=PL",
           "source": "trends.google.com",
-          "published": "2026-11-25T09:30:00+00:00",
+          "published": "2026-11-26T08:40:00+00:00",
           "scope": "当地综合热搜（非礼品需求）",
           "title_zh": "",
           "translation_status": "unavailable"
